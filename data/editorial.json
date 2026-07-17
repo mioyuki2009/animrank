@@ -1,0 +1,23 @@
+{
+  "anime": {},
+  "manga": {
+    "manga:one-piece": {
+      "circulation": 516566000,
+      "volumesAtAnnouncement": 103,
+      "asOf": "2022-08-04",
+      "scope": "全球累计发行量，含日本及海外版本",
+      "includesDigital": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/One_Piece",
+      "sourceLabel": "One Piece - circulation (source summary)"
+    },
+    "manga:fullmetal-alchemist": {
+      "circulation": 80000000,
+      "volumesAtAnnouncement": 27,
+      "asOf": "2021-07-12",
+      "scope": "全球累计发行量",
+      "includesDigital": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fullmetal_Alchemist",
+      "sourceLabel": "Fullmetal Alchemist - circulation (source summary)"
+    }
+  }
+}

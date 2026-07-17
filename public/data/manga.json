@@ -1,0 +1,390 @@
+[
+  {
+    "id": "manga:berserk",
+    "medium": "manga",
+    "title": {
+      "zh": "剑风传奇",
+      "original": "ベルセルク"
+    },
+    "year": 1989,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30002-Cul4OeN7bYtn.jpg",
+      "color": "#d6861a",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 9.46,
+        "scale": 10,
+        "votes": 401668,
+        "url": "https://myanimelist.net/manga/2/Berserk",
+        "fetchedAt": "2026-07-17T09:43:55.152Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 9.46,
+        "voteConfidence": 0.9926,
+        "effectiveWeight": 0.1787,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 92,
+        "scale": 100,
+        "votes": 82443,
+        "url": "https://anilist.co/manga/30002",
+        "fetchedAt": "2026-07-17T09:43:44.646Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 9.2,
+        "voteConfidence": 0.9821,
+        "effectiveWeight": 0.1768,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.9817,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3555,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:vagabond",
+    "medium": "manga",
+    "title": {
+      "zh": "浪客行",
+      "original": "バガボンド"
+    },
+    "year": 1998,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30656-9mW113O7rDnA.png",
+      "color": null,
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 9.27,
+        "scale": 10,
+        "votes": 177338,
+        "url": "https://myanimelist.net/manga/656/Vagabond",
+        "fetchedAt": "2026-07-17T09:44:02.690Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 9.27,
+        "voteConfidence": 0.9834,
+        "effectiveWeight": 0.177,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 91,
+        "scale": 100,
+        "votes": 43631,
+        "url": "https://anilist.co/manga/30656",
+        "fetchedAt": "2026-07-17T09:43:44.646Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 9.1,
+        "voteConfidence": 0.9668,
+        "effectiveWeight": 0.174,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.8508,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.351,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:one-piece",
+    "medium": "manga",
+    "title": {
+      "zh": "航海王",
+      "original": "ONE PIECE"
+    },
+    "year": 1997,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30013-BeslEMqiPhlk.jpg",
+      "color": "#f1935d",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 9.21,
+        "scale": 10,
+        "votes": 423441,
+        "url": "https://myanimelist.net/manga/13/One_Piece",
+        "fetchedAt": "2026-07-17T09:44:00.186Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 9.21,
+        "voteConfidence": 0.993,
+        "effectiveWeight": 0.1787,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 91,
+        "scale": 100,
+        "votes": 94489,
+        "url": "https://anilist.co/manga/30013",
+        "fetchedAt": "2026-07-17T09:43:44.646Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 9.1,
+        "voteConfidence": 0.9844,
+        "effectiveWeight": 0.1772,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.8282,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3559,
+      "status": "ranked"
+    },
+    "commercial": {
+      "metric": "circulation-per-volume",
+      "circulation": 516566000,
+      "volumesAtAnnouncement": 103,
+      "perVolume": 5015204,
+      "asOf": "2022-08-04",
+      "scope": "全球累计发行量，含日本及海外版本",
+      "includesDigital": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/One_Piece",
+      "sourceLabel": "One Piece - circulation (source summary)"
+    }
+  },
+  {
+    "id": "manga:slam-dunk",
+    "medium": "manga",
+    "title": {
+      "zh": "灌篮高手",
+      "original": "SLAM DUNK"
+    },
+    "year": 1990,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30051-5KJyPlO7z5F4.png",
+      "color": "#f18650",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 9.09,
+        "scale": 10,
+        "votes": 89593,
+        "url": "https://myanimelist.net/manga/51/Slam_Dunk",
+        "fetchedAt": "2026-07-17T09:44:03.359Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 9.09,
+        "voteConfidence": 0.9676,
+        "effectiveWeight": 0.1742,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 90,
+        "scale": 100,
+        "votes": 22010,
+        "url": "https://anilist.co/manga/30051",
+        "fetchedAt": "2026-07-17T09:43:44.646Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 9,
+        "voteConfidence": 0.9362,
+        "effectiveWeight": 0.1685,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.7216,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3427,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:fullmetal-alchemist",
+    "medium": "manga",
+    "title": {
+      "zh": "钢之炼金术师",
+      "original": "鋼の錬金術師"
+    },
+    "year": 2001,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30025-mpPVpCKFTowt.png",
+      "color": "#f1ae5d",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 89,
+        "scale": 100,
+        "votes": 28722,
+        "url": "https://anilist.co/manga/30025",
+        "fetchedAt": "2026-07-17T09:43:44.646Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.9,
+        "voteConfidence": 0.9504,
+        "effectiveWeight": 0.1711,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": null,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1711,
+      "status": "single-source"
+    },
+    "commercial": {
+      "metric": "circulation-per-volume",
+      "circulation": 80000000,
+      "volumesAtAnnouncement": 27,
+      "perVolume": 2962963,
+      "asOf": "2021-07-12",
+      "scope": "全球累计发行量",
+      "includesDigital": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fullmetal_Alchemist",
+      "sourceLabel": "Fullmetal Alchemist - circulation (source summary)"
+    }
+  },
+  {
+    "id": "manga:yotsuba",
+    "medium": "manga",
+    "title": {
+      "zh": "四叶妹妹！",
+      "original": "よつばと!"
+    },
+    "year": 2003,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30104-sUVzNlTWZ5cu.jpg",
+      "color": "#e4a135",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 88,
+        "scale": 100,
+        "votes": 15119,
+        "url": "https://anilist.co/manga/30104",
+        "fetchedAt": "2026-07-17T09:43:44.646Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.8,
+        "voteConfidence": 0.9097,
+        "effectiveWeight": 0.1638,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": null,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1638,
+      "status": "single-source"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:frieren",
+    "medium": "manga",
+    "title": {
+      "zh": "葬送的芙莉莲",
+      "original": "葬送のフリーレン"
+    },
+    "year": 2020,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx118586-CXKgWikBFQgS.jpg",
+      "color": "#e4ae5d",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 87,
+        "scale": 100,
+        "votes": 19935,
+        "url": "https://anilist.co/manga/118586",
+        "fetchedAt": "2026-07-17T09:43:44.646Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.93,
+        "effectiveWeight": 0.1674,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": null,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1674,
+      "status": "single-source"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:monster",
+    "medium": "manga",
+    "title": {
+      "zh": "MONSTER",
+      "original": "MONSTER"
+    },
+    "year": 1994,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30001-Knby7l1jevE7.jpg",
+      "color": "#50a1e4",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 90,
+        "scale": 100,
+        "votes": 31335,
+        "url": "https://anilist.co/manga/30001",
+        "fetchedAt": "2026-07-17T09:43:44.646Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 9,
+        "voteConfidence": 0.9543,
+        "effectiveWeight": 0.1718,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": null,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1718,
+      "status": "single-source"
+    },
+    "commercial": null
+  }
+]

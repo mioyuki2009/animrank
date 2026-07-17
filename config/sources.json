@@ -1,0 +1,64 @@
+{
+  "algorithmVersion": "1.0.0",
+  "minimumSources": 2,
+  "staleAfterDays": 14,
+  "prior": {
+    "mean": 6.5,
+    "weight": 0.05
+  },
+  "targetDistribution": {
+    "median": 6.5,
+    "spread": 1.25,
+    "minimumCalibrationSample": 300
+  },
+  "sources": {
+    "bangumi": {
+      "label": "Bangumi",
+      "scale": 10,
+      "baseWeight": {
+        "anime": 0.4,
+        "manga": 0.4
+      },
+      "voteHalfLife": {
+        "anime": 800,
+        "manga": 180
+      },
+      "calibration": {
+        "anime": { "mode": "identity-fallback", "median": 6.5, "spread": 1.25, "sampleSize": 0 },
+        "manga": { "mode": "identity-fallback", "median": 6.5, "spread": 1.25, "sampleSize": 0 }
+      }
+    },
+    "mal": {
+      "label": "MyAnimeList",
+      "scale": 10,
+      "baseWeight": {
+        "anime": 0.3,
+        "manga": 0.3
+      },
+      "voteHalfLife": {
+        "anime": 15000,
+        "manga": 3000
+      },
+      "calibration": {
+        "anime": { "mode": "identity-fallback", "median": 6.5, "spread": 1.25, "sampleSize": 0 },
+        "manga": { "mode": "identity-fallback", "median": 6.5, "spread": 1.25, "sampleSize": 0 }
+      }
+    },
+    "anilist": {
+      "label": "AniList",
+      "scale": 100,
+      "baseWeight": {
+        "anime": 0.3,
+        "manga": 0.3
+      },
+      "voteHalfLife": {
+        "anime": 8000,
+        "manga": 1500
+      },
+      "calibration": {
+        "anime": { "mode": "identity-fallback", "median": 6.5, "spread": 1.25, "sampleSize": 0 },
+        "manga": { "mode": "identity-fallback", "median": 6.5, "spread": 1.25, "sampleSize": 0 }
+      }
+    }
+  }
+}

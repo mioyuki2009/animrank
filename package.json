@@ -1,0 +1,17 @@
+{
+  "name": "fan-rank",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A static, auditable anime and manga rating index for GitHub Pages.",
+  "scripts": {
+    "refresh": "node scripts/refresh-data.mjs",
+    "validate": "node scripts/validate-data.mjs",
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

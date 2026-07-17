@@ -1,0 +1,522 @@
+[
+  {
+    "id": "anime:frieren",
+    "medium": "anime",
+    "title": {
+      "zh": "葬送的芙莉莲",
+      "original": "葬送のフリーレン"
+    },
+    "year": 2023,
+    "format": "TV",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154587-qQTzQnEJJ3oB.jpg",
+      "color": "#bbf1a1",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 9.26,
+        "scale": 10,
+        "votes": 912130,
+        "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren",
+        "fetchedAt": "2026-07-17T09:43:47.675Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 9.26,
+        "voteConfidence": 0.9838,
+        "effectiveWeight": 0.1771,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 91,
+        "scale": 100,
+        "votes": 197140,
+        "url": "https://anilist.co/anime/154587",
+        "fetchedAt": "2026-07-17T09:43:44.316Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 9.1,
+        "voteConfidence": 0.961,
+        "effectiveWeight": 0.173,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.8459,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3501,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:fullmetal-alchemist-brotherhood",
+    "medium": "anime",
+    "title": {
+      "zh": "钢之炼金术师 FULLMETAL ALCHEMIST",
+      "original": "鋼の錬金術師 FULLMETAL ALCHEMIST"
+    },
+    "year": 2009,
+    "format": "TV",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5114-nSWCgQlmOMtj.jpg",
+      "color": "#e4c993",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 9.11,
+        "scale": 10,
+        "votes": 2327203,
+        "url": "https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood",
+        "fetchedAt": "2026-07-17T09:43:46.338Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 9.11,
+        "voteConfidence": 0.9936,
+        "effectiveWeight": 0.1788,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 90,
+        "scale": 100,
+        "votes": 331074,
+        "url": "https://anilist.co/anime/5114",
+        "fetchedAt": "2026-07-17T09:43:44.316Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 9,
+        "voteConfidence": 0.9764,
+        "effectiveWeight": 0.1758,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.7397,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3546,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:steins-gate",
+    "medium": "anime",
+    "title": {
+      "zh": "命运石之门",
+      "original": "Steins;Gate"
+    },
+    "year": 2011,
+    "format": "TV",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9253-tIUXF2gfU8Sg.jpg",
+      "color": "#ffd6ae",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 9.07,
+        "scale": 10,
+        "votes": 1530848,
+        "url": "https://myanimelist.net/anime/9253/Steins_Gate",
+        "fetchedAt": "2026-07-17T09:43:47.008Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 9.07,
+        "voteConfidence": 0.9903,
+        "effectiveWeight": 0.1783,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 89,
+        "scale": 100,
+        "votes": 237830,
+        "url": "https://anilist.co/anime/9253",
+        "fetchedAt": "2026-07-17T09:43:44.316Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.9,
+        "voteConfidence": 0.9675,
+        "effectiveWeight": 0.1741,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.6771,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3524,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:legend-of-the-galactic-heroes",
+    "medium": "anime",
+    "title": {
+      "zh": "银河英雄传说",
+      "original": "銀河英雄伝説"
+    },
+    "year": 1988,
+    "format": "OVA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx820-x5dNLNFeKb8B.png",
+      "color": "#bb8628",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 9.02,
+        "scale": 10,
+        "votes": 88618,
+        "url": "https://myanimelist.net/anime/820/Ginga_Eiyuu_Densetsu",
+        "fetchedAt": "2026-07-17T09:43:51.476Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 9.02,
+        "voteConfidence": 0.8552,
+        "effectiveWeight": 0.1539,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 88,
+        "scale": 100,
+        "votes": 16439,
+        "url": "https://anilist.co/anime/820",
+        "fetchedAt": "2026-07-17T09:43:44.316Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.8,
+        "voteConfidence": 0.6727,
+        "effectiveWeight": 0.1211,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.5503,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.275,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:mob-psycho-100-ii",
+    "medium": "anime",
+    "title": {
+      "zh": "灵能百分百 II",
+      "original": "モブサイコ100 II"
+    },
+    "year": 2019,
+    "format": "TV",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101338-rokVscjRYzdP.jpg",
+      "color": "#50e4f1",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.78,
+        "scale": 10,
+        "votes": 1099251,
+        "url": "https://myanimelist.net/anime/37510/Mob_Psycho_100_II",
+        "fetchedAt": "2026-07-17T09:43:53.139Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.78,
+        "voteConfidence": 0.9865,
+        "effectiveWeight": 0.1776,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 87,
+        "scale": 100,
+        "votes": 221643,
+        "url": "https://anilist.co/anime/101338",
+        "fetchedAt": "2026-07-17T09:43:44.316Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.9652,
+        "effectiveWeight": 0.1737,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.4613,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3513,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:cowboy-bebop",
+    "medium": "anime",
+    "title": {
+      "zh": "星际牛仔",
+      "original": "COWBOY BEBOP"
+    },
+    "year": 1998,
+    "format": "TV",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1-GCsPm7waJ4kS.png",
+      "color": "#f16b50",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.75,
+        "scale": 10,
+        "votes": 1068728,
+        "url": "https://myanimelist.net/anime/1/Cowboy_Bebop",
+        "fetchedAt": "2026-07-17T09:43:43.773Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.75,
+        "voteConfidence": 0.9862,
+        "effectiveWeight": 0.1775,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 170305,
+        "url": "https://anilist.co/anime/1",
+        "fetchedAt": "2026-07-17T09:43:44.316Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.9551,
+        "effectiveWeight": 0.1719,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.4038,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3494,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:mushishi",
+    "medium": "anime",
+    "title": {
+      "zh": "虫师",
+      "original": "蟲師"
+    },
+    "year": 2005,
+    "format": "TV",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx457-l6cTtNgI9Bi6.png",
+      "color": "#d6bb78",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.65,
+        "scale": 10,
+        "votes": 299269,
+        "url": "https://myanimelist.net/anime/457/Mushishi",
+        "fetchedAt": "2026-07-17T09:43:52.472Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.65,
+        "voteConfidence": 0.9523,
+        "effectiveWeight": 0.1714,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 44310,
+        "url": "https://anilist.co/anime/457",
+        "fetchedAt": "2026-07-17T09:43:44.316Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.8471,
+        "effectiveWeight": 0.1525,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.3013,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3239,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:attack-on-titan",
+    "medium": "anime",
+    "title": {
+      "zh": "进击的巨人",
+      "original": "進撃の巨人"
+    },
+    "year": 2013,
+    "format": "TV",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16498-buvcRTBx4NSm.jpg",
+      "color": "#f1a143",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.57,
+        "scale": 10,
+        "votes": 3090314,
+        "url": "https://myanimelist.net/anime/16498/Shingeki_no_Kyojin",
+        "fetchedAt": "2026-07-17T09:43:48.344Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.57,
+        "voteConfidence": 0.9952,
+        "effectiveWeight": 0.1791,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 580489,
+        "url": "https://anilist.co/anime/16498",
+        "fetchedAt": "2026-07-17T09:43:44.316Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.9864,
+        "effectiveWeight": 0.1776,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.2849,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3567,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:madoka-magica",
+    "medium": "anime",
+    "title": {
+      "zh": "魔法少女小圆",
+      "original": "魔法少女まどか☆マギカ"
+    },
+    "year": 2011,
+    "format": "TV",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9756-QnUGwlwwnsuN.jpg",
+      "color": "#f1c95d",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.39,
+        "scale": 10,
+        "votes": 823328,
+        "url": "https://myanimelist.net/anime/9756/Mahou_Shoujo_Madoka★Magica",
+        "fetchedAt": "2026-07-17T09:43:49.015Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.39,
+        "voteConfidence": 0.9821,
+        "effectiveWeight": 0.1768,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 83,
+        "scale": 100,
+        "votes": 160312,
+        "url": "https://anilist.co/anime/9756",
+        "fetchedAt": "2026-07-17T09:43:44.316Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.3,
+        "voteConfidence": 0.9525,
+        "effectiveWeight": 0.1714,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.1139,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3482,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:neon-genesis-evangelion",
+    "medium": "anime",
+    "title": {
+      "zh": "新世纪福音战士",
+      "original": "新世紀エヴァンゲリオン"
+    },
+    "year": 1995,
+    "format": "TV",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx30-AI1zr74Dh4ye.jpg",
+      "color": "#f17843",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.37,
+        "scale": 10,
+        "votes": 1224628,
+        "url": "https://myanimelist.net/anime/30/Shinseiki_Evangelion",
+        "fetchedAt": "2026-07-17T09:43:49.686Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.37,
+        "voteConfidence": 0.9879,
+        "effectiveWeight": 0.1778,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 83,
+        "scale": 100,
+        "votes": 225980,
+        "url": "https://anilist.co/anime/30",
+        "fetchedAt": "2026-07-17T09:43:44.316Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.3,
+        "voteConfidence": 0.9658,
+        "effectiveWeight": 0.1738,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.1069,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3516,
+      "status": "ranked"
+    },
+    "commercial": null
+  }
+]

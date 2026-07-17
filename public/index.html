@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#176b5b">
+    <meta
+      name="description"
+      content="番鉴：汇总 Bangumi、MyAnimeList 与 AniList 的动画漫画评分档案。"
+    >
+    <title>番鉴 · 动画漫画评分档案</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <script type="module" src="./assets/app.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="番鉴首页">
+        <span class="brand-mark" aria-hidden="true">番</span>
+        <span>
+          <strong>番鉴</strong>
+          <small>ANIME &amp; MANGA INDEX</small>
+        </span>
+      </a>
+      <div class="freshness" id="freshness" aria-live="polite">
+        <span class="status-dot pending" aria-hidden="true"></span>
+        <span>读取数据</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="masthead" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">MULTI-SOURCE RATING LEDGER</p>
+          <h1 id="page-title">动画 / 漫画评分档案</h1>
+        </div>
+        <div class="source-health" id="source-health" aria-label="数据源状态"></div>
+      </section>
+
+      <section class="catalog" aria-label="作品评分榜">
+        <div class="primary-toolbar">
+          <div class="segmented" role="tablist" aria-label="作品类型">
+            <button type="button" role="tab" data-medium="anime" aria-selected="true">
+              动画
+              <span id="anime-total">0</span>
+            </button>
+            <button type="button" role="tab" data-medium="manga" aria-selected="false">
+              漫画
+              <span id="manga-total">0</span>
+            </button>
+          </div>
+
+          <label class="search-field">
+            <span class="sr-only">搜索作品</span>
+            <input id="search" type="search" autocomplete="off" placeholder="搜索作品">
+          </label>
+        </div>
+
+        <div class="filter-toolbar">
+          <div class="select-group">
+            <label>
+              <span>收录</span>
+              <select id="coverage">
+                <option value="all">全部作品</option>
+                <option value="ranked">可参与排名</option>
+                <option value="complete">三站齐全</option>
+                <option value="missing">存在缺失</option>
+              </select>
+            </label>
+            <label>
+              <span>排序</span>
+              <select id="sort">
+                <option value="score">综合评分</option>
+                <option value="commercial">销量 / 卷均</option>
+                <option value="year">发行年份</option>
+                <option value="sources">来源数量</option>
+                <option value="title">作品名称</option>
+              </select>
+            </label>
+            <button
+              class="icon-button"
+              id="direction"
+              type="button"
+              title="切换排序方向"
+              aria-label="当前降序，切换为升序"
+            >↓</button>
+          </div>
+          <p class="result-count" id="result-count">0 部作品</p>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="rank-column" scope="col">#</th>
+                <th class="work-column" scope="col">作品</th>
+                <th class="rating-column" scope="col">Bangumi</th>
+                <th class="rating-column" scope="col">MAL</th>
+                <th class="rating-column" scope="col">AniList</th>
+                <th class="final-column" scope="col">综合</th>
+                <th class="sales-column" id="commercial-heading" scope="col">影碟卷均</th>
+                <th class="detail-column" scope="col"><span class="sr-only">详情</span></th>
+              </tr>
+            </thead>
+            <tbody id="catalog-body"></tbody>
+          </table>
+          <div class="empty-state" id="empty-state" hidden>
+            <strong>没有匹配作品</strong>
+            <span>调整搜索或收录条件</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Bangumi 40% · MyAnimeList 30% · AniList 30%</p>
+      <p>
+        <a href="https://bangumi.github.io/api/">Bangumi API</a>
+        <a href="https://myanimelist.net/apiconfig/references/api/v2">MAL API</a>
+        <a href="https://docs.anilist.co/">AniList API</a>
+      </p>
+    </footer>
+
+    <dialog id="details-dialog" aria-labelledby="dialog-title">
+      <form method="dialog" class="dialog-bar">
+        <div>
+          <span id="dialog-kicker"></span>
+          <h2 id="dialog-title"></h2>
+        </div>
+        <button class="icon-button" type="submit" aria-label="关闭详情" title="关闭">×</button>
+      </form>
+      <div id="dialog-content"></div>
+    </dialog>
+  </body>
+</html>
