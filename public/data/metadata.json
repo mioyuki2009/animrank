@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T11:13:56.410Z",
+  "generatedAt": "2026-07-17T11:21:47.378Z",
   "algorithmVersion": "1.0.0",
   "minimumSources": 2,
   "staleAfterDays": 14,
@@ -10,7 +10,7 @@
       "via": "Bangumi API v0",
       "received": 18,
       "errors": 0,
-      "lastSuccessAt": "2026-07-17T11:13:34.362Z",
+      "lastSuccessAt": "2026-07-17T11:21:24.786Z",
       "message": null
     },
     "mal": {
@@ -18,7 +18,7 @@
       "via": "Jikan (MAL mirror)",
       "received": 14,
       "errors": 4,
-      "lastSuccessAt": "2026-07-17T11:13:45.475Z",
+      "lastSuccessAt": "2026-07-17T11:21:36.119Z",
       "message": "504 Gateway Time-out from https://api.jikan.moe/v4/manga/1: {\"status\":504,\"type\":\"BadResponseException\",\"message\":\"Jikan failed to connect to MyAnimeList. MyAnimeList may be down\\/unavailable or refuses to connect\",\"error\":null}"
     },
     "anilist": {
@@ -26,7 +26,7 @@
       "via": "AniList GraphQL API",
       "received": 18,
       "errors": 0,
-      "lastSuccessAt": "2026-07-17T11:13:32.330Z",
+      "lastSuccessAt": "2026-07-17T11:21:22.122Z",
       "message": null
     }
   }
