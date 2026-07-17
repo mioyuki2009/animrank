@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-07-17T09:44:17.426Z",
+  "generatedAt": "2026-07-17T10:53:45.423Z",
   "algorithmVersion": "1.0.0",
   "minimumSources": 2,
   "staleAfterDays": 14,
   "calibration": "identity-fallback",
   "sources": {
     "bangumi": {
-      "status": "error",
+      "status": "ok",
       "via": "Bangumi API v0",
-      "received": 0,
-      "errors": 10,
-      "lastSuccessAt": null,
-      "message": "Network error while fetching https://api.bgm.tv/v0/subjects/253"
+      "received": 18,
+      "errors": 0,
+      "lastSuccessAt": "2026-07-17T10:53:21.903Z",
+      "message": null
     },
     "mal": {
       "status": "partial",
       "via": "Jikan (MAL mirror)",
       "received": 14,
       "errors": 4,
-      "lastSuccessAt": "2026-07-17T09:44:03.359Z",
+      "lastSuccessAt": "2026-07-17T10:53:33.822Z",
       "message": "504 Gateway Time-out from https://api.jikan.moe/v4/manga/1: {\"status\":504,\"type\":\"BadResponseException\",\"message\":\"Jikan failed to connect to MyAnimeList. MyAnimeList may be down\\/unavailable or refuses to connect\",\"error\":null}"
     },
     "anilist": {
@@ -26,7 +26,7 @@
       "via": "AniList GraphQL API",
       "received": 18,
       "errors": 0,
-      "lastSuccessAt": "2026-07-17T09:43:44.646Z",
+      "lastSuccessAt": "2026-07-17T10:53:20.204Z",
       "message": null
     }
   }
