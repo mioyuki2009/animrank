@@ -1,52 +1,64 @@
 [
   {
-    "id": "anime:anilist-154587",
+    "id": "anime:anilist-4181",
     "medium": "anime",
     "title": {
-      "zh": "Frieren: Beyond Journey’s End",
-      "original": "葬送のフリーレン"
+      "zh": "CLANNAD 〜AFTER STORY〜",
+      "original": "ＣＬＡＮＮＡＤ ~After Story~ クラナド アフターストーリー"
     },
-    "year": 2023,
+    "year": 2008,
     "format": "TV",
     "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154587-qQTzQnEJJ3oB.jpg",
-      "color": "#bbf1a1",
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4181-zUKE7BZC62OF.png",
+      "color": "#f1e450",
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 9.26,
+      "bangumi": {
+        "raw": 9.2,
         "scale": 10,
-        "votes": 912130,
-        "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren",
-        "fetchedAt": "2026-07-18T06:05:15.042Z",
+        "votes": 31218,
+        "url": "https://bgm.tv/subject/876",
+        "fetchedAt": "2026-07-18T06:19:51.192Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 9.2,
+        "voteConfidence": 0.975,
+        "effectiveWeight": 0.234,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 8.93,
+        "scale": 10,
+        "votes": 703610,
+        "url": "https://myanimelist.net/anime/4181/Clannad__After_Story",
+        "fetchedAt": "2026-07-18T06:19:51.177Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
-        "normalized": 9.26,
-        "voteConfidence": 0.9838,
-        "effectiveWeight": 0.1771,
+        "normalized": 8.93,
+        "voteConfidence": 0.9791,
+        "effectiveWeight": 0.1762,
         "calibrationMode": "identity-fallback"
       },
       "anilist": {
-        "raw": 91,
+        "raw": 88,
         "scale": 100,
-        "votes": 197140,
-        "url": "https://anilist.co/anime/154587",
-        "fetchedAt": "2026-07-18T06:05:15.014Z",
+        "votes": 100506,
+        "url": "https://anilist.co/anime/4181",
+        "fetchedAt": "2026-07-18T06:19:51.143Z",
         "via": "AniList GraphQL API",
         "stale": false,
-        "normalized": 9.1,
-        "voteConfidence": 0.961,
-        "effectiveWeight": 0.173,
+        "normalized": 8.8,
+        "voteConfidence": 0.9263,
+        "effectiveWeight": 0.1667,
         "calibrationMode": "identity-fallback"
       }
     },
     "score": {
-      "value": 8.8459,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3501,
+      "value": 8.8024,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5769,
       "status": "ranked"
     },
     "commercial": null
@@ -55,7 +67,7 @@
     "id": "anime:anilist-5114",
     "medium": "anime",
     "title": {
-      "zh": "Fullmetal Alchemist: Brotherhood",
+      "zh": "钢之炼金术师 FULLMETAL ALCHEMIST",
       "original": "鋼の錬金術師 FULLMETAL ALCHEMIST"
     },
     "year": 2009,
@@ -66,13 +78,25 @@
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": null,
+      "bangumi": {
+        "raw": 8.8,
+        "scale": 10,
+        "votes": 24713,
+        "url": "https://bgm.tv/subject/1428",
+        "fetchedAt": "2026-07-18T06:19:51.192Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.8,
+        "voteConfidence": 0.9686,
+        "effectiveWeight": 0.2325,
+        "calibrationMode": "identity-fallback"
+      },
       "mal": {
         "raw": 9.11,
         "scale": 10,
         "votes": 2327203,
         "url": "https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood",
-        "fetchedAt": "2026-07-18T06:05:15.042Z",
+        "fetchedAt": "2026-07-18T06:19:51.176Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 9.11,
@@ -85,7 +109,7 @@
         "scale": 100,
         "votes": 331074,
         "url": "https://anilist.co/anime/5114",
-        "fetchedAt": "2026-07-18T06:05:15.016Z",
+        "fetchedAt": "2026-07-18T06:19:51.142Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 9,
@@ -95,62 +119,178 @@
       }
     },
     "score": {
-      "value": 8.7397,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3546,
+      "value": 8.7617,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5871,
       "status": "ranked"
     },
     "commercial": null
   },
   {
-    "id": "anime:anilist-171627",
+    "id": "anime:anilist-9253",
     "medium": "anime",
     "title": {
-      "zh": "Chainsaw Man – The Movie: Reze Arc",
-      "original": "チェンソーマン レゼ篇"
+      "zh": "命运石之门",
+      "original": "シュタインズ・ゲート"
     },
-    "year": 2025,
-    "format": "MOVIE",
+    "year": 2011,
+    "format": "TV",
     "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171627-ZN9D7P46yHnw.png",
-      "color": "#e43550",
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9253-tIUXF2gfU8Sg.jpg",
+      "color": "#ffd6ae",
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 9.06,
+      "bangumi": {
+        "raw": 8.8,
         "scale": 10,
-        "votes": 334128,
-        "url": "https://myanimelist.net/anime/57555/Chainsaw_Man_Movie__Reze-hen",
-        "fetchedAt": "2026-07-18T06:05:15.042Z",
+        "votes": 39870,
+        "url": "https://bgm.tv/subject/10380",
+        "fetchedAt": "2026-07-18T06:19:51.192Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.8,
+        "voteConfidence": 0.9803,
+        "effectiveWeight": 0.2353,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 9.07,
+        "scale": 10,
+        "votes": 1530848,
+        "url": "https://myanimelist.net/anime/9253/Steins_Gate",
+        "fetchedAt": "2026-07-18T06:19:51.176Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
-        "normalized": 9.06,
-        "voteConfidence": 0.957,
-        "effectiveWeight": 0.1723,
+        "normalized": 9.07,
+        "voteConfidence": 0.9903,
+        "effectiveWeight": 0.1783,
         "calibrationMode": "identity-fallback"
       },
       "anilist": {
-        "raw": 90,
+        "raw": 89,
         "scale": 100,
-        "votes": 89389,
-        "url": "https://anilist.co/anime/171627",
-        "fetchedAt": "2026-07-18T06:05:15.016Z",
+        "votes": 237830,
+        "url": "https://anilist.co/anime/9253",
+        "fetchedAt": "2026-07-18T06:19:51.142Z",
         "via": "AniList GraphQL API",
         "stale": false,
-        "normalized": 9,
-        "voteConfidence": 0.9179,
-        "effectiveWeight": 0.1652,
+        "normalized": 8.9,
+        "voteConfidence": 0.9675,
+        "effectiveWeight": 0.1741,
         "calibrationMode": "identity-fallback"
       }
     },
     "score": {
-      "value": 8.7041,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3375,
+      "value": 8.7225,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5877,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:anilist-154587",
+    "medium": "anime",
+    "title": {
+      "zh": "葬送的芙莉莲",
+      "original": "葬送のフリーレン"
+    },
+    "year": 2023,
+    "format": "TV",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154587-qQTzQnEJJ3oB.jpg",
+      "color": "#bbf1a1",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.5,
+        "scale": 10,
+        "votes": 35558,
+        "url": "https://bgm.tv/subject/400602",
+        "fetchedAt": "2026-07-18T06:19:51.196Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.978,
+        "effectiveWeight": 0.2347,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 9.26,
+        "scale": 10,
+        "votes": 912130,
+        "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren",
+        "fetchedAt": "2026-07-18T06:19:51.176Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 9.26,
+        "voteConfidence": 0.9838,
+        "effectiveWeight": 0.1771,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 91,
+        "scale": 100,
+        "votes": 197140,
+        "url": "https://anilist.co/anime/154587",
+        "fetchedAt": "2026-07-18T06:19:51.141Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 9.1,
+        "voteConfidence": 0.961,
+        "effectiveWeight": 0.173,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.718,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5848,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:bangumi-326",
+    "medium": "anime",
+    "title": {
+      "zh": "攻壳机动队 S.A.C. 2nd GIG",
+      "original": "攻殻機動隊 S.A.C. 2nd GIG"
+    },
+    "year": 2004,
+    "format": "TV",
+    "cover": {
+      "url": "https://lain.bgm.tv/pic/cover/l/a6/66/326_D8wjw.jpg",
+      "color": null,
+      "source": "bangumi"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 9.2,
+        "scale": 10,
+        "votes": 9958,
+        "url": "https://bgm.tv/subject/326",
+        "fetchedAt": "2026-07-18T06:19:51.192Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 9.2,
+        "voteConfidence": 0.9256,
+        "effectiveWeight": 0.2222,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": null,
+      "anilist": null
+    },
+    "score": {
+      "value": 8.704,
+      "sourceCount": 1,
+      "coverage": 0.4,
+      "totalWeight": 0.2222,
       "status": "ranked"
     },
     "commercial": null
@@ -176,7 +316,7 @@
         "scale": 10,
         "votes": 84783,
         "url": "https://myanimelist.net/anime/61316/Re_Zero_kara_Hajimeru_Isekai_Seikatsu_4th_Season",
-        "fetchedAt": "2026-07-18T06:05:15.042Z",
+        "fetchedAt": "2026-07-18T06:19:51.176Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 9.17,
@@ -189,7 +329,7 @@
         "scale": 100,
         "votes": 17265,
         "url": "https://anilist.co/anime/189046",
-        "fetchedAt": "2026-07-18T06:05:15.016Z",
+        "fetchedAt": "2026-07-18T06:19:51.142Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 9,
@@ -203,58 +343,6 @@
       "sourceCount": 2,
       "coverage": 0.6,
       "totalWeight": 0.2759,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-20996",
-    "medium": "anime",
-    "title": {
-      "zh": "Gintama Season 3",
-      "original": "銀魂゜"
-    },
-    "year": 2015,
-    "format": "TV",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20996-kBEGEGdeK1r7.jpg",
-      "color": "#e45d86",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 9.05,
-        "scale": 10,
-        "votes": 274094,
-        "url": "https://myanimelist.net/anime/28977/Gintama°",
-        "fetchedAt": "2026-07-18T06:05:15.042Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 9.05,
-        "voteConfidence": 0.9481,
-        "effectiveWeight": 0.1707,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 90,
-        "scale": 100,
-        "votes": 38845,
-        "url": "https://anilist.co/anime/20996",
-        "fetchedAt": "2026-07-18T06:05:15.016Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 9,
-        "voteConfidence": 0.8292,
-        "effectiveWeight": 0.1493,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.6852,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.32,
       "status": "ranked"
     },
     "commercial": null
@@ -280,7 +368,7 @@
         "scale": 10,
         "votes": 88099,
         "url": "https://myanimelist.net/anime/39486/Gintama__The_Final",
-        "fetchedAt": "2026-07-18T06:05:15.042Z",
+        "fetchedAt": "2026-07-18T06:19:51.176Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 9.05,
@@ -293,7 +381,7 @@
         "scale": 100,
         "votes": 18806,
         "url": "https://anilist.co/anime/114129",
-        "fetchedAt": "2026-07-18T06:05:15.016Z",
+        "fetchedAt": "2026-07-18T06:19:51.141Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 9.1,
@@ -312,53 +400,65 @@
     "commercial": null
   },
   {
-    "id": "anime:anilist-9253",
+    "id": "anime:anilist-98478",
     "medium": "anime",
     "title": {
-      "zh": "Steins;Gate",
-      "original": "シュタインズ・ゲート"
+      "zh": "3月的狮子 第二季",
+      "original": "３月のライオン 第2シリーズ"
     },
-    "year": 2011,
+    "year": 2017,
     "format": "TV",
     "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9253-tIUXF2gfU8Sg.jpg",
-      "color": "#ffd6ae",
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98478-Yua5iL9zbrji.jpg",
+      "color": "#ffc993",
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 9.07,
+      "bangumi": {
+        "raw": 8.8,
         "scale": 10,
-        "votes": 1530848,
-        "url": "https://myanimelist.net/anime/9253/Steins_Gate",
-        "fetchedAt": "2026-07-18T06:05:15.042Z",
+        "votes": 10532,
+        "url": "https://bgm.tv/subject/211567",
+        "fetchedAt": "2026-07-18T06:19:51.192Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.8,
+        "voteConfidence": 0.9294,
+        "effectiveWeight": 0.2231,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 8.9,
+        "scale": 10,
+        "votes": 216544,
+        "url": "https://myanimelist.net/anime/35180/3-gatsu_no_Lion_2nd_Season",
+        "fetchedAt": "2026-07-18T06:19:51.177Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
-        "normalized": 9.07,
-        "voteConfidence": 0.9903,
-        "effectiveWeight": 0.1783,
+        "normalized": 8.9,
+        "voteConfidence": 0.9352,
+        "effectiveWeight": 0.1683,
         "calibrationMode": "identity-fallback"
       },
       "anilist": {
         "raw": 89,
         "scale": 100,
-        "votes": 237830,
-        "url": "https://anilist.co/anime/9253",
-        "fetchedAt": "2026-07-18T06:05:15.016Z",
+        "votes": 51540,
+        "url": "https://anilist.co/anime/98478",
+        "fetchedAt": "2026-07-18T06:19:51.142Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.9,
-        "voteConfidence": 0.9675,
-        "effectiveWeight": 0.1741,
+        "voteConfidence": 0.8656,
+        "effectiveWeight": 0.1558,
         "calibrationMode": "identity-fallback"
       }
     },
     "score": {
-      "value": 8.6771,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3524,
+      "value": 8.6617,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5472,
       "status": "ranked"
     },
     "commercial": null
@@ -384,7 +484,7 @@
         "scale": 10,
         "votes": 1996610,
         "url": "https://myanimelist.net/anime/11061/Hunter_x_Hunter_2011",
-        "fetchedAt": "2026-07-18T06:05:15.042Z",
+        "fetchedAt": "2026-07-18T06:19:51.176Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 9.03,
@@ -397,7 +497,7 @@
         "scale": 100,
         "votes": 390228,
         "url": "https://anilist.co/anime/11061",
-        "fetchedAt": "2026-07-18T06:05:15.016Z",
+        "fetchedAt": "2026-07-18T06:19:51.142Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.9,
@@ -416,53 +516,65 @@
     "commercial": null
   },
   {
-    "id": "anime:anilist-182469",
+    "id": "anime:anilist-1",
     "medium": "anime",
     "title": {
-      "zh": "One Piece Fan Letter",
-      "original": "ONE PIECE FAN LETTER"
+      "zh": "星际牛仔",
+      "original": "カウボーイビバップ"
     },
-    "year": 2024,
-    "format": "SPECIAL",
+    "year": 1998,
+    "format": "TV",
     "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182469-JQ808NBPxmgn.jpg",
-      "color": "#e4935d",
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1-GCsPm7waJ4kS.png",
+      "color": "#f16b50",
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 9.01,
+      "bangumi": {
+        "raw": 9.1,
         "scale": 10,
-        "votes": 115580,
-        "url": "https://myanimelist.net/anime/60022/One_Piece_Fan_Letter",
-        "fetchedAt": "2026-07-18T06:05:15.042Z",
+        "votes": 19359,
+        "url": "https://bgm.tv/subject/253",
+        "fetchedAt": "2026-07-18T06:19:51.192Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 9.1,
+        "voteConfidence": 0.9603,
+        "effectiveWeight": 0.2305,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 8.75,
+        "scale": 10,
+        "votes": 1068404,
+        "url": "https://myanimelist.net/anime/1/Cowboy_Bebop",
+        "fetchedAt": "2026-07-18T06:19:51.180Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
-        "normalized": 9.01,
-        "voteConfidence": 0.8851,
-        "effectiveWeight": 0.1593,
+        "normalized": 8.75,
+        "voteConfidence": 0.9862,
+        "effectiveWeight": 0.1775,
         "calibrationMode": "identity-fallback"
       },
       "anilist": {
-        "raw": 90,
+        "raw": 86,
         "scale": 100,
-        "votes": 30054,
-        "url": "https://anilist.co/anime/182469",
-        "fetchedAt": "2026-07-18T06:05:15.016Z",
+        "votes": 170305,
+        "url": "https://anilist.co/anime/1",
+        "fetchedAt": "2026-07-18T06:19:51.155Z",
         "via": "AniList GraphQL API",
         "stale": false,
-        "normalized": 9,
-        "voteConfidence": 0.7898,
-        "effectiveWeight": 0.1422,
+        "normalized": 8.6,
+        "voteConfidence": 0.9551,
+        "effectiveWeight": 0.1719,
         "calibrationMode": "identity-fallback"
       }
     },
     "score": {
-      "value": 8.6489,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3015,
+      "value": 8.6585,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5799,
       "status": "ranked"
     },
     "commercial": null
@@ -471,7 +583,7 @@
     "id": "anime:anilist-9969",
     "medium": "anime",
     "title": {
-      "zh": "Gintama Season 2",
+      "zh": "银魂'",
       "original": "銀魂’"
     },
     "year": 2011,
@@ -482,13 +594,25 @@
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": null,
+      "bangumi": {
+        "raw": 8.7,
+        "scale": 10,
+        "votes": 13599,
+        "url": "https://bgm.tv/subject/11834",
+        "fetchedAt": "2026-07-18T06:19:51.193Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.9444,
+        "effectiveWeight": 0.2267,
+        "calibrationMode": "identity-fallback"
+      },
       "mal": {
         "raw": 9.02,
         "scale": 10,
         "votes": 259412,
         "url": "https://myanimelist.net/anime/9969/Gintama",
-        "fetchedAt": "2026-07-18T06:05:15.042Z",
+        "fetchedAt": "2026-07-18T06:19:51.176Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 9.02,
@@ -501,7 +625,7 @@
         "scale": 100,
         "votes": 39779,
         "url": "https://anilist.co/anime/9969",
-        "fetchedAt": "2026-07-18T06:05:15.016Z",
+        "fetchedAt": "2026-07-18T06:19:51.142Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.9,
@@ -511,114 +635,218 @@
       }
     },
     "score": {
-      "value": 8.6309,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3201,
+      "value": 8.6572,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5468,
       "status": "ranked"
     },
     "commercial": null
   },
   {
-    "id": "anime:anilist-15417",
+    "id": "anime:anilist-182469",
     "medium": "anime",
     "title": {
-      "zh": "Gintama Season 2 Part 2",
-      "original": "銀魂’延長戦"
+      "zh": "航海王：粉丝来信",
+      "original": "ONE PIECE FAN LETTER"
     },
-    "year": 2012,
-    "format": "TV",
+    "year": 2024,
+    "format": "SPECIAL",
     "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15417-Uc2uNdWEixwi.jpg",
-      "color": "#50aed6",
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182469-JQ808NBPxmgn.jpg",
+      "color": "#e4935d",
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": null,
+      "bangumi": {
+        "raw": 8.6,
+        "scale": 10,
+        "votes": 4213,
+        "url": "https://bgm.tv/subject/518519",
+        "fetchedAt": "2026-07-18T06:19:51.196Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.8404,
+        "effectiveWeight": 0.2017,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 9.01,
+        "scale": 10,
+        "votes": 115580,
+        "url": "https://myanimelist.net/anime/60022/One_Piece_Fan_Letter",
+        "fetchedAt": "2026-07-18T06:19:51.176Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 9.01,
+        "voteConfidence": 0.8851,
+        "effectiveWeight": 0.1593,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 90,
+        "scale": 100,
+        "votes": 30054,
+        "url": "https://anilist.co/anime/182469",
+        "fetchedAt": "2026-07-18T06:19:51.142Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 9,
+        "voteConfidence": 0.7898,
+        "effectiveWeight": 0.1422,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.6311,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5032,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:bangumi-25961",
+    "medium": "anime",
+    "title": {
+      "zh": "猫和老鼠（1965年电视版）",
+      "original": "Tom and Jerry"
+    },
+    "year": 1965,
+    "format": "TV",
+    "cover": {
+      "url": "https://lain.bgm.tv/pic/cover/l/fd/60/25961_WDKz6.jpg",
+      "color": null,
+      "source": "bangumi"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 9.1,
+        "scale": 10,
+        "votes": 14021,
+        "url": "https://bgm.tv/subject/25961",
+        "fetchedAt": "2026-07-18T06:19:51.192Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 9.1,
+        "voteConfidence": 0.946,
+        "effectiveWeight": 0.227,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": null,
+      "anilist": null
+    },
+    "score": {
+      "value": 8.6307,
+      "sourceCount": 1,
+      "coverage": 0.4,
+      "totalWeight": 0.227,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:bangumi-324",
+    "medium": "anime",
+    "title": {
+      "zh": "攻壳机动队 STAND ALONE COMPLEX",
+      "original": "攻殻機動隊 STAND ALONE COMPLEX"
+    },
+    "year": 2002,
+    "format": "TV",
+    "cover": {
+      "url": "https://lain.bgm.tv/pic/cover/l/f2/fc/324_psuXk.jpg",
+      "color": null,
+      "source": "bangumi"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 9.1,
+        "scale": 10,
+        "votes": 11379,
+        "url": "https://bgm.tv/subject/324",
+        "fetchedAt": "2026-07-18T06:19:51.192Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 9.1,
+        "voteConfidence": 0.9343,
+        "effectiveWeight": 0.2242,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": null,
+      "anilist": null
+    },
+    "score": {
+      "value": 8.6259,
+      "sourceCount": 1,
+      "coverage": 0.4,
+      "totalWeight": 0.2242,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:anilist-820",
+    "medium": "anime",
+    "title": {
+      "zh": "银河英雄传说",
+      "original": "銀河英雄伝説"
+    },
+    "year": 1988,
+    "format": "OVA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx820-x5dNLNFeKb8B.png",
+      "color": "#bb8628",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.7,
+        "scale": 10,
+        "votes": 2903,
+        "url": "https://bgm.tv/subject/2907",
+        "fetchedAt": "2026-07-18T06:19:51.193Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.784,
+        "effectiveWeight": 0.1882,
+        "calibrationMode": "identity-fallback"
+      },
       "mal": {
         "raw": 9.02,
         "scale": 10,
-        "votes": 180415,
-        "url": "https://myanimelist.net/anime/15417/Gintama__Enchousen",
-        "fetchedAt": "2026-07-18T06:05:15.042Z",
+        "votes": 88645,
+        "url": "https://myanimelist.net/anime/820/Ginga_Eiyuu_Densetsu",
+        "fetchedAt": "2026-07-18T06:19:51.176Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 9.02,
-        "voteConfidence": 0.9232,
-        "effectiveWeight": 0.1662,
+        "voteConfidence": 0.8553,
+        "effectiveWeight": 0.1539,
         "calibrationMode": "identity-fallback"
       },
       "anilist": {
-        "raw": 89,
+        "raw": 88,
         "scale": 100,
-        "votes": 32299,
-        "url": "https://anilist.co/anime/15417",
-        "fetchedAt": "2026-07-18T06:05:15.016Z",
+        "votes": 16439,
+        "url": "https://anilist.co/anime/820",
+        "fetchedAt": "2026-07-18T06:19:51.143Z",
         "via": "AniList GraphQL API",
         "stale": false,
-        "normalized": 8.9,
-        "voteConfidence": 0.8015,
-        "effectiveWeight": 0.1443,
+        "normalized": 8.8,
+        "voteConfidence": 0.6727,
+        "effectiveWeight": 0.1211,
         "calibrationMode": "identity-fallback"
       }
     },
     "score": {
-      "value": 8.6225,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3105,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-125367",
-    "medium": "anime",
-    "title": {
-      "zh": "Kaguya-sama: Love is War -Ultra Romantic-",
-      "original": "かぐや様は告らせたい-ウルトラロマンティック-"
-    },
-    "year": 2022,
-    "format": "TV",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125367-1yuq9NFcQuLI.png",
-      "color": "#d6f1a1",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.95,
-        "scale": 10,
-        "votes": 644309,
-        "url": "https://myanimelist.net/anime/43608/Kaguya-sama_wa_Kokurasetai__Ultra_Romantic",
-        "fetchedAt": "2026-07-18T06:05:15.043Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 8.95,
-        "voteConfidence": 0.9772,
-        "effectiveWeight": 0.1759,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 89,
-        "scale": 100,
-        "votes": 134351,
-        "url": "https://anilist.co/anime/125367",
-        "fetchedAt": "2026-07-18T06:05:15.016Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.9,
-        "voteConfidence": 0.9438,
-        "effectiveWeight": 0.1699,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.619,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3458,
+      "value": 8.6052,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.4632,
       "status": "ranked"
     },
     "commercial": null
@@ -644,7 +872,7 @@
         "scale": 10,
         "votes": 100477,
         "url": "https://myanimelist.net/anime/61469/Steel_Ball_Run__JoJo_no_Kimyou_na_Bouken",
-        "fetchedAt": "2026-07-18T06:05:15.042Z",
+        "fetchedAt": "2026-07-18T06:19:51.176Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 9.1,
@@ -657,7 +885,7 @@
         "scale": 100,
         "votes": 17895,
         "url": "https://anilist.co/anime/190327",
-        "fetchedAt": "2026-07-18T06:05:15.017Z",
+        "fetchedAt": "2026-07-18T06:19:51.143Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.8,
@@ -676,53 +904,65 @@
     "commercial": null
   },
   {
-    "id": "anime:anilist-98478",
+    "id": "anime:anilist-171627",
     "medium": "anime",
     "title": {
-      "zh": "March comes in like a lion Season 2",
-      "original": "３月のライオン 第2シリーズ"
+      "zh": "剧场版 链锯人 蕾塞篇",
+      "original": "チェンソーマン レゼ篇"
     },
-    "year": 2017,
-    "format": "TV",
+    "year": 2025,
+    "format": "MOVIE",
     "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98478-Yua5iL9zbrji.jpg",
-      "color": "#ffc993",
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171627-ZN9D7P46yHnw.png",
+      "color": "#e43550",
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.9,
+      "bangumi": {
+        "raw": 8.4,
         "scale": 10,
-        "votes": 216544,
-        "url": "https://myanimelist.net/anime/35180/3-gatsu_no_Lion_2nd_Season",
-        "fetchedAt": "2026-07-18T06:05:15.043Z",
+        "votes": 13119,
+        "url": "https://bgm.tv/subject/470660",
+        "fetchedAt": "2026-07-18T06:19:51.202Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.4,
+        "voteConfidence": 0.9425,
+        "effectiveWeight": 0.2262,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 9.06,
+        "scale": 10,
+        "votes": 334128,
+        "url": "https://myanimelist.net/anime/57555/Chainsaw_Man_Movie__Reze-hen",
+        "fetchedAt": "2026-07-18T06:19:51.176Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
-        "normalized": 8.9,
-        "voteConfidence": 0.9352,
-        "effectiveWeight": 0.1683,
+        "normalized": 9.06,
+        "voteConfidence": 0.957,
+        "effectiveWeight": 0.1723,
         "calibrationMode": "identity-fallback"
       },
       "anilist": {
-        "raw": 89,
+        "raw": 90,
         "scale": 100,
-        "votes": 51540,
-        "url": "https://anilist.co/anime/98478",
-        "fetchedAt": "2026-07-18T06:05:15.016Z",
+        "votes": 89389,
+        "url": "https://anilist.co/anime/171627",
+        "fetchedAt": "2026-07-18T06:19:51.142Z",
         "via": "AniList GraphQL API",
         "stale": false,
-        "normalized": 8.9,
-        "voteConfidence": 0.8656,
-        "effectiveWeight": 0.1558,
+        "normalized": 9,
+        "voteConfidence": 0.9179,
+        "effectiveWeight": 0.1652,
         "calibrationMode": "identity-fallback"
       }
     },
     "score": {
-      "value": 8.5792,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3241,
+      "value": 8.592,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5637,
       "status": "ranked"
     },
     "commercial": null
@@ -748,7 +988,7 @@
         "scale": 10,
         "votes": 1815663,
         "url": "https://myanimelist.net/anime/28851/Koe_no_Katachi",
-        "fetchedAt": "2026-07-18T06:05:15.043Z",
+        "fetchedAt": "2026-07-18T06:19:51.177Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.93,
@@ -761,7 +1001,7 @@
         "scale": 100,
         "votes": 391028,
         "url": "https://anilist.co/anime/20954",
-        "fetchedAt": "2026-07-18T06:05:15.017Z",
+        "fetchedAt": "2026-07-18T06:19:51.143Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.8,
@@ -775,58 +1015,6 @@
       "sourceCount": 2,
       "coverage": 0.6,
       "totalWeight": 0.3549,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-4181",
-    "medium": "anime",
-    "title": {
-      "zh": "Clannad: After Story",
-      "original": "ＣＬＡＮＮＡＤ ~After Story~ クラナド アフターストーリー"
-    },
-    "year": 2008,
-    "format": "TV",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4181-zUKE7BZC62OF.png",
-      "color": "#f1e450",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.93,
-        "scale": 10,
-        "votes": 703610,
-        "url": "https://myanimelist.net/anime/4181/Clannad__After_Story",
-        "fetchedAt": "2026-07-18T06:05:15.043Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 8.93,
-        "voteConfidence": 0.9791,
-        "effectiveWeight": 0.1762,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 88,
-        "scale": 100,
-        "votes": 100506,
-        "url": "https://anilist.co/anime/4181",
-        "fetchedAt": "2026-07-18T06:05:15.017Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.8,
-        "voteConfidence": 0.9263,
-        "effectiveWeight": 0.1667,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.5656,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3429,
       "status": "ranked"
     },
     "commercial": null
@@ -852,7 +1040,7 @@
         "scale": 10,
         "votes": 211646,
         "url": "https://myanimelist.net/anime/35247/Owarimonogatari_2nd_Season",
-        "fetchedAt": "2026-07-18T06:05:15.044Z",
+        "fetchedAt": "2026-07-18T06:19:51.178Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.86,
@@ -865,7 +1053,7 @@
         "scale": 100,
         "votes": 52984,
         "url": "https://anilist.co/anime/21745",
-        "fetchedAt": "2026-07-18T06:05:15.016Z",
+        "fetchedAt": "2026-07-18T06:19:51.142Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.9,
@@ -904,7 +1092,7 @@
         "scale": 10,
         "votes": 161171,
         "url": "https://myanimelist.net/anime/34096/Gintama",
-        "fetchedAt": "2026-07-18T06:05:15.042Z",
+        "fetchedAt": "2026-07-18T06:19:51.176Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.98,
@@ -917,7 +1105,7 @@
         "scale": 100,
         "votes": 28950,
         "url": "https://anilist.co/anime/97889",
-        "fetchedAt": "2026-07-18T06:05:15.016Z",
+        "fetchedAt": "2026-07-18T06:19:51.142Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.8,
@@ -931,110 +1119,6 @@
       "sourceCount": 2,
       "coverage": 0.6,
       "totalWeight": 0.3057,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-820",
-    "medium": "anime",
-    "title": {
-      "zh": "Legend of the Galactic Heroes",
-      "original": "銀河英雄伝説"
-    },
-    "year": 1988,
-    "format": "OVA",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx820-x5dNLNFeKb8B.png",
-      "color": "#bb8628",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 9.02,
-        "scale": 10,
-        "votes": 88645,
-        "url": "https://myanimelist.net/anime/820/Ginga_Eiyuu_Densetsu",
-        "fetchedAt": "2026-07-18T06:05:15.042Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 9.02,
-        "voteConfidence": 0.8553,
-        "effectiveWeight": 0.1539,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 88,
-        "scale": 100,
-        "votes": 16439,
-        "url": "https://anilist.co/anime/820",
-        "fetchedAt": "2026-07-18T06:05:15.017Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.8,
-        "voteConfidence": 0.6727,
-        "effectiveWeight": 0.1211,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.5503,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.275,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-19",
-    "medium": "anime",
-    "title": {
-      "zh": "Monster",
-      "original": "MONSTER"
-    },
-    "year": 2004,
-    "format": "TV",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx19-gtMC64182sm4.jpg",
-      "color": null,
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.89,
-        "scale": 10,
-        "votes": 518695,
-        "url": "https://myanimelist.net/anime/19/Monster",
-        "fetchedAt": "2026-07-18T06:05:15.043Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 8.89,
-        "voteConfidence": 0.9719,
-        "effectiveWeight": 0.1749,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 88,
-        "scale": 100,
-        "votes": 84367,
-        "url": "https://anilist.co/anime/19",
-        "fetchedAt": "2026-07-18T06:05:15.017Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.8,
-        "voteConfidence": 0.9134,
-        "effectiveWeight": 0.1644,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.545,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3393,
       "status": "ranked"
     },
     "commercial": null
@@ -1060,7 +1144,7 @@
         "scale": 10,
         "votes": 277696,
         "url": "https://myanimelist.net/anime/58514/Kusuriya_no_Hitorigoto_2nd_Season",
-        "fetchedAt": "2026-07-18T06:05:15.043Z",
+        "fetchedAt": "2026-07-18T06:19:51.177Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.91,
@@ -1073,7 +1157,7 @@
         "scale": 100,
         "votes": 41887,
         "url": "https://anilist.co/anime/176301",
-        "fetchedAt": "2026-07-18T06:05:15.017Z",
+        "fetchedAt": "2026-07-18T06:19:51.143Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.8,
@@ -1087,6 +1171,134 @@
       "sourceCount": 2,
       "coverage": 0.6,
       "totalWeight": 0.3219,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:anilist-44",
+    "medium": "anime",
+    "title": {
+      "zh": "浪客剑心 追忆篇",
+      "original": "るろうに剣心―明治剣客浪漫譚―追憶編"
+    },
+    "year": 1999,
+    "format": "OVA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx44-MG5I672UbWAy.png",
+      "color": "#ffd6bb",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.9,
+        "scale": 10,
+        "votes": 9531,
+        "url": "https://bgm.tv/subject/1728",
+        "fetchedAt": "2026-07-18T06:19:51.192Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.9,
+        "voteConfidence": 0.9226,
+        "effectiveWeight": 0.2214,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 8.69,
+        "scale": 10,
+        "votes": 144614,
+        "url": "https://myanimelist.net/anime/44/Rurouni_Kenshin__Meiji_Kenkaku_Romantan_-_Tsuioku-hen",
+        "fetchedAt": "2026-07-18T06:19:51.184Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.69,
+        "voteConfidence": 0.906,
+        "effectiveWeight": 0.1631,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 17876,
+        "url": "https://anilist.co/anime/44",
+        "fetchedAt": "2026-07-18T06:19:51.166Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.6908,
+        "effectiveWeight": 0.1243,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.535,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5088,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:anilist-918",
+    "medium": "anime",
+    "title": {
+      "zh": "银魂",
+      "original": "銀魂"
+    },
+    "year": 2006,
+    "format": "TV",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-iOaeBVUn4uK7.jpg",
+      "color": "#f1865d",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.7,
+        "scale": 10,
+        "votes": 13772,
+        "url": "https://bgm.tv/subject/247",
+        "fetchedAt": "2026-07-18T06:19:51.194Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.9451,
+        "effectiveWeight": 0.2268,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 8.93,
+        "scale": 10,
+        "votes": 426704,
+        "url": "https://myanimelist.net/anime/918/Gintama",
+        "fetchedAt": "2026-07-18T06:19:51.177Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.93,
+        "voteConfidence": 0.966,
+        "effectiveWeight": 0.1739,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 68767,
+        "url": "https://anilist.co/anime/918",
+        "fetchedAt": "2026-07-18T06:19:51.166Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.8958,
+        "effectiveWeight": 0.1612,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.5329,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5619,
       "status": "ranked"
     },
     "commercial": null
@@ -1112,7 +1324,7 @@
         "scale": 10,
         "votes": 491445,
         "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto",
-        "fetchedAt": "2026-07-18T06:05:15.044Z",
+        "fetchedAt": "2026-07-18T06:19:51.178Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.85,
@@ -1125,7 +1337,7 @@
         "scale": 100,
         "votes": 114531,
         "url": "https://anilist.co/anime/161645",
-        "fetchedAt": "2026-07-18T06:05:15.017Z",
+        "fetchedAt": "2026-07-18T06:19:51.143Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.8,
@@ -1164,7 +1376,7 @@
         "scale": 10,
         "votes": 266535,
         "url": "https://myanimelist.net/anime/59978/Sousou_no_Frieren_2nd_Season",
-        "fetchedAt": "2026-07-18T06:05:15.043Z",
+        "fetchedAt": "2026-07-18T06:19:51.177Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.86,
@@ -1177,7 +1389,7 @@
         "scale": 100,
         "votes": 65733,
         "url": "https://anilist.co/anime/182255",
-        "fetchedAt": "2026-07-18T06:05:15.017Z",
+        "fetchedAt": "2026-07-18T06:19:51.143Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.8,
@@ -1191,58 +1403,6 @@
       "sourceCount": 2,
       "coverage": 0.6,
       "totalWeight": 0.3309,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-2904",
-    "medium": "anime",
-    "title": {
-      "zh": "Code Geass: Lelouch of the Rebellion R2",
-      "original": "コードギアス 反逆のルルーシュ R2"
-    },
-    "year": 2008,
-    "format": "TV",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2904-Fet9Q33suC7G.jpg",
-      "color": "#e4bb50",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.92,
-        "scale": 10,
-        "votes": 1307697,
-        "url": "https://myanimelist.net/anime/2904/Code_Geass__Hangyaku_no_Lelouch_R2",
-        "fetchedAt": "2026-07-18T06:05:15.043Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 8.92,
-        "voteConfidence": 0.9887,
-        "effectiveWeight": 0.178,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 87,
-        "scale": 100,
-        "votes": 197058,
-        "url": "https://anilist.co/anime/2904",
-        "fetchedAt": "2026-07-18T06:05:15.019Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.7,
-        "voteConfidence": 0.961,
-        "effectiveWeight": 0.173,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.5233,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.351,
       "status": "ranked"
     },
     "commercial": null
@@ -1268,7 +1428,7 @@
         "scale": 10,
         "votes": 496686,
         "url": "https://myanimelist.net/anime/49387/Vinland_Saga_Season_2",
-        "fetchedAt": "2026-07-18T06:05:15.044Z",
+        "fetchedAt": "2026-07-18T06:19:51.178Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.83,
@@ -1281,7 +1441,7 @@
         "scale": 100,
         "votes": 98527,
         "url": "https://anilist.co/anime/136430",
-        "fetchedAt": "2026-07-18T06:05:15.017Z",
+        "fetchedAt": "2026-07-18T06:19:51.143Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.8,
@@ -1300,53 +1460,321 @@
     "commercial": null
   },
   {
-    "id": "anime:anilist-17074",
+    "id": "anime:anilist-20996",
     "medium": "anime",
     "title": {
-      "zh": "Monogatari Series Second Season",
-      "original": "〈物語〉シリーズ セカンドシーズン"
+      "zh": "银魂°",
+      "original": "銀魂゜"
     },
-    "year": 2013,
+    "year": 2015,
     "format": "TV",
     "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17074-xMhVAZsEDH66.png",
-      "color": "#43a1e4",
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20996-kBEGEGdeK1r7.jpg",
+      "color": "#e45d86",
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.76,
+      "bangumi": {
+        "raw": 8.2,
         "scale": 10,
-        "votes": 382144,
-        "url": "https://myanimelist.net/anime/17074/Monogatari_Series__Second_Season",
-        "fetchedAt": "2026-07-18T06:05:15.046Z",
+        "votes": 4743,
+        "url": "https://bgm.tv/subject/120791",
+        "fetchedAt": "2026-07-18T06:19:51.211Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.2,
+        "voteConfidence": 0.8557,
+        "effectiveWeight": 0.2054,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 9.05,
+        "scale": 10,
+        "votes": 274094,
+        "url": "https://myanimelist.net/anime/28977/Gintama°",
+        "fetchedAt": "2026-07-18T06:19:51.176Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
-        "normalized": 8.76,
-        "voteConfidence": 0.9622,
-        "effectiveWeight": 0.1732,
+        "normalized": 9.05,
+        "voteConfidence": 0.9481,
+        "effectiveWeight": 0.1707,
         "calibrationMode": "identity-fallback"
       },
       "anilist": {
-        "raw": 88,
+        "raw": 90,
         "scale": 100,
-        "votes": 82223,
-        "url": "https://anilist.co/anime/17074",
-        "fetchedAt": "2026-07-18T06:05:15.017Z",
+        "votes": 38845,
+        "url": "https://anilist.co/anime/20996",
+        "fetchedAt": "2026-07-18T06:19:51.142Z",
         "via": "AniList GraphQL API",
         "stale": false,
-        "normalized": 8.8,
-        "voteConfidence": 0.9113,
-        "effectiveWeight": 0.164,
+        "normalized": 9,
+        "voteConfidence": 0.8292,
+        "effectiveWeight": 0.1493,
         "calibrationMode": "identity-fallback"
       }
     },
     "score": {
-      "value": 8.4851,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3372,
+      "value": 8.512,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5254,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:anilist-32",
+    "medium": "anime",
+    "title": {
+      "zh": "新世纪福音战士剧场版 Air/真心为你",
+      "original": "新世紀エヴァンゲリオン劇場版 Air/まごころを、君に"
+    },
+    "year": 1997,
+    "format": "MOVIE",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx32-5JYsv0wc122I.jpg",
+      "color": "#e46b50",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.9,
+        "scale": 10,
+        "votes": 21682,
+        "url": "https://bgm.tv/subject/6049",
+        "fetchedAt": "2026-07-18T06:19:51.192Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.9,
+        "voteConfidence": 0.9644,
+        "effectiveWeight": 0.2315,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 8.57,
+        "scale": 10,
+        "votes": 702569,
+        "url": "https://myanimelist.net/anime/32/Shinseiki_Evangelion_Movie__Air_Magokoro_wo_Kimi_ni",
+        "fetchedAt": "2026-07-18T06:19:56.865Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.57,
+        "voteConfidence": 0.9791,
+        "effectiveWeight": 0.1762,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 142666,
+        "url": "https://anilist.co/anime/32",
+        "fetchedAt": "2026-07-18T06:19:51.157Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.9469,
+        "effectiveWeight": 0.1704,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.5079,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5781,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:anilist-15417",
+    "medium": "anime",
+    "title": {
+      "zh": "银魂' 延长战",
+      "original": "銀魂’延長戦"
+    },
+    "year": 2012,
+    "format": "TV",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15417-Uc2uNdWEixwi.jpg",
+      "color": "#50aed6",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.3,
+        "scale": 10,
+        "votes": 4612,
+        "url": "https://bgm.tv/subject/47576",
+        "fetchedAt": "2026-07-18T06:19:51.209Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.3,
+        "voteConfidence": 0.8522,
+        "effectiveWeight": 0.2045,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 9.02,
+        "scale": 10,
+        "votes": 180415,
+        "url": "https://myanimelist.net/anime/15417/Gintama__Enchousen",
+        "fetchedAt": "2026-07-18T06:19:51.176Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 9.02,
+        "voteConfidence": 0.9232,
+        "effectiveWeight": 0.1662,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 89,
+        "scale": 100,
+        "votes": 32299,
+        "url": "https://anilist.co/anime/15417",
+        "fetchedAt": "2026-07-18T06:19:51.142Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.9,
+        "voteConfidence": 0.8015,
+        "effectiveWeight": 0.1443,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.5057,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.515,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:anilist-125367",
+    "medium": "anime",
+    "title": {
+      "zh": "辉夜大小姐想让我告白-超级浪漫-",
+      "original": "かぐや様は告らせたい-ウルトラロマンティック-"
+    },
+    "year": 2022,
+    "format": "TV",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125367-1yuq9NFcQuLI.png",
+      "color": "#d6f1a1",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.3,
+        "scale": 10,
+        "votes": 23201,
+        "url": "https://bgm.tv/subject/317613",
+        "fetchedAt": "2026-07-18T06:19:51.203Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.3,
+        "voteConfidence": 0.9667,
+        "effectiveWeight": 0.232,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 8.95,
+        "scale": 10,
+        "votes": 644309,
+        "url": "https://myanimelist.net/anime/43608/Kaguya-sama_wa_Kokurasetai__Ultra_Romantic",
+        "fetchedAt": "2026-07-18T06:19:51.177Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.95,
+        "voteConfidence": 0.9772,
+        "effectiveWeight": 0.1759,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 89,
+        "scale": 100,
+        "votes": 134351,
+        "url": "https://anilist.co/anime/125367",
+        "fetchedAt": "2026-07-18T06:19:51.142Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.9,
+        "voteConfidence": 0.9438,
+        "effectiveWeight": 0.1699,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.5011,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5778,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:anilist-199",
+    "medium": "anime",
+    "title": {
+      "zh": "千与千寻",
+      "original": "千と千尋の神隠し"
+    },
+    "year": 2001,
+    "format": "MOVIE",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199-sWefXJvXkDOb.jpg",
+      "color": "#e45d5d",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.6,
+        "scale": 10,
+        "votes": 27197,
+        "url": "https://bgm.tv/subject/311",
+        "fetchedAt": "2026-07-18T06:19:51.195Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.9714,
+        "effectiveWeight": 0.2331,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 8.77,
+        "scale": 10,
+        "votes": 1420761,
+        "url": "https://myanimelist.net/anime/199/Sen_to_Chihiro_no_Kamikakushi",
+        "fetchedAt": "2026-07-18T06:19:51.179Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.77,
+        "voteConfidence": 0.9896,
+        "effectiveWeight": 0.1781,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 253654,
+        "url": "https://anilist.co/anime/199",
+        "fetchedAt": "2026-07-18T06:19:51.155Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.9694,
+        "effectiveWeight": 0.1745,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.4825,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5857,
       "status": "ranked"
     },
     "commercial": null
@@ -1372,7 +1800,7 @@
         "scale": 10,
         "votes": 145354,
         "url": "https://myanimelist.net/anime/15335/Gintama_Movie_2__Kanketsu-hen_-_Yorozuya_yo_Eien_Nare",
-        "fetchedAt": "2026-07-18T06:05:15.043Z",
+        "fetchedAt": "2026-07-18T06:19:51.177Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.89,
@@ -1385,7 +1813,7 @@
         "scale": 100,
         "votes": 26210,
         "url": "https://anilist.co/anime/15335",
-        "fetchedAt": "2026-07-18T06:05:15.018Z",
+        "fetchedAt": "2026-07-18T06:19:51.144Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.7,
@@ -1424,7 +1852,7 @@
         "scale": 10,
         "votes": 345897,
         "url": "https://myanimelist.net/anime/37987/Violet_Evergarden_Movie",
-        "fetchedAt": "2026-07-18T06:05:15.044Z",
+        "fetchedAt": "2026-07-18T06:19:51.178Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.83,
@@ -1437,7 +1865,7 @@
         "scale": 100,
         "votes": 74109,
         "url": "https://anilist.co/anime/103047",
-        "fetchedAt": "2026-07-18T06:05:15.019Z",
+        "fetchedAt": "2026-07-18T06:19:51.146Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.7,
@@ -1451,6 +1879,70 @@
       "sourceCount": 2,
       "coverage": 0.6,
       "totalWeight": 0.335,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:anilist-20607",
+    "medium": "anime",
+    "title": {
+      "zh": "乒乓",
+      "original": "ピンポン THE ANIMATION"
+    },
+    "year": 2014,
+    "format": "TV",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20607-fIOxVISIl0HY.jpg",
+      "color": "#e47843",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.7,
+        "scale": 10,
+        "votes": 17314,
+        "url": "https://bgm.tv/subject/93739",
+        "fetchedAt": "2026-07-18T06:19:51.194Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.9558,
+        "effectiveWeight": 0.2294,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 8.63,
+        "scale": 10,
+        "votes": 205930,
+        "url": "https://myanimelist.net/anime/22135/Ping_Pong_the_Animation",
+        "fetchedAt": "2026-07-18T06:19:51.190Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.63,
+        "voteConfidence": 0.9321,
+        "effectiveWeight": 0.1678,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 49943,
+        "url": "https://anilist.co/anime/20607",
+        "fetchedAt": "2026-07-18T06:19:51.157Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.8619,
+        "effectiveWeight": 0.1551,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.4721,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5523,
       "status": "ranked"
     },
     "commercial": null
@@ -1476,7 +1968,7 @@
         "scale": 10,
         "votes": 1537958,
         "url": "https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season",
-        "fetchedAt": "2026-07-18T06:05:15.045Z",
+        "fetchedAt": "2026-07-18T06:19:51.179Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.79,
@@ -1489,7 +1981,7 @@
         "scale": 100,
         "votes": 330852,
         "url": "https://anilist.co/anime/110277",
-        "fetchedAt": "2026-07-18T06:05:15.019Z",
+        "fetchedAt": "2026-07-18T06:19:51.146Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.7,
@@ -1508,53 +2000,129 @@
     "commercial": null
   },
   {
-    "id": "anime:anilist-101348",
+    "id": "anime:anilist-7311",
     "medium": "anime",
     "title": {
-      "zh": "Vinland Saga",
-      "original": "ヴィンランド・サガ"
+      "zh": "凉宫春日的消失",
+      "original": "涼宮ハルヒの消失"
     },
-    "year": 2019,
-    "format": "TV",
+    "year": 2010,
+    "format": "MOVIE",
     "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101348-2fhDFPCuMNiz.jpg",
-      "color": "#f16b5d",
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7311-9Mfc1YRHwCCW.jpg",
+      "color": "#f1d6bb",
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.78,
+      "bangumi": {
+        "raw": 8.7,
         "scale": 10,
-        "votes": 1077711,
-        "url": "https://myanimelist.net/anime/37521/Vinland_Saga",
-        "fetchedAt": "2026-07-18T06:05:15.045Z",
+        "votes": 24321,
+        "url": "https://bgm.tv/subject/3375",
+        "fetchedAt": "2026-07-18T06:19:51.193Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.9682,
+        "effectiveWeight": 0.2324,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 8.59,
+        "scale": 10,
+        "votes": 330755,
+        "url": "https://myanimelist.net/anime/7311/Suzumiya_Haruhi_no_Shoushitsu",
+        "fetchedAt": "2026-07-18T06:19:57.434Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
-        "normalized": 8.78,
-        "voteConfidence": 0.9863,
-        "effectiveWeight": 0.1775,
+        "normalized": 8.59,
+        "voteConfidence": 0.9566,
+        "effectiveWeight": 0.1722,
         "calibrationMode": "identity-fallback"
       },
       "anilist": {
-        "raw": 87,
+        "raw": 86,
         "scale": 100,
-        "votes": 233875,
-        "url": "https://anilist.co/anime/101348",
-        "fetchedAt": "2026-07-18T06:05:15.018Z",
+        "votes": 60269,
+        "url": "https://anilist.co/anime/7311",
+        "fetchedAt": "2026-07-18T06:19:51.157Z",
         "via": "AniList GraphQL API",
         "stale": false,
-        "normalized": 8.7,
-        "voteConfidence": 0.9669,
-        "effectiveWeight": 0.174,
+        "normalized": 8.6,
+        "voteConfidence": 0.8828,
+        "effectiveWeight": 0.1589,
         "calibrationMode": "identity-fallback"
       }
     },
     "score": {
-      "value": 8.4614,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3515,
+      "value": 8.4639,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5635,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:anilist-2921",
+    "medium": "anime",
+    "title": {
+      "zh": "明日之丈2",
+      "original": "あしたのジョー２"
+    },
+    "year": 1980,
+    "format": "TV",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2921-PxFepBRCGD0K.jpg",
+      "color": "#f13550",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.7,
+        "scale": 10,
+        "votes": 893,
+        "url": "https://bgm.tv/subject/67753",
+        "fetchedAt": "2026-07-18T06:19:51.195Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.5275,
+        "effectiveWeight": 0.1266,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 8.81,
+        "scale": 10,
+        "votes": 26765,
+        "url": "https://myanimelist.net/anime/2921/Ashita_no_Joe_2",
+        "fetchedAt": "2026-07-18T06:19:51.178Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.81,
+        "voteConfidence": 0.6408,
+        "effectiveWeight": 0.1154,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 88,
+        "scale": 100,
+        "votes": 6731,
+        "url": "https://anilist.co/anime/2921",
+        "fetchedAt": "2026-07-18T06:19:51.142Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.8,
+        "voteConfidence": 0.4569,
+        "effectiveWeight": 0.0822,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.4619,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.3242,
       "status": "ranked"
     },
     "commercial": null
@@ -1580,7 +2148,7 @@
         "scale": 10,
         "votes": 1099251,
         "url": "https://myanimelist.net/anime/37510/Mob_Psycho_100_II",
-        "fetchedAt": "2026-07-18T06:05:15.045Z",
+        "fetchedAt": "2026-07-18T06:19:51.179Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.78,
@@ -1593,7 +2161,7 @@
         "scale": 100,
         "votes": 221643,
         "url": "https://anilist.co/anime/101338",
-        "fetchedAt": "2026-07-18T06:05:15.018Z",
+        "fetchedAt": "2026-07-18T06:19:51.143Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.7,
@@ -1632,7 +2200,7 @@
         "scale": 10,
         "votes": 107962,
         "url": "https://myanimelist.net/anime/37491/Gintama_Shirogane_no_Tamashii-hen_-_Kouhan-sen",
-        "fetchedAt": "2026-07-18T06:05:15.043Z",
+        "fetchedAt": "2026-07-18T06:19:51.177Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.88,
@@ -1645,7 +2213,7 @@
         "scale": 100,
         "votes": 22441,
         "url": "https://anilist.co/anime/101925",
-        "fetchedAt": "2026-07-18T06:05:15.018Z",
+        "fetchedAt": "2026-07-18T06:19:51.143Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.7,
@@ -1664,105 +2232,65 @@
     "commercial": null
   },
   {
-    "id": "anime:anilist-21698",
+    "id": "anime:anilist-457",
     "medium": "anime",
     "title": {
-      "zh": "HAIKYU!! 3rd Season",
-      "original": "ハイキュー!! 烏野高校 VS 白鳥沢学園高校"
+      "zh": "虫师",
+      "original": "蟲師"
     },
-    "year": 2016,
+    "year": 2005,
     "format": "TV",
     "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21698-RL71mr1YU5Io.png",
-      "color": "#e48635",
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx457-l6cTtNgI9Bi6.png",
+      "color": "#d6bb78",
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.77,
+      "bangumi": {
+        "raw": 8.7,
         "scale": 10,
-        "votes": 879932,
-        "url": "https://myanimelist.net/anime/32935/Haikyuu_Karasuno_Koukou_vs_Shiratorizawa_Gakuen_Koukou",
-        "fetchedAt": "2026-07-18T06:05:15.046Z",
+        "votes": 11771,
+        "url": "https://bgm.tv/subject/340",
+        "fetchedAt": "2026-07-18T06:19:51.194Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.9364,
+        "effectiveWeight": 0.2247,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 8.65,
+        "scale": 10,
+        "votes": 299341,
+        "url": "https://myanimelist.net/anime/457/Mushishi",
+        "fetchedAt": "2026-07-18T06:19:51.188Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
-        "normalized": 8.77,
-        "voteConfidence": 0.9832,
-        "effectiveWeight": 0.177,
+        "normalized": 8.65,
+        "voteConfidence": 0.9523,
+        "effectiveWeight": 0.1714,
         "calibrationMode": "identity-fallback"
       },
       "anilist": {
-        "raw": 87,
+        "raw": 85,
         "scale": 100,
-        "votes": 189328,
-        "url": "https://anilist.co/anime/21698",
-        "fetchedAt": "2026-07-18T06:05:15.018Z",
+        "votes": 44310,
+        "url": "https://anilist.co/anime/457",
+        "fetchedAt": "2026-07-18T06:19:51.170Z",
         "via": "AniList GraphQL API",
         "stale": false,
-        "normalized": 8.7,
-        "voteConfidence": 0.9595,
-        "effectiveWeight": 0.1727,
+        "normalized": 8.5,
+        "voteConfidence": 0.8471,
+        "effectiveWeight": 0.1525,
         "calibrationMode": "identity-fallback"
       }
     },
     "score": {
-      "value": 8.4558,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3497,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-21400",
-    "medium": "anime",
-    "title": {
-      "zh": "Kizumonogatari Part 3: Reiketsu",
-      "original": "傷物語〈Ⅲ冷血篇〉"
-    },
-    "year": 2017,
-    "format": "MOVIE",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21400-38ykNo3j4xXo.png",
-      "color": "#e4d628",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.78,
-        "scale": 10,
-        "votes": 300989,
-        "url": "https://myanimelist.net/anime/31758/Kizumonogatari_III__Reiketsu-hen",
-        "fetchedAt": "2026-07-18T06:05:15.045Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 8.78,
-        "voteConfidence": 0.9525,
-        "effectiveWeight": 0.1715,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 87,
-        "scale": 100,
-        "votes": 75359,
-        "url": "https://anilist.co/anime/21400",
-        "fetchedAt": "2026-07-18T06:05:15.018Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.7,
-        "voteConfidence": 0.904,
-        "effectiveWeight": 0.1627,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.4494,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3342,
+      "value": 8.451,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5486,
       "status": "ranked"
     },
     "commercial": null
@@ -1788,7 +2316,7 @@
         "scale": 10,
         "votes": 346270,
         "url": "https://myanimelist.net/anime/263/Hajime_no_Ippo",
-        "fetchedAt": "2026-07-18T06:05:15.045Z",
+        "fetchedAt": "2026-07-18T06:19:51.179Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.78,
@@ -1801,7 +2329,7 @@
         "scale": 100,
         "votes": 44278,
         "url": "https://anilist.co/anime/263",
-        "fetchedAt": "2026-07-18T06:05:15.020Z",
+        "fetchedAt": "2026-07-18T06:19:51.147Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.7,
@@ -1820,53 +2348,65 @@
     "commercial": null
   },
   {
-    "id": "anime:anilist-21",
+    "id": "anime:anilist-2904",
     "medium": "anime",
     "title": {
-      "zh": "One Piece",
-      "original": "ONE PIECE"
+      "zh": "Code Geass 反叛的鲁路修R2",
+      "original": "コードギアス 反逆のルルーシュ R2"
     },
-    "year": 1999,
+    "year": 2008,
     "format": "TV",
     "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
-      "color": "#e49335",
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2904-Fet9Q33suC7G.jpg",
+      "color": "#e4bb50",
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.73,
+      "bangumi": {
+        "raw": 8.3,
         "scale": 10,
-        "votes": 1545019,
-        "url": "https://myanimelist.net/anime/21/One_Piece",
-        "fetchedAt": "2026-07-18T06:05:15.049Z",
+        "votes": 18493,
+        "url": "https://bgm.tv/subject/8",
+        "fetchedAt": "2026-07-18T06:19:51.203Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.3,
+        "voteConfidence": 0.9585,
+        "effectiveWeight": 0.23,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 8.92,
+        "scale": 10,
+        "votes": 1307697,
+        "url": "https://myanimelist.net/anime/2904/Code_Geass__Hangyaku_no_Lelouch_R2",
+        "fetchedAt": "2026-07-18T06:19:51.177Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
-        "normalized": 8.73,
-        "voteConfidence": 0.9904,
-        "effectiveWeight": 0.1783,
+        "normalized": 8.92,
+        "voteConfidence": 0.9887,
+        "effectiveWeight": 0.178,
         "calibrationMode": "identity-fallback"
       },
       "anilist": {
         "raw": 87,
         "scale": 100,
-        "votes": 271841,
-        "url": "https://anilist.co/anime/21",
-        "fetchedAt": "2026-07-18T06:05:15.018Z",
+        "votes": 197058,
+        "url": "https://anilist.co/anime/2904",
+        "fetchedAt": "2026-07-18T06:19:51.146Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.7,
-        "voteConfidence": 0.9714,
-        "effectiveWeight": 0.1749,
+        "voteConfidence": 0.961,
+        "effectiveWeight": 0.173,
         "calibrationMode": "identity-fallback"
       }
     },
     "score": {
-      "value": 8.4404,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3532,
+      "value": 8.4419,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.581,
       "status": "ranked"
     },
     "commercial": null
@@ -1892,7 +2432,7 @@
         "scale": 10,
         "votes": 2096898,
         "url": "https://myanimelist.net/anime/32281/Kimi_no_Na_wa",
-        "fetchedAt": "2026-07-18T06:05:15.045Z",
+        "fetchedAt": "2026-07-18T06:19:51.178Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.82,
@@ -1905,7 +2445,7 @@
         "scale": 100,
         "votes": 386487,
         "url": "https://anilist.co/anime/21519",
-        "fetchedAt": "2026-07-18T06:05:15.027Z",
+        "fetchedAt": "2026-07-18T06:19:51.157Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -1924,105 +2464,65 @@
     "commercial": null
   },
   {
-    "id": "anime:anilist-918",
+    "id": "anime:anilist-21698",
     "medium": "anime",
     "title": {
-      "zh": "Gintama",
-      "original": "銀魂"
+      "zh": "排球少年 乌野高校 VS 白鸟泽学园高校",
+      "original": "ハイキュー!! 烏野高校 VS 白鳥沢学園高校"
     },
-    "year": 2006,
+    "year": 2016,
     "format": "TV",
     "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-iOaeBVUn4uK7.jpg",
-      "color": "#f1865d",
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21698-RL71mr1YU5Io.png",
+      "color": "#e48635",
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.93,
+      "bangumi": {
+        "raw": 8.4,
         "scale": 10,
-        "votes": 426704,
-        "url": "https://myanimelist.net/anime/918/Gintama",
-        "fetchedAt": "2026-07-18T06:05:15.043Z",
-        "via": "Jikan (MAL mirror)",
+        "votes": 6604,
+        "url": "https://bgm.tv/subject/173849",
+        "fetchedAt": "2026-07-18T06:19:51.199Z",
+        "via": "Bangumi API v0",
         "stale": false,
-        "normalized": 8.93,
-        "voteConfidence": 0.966,
-        "effectiveWeight": 0.1739,
+        "normalized": 8.4,
+        "voteConfidence": 0.892,
+        "effectiveWeight": 0.2141,
         "calibrationMode": "identity-fallback"
       },
-      "anilist": {
-        "raw": 85,
-        "scale": 100,
-        "votes": 68767,
-        "url": "https://anilist.co/anime/918",
-        "fetchedAt": "2026-07-18T06:05:15.035Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.5,
-        "voteConfidence": 0.8958,
-        "effectiveWeight": 0.1612,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.4345,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3351,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-130003",
-    "medium": "anime",
-    "title": {
-      "zh": "BOCCHI THE ROCK!",
-      "original": "ぼっち・ざ・ろっく！"
-    },
-    "year": 2022,
-    "format": "TV",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130003-HTDmeL4RGeJ4.png",
-      "color": "#e4bb50",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
       "mal": {
-        "raw": 8.73,
+        "raw": 8.77,
         "scale": 10,
-        "votes": 488343,
-        "url": "https://myanimelist.net/anime/47917/Bocchi_the_Rock",
-        "fetchedAt": "2026-07-18T06:05:15.048Z",
+        "votes": 879932,
+        "url": "https://myanimelist.net/anime/32935/Haikyuu_Karasuno_Koukou_vs_Shiratorizawa_Gakuen_Koukou",
+        "fetchedAt": "2026-07-18T06:19:51.179Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
-        "normalized": 8.73,
-        "voteConfidence": 0.9702,
-        "effectiveWeight": 0.1746,
+        "normalized": 8.77,
+        "voteConfidence": 0.9832,
+        "effectiveWeight": 0.177,
         "calibrationMode": "identity-fallback"
       },
       "anilist": {
         "raw": 87,
         "scale": 100,
-        "votes": 126899,
-        "url": "https://anilist.co/anime/130003",
-        "fetchedAt": "2026-07-18T06:05:15.020Z",
+        "votes": 189328,
+        "url": "https://anilist.co/anime/21698",
+        "fetchedAt": "2026-07-18T06:19:51.145Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.7,
-        "voteConfidence": 0.9407,
-        "effectiveWeight": 0.1693,
+        "voteConfidence": 0.9595,
+        "effectiveWeight": 0.1727,
         "calibrationMode": "identity-fallback"
       }
     },
     "score": {
-      "value": 8.434,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3439,
+      "value": 8.4363,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5638,
       "status": "ranked"
     },
     "commercial": null
@@ -2048,7 +2548,7 @@
         "scale": 10,
         "votes": 283254,
         "url": "https://myanimelist.net/anime/42938/Fruits_Basket__The_Final",
-        "fetchedAt": "2026-07-18T06:05:15.043Z",
+        "fetchedAt": "2026-07-18T06:19:51.177Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.93,
@@ -2061,7 +2561,7 @@
         "scale": 100,
         "votes": 74394,
         "url": "https://anilist.co/anime/111762",
-        "fetchedAt": "2026-07-18T06:05:15.027Z",
+        "fetchedAt": "2026-07-18T06:19:51.157Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.5,
@@ -2100,7 +2600,7 @@
         "scale": 10,
         "votes": 382247,
         "url": "https://myanimelist.net/anime/48569/86_Part_2",
-        "fetchedAt": "2026-07-18T06:05:15.049Z",
+        "fetchedAt": "2026-07-18T06:19:51.181Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.73,
@@ -2113,7 +2613,7 @@
         "scale": 100,
         "votes": 90839,
         "url": "https://anilist.co/anime/131586",
-        "fetchedAt": "2026-07-18T06:05:15.020Z",
+        "fetchedAt": "2026-07-18T06:19:51.147Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.7,
@@ -2132,105 +2632,129 @@
     "commercial": null
   },
   {
-    "id": "anime:anilist-140439",
+    "id": "anime:anilist-19",
     "medium": "anime",
     "title": {
-      "zh": "Mob Psycho 100 III",
-      "original": "モブサイコ100 Ⅲ"
+      "zh": "怪物",
+      "original": "MONSTER"
     },
-    "year": 2022,
+    "year": 2004,
     "format": "TV",
     "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140439-bPKmhe1wNxc9.jpg",
-      "color": "#28c9fe",
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx19-gtMC64182sm4.jpg",
+      "color": null,
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.72,
+      "bangumi": {
+        "raw": 8.2,
         "scale": 10,
-        "votes": 455078,
-        "url": "https://myanimelist.net/anime/50172/Mob_Psycho_100_III",
-        "fetchedAt": "2026-07-18T06:05:15.051Z",
+        "votes": 4592,
+        "url": "https://bgm.tv/subject/1959",
+        "fetchedAt": "2026-07-18T06:19:51.211Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.2,
+        "voteConfidence": 0.8516,
+        "effectiveWeight": 0.2044,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 8.89,
+        "scale": 10,
+        "votes": 518695,
+        "url": "https://myanimelist.net/anime/19/Monster",
+        "fetchedAt": "2026-07-18T06:19:51.177Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
-        "normalized": 8.72,
-        "voteConfidence": 0.9681,
-        "effectiveWeight": 0.1743,
+        "normalized": 8.89,
+        "voteConfidence": 0.9719,
+        "effectiveWeight": 0.1749,
         "calibrationMode": "identity-fallback"
       },
       "anilist": {
-        "raw": 87,
+        "raw": 88,
         "scale": 100,
-        "votes": 103805,
-        "url": "https://anilist.co/anime/140439",
-        "fetchedAt": "2026-07-18T06:05:15.019Z",
+        "votes": 84367,
+        "url": "https://anilist.co/anime/19",
+        "fetchedAt": "2026-07-18T06:19:51.143Z",
         "via": "AniList GraphQL API",
         "stale": false,
-        "normalized": 8.7,
-        "voteConfidence": 0.9284,
-        "effectiveWeight": 0.1671,
+        "normalized": 8.8,
+        "voteConfidence": 0.9134,
+        "effectiveWeight": 0.1644,
         "calibrationMode": "identity-fallback"
       }
     },
     "score": {
-      "value": 8.4279,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3414,
+      "value": 8.4262,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5437,
       "status": "ranked"
     },
     "commercial": null
   },
   {
-    "id": "anime:anilist-199",
+    "id": "anime:anilist-130003",
     "medium": "anime",
     "title": {
-      "zh": "Spirited Away",
-      "original": "千と千尋の神隠し"
+      "zh": "孤独摇滚！",
+      "original": "ぼっち・ざ・ろっく！"
     },
-    "year": 2001,
-    "format": "MOVIE",
+    "year": 2022,
+    "format": "TV",
     "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199-sWefXJvXkDOb.jpg",
-      "color": "#e45d5d",
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130003-HTDmeL4RGeJ4.png",
+      "color": "#e4bb50",
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.77,
+      "bangumi": {
+        "raw": 8.4,
         "scale": 10,
-        "votes": 1420761,
-        "url": "https://myanimelist.net/anime/199/Sen_to_Chihiro_no_Kamikakushi",
-        "fetchedAt": "2026-07-18T06:05:15.046Z",
+        "votes": 40105,
+        "url": "https://bgm.tv/subject/328609",
+        "fetchedAt": "2026-07-18T06:19:51.202Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.4,
+        "voteConfidence": 0.9804,
+        "effectiveWeight": 0.2353,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 8.73,
+        "scale": 10,
+        "votes": 488343,
+        "url": "https://myanimelist.net/anime/47917/Bocchi_the_Rock",
+        "fetchedAt": "2026-07-18T06:19:51.180Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
-        "normalized": 8.77,
-        "voteConfidence": 0.9896,
-        "effectiveWeight": 0.1781,
+        "normalized": 8.73,
+        "voteConfidence": 0.9702,
+        "effectiveWeight": 0.1746,
         "calibrationMode": "identity-fallback"
       },
       "anilist": {
-        "raw": 86,
+        "raw": 87,
         "scale": 100,
-        "votes": 253654,
-        "url": "https://anilist.co/anime/199",
-        "fetchedAt": "2026-07-18T06:05:15.026Z",
+        "votes": 126899,
+        "url": "https://anilist.co/anime/130003",
+        "fetchedAt": "2026-07-18T06:19:51.147Z",
         "via": "AniList GraphQL API",
         "stale": false,
-        "normalized": 8.6,
-        "voteConfidence": 0.9694,
-        "effectiveWeight": 0.1745,
+        "normalized": 8.7,
+        "voteConfidence": 0.9407,
+        "effectiveWeight": 0.1693,
         "calibrationMode": "identity-fallback"
       }
     },
     "score": {
-      "value": 8.4144,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3526,
+      "value": 8.4213,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5792,
       "status": "ranked"
     },
     "commercial": null
@@ -2256,7 +2780,7 @@
         "scale": 10,
         "votes": 948164,
         "url": "https://myanimelist.net/anime/48583/Shingeki_no_Kyojin__The_Final_Season_Part_2",
-        "fetchedAt": "2026-07-18T06:05:15.046Z",
+        "fetchedAt": "2026-07-18T06:19:51.179Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.77,
@@ -2269,7 +2793,7 @@
         "scale": 100,
         "votes": 201951,
         "url": "https://anilist.co/anime/131681",
-        "fetchedAt": "2026-07-18T06:05:15.021Z",
+        "fetchedAt": "2026-07-18T06:19:51.148Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -2308,7 +2832,7 @@
         "scale": 10,
         "votes": 222073,
         "url": "https://myanimelist.net/anime/52198/Kaguya-sama_wa_Kokurasetai__First_Kiss_wa_Owaranai",
-        "fetchedAt": "2026-07-18T06:05:15.051Z",
+        "fetchedAt": "2026-07-18T06:19:51.182Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.71,
@@ -2321,7 +2845,7 @@
         "scale": 100,
         "votes": 59911,
         "url": "https://anilist.co/anime/151384",
-        "fetchedAt": "2026-07-18T06:05:15.019Z",
+        "fetchedAt": "2026-07-18T06:19:51.146Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.7,
@@ -2360,7 +2884,7 @@
         "scale": 10,
         "votes": 174295,
         "url": "https://myanimelist.net/anime/60098/Boku_no_Hero_Academia__Final_Season",
-        "fetchedAt": "2026-07-18T06:05:15.051Z",
+        "fetchedAt": "2026-07-18T06:19:51.182Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.71,
@@ -2373,7 +2897,7 @@
         "scale": 100,
         "votes": 43810,
         "url": "https://anilist.co/anime/182896",
-        "fetchedAt": "2026-07-18T06:05:15.018Z",
+        "fetchedAt": "2026-07-18T06:19:51.144Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.7,
@@ -2392,53 +2916,129 @@
     "commercial": null
   },
   {
-    "id": "anime:anilist-1",
+    "id": "anime:anilist-101348",
     "medium": "anime",
     "title": {
-      "zh": "Cowboy Bebop",
-      "original": "カウボーイビバップ"
+      "zh": "冰海战记",
+      "original": "ヴィンランド・サガ"
     },
-    "year": 1998,
+    "year": 2019,
     "format": "TV",
     "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1-GCsPm7waJ4kS.png",
-      "color": "#f16b50",
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101348-2fhDFPCuMNiz.jpg",
+      "color": "#f16b5d",
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.75,
+      "bangumi": {
+        "raw": 8.3,
         "scale": 10,
-        "votes": 1068404,
-        "url": "https://myanimelist.net/anime/1/Cowboy_Bebop",
-        "fetchedAt": "2026-07-18T06:05:15.047Z",
+        "votes": 13116,
+        "url": "https://bgm.tv/subject/240386",
+        "fetchedAt": "2026-07-18T06:19:51.203Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.3,
+        "voteConfidence": 0.9425,
+        "effectiveWeight": 0.2262,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 8.78,
+        "scale": 10,
+        "votes": 1077711,
+        "url": "https://myanimelist.net/anime/37521/Vinland_Saga",
+        "fetchedAt": "2026-07-18T06:19:51.179Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
-        "normalized": 8.75,
-        "voteConfidence": 0.9862,
+        "normalized": 8.78,
+        "voteConfidence": 0.9863,
         "effectiveWeight": 0.1775,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 87,
+        "scale": 100,
+        "votes": 233875,
+        "url": "https://anilist.co/anime/101348",
+        "fetchedAt": "2026-07-18T06:19:51.144Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.9669,
+        "effectiveWeight": 0.174,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.4032,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5777,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:anilist-20595",
+    "medium": "anime",
+    "title": {
+      "zh": "虫师 续章",
+      "original": "蟲師 続章"
+    },
+    "year": 2014,
+    "format": "TV",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20595-HcUeaAnvaUhM.jpg",
+      "color": "#f19335",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.5,
+        "scale": 10,
+        "votes": 4798,
+        "url": "https://bgm.tv/subject/92705",
+        "fetchedAt": "2026-07-18T06:19:51.197Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.8571,
+        "effectiveWeight": 0.2057,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 8.69,
+        "scale": 10,
+        "votes": 128895,
+        "url": "https://myanimelist.net/anime/21939/Mushishi_Zoku_Shou",
+        "fetchedAt": "2026-07-18T06:19:51.184Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.69,
+        "voteConfidence": 0.8958,
+        "effectiveWeight": 0.1612,
         "calibrationMode": "identity-fallback"
       },
       "anilist": {
         "raw": 86,
         "scale": 100,
-        "votes": 170305,
-        "url": "https://anilist.co/anime/1",
-        "fetchedAt": "2026-07-18T06:05:15.026Z",
+        "votes": 22120,
+        "url": "https://anilist.co/anime/20595",
+        "fetchedAt": "2026-07-18T06:19:51.155Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
-        "voteConfidence": 0.9551,
-        "effectiveWeight": 0.1719,
+        "voteConfidence": 0.7344,
+        "effectiveWeight": 0.1322,
         "calibrationMode": "identity-fallback"
       }
     },
     "score": {
-      "value": 8.4038,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3494,
+      "value": 8.3977,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.4991,
       "status": "ranked"
     },
     "commercial": null
@@ -2464,7 +3064,7 @@
         "scale": 10,
         "votes": 116864,
         "url": "https://myanimelist.net/anime/36838/Gintama_Shirogane_no_Tamashii-hen",
-        "fetchedAt": "2026-07-18T06:05:15.045Z",
+        "fetchedAt": "2026-07-18T06:19:51.178Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.81,
@@ -2477,7 +3077,7 @@
         "scale": 100,
         "votes": 23800,
         "url": "https://anilist.co/anime/100784",
-        "fetchedAt": "2026-07-18T06:05:15.023Z",
+        "fetchedAt": "2026-07-18T06:19:51.152Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -2516,7 +3116,7 @@
         "scale": 10,
         "votes": 187641,
         "url": "https://myanimelist.net/anime/60489/Takopii_no_Genzai",
-        "fetchedAt": "2026-07-18T06:05:15.046Z",
+        "fetchedAt": "2026-07-18T06:19:51.179Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.75,
@@ -2529,7 +3129,7 @@
         "scale": 100,
         "votes": 48346,
         "url": "https://anilist.co/anime/185407",
-        "fetchedAt": "2026-07-18T06:05:15.020Z",
+        "fetchedAt": "2026-07-18T06:19:51.147Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -2543,6 +3143,46 @@
       "sourceCount": 2,
       "coverage": 0.6,
       "totalWeight": 0.3211,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:bangumi-237",
+    "medium": "anime",
+    "title": {
+      "zh": "攻壳机动队",
+      "original": "GHOST IN THE SHELL / 攻殻機動隊"
+    },
+    "year": 1995,
+    "format": "剧场版",
+    "cover": {
+      "url": "https://lain.bgm.tv/pic/cover/l/53/9f/237_78UdL.jpg",
+      "color": null,
+      "source": "bangumi"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.8,
+        "scale": 10,
+        "votes": 12724,
+        "url": "https://bgm.tv/subject/237",
+        "fetchedAt": "2026-07-18T06:19:51.192Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.8,
+        "voteConfidence": 0.9408,
+        "effectiveWeight": 0.2258,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": null,
+      "anilist": null
+    },
+    "score": {
+      "value": 8.383,
+      "sourceCount": 1,
+      "coverage": 0.4,
+      "totalWeight": 0.2258,
       "status": "ranked"
     },
     "commercial": null
@@ -2568,7 +3208,7 @@
         "scale": 10,
         "votes": 850066,
         "url": "https://myanimelist.net/anime/51009/Jujutsu_Kaisen_2nd_Season",
-        "fetchedAt": "2026-07-18T06:05:15.052Z",
+        "fetchedAt": "2026-07-18T06:19:51.184Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.7,
@@ -2581,7 +3221,7 @@
         "scale": 100,
         "votes": 213977,
         "url": "https://anilist.co/anime/145064",
-        "fetchedAt": "2026-07-18T06:05:15.021Z",
+        "fetchedAt": "2026-07-18T06:19:51.148Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -2595,6 +3235,70 @@
       "sourceCount": 2,
       "coverage": 0.6,
       "totalWeight": 0.3504,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:anilist-17074",
+    "medium": "anime",
+    "title": {
+      "zh": "物语系列 第二季",
+      "original": "〈物語〉シリーズ セカンドシーズン"
+    },
+    "year": 2013,
+    "format": "TV",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17074-xMhVAZsEDH66.png",
+      "color": "#43a1e4",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.2,
+        "scale": 10,
+        "votes": 13136,
+        "url": "https://bgm.tv/subject/68812",
+        "fetchedAt": "2026-07-18T06:19:51.210Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.2,
+        "voteConfidence": 0.9426,
+        "effectiveWeight": 0.2262,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 8.76,
+        "scale": 10,
+        "votes": 382144,
+        "url": "https://myanimelist.net/anime/17074/Monogatari_Series__Second_Season",
+        "fetchedAt": "2026-07-18T06:19:51.179Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.76,
+        "voteConfidence": 0.9622,
+        "effectiveWeight": 0.1732,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 88,
+        "scale": 100,
+        "votes": 82223,
+        "url": "https://anilist.co/anime/17074",
+        "fetchedAt": "2026-07-18T06:19:51.143Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.8,
+        "voteConfidence": 0.9113,
+        "effectiveWeight": 0.164,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.38,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.5634,
       "status": "ranked"
     },
     "commercial": null
@@ -2620,7 +3324,7 @@
         "scale": 10,
         "votes": 1130921,
         "url": "https://myanimelist.net/anime/47778/Kimetsu_no_Yaiba__Yuukaku-hen",
-        "fetchedAt": "2026-07-18T06:05:15.053Z",
+        "fetchedAt": "2026-07-18T06:19:51.184Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.69,
@@ -2633,7 +3337,7 @@
         "scale": 100,
         "votes": 243343,
         "url": "https://anilist.co/anime/142329",
-        "fetchedAt": "2026-07-18T06:05:15.026Z",
+        "fetchedAt": "2026-07-18T06:19:51.155Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -2647,6 +3351,122 @@
       "sourceCount": 2,
       "coverage": 0.6,
       "totalWeight": 0.3519,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:anilist-3297",
+    "medium": "anime",
+    "title": {
+      "zh": "水星领航员 第三季",
+      "original": "ARIA The ORIGINATION"
+    },
+    "year": 2008,
+    "format": "TV",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3297-FHuyO7uiefNg.png",
+      "color": "#5daef1",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.7,
+        "scale": 10,
+        "votes": 2896,
+        "url": "https://bgm.tv/subject/1270",
+        "fetchedAt": "2026-07-18T06:19:51.194Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.7835,
+        "effectiveWeight": 0.1881,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 8.48,
+        "scale": 10,
+        "votes": 34871,
+        "url": "https://myanimelist.net/anime/3297/Aria_the_Origination",
+        "fetchedAt": "2026-07-18T06:19:58.002Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.48,
+        "voteConfidence": 0.6992,
+        "effectiveWeight": 0.1259,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 8416,
+        "url": "https://anilist.co/anime/3297",
+        "fetchedAt": "2026-07-18T06:19:51.155Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.5127,
+        "effectiveWeight": 0.0923,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.378,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.4063,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:anilist-437",
+    "medium": "anime",
+    "title": {
+      "zh": "蓝色恐惧",
+      "original": "PERFECT BLUE"
+    },
+    "year": 1998,
+    "format": "MOVIE",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx437-69NMlXKFeuse.jpg",
+      "color": "#1a356b",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.7,
+        "scale": 10,
+        "votes": 11320,
+        "url": "https://bgm.tv/subject/839",
+        "fetchedAt": "2026-07-18T06:19:51.193Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.934,
+        "effectiveWeight": 0.2242,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 103011,
+        "url": "https://anilist.co/anime/437",
+        "fetchedAt": "2026-07-18T06:19:51.165Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.9279,
+        "effectiveWeight": 0.167,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.375,
+      "sourceCount": 2,
+      "coverage": 0.7,
+      "totalWeight": 0.3912,
       "status": "ranked"
     },
     "commercial": null
@@ -2672,7 +3492,7 @@
         "scale": 10,
         "votes": 241957,
         "url": "https://myanimelist.net/anime/53998/Bleach__Sennen_Kessen-hen_-_Ketsubetsu-tan",
-        "fetchedAt": "2026-07-18T06:05:15.052Z",
+        "fetchedAt": "2026-07-18T06:19:51.182Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.7,
@@ -2685,7 +3505,7 @@
         "scale": 100,
         "votes": 56267,
         "url": "https://anilist.co/anime/159322",
-        "fetchedAt": "2026-07-18T06:05:15.024Z",
+        "fetchedAt": "2026-07-18T06:19:51.153Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -2704,53 +3524,65 @@
     "commercial": null
   },
   {
-    "id": "anime:anilist-104578",
+    "id": "anime:anilist-177385",
     "medium": "anime",
     "title": {
-      "zh": "Attack on Titan Season 3 Part 2",
-      "original": "進撃の巨人 Season３ Part.2"
+      "zh": "异国日记",
+      "original": "違国日記"
     },
-    "year": 2019,
+    "year": 2026,
     "format": "TV",
     "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99147-AiPDD8cwlCfi.jpg",
-      "color": "#4386e4",
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177385-TBpvkGdF28R7.png",
+      "color": "#aee4e4",
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.65,
+      "bangumi": {
+        "raw": 8.4,
         "scale": 10,
-        "votes": 1827710,
-        "url": "https://myanimelist.net/anime/35760/Shingeki_no_Kyojin_Season_3",
-        "fetchedAt": "2026-07-18T06:05:15.057Z",
+        "votes": 7340,
+        "url": "https://bgm.tv/subject/493016",
+        "fetchedAt": "2026-07-18T06:19:51.199Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.4,
+        "voteConfidence": 0.9017,
+        "effectiveWeight": 0.2164,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": {
+        "raw": 8.73,
+        "scale": 10,
+        "votes": 43091,
+        "url": "https://myanimelist.net/anime/58788/Ikoku_Nikki",
+        "fetchedAt": "2026-07-18T06:19:51.180Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
-        "normalized": 8.65,
-        "voteConfidence": 0.9919,
-        "effectiveWeight": 0.1785,
+        "normalized": 8.73,
+        "voteConfidence": 0.7418,
+        "effectiveWeight": 0.1335,
         "calibrationMode": "identity-fallback"
       },
       "anilist": {
-        "raw": 86,
+        "raw": 87,
         "scale": 100,
-        "votes": 377807,
-        "url": "https://anilist.co/anime/99147",
-        "fetchedAt": "2026-07-18T06:05:15.026Z",
+        "votes": 13229,
+        "url": "https://anilist.co/anime/177385",
+        "fetchedAt": "2026-07-18T06:19:51.144Z",
         "via": "AniList GraphQL API",
         "stale": false,
-        "normalized": 8.6,
-        "voteConfidence": 0.9793,
-        "effectiveWeight": 0.1763,
+        "normalized": 8.7,
+        "voteConfidence": 0.6232,
+        "effectiveWeight": 0.1122,
         "calibrationMode": "identity-fallback"
       }
     },
     "score": {
-      "value": 8.3627,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3548,
+      "value": 8.3662,
+      "sourceCount": 3,
+      "coverage": 1,
+      "totalWeight": 0.4621,
       "status": "ranked"
     },
     "commercial": null
@@ -2776,7 +3608,7 @@
         "scale": 10,
         "votes": 192535,
         "url": "https://myanimelist.net/anime/44074/Shiguang_Dailiren",
-        "fetchedAt": "2026-07-18T06:05:15.052Z",
+        "fetchedAt": "2026-07-18T06:19:51.183Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.7,
@@ -2789,7 +3621,7 @@
         "scale": 100,
         "votes": 47474,
         "url": "https://anilist.co/anime/126403",
-        "fetchedAt": "2026-07-18T06:05:15.025Z",
+        "fetchedAt": "2026-07-18T06:19:51.154Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -2828,7 +3660,7 @@
         "scale": 10,
         "votes": 125380,
         "url": "https://myanimelist.net/anime/52215/Chi_Chikyuu_no_Undou_ni_Tsuite",
-        "fetchedAt": "2026-07-18T06:05:15.050Z",
+        "fetchedAt": "2026-07-18T06:19:51.181Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.72,
@@ -2841,7 +3673,7 @@
         "scale": 100,
         "votes": 33105,
         "url": "https://anilist.co/anime/151514",
-        "fetchedAt": "2026-07-18T06:05:15.023Z",
+        "fetchedAt": "2026-07-18T06:19:51.151Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -2880,7 +3712,7 @@
         "scale": 10,
         "votes": 56653,
         "url": "https://myanimelist.net/anime/40682/Kingdom_3rd_Season",
-        "fetchedAt": "2026-07-18T06:05:15.044Z",
+        "fetchedAt": "2026-07-18T06:19:51.178Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.85,
@@ -2893,7 +3725,7 @@
         "scale": 100,
         "votes": 8453,
         "url": "https://anilist.co/anime/113108",
-        "fetchedAt": "2026-07-18T06:05:15.023Z",
+        "fetchedAt": "2026-07-18T06:19:51.152Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -2907,58 +3739,6 @@
       "sourceCount": 2,
       "coverage": 0.6,
       "totalWeight": 0.2348,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-166216",
-    "medium": "anime",
-    "title": {
-      "zh": "The Dangers in My Heart Season 2",
-      "original": "僕の心のヤバイやつ 第2期"
-    },
-    "year": 2024,
-    "format": "TV",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166216-vCMkF4e3x5FB.jpg",
-      "color": "#e4ae5d",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.68,
-        "scale": 10,
-        "votes": 181828,
-        "url": "https://myanimelist.net/anime/55690/Boku_no_Kokoro_no_Yabai_Yatsu_2nd_Season",
-        "fetchedAt": "2026-07-18T06:05:15.054Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 8.68,
-        "voteConfidence": 0.9238,
-        "effectiveWeight": 0.1663,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 86,
-        "scale": 100,
-        "votes": 44403,
-        "url": "https://anilist.co/anime/166216",
-        "fetchedAt": "2026-07-18T06:05:15.022Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.6,
-        "voteConfidence": 0.8473,
-        "effectiveWeight": 0.1525,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.3514,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3188,
       "status": "ranked"
     },
     "commercial": null
@@ -2984,7 +3764,7 @@
         "scale": 10,
         "votes": 165288,
         "url": "https://myanimelist.net/anime/56784/Bleach__Sennen_Kessen-hen_-_Soukoku-tan",
-        "fetchedAt": "2026-07-18T06:05:15.054Z",
+        "fetchedAt": "2026-07-18T06:19:51.185Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.68,
@@ -2997,7 +3777,7 @@
         "scale": 100,
         "votes": 39952,
         "url": "https://anilist.co/anime/169755",
-        "fetchedAt": "2026-07-18T06:05:15.021Z",
+        "fetchedAt": "2026-07-18T06:19:51.148Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -3036,7 +3816,7 @@
         "scale": 10,
         "votes": 206509,
         "url": "https://myanimelist.net/anime/59192/Kimetsu_no_Yaiba_Movie_1__Mugenjou-hen_-_Akaza_Sairai",
-        "fetchedAt": "2026-07-18T06:05:15.056Z",
+        "fetchedAt": "2026-07-18T06:19:51.187Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.66,
@@ -3049,7 +3829,7 @@
         "scale": 100,
         "votes": 54974,
         "url": "https://anilist.co/anime/178788",
-        "fetchedAt": "2026-07-18T06:05:15.021Z",
+        "fetchedAt": "2026-07-18T06:19:51.147Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -3101,7 +3881,7 @@
         "scale": 100,
         "votes": 19220,
         "url": "https://anilist.co/anime/20751",
-        "fetchedAt": "2026-07-18T06:05:15.022Z",
+        "fetchedAt": "2026-07-18T06:19:51.149Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -3120,261 +3900,41 @@
     "commercial": null
   },
   {
-    "id": "anime:anilist-1575",
+    "id": "anime:bangumi-321",
     "medium": "anime",
     "title": {
-      "zh": "Code Geass: Lelouch of the Rebellion",
-      "original": "コードギアス 反逆のルルーシュ"
+      "zh": "机动警察剧场版2 和平保卫战",
+      "original": "機動警察パトレイバー 2 the Movie"
     },
-    "year": 2006,
-    "format": "TV",
+    "year": 1993,
+    "format": "剧场版",
     "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1575-hsmWM2ydNm1m.jpg",
-      "color": "#c9d678",
-      "source": "anilist"
+      "url": "https://lain.bgm.tv/pic/cover/l/ca/f1/321_j3YWy.jpg",
+      "color": null,
+      "source": "bangumi"
     },
     "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.71,
+      "bangumi": {
+        "raw": 8.8,
         "scale": 10,
-        "votes": 1533830,
-        "url": "https://myanimelist.net/anime/1575/Code_Geass__Hangyaku_no_Lelouch",
-        "fetchedAt": "2026-07-18T06:05:15.052Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 8.71,
-        "voteConfidence": 0.9903,
-        "effectiveWeight": 0.1783,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 85,
-        "scale": 100,
-        "votes": 236519,
-        "url": "https://anilist.co/anime/1575",
-        "fetchedAt": "2026-07-18T06:05:15.034Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.5,
-        "voteConfidence": 0.9673,
-        "effectiveWeight": 0.1741,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.3445,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3524,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-20992",
-    "medium": "anime",
-    "title": {
-      "zh": "HAIKYU!! 2nd Season",
-      "original": "ハイキュー!! セカンドシーズン"
-    },
-    "year": 2015,
-    "format": "TV",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20992-aHgNbcalVEqk.png",
-      "color": "#f1860d",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.61,
-        "scale": 10,
-        "votes": 1034147,
-        "url": "https://myanimelist.net/anime/28891/Haikyuu_Second_Season",
-        "fetchedAt": "2026-07-17T16:43:22.368Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": true,
-        "normalized": 8.61,
-        "voteConfidence": 0.9857,
-        "effectiveWeight": 0.1774,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 86,
-        "scale": 100,
-        "votes": 209795,
-        "url": "https://anilist.co/anime/20992",
-        "fetchedAt": "2026-07-18T06:05:15.025Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.6,
-        "voteConfidence": 0.9633,
-        "effectiveWeight": 0.1734,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.3425,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3508,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-177385",
-    "medium": "anime",
-    "title": {
-      "zh": "Journal with Witch",
-      "original": "違国日記"
-    },
-    "year": 2026,
-    "format": "TV",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177385-TBpvkGdF28R7.png",
-      "color": "#aee4e4",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.73,
-        "scale": 10,
-        "votes": 43091,
-        "url": "https://myanimelist.net/anime/58788/Ikoku_Nikki",
-        "fetchedAt": "2026-07-18T06:05:15.047Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 8.73,
-        "voteConfidence": 0.7418,
-        "effectiveWeight": 0.1335,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 87,
-        "scale": 100,
-        "votes": 13229,
-        "url": "https://anilist.co/anime/177385",
-        "fetchedAt": "2026-07-18T06:05:15.018Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.7,
-        "voteConfidence": 0.6232,
-        "effectiveWeight": 0.1122,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.3415,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.2457,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-2921",
-    "medium": "anime",
-    "title": {
-      "zh": "Tomorrow's Joe 2",
-      "original": "あしたのジョー２"
-    },
-    "year": 1980,
-    "format": "TV",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2921-PxFepBRCGD0K.jpg",
-      "color": "#f13550",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.81,
-        "scale": 10,
-        "votes": 26765,
-        "url": "https://myanimelist.net/anime/2921/Ashita_no_Joe_2",
-        "fetchedAt": "2026-07-18T06:05:15.045Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 8.81,
-        "voteConfidence": 0.6408,
-        "effectiveWeight": 0.1154,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 88,
-        "scale": 100,
-        "votes": 6731,
-        "url": "https://anilist.co/anime/2921",
-        "fetchedAt": "2026-07-18T06:05:15.016Z",
-        "via": "AniList GraphQL API",
+        "votes": 4015,
+        "url": "https://bgm.tv/subject/321",
+        "fetchedAt": "2026-07-18T06:19:51.192Z",
+        "via": "Bangumi API v0",
         "stale": false,
         "normalized": 8.8,
-        "voteConfidence": 0.4569,
-        "effectiveWeight": 0.0822,
+        "voteConfidence": 0.8339,
+        "effectiveWeight": 0.2001,
         "calibrationMode": "identity-fallback"
-      }
+      },
+      "mal": null,
+      "anilist": null
     },
     "score": {
       "value": 8.3402,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.1976,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-20595",
-    "medium": "anime",
-    "title": {
-      "zh": "MUSHI-SHI The Next Passage",
-      "original": "蟲師 続章"
-    },
-    "year": 2014,
-    "format": "TV",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20595-HcUeaAnvaUhM.jpg",
-      "color": "#f19335",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.69,
-        "scale": 10,
-        "votes": 128895,
-        "url": "https://myanimelist.net/anime/21939/Mushishi_Zoku_Shou",
-        "fetchedAt": "2026-07-18T06:05:15.053Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 8.69,
-        "voteConfidence": 0.8958,
-        "effectiveWeight": 0.1612,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 86,
-        "scale": 100,
-        "votes": 22120,
-        "url": "https://anilist.co/anime/20595",
-        "fetchedAt": "2026-07-18T06:05:15.026Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.6,
-        "voteConfidence": 0.7344,
-        "effectiveWeight": 0.1322,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.3365,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.2934,
+      "sourceCount": 1,
+      "coverage": 0.4,
+      "totalWeight": 0.2001,
       "status": "ranked"
     },
     "commercial": null
@@ -3400,7 +3960,7 @@
         "scale": 10,
         "votes": 122627,
         "url": "https://myanimelist.net/anime/60058/Oshi_no_Ko_3rd_Season",
-        "fetchedAt": "2026-07-18T06:05:15.053Z",
+        "fetchedAt": "2026-07-18T06:19:51.184Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.69,
@@ -3413,7 +3973,7 @@
         "scale": 100,
         "votes": 22623,
         "url": "https://anilist.co/anime/182587",
-        "fetchedAt": "2026-07-18T06:05:15.024Z",
+        "fetchedAt": "2026-07-18T06:19:51.152Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -3452,7 +4012,7 @@
         "scale": 10,
         "votes": 1100194,
         "url": "https://myanimelist.net/anime/33352/Violet_Evergarden",
-        "fetchedAt": "2026-07-18T06:05:15.053Z",
+        "fetchedAt": "2026-07-18T06:19:51.184Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.69,
@@ -3465,7 +4025,7 @@
         "scale": 100,
         "votes": 226902,
         "url": "https://anilist.co/anime/21827",
-        "fetchedAt": "2026-07-18T06:05:15.028Z",
+        "fetchedAt": "2026-07-18T06:19:51.158Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.5,
@@ -3504,7 +4064,7 @@
         "scale": 10,
         "votes": 40028,
         "url": "https://myanimelist.net/anime/39894/Hibike_Euphonium_3",
-        "fetchedAt": "2026-07-18T06:05:15.047Z",
+        "fetchedAt": "2026-07-18T06:19:51.180Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.73,
@@ -3517,7 +4077,7 @@
         "scale": 100,
         "votes": 12437,
         "url": "https://anilist.co/anime/109731",
-        "fetchedAt": "2026-07-18T06:05:15.018Z",
+        "fetchedAt": "2026-07-18T06:19:51.144Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.7,
@@ -3531,58 +4091,6 @@
       "sourceCount": 2,
       "coverage": 0.6,
       "totalWeight": 0.2404,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-20607",
-    "medium": "anime",
-    "title": {
-      "zh": "Ping Pong the Animation",
-      "original": "ピンポン THE ANIMATION"
-    },
-    "year": 2014,
-    "format": "TV",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20607-fIOxVISIl0HY.jpg",
-      "color": "#e47843",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.63,
-        "scale": 10,
-        "votes": 205930,
-        "url": "https://myanimelist.net/anime/22135/Ping_Pong_the_Animation",
-        "fetchedAt": "2026-07-18T06:05:15.058Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 8.63,
-        "voteConfidence": 0.9321,
-        "effectiveWeight": 0.1678,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 86,
-        "scale": 100,
-        "votes": 49943,
-        "url": "https://anilist.co/anime/20607",
-        "fetchedAt": "2026-07-18T06:05:15.027Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.6,
-        "voteConfidence": 0.8619,
-        "effectiveWeight": 0.1551,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.3319,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3229,
       "status": "ranked"
     },
     "commercial": null
@@ -3621,7 +4129,7 @@
         "scale": 100,
         "votes": 71372,
         "url": "https://anilist.co/anime/172463",
-        "fetchedAt": "2026-07-18T06:05:15.025Z",
+        "fetchedAt": "2026-07-18T06:19:51.154Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -3635,110 +4143,6 @@
       "sourceCount": 2,
       "coverage": 0.6,
       "totalWeight": 0.3324,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-431",
-    "medium": "anime",
-    "title": {
-      "zh": "Howl‘s Moving Castle",
-      "original": "ハウルの動く城"
-    },
-    "year": 2004,
-    "format": "MOVIE",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx431-o8Lj3XkjHm2k.jpg",
-      "color": "#0daee4",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.67,
-        "scale": 10,
-        "votes": 1033581,
-        "url": "https://myanimelist.net/anime/431/Howl_no_Ugoku_Shiro",
-        "fetchedAt": "2026-07-18T06:05:15.055Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 8.67,
-        "voteConfidence": 0.9857,
-        "effectiveWeight": 0.1774,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 85,
-        "scale": 100,
-        "votes": 195354,
-        "url": "https://anilist.co/anime/431",
-        "fetchedAt": "2026-07-18T06:05:15.034Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.5,
-        "voteConfidence": 0.9607,
-        "effectiveWeight": 0.1729,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.3255,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3503,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-164",
-    "medium": "anime",
-    "title": {
-      "zh": "Princess Mononoke",
-      "original": "もののけ姫"
-    },
-    "year": 1997,
-    "format": "MOVIE",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx164-ySuGzCWVw2cL.jpg",
-      "color": null,
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.67,
-        "scale": 10,
-        "votes": 893564,
-        "url": "https://myanimelist.net/anime/164/Mononoke_Hime",
-        "fetchedAt": "2026-07-18T06:05:15.056Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 8.67,
-        "voteConfidence": 0.9835,
-        "effectiveWeight": 0.177,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 85,
-        "scale": 100,
-        "votes": 145278,
-        "url": "https://anilist.co/anime/164",
-        "fetchedAt": "2026-07-18T06:05:15.035Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.5,
-        "voteConfidence": 0.9478,
-        "effectiveWeight": 0.1706,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.3242,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3476,
       "status": "ranked"
     },
     "commercial": null
@@ -3777,7 +4181,7 @@
         "scale": 100,
         "votes": 52618,
         "url": "https://anilist.co/anime/174788",
-        "fetchedAt": "2026-07-18T06:05:15.024Z",
+        "fetchedAt": "2026-07-18T06:19:51.153Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -3791,162 +4195,6 @@
       "sourceCount": 2,
       "coverage": 0.6,
       "totalWeight": 0.3194,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-7311",
-    "medium": "anime",
-    "title": {
-      "zh": "The Disappearance of Haruhi Suzumiya",
-      "original": "涼宮ハルヒの消失"
-    },
-    "year": 2010,
-    "format": "MOVIE",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7311-9Mfc1YRHwCCW.jpg",
-      "color": "#f1d6bb",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.59,
-        "scale": 10,
-        "votes": 330755,
-        "url": "https://myanimelist.net/anime/7311/Suzumiya_Haruhi_no_Shoushitsu",
-        "fetchedAt": "2026-07-17T16:43:44.908Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": true,
-        "normalized": 8.59,
-        "voteConfidence": 0.9566,
-        "effectiveWeight": 0.1722,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 86,
-        "scale": 100,
-        "votes": 60269,
-        "url": "https://anilist.co/anime/7311",
-        "fetchedAt": "2026-07-18T06:05:15.027Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.6,
-        "voteConfidence": 0.8828,
-        "effectiveWeight": 0.1589,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.32,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3311,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-21733",
-    "medium": "anime",
-    "title": {
-      "zh": "Descending Stories: Showa Genroku Rakugo Shinju",
-      "original": "昭和元禄落語心中～助六再び篇～"
-    },
-    "year": 2017,
-    "format": "TV",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21733-SUV6bCTsU51u.png",
-      "color": "#e4d66b",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.7,
-        "scale": 10,
-        "votes": 70053,
-        "url": "https://myanimelist.net/anime/33095/Shouwa_Genroku_Rakugo_Shinjuu__Sukeroku_Futatabi-hen",
-        "fetchedAt": "2026-07-18T06:05:15.052Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 8.7,
-        "voteConfidence": 0.8236,
-        "effectiveWeight": 0.1483,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 86,
-        "scale": 100,
-        "votes": 16907,
-        "url": "https://anilist.co/anime/21733",
-        "fetchedAt": "2026-07-18T06:05:15.022Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.6,
-        "voteConfidence": 0.6788,
-        "effectiveWeight": 0.1222,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.3187,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.2705,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-2001",
-    "medium": "anime",
-    "title": {
-      "zh": "Gurren Lagann",
-      "original": "天元突破グレンラガン"
-    },
-    "year": 2007,
-    "format": "TV",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2001-XwRnjzGeFWRQ.png",
-      "color": "#f15d35",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.65,
-        "scale": 10,
-        "votes": 983836,
-        "url": "https://myanimelist.net/anime/2001/Tengen_Toppa_Gurren_Lagann",
-        "fetchedAt": "2026-07-18T06:05:15.056Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 8.65,
-        "voteConfidence": 0.985,
-        "effectiveWeight": 0.1773,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 85,
-        "scale": 100,
-        "votes": 158083,
-        "url": "https://anilist.co/anime/2001",
-        "fetchedAt": "2026-07-18T06:05:15.034Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.5,
-        "voteConfidence": 0.9518,
-        "effectiveWeight": 0.1713,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.3158,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3486,
       "status": "ranked"
     },
     "commercial": null
@@ -3972,7 +4220,7 @@
         "scale": 10,
         "votes": 25349,
         "url": "https://myanimelist.net/anime/59193/Mushoku_Tensei_III__Isekai_Ittara_Honki_Dasu",
-        "fetchedAt": "2026-07-18T06:05:15.043Z",
+        "fetchedAt": "2026-07-18T06:19:51.177Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.91,
@@ -3985,7 +4233,7 @@
         "scale": 100,
         "votes": 6718,
         "url": "https://anilist.co/anime/178789",
-        "fetchedAt": "2026-07-18T06:05:15.025Z",
+        "fetchedAt": "2026-07-18T06:19:51.154Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -3999,6 +4247,86 @@
       "sourceCount": 2,
       "coverage": 0.6,
       "totalWeight": 0.1953,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:bangumi-265",
+    "medium": "anime",
+    "title": {
+      "zh": "新世纪福音战士",
+      "original": "新世紀エヴァンゲリオン"
+    },
+    "year": 1995,
+    "format": "TV",
+    "cover": {
+      "url": "https://lain.bgm.tv/pic/cover/l/e5/69/265_Z5Uou.jpg",
+      "color": null,
+      "source": "bangumi"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.7,
+        "scale": 10,
+        "votes": 33881,
+        "url": "https://bgm.tv/subject/265",
+        "fetchedAt": "2026-07-18T06:19:51.194Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.9769,
+        "effectiveWeight": 0.2345,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": null,
+      "anilist": null
+    },
+    "score": {
+      "value": 8.3134,
+      "sourceCount": 1,
+      "coverage": 0.4,
+      "totalWeight": 0.2345,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:bangumi-110467",
+    "medium": "anime",
+    "title": {
+      "zh": "白箱",
+      "original": "SHIROBAKO"
+    },
+    "year": 2014,
+    "format": "TV",
+    "cover": {
+      "url": "https://lain.bgm.tv/pic/cover/l/73/26/110467_Fx9tT.jpg",
+      "color": null,
+      "source": "bangumi"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.7,
+        "scale": 10,
+        "votes": 23133,
+        "url": "https://bgm.tv/subject/110467",
+        "fetchedAt": "2026-07-18T06:19:51.192Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.9666,
+        "effectiveWeight": 0.232,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": null,
+      "anilist": null
+    },
+    "score": {
+      "value": 8.3099,
+      "sourceCount": 1,
+      "coverage": 0.4,
+      "totalWeight": 0.232,
       "status": "ranked"
     },
     "commercial": null
@@ -4024,7 +4352,7 @@
         "scale": 10,
         "votes": 112507,
         "url": "https://myanimelist.net/anime/52742/Haikyuu_Movie__Gomisuteba_no_Kessen",
-        "fetchedAt": "2026-07-18T06:05:15.058Z",
+        "fetchedAt": "2026-07-18T06:19:51.191Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.62,
@@ -4037,7 +4365,7 @@
         "scale": 100,
         "votes": 27538,
         "url": "https://anilist.co/anime/153658",
-        "fetchedAt": "2026-07-18T06:05:15.023Z",
+        "fetchedAt": "2026-07-18T06:19:51.150Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -4076,7 +4404,7 @@
         "scale": 10,
         "votes": 37180,
         "url": "https://myanimelist.net/anime/45649/The_First_Slam_Dunk",
-        "fetchedAt": "2026-07-18T06:05:15.052Z",
+        "fetchedAt": "2026-07-18T06:19:51.183Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.7,
@@ -4089,7 +4417,7 @@
         "scale": 100,
         "votes": 10220,
         "url": "https://anilist.co/anime/128207",
-        "fetchedAt": "2026-07-18T06:05:15.020Z",
+        "fetchedAt": "2026-07-18T06:19:51.147Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.7,
@@ -4128,7 +4456,7 @@
         "scale": 10,
         "votes": 38599,
         "url": "https://myanimelist.net/anime/57647/Uma_Musume__Pretty_Derby_-_Shin_Jidai_no_Tobira",
-        "fetchedAt": "2026-07-18T06:05:15.057Z",
+        "fetchedAt": "2026-07-18T06:19:51.189Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.64,
@@ -4141,7 +4469,7 @@
         "scale": 100,
         "votes": 14499,
         "url": "https://anilist.co/anime/172420",
-        "fetchedAt": "2026-07-18T06:05:15.020Z",
+        "fetchedAt": "2026-07-18T06:19:51.146Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.7,
@@ -4160,53 +4488,41 @@
     "commercial": null
   },
   {
-    "id": "anime:anilist-457",
+    "id": "anime:bangumi-840",
     "medium": "anime",
     "title": {
-      "zh": "MUSHI-SHI",
-      "original": "蟲師"
+      "zh": "千年女优",
+      "original": "千年女優"
     },
-    "year": 2005,
-    "format": "TV",
+    "year": 2002,
+    "format": "剧场版",
     "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx457-l6cTtNgI9Bi6.png",
-      "color": "#d6bb78",
-      "source": "anilist"
+      "url": "https://lain.bgm.tv/pic/cover/l/fa/83/840_JRk3Z.jpg",
+      "color": null,
+      "source": "bangumi"
     },
     "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.65,
+      "bangumi": {
+        "raw": 8.7,
         "scale": 10,
-        "votes": 299341,
-        "url": "https://myanimelist.net/anime/457/Mushishi",
-        "fetchedAt": "2026-07-18T06:05:15.056Z",
-        "via": "Jikan (MAL mirror)",
+        "votes": 12814,
+        "url": "https://bgm.tv/subject/840",
+        "fetchedAt": "2026-07-18T06:19:51.193Z",
+        "via": "Bangumi API v0",
         "stale": false,
-        "normalized": 8.65,
-        "voteConfidence": 0.9523,
-        "effectiveWeight": 0.1714,
+        "normalized": 8.7,
+        "voteConfidence": 0.9412,
+        "effectiveWeight": 0.2259,
         "calibrationMode": "identity-fallback"
       },
-      "anilist": {
-        "raw": 85,
-        "scale": 100,
-        "votes": 44310,
-        "url": "https://anilist.co/anime/457",
-        "fetchedAt": "2026-07-18T06:05:15.037Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.5,
-        "voteConfidence": 0.8471,
-        "effectiveWeight": 0.1525,
-        "calibrationMode": "identity-fallback"
-      }
+      "mal": null,
+      "anilist": null
     },
     "score": {
       "value": 8.3013,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3239,
+      "sourceCount": 1,
+      "coverage": 0.4,
+      "totalWeight": 0.2259,
       "status": "ranked"
     },
     "commercial": null
@@ -4245,7 +4561,7 @@
         "scale": 100,
         "votes": 25721,
         "url": "https://anilist.co/anime/136484",
-        "fetchedAt": "2026-07-18T06:05:15.025Z",
+        "fetchedAt": "2026-07-18T06:19:51.153Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -4264,365 +4580,93 @@
     "commercial": null
   },
   {
-    "id": "anime:anilist-5258",
+    "id": "anime:bangumi-238",
     "medium": "anime",
     "title": {
-      "zh": "Hajime no Ippo: The Fighting! New Challenger",
-      "original": "はじめの一歩 New Challenger"
+      "zh": "攻壳机动队2 无罪",
+      "original": "イノセンス"
     },
-    "year": 2009,
-    "format": "TV",
+    "year": 2004,
+    "format": "剧场版",
     "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5258-Qn6GBiSY57iT.jpg",
-      "color": "#e41a35",
-      "source": "anilist"
+      "url": "https://lain.bgm.tv/pic/cover/l/ac/1d/238_jJONA.jpg",
+      "color": null,
+      "source": "bangumi"
     },
     "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.67,
+      "bangumi": {
+        "raw": 8.7,
         "scale": 10,
-        "votes": 191028,
-        "url": "https://myanimelist.net/anime/5258/Hajime_no_Ippo__New_Challenger",
-        "fetchedAt": "2026-07-18T06:05:15.055Z",
-        "via": "Jikan (MAL mirror)",
+        "votes": 8177,
+        "url": "https://bgm.tv/subject/238",
+        "fetchedAt": "2026-07-18T06:19:51.193Z",
+        "via": "Bangumi API v0",
         "stale": false,
-        "normalized": 8.67,
-        "voteConfidence": 0.9272,
-        "effectiveWeight": 0.1669,
+        "normalized": 8.7,
+        "voteConfidence": 0.9109,
+        "effectiveWeight": 0.2186,
         "calibrationMode": "identity-fallback"
       },
-      "anilist": {
-        "raw": 85,
-        "scale": 100,
-        "votes": 24145,
-        "url": "https://anilist.co/anime/5258",
-        "fetchedAt": "2026-07-18T06:05:15.028Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.5,
-        "voteConfidence": 0.7511,
-        "effectiveWeight": 0.1352,
-        "calibrationMode": "identity-fallback"
-      }
+      "mal": null,
+      "anilist": null
     },
     "score": {
-      "value": 8.2966,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3021,
+      "value": 8.2905,
+      "sourceCount": 1,
+      "coverage": 0.4,
+      "totalWeight": 0.2186,
       "status": "ranked"
     },
     "commercial": null
   },
   {
-    "id": "anime:anilist-44",
+    "id": "anime:anilist-113024",
     "medium": "anime",
     "title": {
-      "zh": "Rurouni Kenshin OVA: Trust & Betrayal (Tsuioku-hen)",
-      "original": "るろうに剣心―明治剣客浪漫譚―追憶編"
-    },
-    "year": 1999,
-    "format": "OVA",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx44-MG5I672UbWAy.png",
-      "color": "#ffd6bb",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.69,
-        "scale": 10,
-        "votes": 144614,
-        "url": "https://myanimelist.net/anime/44/Rurouni_Kenshin__Meiji_Kenkaku_Romantan_-_Tsuioku-hen",
-        "fetchedAt": "2026-07-18T06:05:15.053Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 8.69,
-        "voteConfidence": 0.906,
-        "effectiveWeight": 0.1631,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 85,
-        "scale": 100,
-        "votes": 17876,
-        "url": "https://anilist.co/anime/44",
-        "fetchedAt": "2026-07-18T06:05:15.035Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.5,
-        "voteConfidence": 0.6908,
-        "effectiveWeight": 0.1243,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.2955,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.2874,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-156092",
-    "medium": "anime",
-    "title": {
-      "zh": "To Be Hero X",
-      "original": "凸变英雄X"
-    },
-    "year": 2025,
-    "format": "ONA",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156092-yHqgQZOF2mbg.jpg",
-      "color": "#d61a1a",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.67,
-        "scale": 10,
-        "votes": 116768,
-        "url": "https://myanimelist.net/anime/53447/Tu_Bian_Yingxiong_X",
-        "fetchedAt": "2026-07-18T06:05:15.055Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 8.67,
-        "voteConfidence": 0.8862,
-        "effectiveWeight": 0.1595,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 85,
-        "scale": 100,
-        "votes": 34688,
-        "url": "https://anilist.co/anime/156092",
-        "fetchedAt": "2026-07-18T06:05:15.033Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.5,
-        "voteConfidence": 0.8126,
-        "effectiveWeight": 0.1463,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.2952,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3058,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-128547",
-    "medium": "anime",
-    "title": {
-      "zh": "ODDTAXI",
-      "original": "オッドタクシー"
+      "zh": "剧场版 少女☆歌剧 Revue Starlight",
+      "original": "劇場版 少女☆歌劇 レヴュースタァライト"
     },
     "year": 2021,
-    "format": "TV",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128547-nNekWTKqmvEi.jpg",
-      "color": "#f1bb00",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.63,
-        "scale": 10,
-        "votes": 253333,
-        "url": "https://myanimelist.net/anime/46102/Odd_Taxi",
-        "fetchedAt": "2026-07-18T06:05:15.058Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 8.63,
-        "voteConfidence": 0.9441,
-        "effectiveWeight": 0.1699,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 85,
-        "scale": 100,
-        "votes": 60934,
-        "url": "https://anilist.co/anime/128547",
-        "fetchedAt": "2026-07-18T06:05:15.032Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.5,
-        "voteConfidence": 0.8839,
-        "effectiveWeight": 0.1591,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.2944,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.329,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-21719",
-    "medium": "anime",
-    "title": {
-      "zh": "Fate/stay night [Heaven’s Feel] III. spring song",
-      "original": "Fate/stay night[Heaven's Feel] ⅠⅠⅠ.spring song"
-    },
-    "year": 2020,
     "format": "MOVIE",
     "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21719-MSdTlkno0Z0u.jpg",
-      "color": "#e435c9",
+      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113024-OdzOh0OKFPTN.png",
+      "color": "#e45d50",
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.63,
+      "bangumi": {
+        "raw": 8.5,
         "scale": 10,
-        "votes": 225818,
-        "url": "https://myanimelist.net/anime/33050/Fate_stay_night_Movie__Heavens_Feel_-_III_Spring_Song",
-        "fetchedAt": "2026-07-18T06:05:15.058Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 8.63,
-        "voteConfidence": 0.9377,
-        "effectiveWeight": 0.1688,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 85,
-        "scale": 100,
-        "votes": 51883,
-        "url": "https://anilist.co/anime/21719",
-        "fetchedAt": "2026-07-18T06:05:15.031Z",
-        "via": "AniList GraphQL API",
+        "votes": 11059,
+        "url": "https://bgm.tv/subject/294135",
+        "fetchedAt": "2026-07-18T06:19:51.197Z",
+        "via": "Bangumi API v0",
         "stale": false,
         "normalized": 8.5,
-        "voteConfidence": 0.8664,
-        "effectiveWeight": 0.156,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.2917,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.3248,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-11665",
-    "medium": "anime",
-    "title": {
-      "zh": "Natsume's Book of Friends Season 4",
-      "original": "夏目友人帳 肆"
-    },
-    "year": 2012,
-    "format": "TV",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11665-nfbt94cwKySE.png",
-      "color": "#e4c986",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.63,
-        "scale": 10,
-        "votes": 118085,
-        "url": "https://myanimelist.net/anime/11665/Natsume_Yuujinchou_Shi",
-        "fetchedAt": "2026-07-18T06:05:15.058Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 8.63,
-        "voteConfidence": 0.8873,
-        "effectiveWeight": 0.1597,
+        "voteConfidence": 0.9325,
+        "effectiveWeight": 0.2238,
         "calibrationMode": "identity-fallback"
       },
+      "mal": null,
       "anilist": {
-        "raw": 85,
+        "raw": 87,
         "scale": 100,
-        "votes": 17737,
-        "url": "https://anilist.co/anime/11665",
-        "fetchedAt": "2026-07-18T06:05:15.032Z",
+        "votes": 7707,
+        "url": "https://anilist.co/anime/113024",
+        "fetchedAt": "2026-07-18T06:19:51.146Z",
         "via": "AniList GraphQL API",
         "stale": false,
-        "normalized": 8.5,
-        "voteConfidence": 0.6892,
-        "effectiveWeight": 0.124,
+        "normalized": 8.7,
+        "voteConfidence": 0.4907,
+        "effectiveWeight": 0.0883,
         "calibrationMode": "identity-fallback"
       }
     },
     "score": {
-      "value": 8.2625,
+      "value": 8.2726,
       "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.2837,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-173533",
-    "medium": "anime",
-    "title": {
-      "zh": "MONOGATARI Series: OFF & MONSTER Season",
-      "original": "〈物語〉シリーズ オフ&モンスターシーズン"
-    },
-    "year": 2024,
-    "format": "ONA",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx173533-9DN3nHtT2FBm.png",
-      "color": "#f17843",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.64,
-        "scale": 10,
-        "votes": 40791,
-        "url": "https://myanimelist.net/anime/57864/Monogatari_Series__Off___Monster_Season",
-        "fetchedAt": "2026-07-18T06:05:15.057Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 8.64,
-        "voteConfidence": 0.7311,
-        "effectiveWeight": 0.1316,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 86,
-        "scale": 100,
-        "votes": 13490,
-        "url": "https://anilist.co/anime/173533",
-        "fetchedAt": "2026-07-18T06:05:15.022Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.6,
-        "voteConfidence": 0.6277,
-        "effectiveWeight": 0.113,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.2615,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.2446,
+      "coverage": 0.7,
+      "totalWeight": 0.3121,
       "status": "ranked"
     },
     "commercial": null
@@ -4648,7 +4692,7 @@
         "scale": 10,
         "votes": 36804,
         "url": "https://myanimelist.net/anime/61930/Uma_Musume__Cinderella_Gray_Part_2",
-        "fetchedAt": "2026-07-18T06:05:15.054Z",
+        "fetchedAt": "2026-07-18T06:19:51.186Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.67,
@@ -4661,7 +4705,7 @@
         "scale": 100,
         "votes": 10925,
         "url": "https://anilist.co/anime/195240",
-        "fetchedAt": "2026-07-18T06:05:15.023Z",
+        "fetchedAt": "2026-07-18T06:19:51.152Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -4675,6 +4719,46 @@
       "sourceCount": 2,
       "coverage": 0.6,
       "totalWeight": 0.2318,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:bangumi-37460",
+    "medium": "anime",
+    "title": {
+      "zh": "哆啦A梦 大山版",
+      "original": "ドラえもん"
+    },
+    "year": 1979,
+    "format": "TV",
+    "cover": {
+      "url": "https://lain.bgm.tv/pic/cover/l/64/b3/37460_gtg0V.jpg",
+      "color": null,
+      "source": "bangumi"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.7,
+        "scale": 10,
+        "votes": 3275,
+        "url": "https://bgm.tv/subject/37460",
+        "fetchedAt": "2026-07-18T06:19:51.194Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.8037,
+        "effectiveWeight": 0.1929,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": null,
+      "anilist": null
+    },
+    "score": {
+      "value": 8.2471,
+      "sourceCount": 1,
+      "coverage": 0.4,
+      "totalWeight": 0.1929,
       "status": "ranked"
     },
     "commercial": null
@@ -4700,7 +4784,7 @@
         "scale": 10,
         "votes": 41903,
         "url": "https://myanimelist.net/anime/50160/Kingdom_4th_Season",
-        "fetchedAt": "2026-07-18T06:05:15.048Z",
+        "fetchedAt": "2026-07-18T06:19:51.180Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.73,
@@ -4713,7 +4797,7 @@
         "scale": 100,
         "votes": 6364,
         "url": "https://anilist.co/anime/140350",
-        "fetchedAt": "2026-07-18T06:05:15.031Z",
+        "fetchedAt": "2026-07-18T06:19:51.161Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.5,
@@ -4727,6 +4811,86 @@
       "sourceCount": 2,
       "coverage": 0.6,
       "totalWeight": 0.2123,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:bangumi-9717",
+    "medium": "anime",
+    "title": {
+      "zh": "魔法少女小圆",
+      "original": "魔法少女まどか☆マギカ"
+    },
+    "year": 2011,
+    "format": "TV",
+    "cover": {
+      "url": "https://lain.bgm.tv/pic/cover/l/cb/57/9717_sAVag.jpg",
+      "color": null,
+      "source": "bangumi"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.6,
+        "scale": 10,
+        "votes": 38291,
+        "url": "https://bgm.tv/subject/9717",
+        "fetchedAt": "2026-07-18T06:19:51.195Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.9795,
+        "effectiveWeight": 0.2351,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": null,
+      "anilist": null
+    },
+    "score": {
+      "value": 8.2317,
+      "sourceCount": 1,
+      "coverage": 0.4,
+      "totalWeight": 0.2351,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:bangumi-216371",
+    "medium": "anime",
+    "title": {
+      "zh": "莉兹与青鸟",
+      "original": "リズと青い鳥"
+    },
+    "year": 2018,
+    "format": "剧场版",
+    "cover": {
+      "url": "https://lain.bgm.tv/pic/cover/l/1d/35/216371_5926R.jpg",
+      "color": null,
+      "source": "bangumi"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.6,
+        "scale": 10,
+        "votes": 20130,
+        "url": "https://bgm.tv/subject/216371",
+        "fetchedAt": "2026-07-18T06:19:51.194Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.9618,
+        "effectiveWeight": 0.2308,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": null,
+      "anilist": null
+    },
+    "score": {
+      "value": 8.2261,
+      "sourceCount": 1,
+      "coverage": 0.4,
+      "totalWeight": 0.2308,
       "status": "ranked"
     },
     "commercial": null
@@ -4752,7 +4916,7 @@
         "scale": 10,
         "votes": 35192,
         "url": "https://myanimelist.net/anime/40434/Mo_Dao_Zu_Shi__Wanjie_Pian",
-        "fetchedAt": "2026-07-18T06:05:15.056Z",
+        "fetchedAt": "2026-07-18T06:19:51.188Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.65,
@@ -4765,7 +4929,7 @@
         "scale": 100,
         "votes": 7535,
         "url": "https://anilist.co/anime/121467",
-        "fetchedAt": "2026-07-18T06:05:15.026Z",
+        "fetchedAt": "2026-07-18T06:19:51.155Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -4779,6 +4943,86 @@
       "sourceCount": 2,
       "coverage": 0.6,
       "totalWeight": 0.2135,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:bangumi-44693",
+    "medium": "anime",
+    "title": {
+      "zh": "剧场版 魔法少女小圆 [新篇] 叛逆的物语",
+      "original": "劇場版 魔法少女まどか☆マギカ [新編] 叛逆の物語"
+    },
+    "year": 2013,
+    "format": "剧场版",
+    "cover": {
+      "url": "https://lain.bgm.tv/pic/cover/l/31/1c/44693_YS9kU.jpg",
+      "color": null,
+      "source": "bangumi"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.6,
+        "scale": 10,
+        "votes": 17662,
+        "url": "https://bgm.tv/subject/44693",
+        "fetchedAt": "2026-07-18T06:19:51.195Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.9567,
+        "effectiveWeight": 0.2296,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": null,
+      "anilist": null
+    },
+    "score": {
+      "value": 8.2245,
+      "sourceCount": 1,
+      "coverage": 0.4,
+      "totalWeight": 0.2296,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:bangumi-1608",
+    "medium": "anime",
+    "title": {
+      "zh": "灌篮高手",
+      "original": "スラムダンク"
+    },
+    "year": 1993,
+    "format": "TV",
+    "cover": {
+      "url": "https://lain.bgm.tv/pic/cover/l/fa/af/1608_3I59P.jpg",
+      "color": null,
+      "source": "bangumi"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.6,
+        "scale": 10,
+        "votes": 9357,
+        "url": "https://bgm.tv/subject/1608",
+        "fetchedAt": "2026-07-18T06:19:51.195Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.9212,
+        "effectiveWeight": 0.2211,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": null,
+      "anilist": null
+    },
+    "score": {
+      "value": 8.2127,
+      "sourceCount": 1,
+      "coverage": 0.4,
+      "totalWeight": 0.2211,
       "status": "ranked"
     },
     "commercial": null
@@ -4804,7 +5048,7 @@
         "scale": 10,
         "votes": 45154,
         "url": "https://myanimelist.net/anime/59571/Shingeki_no_Kyojin_Movie__Kanketsu-hen_-_The_Last_Attack",
-        "fetchedAt": "2026-07-18T06:05:15.044Z",
+        "fetchedAt": "2026-07-18T06:19:51.178Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.83,
@@ -4844,7 +5088,7 @@
         "scale": 10,
         "votes": 25887,
         "url": "https://myanimelist.net/anime/50399/Tian_Guan_Cifu_Er",
-        "fetchedAt": "2026-07-18T06:05:15.057Z",
+        "fetchedAt": "2026-07-18T06:19:51.190Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.64,
@@ -4857,7 +5101,7 @@
         "scale": 100,
         "votes": 7419,
         "url": "https://anilist.co/anime/127976",
-        "fetchedAt": "2026-07-18T06:05:15.027Z",
+        "fetchedAt": "2026-07-18T06:19:51.156Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -4871,6 +5115,46 @@
       "sourceCount": 2,
       "coverage": 0.6,
       "totalWeight": 0.2006,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:bangumi-1015",
+    "medium": "anime",
+    "title": {
+      "zh": "机动战士高达0080 口袋里的战争",
+      "original": "機動戦士ガンダム0080 ポケットの中の戦争"
+    },
+    "year": 1989,
+    "format": "OVA",
+    "cover": {
+      "url": "https://lain.bgm.tv/pic/cover/l/29/89/1015_Z2xoh.jpg",
+      "color": null,
+      "source": "bangumi"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.6,
+        "scale": 10,
+        "votes": 5944,
+        "url": "https://bgm.tv/subject/1015",
+        "fetchedAt": "2026-07-18T06:19:51.195Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.8814,
+        "effectiveWeight": 0.2115,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": null,
+      "anilist": null
+    },
+    "score": {
+      "value": 8.1985,
+      "sourceCount": 1,
+      "coverage": 0.4,
+      "totalWeight": 0.2115,
       "status": "ranked"
     },
     "commercial": null
@@ -4896,7 +5180,7 @@
         "scale": 10,
         "votes": 29744,
         "url": "https://myanimelist.net/anime/53223/Kingdom_5th_Season",
-        "fetchedAt": "2026-07-18T06:05:15.049Z",
+        "fetchedAt": "2026-07-18T06:19:51.181Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.72,
@@ -4909,7 +5193,7 @@
         "scale": 100,
         "votes": 4516,
         "url": "https://anilist.co/anime/155227",
-        "fetchedAt": "2026-07-18T06:05:15.030Z",
+        "fetchedAt": "2026-07-18T06:19:51.160Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.5,
@@ -4923,6 +5207,46 @@
       "sourceCount": 2,
       "coverage": 0.6,
       "totalWeight": 0.1846,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "anime:bangumi-106207",
+    "medium": "anime",
+    "title": {
+      "zh": "虫师 续章 第2部分",
+      "original": "蟲師 続章 第2クール"
+    },
+    "year": 2014,
+    "format": "TV",
+    "cover": {
+      "url": "https://lain.bgm.tv/pic/cover/l/9c/c7/106207_z8288.jpg",
+      "color": null,
+      "source": "bangumi"
+    },
+    "ratings": {
+      "bangumi": {
+        "raw": 8.6,
+        "scale": 10,
+        "votes": 4352,
+        "url": "https://bgm.tv/subject/106207",
+        "fetchedAt": "2026-07-18T06:19:51.196Z",
+        "via": "Bangumi API v0",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.8447,
+        "effectiveWeight": 0.2027,
+        "calibrationMode": "identity-fallback"
+      },
+      "mal": null,
+      "anilist": null
+    },
+    "score": {
+      "value": 8.1845,
+      "sourceCount": 1,
+      "coverage": 0.4,
+      "totalWeight": 0.2027,
       "status": "ranked"
     },
     "commercial": null
@@ -4948,7 +5272,7 @@
         "scale": 10,
         "votes": 1482522,
         "url": "https://myanimelist.net/anime/23273/Shigatsu_wa_Kimi_no_Uso",
-        "fetchedAt": "2026-07-18T06:05:15.057Z",
+        "fetchedAt": "2026-07-18T06:19:51.190Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.64,
@@ -4963,58 +5287,6 @@
       "sourceCount": 1,
       "coverage": 0.3,
       "totalWeight": 0.1782,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-3297",
-    "medium": "anime",
-    "title": {
-      "zh": "ARIA The ORIGINATION",
-      "original": "ARIA The ORIGINATION"
-    },
-    "year": 2008,
-    "format": "TV",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3297-FHuyO7uiefNg.png",
-      "color": "#5daef1",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.48,
-        "scale": 10,
-        "votes": 34871,
-        "url": "https://myanimelist.net/anime/3297/Aria_the_Origination",
-        "fetchedAt": "2026-07-17T16:43:12.908Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": true,
-        "normalized": 8.48,
-        "voteConfidence": 0.6992,
-        "effectiveWeight": 0.1259,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 86,
-        "scale": 100,
-        "votes": 8416,
-        "url": "https://anilist.co/anime/3297",
-        "fetchedAt": "2026-07-18T06:05:15.026Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.6,
-        "voteConfidence": 0.5127,
-        "effectiveWeight": 0.0923,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 8.1522,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.2182,
       "status": "ranked"
     },
     "commercial": null
@@ -5040,7 +5312,7 @@
         "scale": 10,
         "votes": 6361,
         "url": "https://myanimelist.net/anime/62276/Guimi_Zhi_Zhu_Specials",
-        "fetchedAt": "2026-07-18T06:05:15.049Z",
+        "fetchedAt": "2026-07-18T06:19:51.181Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 8.72,
@@ -5053,7 +5325,7 @@
         "scale": 100,
         "votes": 2239,
         "url": "https://anilist.co/anime/199448",
-        "fetchedAt": "2026-07-18T06:05:15.026Z",
+        "fetchedAt": "2026-07-18T06:19:51.155Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.6,
@@ -5067,98 +5339,6 @@
       "sourceCount": 2,
       "coverage": 0.6,
       "totalWeight": 0.093,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-113024",
-    "medium": "anime",
-    "title": {
-      "zh": "Revue Starlight: The Movie",
-      "original": "劇場版 少女☆歌劇 レヴュースタァライト"
-    },
-    "year": 2021,
-    "format": "MOVIE",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113024-OdzOh0OKFPTN.png",
-      "color": "#e45d50",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": null,
-      "anilist": {
-        "raw": 87,
-        "scale": 100,
-        "votes": 7707,
-        "url": "https://anilist.co/anime/113024",
-        "fetchedAt": "2026-07-18T06:05:15.019Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.7,
-        "voteConfidence": 0.4907,
-        "effectiveWeight": 0.0883,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 7.9046,
-      "sourceCount": 1,
-      "coverage": 0.3,
-      "totalWeight": 0.0883,
-      "status": "ranked"
-    },
-    "commercial": null
-  },
-  {
-    "id": "anime:anilist-166475",
-    "medium": "anime",
-    "title": {
-      "zh": "The Legend of Hei 2",
-      "original": "罗小黑战记 2"
-    },
-    "year": 2025,
-    "format": "MOVIE",
-    "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166475-wkJyPnAqIA9G.jpg",
-      "color": "#e4ae50",
-      "source": "anilist"
-    },
-    "ratings": {
-      "bangumi": null,
-      "mal": {
-        "raw": 8.65,
-        "scale": 10,
-        "votes": 3404,
-        "url": "https://myanimelist.net/anime/61952/Luo_Xiaohei_Zhanji_2",
-        "fetchedAt": "2026-07-18T06:05:15.056Z",
-        "via": "Jikan (MAL mirror)",
-        "stale": false,
-        "normalized": 8.65,
-        "voteConfidence": 0.185,
-        "effectiveWeight": 0.0333,
-        "calibrationMode": "identity-fallback"
-      },
-      "anilist": {
-        "raw": 85,
-        "scale": 100,
-        "votes": 1102,
-        "url": "https://anilist.co/anime/166475",
-        "fetchedAt": "2026-07-18T06:05:15.032Z",
-        "via": "AniList GraphQL API",
-        "stale": false,
-        "normalized": 8.5,
-        "voteConfidence": 0.1211,
-        "effectiveWeight": 0.0218,
-        "calibrationMode": "identity-fallback"
-      }
-    },
-    "score": {
-      "value": 7.5961,
-      "sourceCount": 2,
-      "coverage": 0.6,
-      "totalWeight": 0.0551,
       "status": "ranked"
     },
     "commercial": null

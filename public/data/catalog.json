@@ -1,17 +1,47 @@
 [
   {
-    "id": "anime:anilist-154587",
+    "id": "anime:bangumi-326",
     "medium": "anime",
     "title": {
-      "zh": "Frieren: Beyond Journey’s End",
-      "original": "葬送のフリーレン"
+      "zh": "攻壳机动队 S.A.C. 2nd GIG",
+      "original": "攻殻機動隊 S.A.C. 2nd GIG"
     },
-    "year": 2023,
+    "year": 2004,
     "format": "TV",
     "ids": {
-      "bangumi": null,
-      "mal": 52991,
-      "anilist": 154587
+      "bangumi": 326,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "anime:bangumi-324",
+    "medium": "anime",
+    "title": {
+      "zh": "攻壳机动队 STAND ALONE COMPLEX",
+      "original": "攻殻機動隊 STAND ALONE COMPLEX"
+    },
+    "year": 2002,
+    "format": "TV",
+    "ids": {
+      "bangumi": 324,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "anime:bangumi-25961",
+    "medium": "anime",
+    "title": {
+      "zh": "猫和老鼠（1965年电视版）",
+      "original": "Tom and Jerry"
+    },
+    "year": 1965,
+    "format": "TV",
+    "ids": {
+      "bangumi": 25961,
+      "mal": null,
+      "anilist": null
     }
   },
   {
@@ -45,78 +75,33 @@
     }
   },
   {
+    "id": "anime:anilist-4181",
+    "medium": "anime",
+    "title": {
+      "zh": "CLANNAD 〜AFTER STORY〜",
+      "original": "ＣＬＡＮＮＡＤ ~After Story~ クラナド アフターストーリー"
+    },
+    "year": 2008,
+    "format": "TV",
+    "ids": {
+      "bangumi": 876,
+      "mal": 4181,
+      "anilist": 4181
+    }
+  },
+  {
     "id": "anime:anilist-5114",
     "medium": "anime",
     "title": {
-      "zh": "Fullmetal Alchemist: Brotherhood",
+      "zh": "钢之炼金术师 FULLMETAL ALCHEMIST",
       "original": "鋼の錬金術師 FULLMETAL ALCHEMIST"
     },
     "year": 2009,
     "format": "TV",
     "ids": {
-      "bangumi": null,
+      "bangumi": 1428,
       "mal": 5114,
       "anilist": 5114
-    }
-  },
-  {
-    "id": "anime:anilist-171627",
-    "medium": "anime",
-    "title": {
-      "zh": "Chainsaw Man – The Movie: Reze Arc",
-      "original": "チェンソーマン レゼ篇"
-    },
-    "year": 2025,
-    "format": "MOVIE",
-    "ids": {
-      "bangumi": null,
-      "mal": 57555,
-      "anilist": 171627
-    }
-  },
-  {
-    "id": "anime:anilist-20996",
-    "medium": "anime",
-    "title": {
-      "zh": "Gintama Season 3",
-      "original": "銀魂゜"
-    },
-    "year": 2015,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 28977,
-      "anilist": 20996
-    }
-  },
-  {
-    "id": "anime:anilist-182469",
-    "medium": "anime",
-    "title": {
-      "zh": "One Piece Fan Letter",
-      "original": "ONE PIECE FAN LETTER"
-    },
-    "year": 2024,
-    "format": "SPECIAL",
-    "ids": {
-      "bangumi": null,
-      "mal": 60022,
-      "anilist": 182469
-    }
-  },
-  {
-    "id": "anime:anilist-9253",
-    "medium": "anime",
-    "title": {
-      "zh": "Steins;Gate",
-      "original": "シュタインズ・ゲート"
-    },
-    "year": 2011,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 9253,
-      "anilist": 9253
     }
   },
   {
@@ -135,33 +120,18 @@
     }
   },
   {
-    "id": "anime:anilist-9969",
+    "id": "anime:anilist-154587",
     "medium": "anime",
     "title": {
-      "zh": "Gintama Season 2",
-      "original": "銀魂’"
+      "zh": "葬送的芙莉莲",
+      "original": "葬送のフリーレン"
     },
-    "year": 2011,
+    "year": 2023,
     "format": "TV",
     "ids": {
-      "bangumi": null,
-      "mal": 9969,
-      "anilist": 9969
-    }
-  },
-  {
-    "id": "anime:anilist-15417",
-    "medium": "anime",
-    "title": {
-      "zh": "Gintama Season 2 Part 2",
-      "original": "銀魂’延長戦"
-    },
-    "year": 2012,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 15417,
-      "anilist": 15417
+      "bangumi": 400602,
+      "mal": 52991,
+      "anilist": 154587
     }
   },
   {
@@ -180,48 +150,18 @@
     }
   },
   {
-    "id": "anime:anilist-125367",
+    "id": "anime:anilist-9253",
     "medium": "anime",
     "title": {
-      "zh": "Kaguya-sama: Love is War -Ultra Romantic-",
-      "original": "かぐや様は告らせたい-ウルトラロマンティック-"
+      "zh": "命运石之门",
+      "original": "シュタインズ・ゲート"
     },
-    "year": 2022,
+    "year": 2011,
     "format": "TV",
     "ids": {
-      "bangumi": null,
-      "mal": 43608,
-      "anilist": 125367
-    }
-  },
-  {
-    "id": "anime:anilist-820",
-    "medium": "anime",
-    "title": {
-      "zh": "Legend of the Galactic Heroes",
-      "original": "銀河英雄伝説"
-    },
-    "year": 1988,
-    "format": "OVA",
-    "ids": {
-      "bangumi": null,
-      "mal": 820,
-      "anilist": 820
-    }
-  },
-  {
-    "id": "anime:anilist-98478",
-    "medium": "anime",
-    "title": {
-      "zh": "March comes in like a lion Season 2",
-      "original": "３月のライオン 第2シリーズ"
-    },
-    "year": 2017,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 35180,
-      "anilist": 98478
+      "bangumi": 10380,
+      "mal": 9253,
+      "anilist": 9253
     }
   },
   {
@@ -255,6 +195,51 @@
     }
   },
   {
+    "id": "anime:anilist-9969",
+    "medium": "anime",
+    "title": {
+      "zh": "银魂'",
+      "original": "銀魂’"
+    },
+    "year": 2011,
+    "format": "TV",
+    "ids": {
+      "bangumi": 11834,
+      "mal": 9969,
+      "anilist": 9969
+    }
+  },
+  {
+    "id": "anime:anilist-182469",
+    "medium": "anime",
+    "title": {
+      "zh": "航海王：粉丝来信",
+      "original": "ONE PIECE FAN LETTER"
+    },
+    "year": 2024,
+    "format": "SPECIAL",
+    "ids": {
+      "bangumi": 518519,
+      "mal": 60022,
+      "anilist": 182469
+    }
+  },
+  {
+    "id": "anime:anilist-98478",
+    "medium": "anime",
+    "title": {
+      "zh": "3月的狮子 第二季",
+      "original": "３月のライオン 第2シリーズ"
+    },
+    "year": 2017,
+    "format": "TV",
+    "ids": {
+      "bangumi": 211567,
+      "mal": 35180,
+      "anilist": 98478
+    }
+  },
+  {
     "id": "anime:anilist-20954",
     "medium": "anime",
     "title": {
@@ -267,21 +252,6 @@
       "bangumi": null,
       "mal": 28851,
       "anilist": 20954
-    }
-  },
-  {
-    "id": "anime:anilist-4181",
-    "medium": "anime",
-    "title": {
-      "zh": "Clannad: After Story",
-      "original": "ＣＬＡＮＮＡＤ ~After Story~ クラナド アフターストーリー"
-    },
-    "year": 2008,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 4181,
-      "anilist": 4181
     }
   },
   {
@@ -300,18 +270,18 @@
     }
   },
   {
-    "id": "anime:anilist-19",
+    "id": "anime:anilist-820",
     "medium": "anime",
     "title": {
-      "zh": "Monster",
-      "original": "MONSTER"
+      "zh": "银河英雄传说",
+      "original": "銀河英雄伝説"
     },
-    "year": 2004,
-    "format": "TV",
+    "year": 1988,
+    "format": "OVA",
     "ids": {
-      "bangumi": null,
-      "mal": 19,
-      "anilist": 19
+      "bangumi": 2907,
+      "mal": 820,
+      "anilist": 820
     }
   },
   {
@@ -360,6 +330,36 @@
     }
   },
   {
+    "id": "anime:anilist-171627",
+    "medium": "anime",
+    "title": {
+      "zh": "剧场版 链锯人 蕾塞篇",
+      "original": "チェンソーマン レゼ篇"
+    },
+    "year": 2025,
+    "format": "MOVIE",
+    "ids": {
+      "bangumi": 470660,
+      "mal": 57555,
+      "anilist": 171627
+    }
+  },
+  {
+    "id": "anime:anilist-1",
+    "medium": "anime",
+    "title": {
+      "zh": "星际牛仔",
+      "original": "カウボーイビバップ"
+    },
+    "year": 1998,
+    "format": "TV",
+    "ids": {
+      "bangumi": 253,
+      "mal": 1,
+      "anilist": 1
+    }
+  },
+  {
     "id": "anime:anilist-136430",
     "medium": "anime",
     "title": {
@@ -375,33 +375,33 @@
     }
   },
   {
-    "id": "anime:anilist-2904",
+    "id": "anime:bangumi-237",
     "medium": "anime",
     "title": {
-      "zh": "Code Geass: Lelouch of the Rebellion R2",
-      "original": "コードギアス 反逆のルルーシュ R2"
+      "zh": "攻壳机动队",
+      "original": "GHOST IN THE SHELL / 攻殻機動隊"
     },
-    "year": 2008,
-    "format": "TV",
+    "year": 1995,
+    "format": "剧场版",
     "ids": {
-      "bangumi": null,
-      "mal": 2904,
-      "anilist": 2904
+      "bangumi": 237,
+      "mal": null,
+      "anilist": null
     }
   },
   {
-    "id": "anime:anilist-2921",
+    "id": "anime:bangumi-321",
     "medium": "anime",
     "title": {
-      "zh": "Tomorrow's Joe 2",
-      "original": "あしたのジョー２"
+      "zh": "机动警察剧场版2 和平保卫战",
+      "original": "機動警察パトレイバー 2 the Movie"
     },
-    "year": 1980,
-    "format": "TV",
+    "year": 1993,
+    "format": "剧场版",
     "ids": {
-      "bangumi": null,
-      "mal": 2921,
-      "anilist": 2921
+      "bangumi": 321,
+      "mal": null,
+      "anilist": null
     }
   },
   {
@@ -435,18 +435,18 @@
     }
   },
   {
-    "id": "anime:anilist-17074",
+    "id": "anime:anilist-2921",
     "medium": "anime",
     "title": {
-      "zh": "Monogatari Series Second Season",
-      "original": "〈物語〉シリーズ セカンドシーズン"
+      "zh": "明日之丈2",
+      "original": "あしたのジョー２"
     },
-    "year": 2013,
+    "year": 1980,
     "format": "TV",
     "ids": {
-      "bangumi": null,
-      "mal": 17074,
-      "anilist": 17074
+      "bangumi": 67753,
+      "mal": 2921,
+      "anilist": 2921
     }
   },
   {
@@ -480,6 +480,21 @@
     }
   },
   {
+    "id": "anime:anilist-20996",
+    "medium": "anime",
+    "title": {
+      "zh": "银魂°",
+      "original": "銀魂゜"
+    },
+    "year": 2015,
+    "format": "TV",
+    "ids": {
+      "bangumi": 120791,
+      "mal": 28977,
+      "anilist": 20996
+    }
+  },
+  {
     "id": "anime:anilist-110277",
     "medium": "anime",
     "title": {
@@ -492,6 +507,21 @@
       "bangumi": null,
       "mal": 40028,
       "anilist": 110277
+    }
+  },
+  {
+    "id": "anime:anilist-15417",
+    "medium": "anime",
+    "title": {
+      "zh": "银魂' 延长战",
+      "original": "銀魂’延長戦"
+    },
+    "year": 2012,
+    "format": "TV",
+    "ids": {
+      "bangumi": 47576,
+      "mal": 15417,
+      "anilist": 15417
     }
   },
   {
@@ -510,21 +540,6 @@
     }
   },
   {
-    "id": "anime:anilist-21400",
-    "medium": "anime",
-    "title": {
-      "zh": "Kizumonogatari Part 3: Reiketsu",
-      "original": "傷物語〈Ⅲ冷血篇〉"
-    },
-    "year": 2017,
-    "format": "MOVIE",
-    "ids": {
-      "bangumi": null,
-      "mal": 31758,
-      "anilist": 21400
-    }
-  },
-  {
     "id": "anime:anilist-101338",
     "medium": "anime",
     "title": {
@@ -537,36 +552,6 @@
       "bangumi": null,
       "mal": 37510,
       "anilist": 101338
-    }
-  },
-  {
-    "id": "anime:anilist-101348",
-    "medium": "anime",
-    "title": {
-      "zh": "Vinland Saga",
-      "original": "ヴィンランド・サガ"
-    },
-    "year": 2019,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 37521,
-      "anilist": 101348
-    }
-  },
-  {
-    "id": "anime:anilist-21698",
-    "medium": "anime",
-    "title": {
-      "zh": "HAIKYU!! 3rd Season",
-      "original": "ハイキュー!! 烏野高校 VS 白鳥沢学園高校"
-    },
-    "year": 2016,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 32935,
-      "anilist": 21698
     }
   },
   {
@@ -585,6 +570,21 @@
     }
   },
   {
+    "id": "anime:anilist-125367",
+    "medium": "anime",
+    "title": {
+      "zh": "辉夜大小姐想让我告白-超级浪漫-",
+      "original": "かぐや様は告らせたい-ウルトラロマンティック-"
+    },
+    "year": 2022,
+    "format": "TV",
+    "ids": {
+      "bangumi": 317613,
+      "mal": 43608,
+      "anilist": 125367
+    }
+  },
+  {
     "id": "anime:anilist-131586",
     "medium": "anime",
     "title": {
@@ -597,21 +597,6 @@
       "bangumi": null,
       "mal": 48569,
       "anilist": 131586
-    }
-  },
-  {
-    "id": "anime:anilist-130003",
-    "medium": "anime",
-    "title": {
-      "zh": "BOCCHI THE ROCK!",
-      "original": "ぼっち・ざ・ろっく！"
-    },
-    "year": 2022,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 47917,
-      "anilist": 130003
     }
   },
   {
@@ -630,51 +615,6 @@
     }
   },
   {
-    "id": "anime:anilist-918",
-    "medium": "anime",
-    "title": {
-      "zh": "Gintama",
-      "original": "銀魂"
-    },
-    "year": 2006,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 918,
-      "anilist": 918
-    }
-  },
-  {
-    "id": "anime:anilist-177385",
-    "medium": "anime",
-    "title": {
-      "zh": "Journal with Witch",
-      "original": "違国日記"
-    },
-    "year": 2026,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 58788,
-      "anilist": 177385
-    }
-  },
-  {
-    "id": "anime:anilist-21",
-    "medium": "anime",
-    "title": {
-      "zh": "One Piece",
-      "original": "ONE PIECE"
-    },
-    "year": 1999,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 21,
-      "anilist": 21
-    }
-  },
-  {
     "id": "anime:anilist-109731",
     "medium": "anime",
     "title": {
@@ -690,21 +630,6 @@
     }
   },
   {
-    "id": "anime:anilist-140439",
-    "medium": "anime",
-    "title": {
-      "zh": "Mob Psycho 100 III",
-      "original": "モブサイコ100 Ⅲ"
-    },
-    "year": 2022,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 50172,
-      "anilist": 140439
-    }
-  },
-  {
     "id": "anime:anilist-21519",
     "medium": "anime",
     "title": {
@@ -717,6 +642,21 @@
       "bangumi": null,
       "mal": 32281,
       "anilist": 21519
+    }
+  },
+  {
+    "id": "anime:anilist-918",
+    "medium": "anime",
+    "title": {
+      "zh": "银魂",
+      "original": "銀魂"
+    },
+    "year": 2006,
+    "format": "TV",
+    "ids": {
+      "bangumi": 247,
+      "mal": 918,
+      "anilist": 918
     }
   },
   {
@@ -765,18 +705,18 @@
     }
   },
   {
-    "id": "anime:anilist-113024",
+    "id": "anime:anilist-32",
     "medium": "anime",
     "title": {
-      "zh": "Revue Starlight: The Movie",
-      "original": "劇場版 少女☆歌劇 レヴュースタァライト"
+      "zh": "新世纪福音战士剧场版 Air/真心为你",
+      "original": "新世紀エヴァンゲリオン劇場版 Air/まごころを、君に"
     },
-    "year": 2021,
+    "year": 1997,
     "format": "MOVIE",
     "ids": {
-      "bangumi": null,
-      "mal": 40664,
-      "anilist": 113024
+      "bangumi": 6049,
+      "mal": 32,
+      "anilist": 32
     }
   },
   {
@@ -795,6 +735,96 @@
     }
   },
   {
+    "id": "anime:bangumi-110467",
+    "medium": "anime",
+    "title": {
+      "zh": "白箱",
+      "original": "SHIROBAKO"
+    },
+    "year": 2014,
+    "format": "TV",
+    "ids": {
+      "bangumi": 110467,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "anime:bangumi-37460",
+    "medium": "anime",
+    "title": {
+      "zh": "哆啦A梦 大山版",
+      "original": "ドラえもん"
+    },
+    "year": 1979,
+    "format": "TV",
+    "ids": {
+      "bangumi": 37460,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "anime:bangumi-238",
+    "medium": "anime",
+    "title": {
+      "zh": "攻壳机动队2 无罪",
+      "original": "イノセンス"
+    },
+    "year": 2004,
+    "format": "剧场版",
+    "ids": {
+      "bangumi": 238,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "anime:bangumi-840",
+    "medium": "anime",
+    "title": {
+      "zh": "千年女优",
+      "original": "千年女優"
+    },
+    "year": 2002,
+    "format": "剧场版",
+    "ids": {
+      "bangumi": 840,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "anime:bangumi-265",
+    "medium": "anime",
+    "title": {
+      "zh": "新世纪福音战士",
+      "original": "新世紀エヴァンゲリオン"
+    },
+    "year": 1995,
+    "format": "TV",
+    "ids": {
+      "bangumi": 265,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "anime:anilist-44",
+    "medium": "anime",
+    "title": {
+      "zh": "浪客剑心 追忆篇",
+      "original": "るろうに剣心―明治剣客浪漫譚―追憶編"
+    },
+    "year": 1999,
+    "format": "OVA",
+    "ids": {
+      "bangumi": 1728,
+      "mal": 44,
+      "anilist": 44
+    }
+  },
+  {
     "id": "anime:anilist-162314",
     "medium": "anime",
     "title": {
@@ -807,36 +837,6 @@
       "bangumi": null,
       "mal": 51535,
       "anilist": 162314
-    }
-  },
-  {
-    "id": "anime:anilist-199",
-    "medium": "anime",
-    "title": {
-      "zh": "Spirited Away",
-      "original": "千と千尋の神隠し"
-    },
-    "year": 2001,
-    "format": "MOVIE",
-    "ids": {
-      "bangumi": null,
-      "mal": 199,
-      "anilist": 199
-    }
-  },
-  {
-    "id": "anime:anilist-1",
-    "medium": "anime",
-    "title": {
-      "zh": "Cowboy Bebop",
-      "original": "カウボーイビバップ"
-    },
-    "year": 1998,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 1,
-      "anilist": 1
     }
   },
   {
@@ -900,6 +900,51 @@
     }
   },
   {
+    "id": "anime:anilist-199",
+    "medium": "anime",
+    "title": {
+      "zh": "千与千寻",
+      "original": "千と千尋の神隠し"
+    },
+    "year": 2001,
+    "format": "MOVIE",
+    "ids": {
+      "bangumi": 311,
+      "mal": 199,
+      "anilist": 199
+    }
+  },
+  {
+    "id": "anime:anilist-7311",
+    "medium": "anime",
+    "title": {
+      "zh": "凉宫春日的消失",
+      "original": "涼宮ハルヒの消失"
+    },
+    "year": 2010,
+    "format": "MOVIE",
+    "ids": {
+      "bangumi": 3375,
+      "mal": 7311,
+      "anilist": 7311
+    }
+  },
+  {
+    "id": "anime:anilist-3297",
+    "medium": "anime",
+    "title": {
+      "zh": "水星领航员 第三季",
+      "original": "ARIA The ORIGINATION"
+    },
+    "year": 2008,
+    "format": "TV",
+    "ids": {
+      "bangumi": 1270,
+      "mal": 3297,
+      "anilist": 3297
+    }
+  },
+  {
     "id": "anime:anilist-116674",
     "medium": "anime",
     "title": {
@@ -912,21 +957,6 @@
       "bangumi": null,
       "mal": 41467,
       "anilist": 116674
-    }
-  },
-  {
-    "id": "anime:anilist-21733",
-    "medium": "anime",
-    "title": {
-      "zh": "Descending Stories: Showa Genroku Rakugo Shinju",
-      "original": "昭和元禄落語心中～助六再び篇～"
-    },
-    "year": 2017,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 33095,
-      "anilist": 21733
     }
   },
   {
@@ -975,21 +1005,6 @@
     }
   },
   {
-    "id": "anime:anilist-20595",
-    "medium": "anime",
-    "title": {
-      "zh": "MUSHI-SHI The Next Passage",
-      "original": "蟲師 続章"
-    },
-    "year": 2014,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 21939,
-      "anilist": 20595
-    }
-  },
-  {
     "id": "anime:anilist-182587",
     "medium": "anime",
     "title": {
@@ -1002,6 +1017,21 @@
       "bangumi": null,
       "mal": 60058,
       "anilist": 182587
+    }
+  },
+  {
+    "id": "anime:anilist-20607",
+    "medium": "anime",
+    "title": {
+      "zh": "乒乓",
+      "original": "ピンポン THE ANIMATION"
+    },
+    "year": 2014,
+    "format": "TV",
+    "ids": {
+      "bangumi": 93739,
+      "mal": 22135,
+      "anilist": 20607
     }
   },
   {
@@ -1020,21 +1050,6 @@
     }
   },
   {
-    "id": "anime:anilist-166216",
-    "medium": "anime",
-    "title": {
-      "zh": "The Dangers in My Heart Season 2",
-      "original": "僕の心のヤバイやつ 第2期"
-    },
-    "year": 2024,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 55690,
-      "anilist": 166216
-    }
-  },
-  {
     "id": "anime:mal-23273",
     "medium": "anime",
     "title": {
@@ -1047,6 +1062,21 @@
       "bangumi": null,
       "mal": 23273,
       "anilist": null
+    }
+  },
+  {
+    "id": "anime:anilist-2904",
+    "medium": "anime",
+    "title": {
+      "zh": "Code Geass 反叛的鲁路修R2",
+      "original": "コードギアス 反逆のルルーシュ R2"
+    },
+    "year": 2008,
+    "format": "TV",
+    "ids": {
+      "bangumi": 8,
+      "mal": 2904,
+      "anilist": 2904
     }
   },
   {
@@ -1065,6 +1095,21 @@
     }
   },
   {
+    "id": "anime:anilist-19",
+    "medium": "anime",
+    "title": {
+      "zh": "怪物",
+      "original": "MONSTER"
+    },
+    "year": 2004,
+    "format": "TV",
+    "ids": {
+      "bangumi": 1959,
+      "mal": 19,
+      "anilist": 19
+    }
+  },
+  {
     "id": "anime:anilist-178788",
     "medium": "anime",
     "title": {
@@ -1077,21 +1122,6 @@
       "bangumi": null,
       "mal": 59192,
       "anilist": 178788
-    }
-  },
-  {
-    "id": "anime:anilist-104578",
-    "medium": "anime",
-    "title": {
-      "zh": "Attack on Titan Season 3 Part 2",
-      "original": "進撃の巨人 Season３ Part.2"
-    },
-    "year": 2019,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 38524,
-      "anilist": 104578
     }
   },
   {
@@ -1110,6 +1140,21 @@
     }
   },
   {
+    "id": "anime:anilist-21698",
+    "medium": "anime",
+    "title": {
+      "zh": "排球少年 乌野高校 VS 白鸟泽学园高校",
+      "original": "ハイキュー!! 烏野高校 VS 白鳥沢学園高校"
+    },
+    "year": 2016,
+    "format": "TV",
+    "ids": {
+      "bangumi": 173849,
+      "mal": 32935,
+      "anilist": 21698
+    }
+  },
+  {
     "id": "anime:anilist-127976",
     "medium": "anime",
     "title": {
@@ -1125,18 +1170,18 @@
     }
   },
   {
-    "id": "anime:anilist-173533",
+    "id": "anime:anilist-457",
     "medium": "anime",
     "title": {
-      "zh": "MONOGATARI Series: OFF & MONSTER Season",
-      "original": "〈物語〉シリーズ オフ&モンスターシーズン"
+      "zh": "虫师",
+      "original": "蟲師"
     },
-    "year": 2024,
-    "format": "ONA",
+    "year": 2005,
+    "format": "TV",
     "ids": {
-      "bangumi": null,
-      "mal": 57864,
-      "anilist": 173533
+      "bangumi": 340,
+      "mal": 457,
+      "anilist": 457
     }
   },
   {
@@ -1155,18 +1200,33 @@
     }
   },
   {
-    "id": "anime:anilist-20607",
+    "id": "anime:anilist-130003",
     "medium": "anime",
     "title": {
-      "zh": "Ping Pong the Animation",
-      "original": "ピンポン THE ANIMATION"
+      "zh": "孤独摇滚！",
+      "original": "ぼっち・ざ・ろっく！"
     },
-    "year": 2014,
+    "year": 2022,
     "format": "TV",
     "ids": {
-      "bangumi": null,
-      "mal": 22135,
-      "anilist": 20607
+      "bangumi": 328609,
+      "mal": 47917,
+      "anilist": 130003
+    }
+  },
+  {
+    "id": "anime:anilist-177385",
+    "medium": "anime",
+    "title": {
+      "zh": "异国日记",
+      "original": "違国日記"
+    },
+    "year": 2026,
+    "format": "TV",
+    "ids": {
+      "bangumi": 493016,
+      "mal": 58788,
+      "anilist": 177385
     }
   },
   {
@@ -1200,48 +1260,33 @@
     }
   },
   {
-    "id": "anime:anilist-1575",
+    "id": "anime:anilist-113024",
     "medium": "anime",
     "title": {
-      "zh": "Code Geass: Lelouch of the Rebellion",
-      "original": "コードギアス 反逆のルルーシュ"
+      "zh": "剧场版 少女☆歌剧 Revue Starlight",
+      "original": "劇場版 少女☆歌劇 レヴュースタァライト"
     },
-    "year": 2006,
-    "format": "TV",
+    "year": 2021,
+    "format": "MOVIE",
     "ids": {
-      "bangumi": null,
-      "mal": 1575,
-      "anilist": 1575
+      "bangumi": 294135,
+      "mal": 40664,
+      "anilist": 113024
     }
   },
   {
-    "id": "anime:anilist-3297",
+    "id": "anime:anilist-437",
     "medium": "anime",
     "title": {
-      "zh": "ARIA The ORIGINATION",
-      "original": "ARIA The ORIGINATION"
+      "zh": "蓝色恐惧",
+      "original": "PERFECT BLUE"
     },
-    "year": 2008,
-    "format": "TV",
+    "year": 1998,
+    "format": "MOVIE",
     "ids": {
-      "bangumi": null,
-      "mal": 3297,
-      "anilist": 3297
-    }
-  },
-  {
-    "id": "anime:anilist-20992",
-    "medium": "anime",
-    "title": {
-      "zh": "HAIKYU!! 2nd Season",
-      "original": "ハイキュー!! セカンドシーズン"
-    },
-    "year": 2015,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 28891,
-      "anilist": 20992
+      "bangumi": 839,
+      "mal": 437,
+      "anilist": 437
     }
   },
   {
@@ -1305,33 +1350,108 @@
     }
   },
   {
-    "id": "anime:anilist-7311",
+    "id": "anime:bangumi-106207",
     "medium": "anime",
     "title": {
-      "zh": "The Disappearance of Haruhi Suzumiya",
-      "original": "涼宮ハルヒの消失"
+      "zh": "虫师 续章 第2部分",
+      "original": "蟲師 続章 第2クール"
     },
-    "year": 2010,
-    "format": "MOVIE",
+    "year": 2014,
+    "format": "TV",
     "ids": {
-      "bangumi": null,
-      "mal": 7311,
-      "anilist": 7311
+      "bangumi": 106207,
+      "mal": null,
+      "anilist": null
     }
   },
   {
-    "id": "anime:anilist-44",
+    "id": "anime:bangumi-1608",
     "medium": "anime",
     "title": {
-      "zh": "Rurouni Kenshin OVA: Trust & Betrayal (Tsuioku-hen)",
-      "original": "るろうに剣心―明治剣客浪漫譚―追憶編"
+      "zh": "灌篮高手",
+      "original": "スラムダンク"
     },
-    "year": 1999,
+    "year": 1993,
+    "format": "TV",
+    "ids": {
+      "bangumi": 1608,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "anime:bangumi-1015",
+    "medium": "anime",
+    "title": {
+      "zh": "机动战士高达0080 口袋里的战争",
+      "original": "機動戦士ガンダム0080 ポケットの中の戦争"
+    },
+    "year": 1989,
     "format": "OVA",
     "ids": {
-      "bangumi": null,
-      "mal": 44,
-      "anilist": 44
+      "bangumi": 1015,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "anime:bangumi-44693",
+    "medium": "anime",
+    "title": {
+      "zh": "剧场版 魔法少女小圆 [新篇] 叛逆的物语",
+      "original": "劇場版 魔法少女まどか☆マギカ [新編] 叛逆の物語"
+    },
+    "year": 2013,
+    "format": "剧场版",
+    "ids": {
+      "bangumi": 44693,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "anime:bangumi-216371",
+    "medium": "anime",
+    "title": {
+      "zh": "莉兹与青鸟",
+      "original": "リズと青い鳥"
+    },
+    "year": 2018,
+    "format": "剧场版",
+    "ids": {
+      "bangumi": 216371,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "anime:bangumi-9717",
+    "medium": "anime",
+    "title": {
+      "zh": "魔法少女小圆",
+      "original": "魔法少女まどか☆マギカ"
+    },
+    "year": 2011,
+    "format": "TV",
+    "ids": {
+      "bangumi": 9717,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "anime:anilist-20595",
+    "medium": "anime",
+    "title": {
+      "zh": "虫师 续章",
+      "original": "蟲師 続章"
+    },
+    "year": 2014,
+    "format": "TV",
+    "ids": {
+      "bangumi": 92705,
+      "mal": 21939,
+      "anilist": 20595
     }
   },
   {
@@ -1350,168 +1470,123 @@
     }
   },
   {
-    "id": "anime:anilist-5258",
+    "id": "anime:anilist-101348",
     "medium": "anime",
     "title": {
-      "zh": "Hajime no Ippo: The Fighting! New Challenger",
-      "original": "はじめの一歩 New Challenger"
+      "zh": "冰海战记",
+      "original": "ヴィンランド・サガ"
     },
-    "year": 2009,
+    "year": 2019,
     "format": "TV",
     "ids": {
-      "bangumi": null,
-      "mal": 5258,
-      "anilist": 5258
+      "bangumi": 240386,
+      "mal": 37521,
+      "anilist": 101348
     }
   },
   {
-    "id": "anime:anilist-431",
+    "id": "anime:anilist-17074",
     "medium": "anime",
     "title": {
-      "zh": "Howl‘s Moving Castle",
-      "original": "ハウルの動く城"
+      "zh": "物语系列 第二季",
+      "original": "〈物語〉シリーズ セカンドシーズン"
     },
-    "year": 2004,
-    "format": "MOVIE",
-    "ids": {
-      "bangumi": null,
-      "mal": 431,
-      "anilist": 431
-    }
-  },
-  {
-    "id": "anime:anilist-164",
-    "medium": "anime",
-    "title": {
-      "zh": "Princess Mononoke",
-      "original": "もののけ姫"
-    },
-    "year": 1997,
-    "format": "MOVIE",
-    "ids": {
-      "bangumi": null,
-      "mal": 164,
-      "anilist": 164
-    }
-  },
-  {
-    "id": "anime:anilist-156092",
-    "medium": "anime",
-    "title": {
-      "zh": "To Be Hero X",
-      "original": "凸变英雄X"
-    },
-    "year": 2025,
-    "format": "ONA",
-    "ids": {
-      "bangumi": null,
-      "mal": 53447,
-      "anilist": 156092
-    }
-  },
-  {
-    "id": "anime:anilist-2001",
-    "medium": "anime",
-    "title": {
-      "zh": "Gurren Lagann",
-      "original": "天元突破グレンラガン"
-    },
-    "year": 2007,
+    "year": 2013,
     "format": "TV",
     "ids": {
-      "bangumi": null,
-      "mal": 2001,
-      "anilist": 2001
+      "bangumi": 68812,
+      "mal": 17074,
+      "anilist": 17074
     }
   },
   {
-    "id": "anime:anilist-457",
-    "medium": "anime",
+    "id": "manga:bangumi-5391",
+    "medium": "manga",
     "title": {
-      "zh": "MUSHI-SHI",
-      "original": "蟲師"
+      "zh": "ARIA (12)",
+      "original": "ARIA (12)"
     },
-    "year": 2005,
-    "format": "TV",
+    "year": 2008,
+    "format": "漫画",
     "ids": {
-      "bangumi": null,
-      "mal": 457,
-      "anilist": 457
+      "bangumi": 5391,
+      "mal": null,
+      "anilist": null
     }
   },
   {
-    "id": "anime:anilist-166475",
-    "medium": "anime",
+    "id": "manga:bangumi-18462",
+    "medium": "manga",
     "title": {
-      "zh": "The Legend of Hei 2",
-      "original": "罗小黑战记 2"
+      "zh": "灌篮高手 完全版",
+      "original": "SLAM DUNK 完全版"
     },
-    "year": 2025,
-    "format": "MOVIE",
+    "year": 2001,
+    "format": "漫画",
     "ids": {
-      "bangumi": null,
-      "mal": 61952,
-      "anilist": 166475
-    }
-  },
-  {
-    "id": "anime:anilist-21719",
-    "medium": "anime",
-    "title": {
-      "zh": "Fate/stay night [Heaven’s Feel] III. spring song",
-      "original": "Fate/stay night[Heaven's Feel] ⅠⅠⅠ.spring song"
-    },
-    "year": 2020,
-    "format": "MOVIE",
-    "ids": {
-      "bangumi": null,
-      "mal": 33050,
-      "anilist": 21719
-    }
-  },
-  {
-    "id": "anime:anilist-11665",
-    "medium": "anime",
-    "title": {
-      "zh": "Natsume's Book of Friends Season 4",
-      "original": "夏目友人帳 肆"
-    },
-    "year": 2012,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 11665,
-      "anilist": 11665
-    }
-  },
-  {
-    "id": "anime:anilist-128547",
-    "medium": "anime",
-    "title": {
-      "zh": "ODDTAXI",
-      "original": "オッドタクシー"
-    },
-    "year": 2021,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 46102,
-      "anilist": 128547
+      "bangumi": 18462,
+      "mal": null,
+      "anilist": null
     }
   },
   {
     "id": "manga:anilist-30002",
     "medium": "manga",
     "title": {
-      "zh": "Berserk",
+      "zh": "剑风传奇",
       "original": "ベルセルク"
     },
     "year": 1989,
     "format": "MANGA",
     "ids": {
-      "bangumi": null,
+      "bangumi": 9640,
       "mal": 2,
       "anilist": 30002
+    }
+  },
+  {
+    "id": "manga:bangumi-27684",
+    "medium": "manga",
+    "title": {
+      "zh": "哆啦A梦",
+      "original": "ドラえもん"
+    },
+    "year": 1974,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 27684,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-25896",
+    "medium": "manga",
+    "title": {
+      "zh": "火之鸟",
+      "original": "火の鳥（朝日ソノラマ版）"
+    },
+    "year": 1997,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 25896,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-9115",
+    "medium": "manga",
+    "title": {
+      "zh": "SLAM DUNK 完全版 (23)",
+      "original": "SLAM DUNK 完全版 (23)"
+    },
+    "year": 2002,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 9115,
+      "mal": null,
+      "anilist": null
     }
   },
   {
@@ -1530,63 +1605,138 @@
     }
   },
   {
-    "id": "manga:anilist-30656",
+    "id": "manga:bangumi-199308",
     "medium": "manga",
     "title": {
-      "zh": "Vagabond",
-      "original": "バガボンド"
+      "zh": "進撃の巨人 (21)",
+      "original": "進撃の巨人 (21)"
     },
-    "year": 1998,
-    "format": "MANGA",
+    "year": 2016,
+    "format": "漫画",
     "ids": {
-      "bangumi": null,
-      "mal": 656,
-      "anilist": 30656
+      "bangumi": 199308,
+      "mal": null,
+      "anilist": null
     }
   },
   {
-    "id": "manga:anilist-30013",
+    "id": "manga:bangumi-239449",
     "medium": "manga",
     "title": {
-      "zh": "One Piece",
-      "original": "ONE PIECE"
+      "zh": "少女終末旅行 (6)",
+      "original": "少女終末旅行 (6)"
     },
-    "year": 1997,
-    "format": "MANGA",
+    "year": 2018,
+    "format": "漫画",
     "ids": {
-      "bangumi": null,
-      "mal": 13,
-      "anilist": 30013
+      "bangumi": 239449,
+      "mal": null,
+      "anilist": null
     }
   },
   {
-    "id": "manga:anilist-30001",
+    "id": "manga:bangumi-9116",
     "medium": "manga",
     "title": {
-      "zh": "Monster",
-      "original": "MONSTER"
+      "zh": "SLAM DUNK 完全版 (24)",
+      "original": "SLAM DUNK 完全版 (24)"
     },
-    "year": 1994,
-    "format": "MANGA",
+    "year": 2002,
+    "format": "漫画",
     "ids": {
-      "bangumi": null,
-      "mal": 1,
-      "anilist": 30001
+      "bangumi": 9116,
+      "mal": null,
+      "anilist": null
     }
   },
   {
     "id": "manga:anilist-30051",
     "medium": "manga",
     "title": {
-      "zh": "Slam Dunk",
+      "zh": "灌篮高手",
       "original": "SLAM DUNK"
     },
     "year": 1990,
     "format": "MANGA",
     "ids": {
-      "bangumi": null,
+      "bangumi": 36752,
       "mal": 51,
       "anilist": 30051
+    }
+  },
+  {
+    "id": "manga:bangumi-172526",
+    "medium": "manga",
+    "title": {
+      "zh": "水星领航员 完全版",
+      "original": "ARIA 完全版 ARIA The MASTERPIECE"
+    },
+    "year": 2016,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 172526,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-44996",
+    "medium": "manga",
+    "title": {
+      "zh": "JoJo的奇妙冒险 第七部 飙马野郎",
+      "original": "ジョジョの奇妙な冒険 Part7『スティール・ボール・ラン』"
+    },
+    "year": 2004,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 44996,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-12143",
+    "medium": "manga",
+    "title": {
+      "zh": "ONE PIECE (23)",
+      "original": "ONE PIECE (23)"
+    },
+    "year": 2002,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 12143,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-12164",
+    "medium": "manga",
+    "title": {
+      "zh": "ONE PIECE (44)",
+      "original": "ONE PIECE (44)"
+    },
+    "year": 2006,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 12164,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:anilist-30656",
+    "medium": "manga",
+    "title": {
+      "zh": "浪客行",
+      "original": "バガボンド"
+    },
+    "year": 1998,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 32435,
+      "mal": 656,
+      "anilist": 30656
     }
   },
   {
@@ -1620,48 +1770,63 @@
     }
   },
   {
-    "id": "manga:anilist-64053",
+    "id": "manga:anilist-30013",
     "medium": "manga",
     "title": {
-      "zh": "Umineko When They Cry Episode 8: Twilight of the Golden Witch",
-      "original": "うみねこのなく頃に散 - Episode 8: Twilight of the Golden Witch"
+      "zh": "航海王",
+      "original": "ONE PIECE"
     },
-    "year": 2012,
+    "year": 1997,
     "format": "MANGA",
     "ids": {
-      "bangumi": null,
-      "mal": 34053,
-      "anilist": 64053
+      "bangumi": 3510,
+      "mal": 13,
+      "anilist": 30013
     }
   },
   {
-    "id": "manga:anilist-30025",
+    "id": "manga:bangumi-185941",
     "medium": "manga",
     "title": {
-      "zh": "Fullmetal Alchemist",
-      "original": "鋼の錬金術師"
+      "zh": "進撃の巨人 (20)",
+      "original": "進撃の巨人 (20)"
     },
-    "year": 2001,
-    "format": "MANGA",
+    "year": 2016,
+    "format": "漫画",
     "ids": {
-      "bangumi": null,
-      "mal": 25,
-      "anilist": 30025
+      "bangumi": 185941,
+      "mal": null,
+      "anilist": null
     }
   },
   {
-    "id": "manga:anilist-87395",
+    "id": "manga:bangumi-1626",
     "medium": "manga",
     "title": {
-      "zh": "Grand Blue Dreaming",
-      "original": "ぐらんぶる"
+      "zh": "守望者",
+      "original": "Watchmen"
     },
-    "year": 2014,
-    "format": "MANGA",
+    "year": 1987,
+    "format": "漫画",
     "ids": {
-      "bangumi": null,
-      "mal": 70345,
-      "anilist": 87395
+      "bangumi": 1626,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-380499",
+    "medium": "manga",
+    "title": {
+      "zh": "チ。―地球の運動について― (8)",
+      "original": "チ。―地球の運動について― (8)"
+    },
+    "year": 2022,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 380499,
+      "mal": null,
+      "anilist": null
     }
   },
   {
@@ -1740,33 +1905,153 @@
     }
   },
   {
-    "id": "manga:anilist-34632",
+    "id": "manga:anilist-30025",
     "medium": "manga",
     "title": {
-      "zh": "Goodnight Punpun",
-      "original": "おやすみプンプン"
+      "zh": "钢之炼金术师",
+      "original": "鋼の錬金術師"
     },
-    "year": 2007,
+    "year": 2001,
     "format": "MANGA",
     "ids": {
-      "bangumi": null,
-      "mal": 4632,
-      "anilist": 34632
+      "bangumi": 4923,
+      "mal": 25,
+      "anilist": 30025
     }
   },
   {
-    "id": "manga:anilist-65243",
+    "id": "manga:bangumi-32693",
     "medium": "manga",
     "title": {
-      "zh": "Haikyu!!",
-      "original": "ハイキュー！！"
+      "zh": "好逑双物语",
+      "original": "H2"
     },
-    "year": 2012,
+    "year": 1992,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 32693,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-25902",
+    "medium": "manga",
+    "title": {
+      "zh": "火之鸟 复刻版 04 凤凰篇",
+      "original": "火の鳥 4・鳳凰編"
+    },
+    "year": 2009,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 25902,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-210459",
+    "medium": "manga",
+    "title": {
+      "zh": "進撃の巨人 (22)",
+      "original": "進撃の巨人 (22)"
+    },
+    "year": 2017,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 210459,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-7213",
+    "medium": "manga",
+    "title": {
+      "zh": "猎人（27）名字",
+      "original": "HUNTER×HUNTER (27) 名前"
+    },
+    "year": 2009,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 7213,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-27466",
+    "medium": "manga",
+    "title": {
+      "zh": "龙珠",
+      "original": "DRAGON BALL"
+    },
+    "year": 1984,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 27466,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-10787",
+    "medium": "manga",
+    "title": {
+      "zh": "女仆咖啡厅",
+      "original": "それでも町は廻っている"
+    },
+    "year": 2006,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 10787,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-28842",
+    "medium": "manga",
+    "title": {
+      "zh": "竹光侍",
+      "original": "竹光侍"
+    },
+    "year": 2006,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 28842,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:anilist-30001",
+    "medium": "manga",
+    "title": {
+      "zh": "怪物",
+      "original": "MONSTER"
+    },
+    "year": 1994,
     "format": "MANGA",
     "ids": {
-      "bangumi": null,
-      "mal": 35243,
-      "anilist": 65243
+      "bangumi": 2139,
+      "mal": 1,
+      "anilist": 30001
+    }
+  },
+  {
+    "id": "manga:anilist-30104",
+    "medium": "manga",
+    "title": {
+      "zh": "四叶妹妹！",
+      "original": "よつばと！"
+    },
+    "year": 2003,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 10086,
+      "mal": 104,
+      "anilist": 30104
     }
   },
   {
@@ -1785,18 +2070,18 @@
     }
   },
   {
-    "id": "manga:anilist-30104",
+    "id": "manga:anilist-64053",
     "medium": "manga",
     "title": {
-      "zh": "Yotsuba&!",
-      "original": "よつばと！"
+      "zh": "海猫鸣泣之时散EP8：黄金魔女的暮光",
+      "original": "うみねこのなく頃に散 - Episode 8: Twilight of the Golden Witch"
     },
-    "year": 2003,
+    "year": 2012,
     "format": "MANGA",
     "ids": {
-      "bangumi": null,
-      "mal": 104,
-      "anilist": 30104
+      "bangumi": 92966,
+      "mal": 34053,
+      "anilist": 64053
     }
   },
   {
@@ -1815,6 +2100,21 @@
     }
   },
   {
+    "id": "manga:anilist-87395",
+    "medium": "manga",
+    "title": {
+      "zh": "GRANDBLUE 碧蓝之海",
+      "original": "ぐらんぶる"
+    },
+    "year": 2014,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 118165,
+      "mal": 70345,
+      "anilist": 87395
+    }
+  },
+  {
     "id": "manga:anilist-30028",
     "medium": "manga",
     "title": {
@@ -1830,31 +2130,16 @@
     }
   },
   {
-    "id": "manga:anilist-86082",
-    "medium": "manga",
-    "title": {
-      "zh": "Delicious in Dungeon",
-      "original": "ダンジョン飯"
-    },
-    "year": 2014,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 85781,
-      "anilist": 86082
-    }
-  },
-  {
     "id": "manga:anilist-30026",
     "medium": "manga",
     "title": {
-      "zh": "Hunter x Hunter",
+      "zh": "猎人",
       "original": "HUNTER×HUNTER"
     },
     "year": 1998,
     "format": "MANGA",
     "ids": {
-      "bangumi": null,
+      "bangumi": 24596,
       "mal": 26,
       "anilist": 30026
     }
@@ -1875,6 +2160,96 @@
     }
   },
   {
+    "id": "manga:bangumi-32612",
+    "medium": "manga",
+    "title": {
+      "zh": "棒球英豪 完全版",
+      "original": "タッチ―完全版"
+    },
+    "year": 2005,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 32612,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-4771",
+    "medium": "manga",
+    "title": {
+      "zh": "蟲師 (1)",
+      "original": "蟲師 (1)"
+    },
+    "year": 2000,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 4771,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-31808",
+    "medium": "manga",
+    "title": {
+      "zh": "哆啦A梦大长篇",
+      "original": "大長編ドラえもん"
+    },
+    "year": 1983,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 31808,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-140984",
+    "medium": "manga",
+    "title": {
+      "zh": "花葬",
+      "original": "花葬"
+    },
+    "year": 2015,
+    "format": "画集",
+    "ids": {
+      "bangumi": 140984,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-26476",
+    "medium": "manga",
+    "title": {
+      "zh": "龙珠 完全版",
+      "original": "DRAGON BALL 完全版"
+    },
+    "year": 2002,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 26476,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-39416",
+    "medium": "manga",
+    "title": {
+      "zh": "三个阿道夫",
+      "original": "アドルフに告ぐ"
+    },
+    "year": 1985,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 39416,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
     "id": "manga:anilist-135129",
     "medium": "manga",
     "title": {
@@ -1890,6 +2265,21 @@
     }
   },
   {
+    "id": "manga:anilist-34632",
+    "medium": "manga",
+    "title": {
+      "zh": "晚安，布布",
+      "original": "おやすみプンプン"
+    },
+    "year": 2007,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 36261,
+      "mal": 4632,
+      "anilist": 34632
+    }
+  },
+  {
     "id": "manga:anilist-86635",
     "medium": "manga",
     "title": {
@@ -1902,6 +2292,21 @@
       "bangumi": null,
       "mal": 90125,
       "anilist": 86635
+    }
+  },
+  {
+    "id": "manga:anilist-31224",
+    "medium": "manga",
+    "title": {
+      "zh": "3月的狮子",
+      "original": "3月のライオン"
+    },
+    "year": 2007,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 1902,
+      "mal": 1224,
+      "anilist": 31224
     }
   },
   {
@@ -1935,18 +2340,18 @@
     }
   },
   {
-    "id": "manga:anilist-31224",
+    "id": "manga:anilist-30651",
     "medium": "manga",
     "title": {
-      "zh": "March Comes in Like a Lion",
-      "original": "3月のライオン"
+      "zh": "风之谷",
+      "original": "風の谷のナウシカ"
     },
-    "year": 2007,
+    "year": 1982,
     "format": "MANGA",
     "ids": {
-      "bangumi": null,
-      "mal": 1224,
-      "anilist": 31224
+      "bangumi": 25402,
+      "mal": 651,
+      "anilist": 30651
     }
   },
   {
@@ -1965,21 +2370,6 @@
     }
   },
   {
-    "id": "manga:anilist-37375",
-    "medium": "manga",
-    "title": {
-      "zh": "The Climber",
-      "original": "孤高の人"
-    },
-    "year": 2007,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 7375,
-      "anilist": 37375
-    }
-  },
-  {
     "id": "manga:anilist-51525",
     "medium": "manga",
     "title": {
@@ -1995,18 +2385,18 @@
     }
   },
   {
-    "id": "manga:anilist-118371",
+    "id": "manga:anilist-65243",
     "medium": "manga",
     "title": {
-      "zh": "Medalist",
-      "original": "メダリスト"
+      "zh": "排球少年!!",
+      "original": "ハイキュー！！"
     },
-    "year": 2020,
+    "year": 2012,
     "format": "MANGA",
     "ids": {
-      "bangumi": null,
-      "mal": 129621,
-      "anilist": 118371
+      "bangumi": 42232,
+      "mal": 35243,
+      "anilist": 65243
     }
   },
   {
@@ -2040,6 +2430,36 @@
     }
   },
   {
+    "id": "manga:anilist-118371",
+    "medium": "manga",
+    "title": {
+      "zh": "金牌得主",
+      "original": "メダリスト"
+    },
+    "year": 2020,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 307237,
+      "mal": 129621,
+      "anilist": 118371
+    }
+  },
+  {
+    "id": "manga:anilist-37375",
+    "medium": "manga",
+    "title": {
+      "zh": "孤高之人",
+      "original": "孤高の人"
+    },
+    "year": 2007,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 43126,
+      "mal": 7375,
+      "anilist": 37375
+    }
+  },
+  {
     "id": "manga:anilist-126986",
     "medium": "manga",
     "title": {
@@ -2052,6 +2472,36 @@
       "bangumi": null,
       "mal": 147769,
       "anilist": 126986
+    }
+  },
+  {
+    "id": "manga:anilist-86082",
+    "medium": "manga",
+    "title": {
+      "zh": "迷宫饭",
+      "original": "ダンジョン飯"
+    },
+    "year": 2014,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 105206,
+      "mal": 85781,
+      "anilist": 86082
+    }
+  },
+  {
+    "id": "manga:anilist-30081",
+    "medium": "manga",
+    "title": {
+      "zh": "水星领航员",
+      "original": "ARIA"
+    },
+    "year": 2002,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 5392,
+      "mal": 81,
+      "anilist": 30081
     }
   },
   {
@@ -2145,18 +2595,183 @@
     }
   },
   {
-    "id": "manga:anilist-30651",
+    "id": "manga:bangumi-105716",
     "medium": "manga",
     "title": {
-      "zh": "Nausicaä of the Valley of the Wind",
-      "original": "風の谷のナウシカ"
+      "zh": "丁丁历险记",
+      "original": "Les Aventures de Tintin et Milou"
     },
-    "year": 1982,
+    "year": 1930,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 105716,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-5424",
+    "medium": "manga",
+    "title": {
+      "zh": "蜂蜜与四叶草",
+      "original": "ハチミツとクローバー"
+    },
+    "year": 2002,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 5424,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-25898",
+    "medium": "manga",
+    "title": {
+      "zh": "火之鸟 复刻版 02 未来篇",
+      "original": "火の鳥 2・未来編"
+    },
+    "year": 2009,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 25898,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-134364",
+    "medium": "manga",
+    "title": {
+      "zh": "錦織敦史 アニメーションワークス Telegenic!",
+      "original": "錦織敦史 アニメーションワークス Telegenic!"
+    },
+    "year": 2015,
+    "format": "画集",
+    "ids": {
+      "bangumi": 134364,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-15792",
+    "medium": "manga",
+    "title": {
+      "zh": "棋魂完全版",
+      "original": "ヒカルの碁 完全版"
+    },
+    "year": 2009,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 15792,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-10924",
+    "medium": "manga",
+    "title": {
+      "zh": "五星物语",
+      "original": "ファイブスター物語"
+    },
+    "year": 1987,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 10924,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:bangumi-1814",
+    "medium": "manga",
+    "title": {
+      "zh": "MONSTER (1)",
+      "original": "MONSTER (1)"
+    },
+    "year": 1995,
+    "format": "漫画",
+    "ids": {
+      "bangumi": 1814,
+      "mal": null,
+      "anilist": null
+    }
+  },
+  {
+    "id": "manga:anilist-30418",
+    "medium": "manga",
+    "title": {
+      "zh": "虫师",
+      "original": "蟲師"
+    },
+    "year": 1999,
     "format": "MANGA",
     "ids": {
-      "bangumi": null,
-      "mal": 651,
-      "anilist": 30651
+      "bangumi": 3822,
+      "mal": 418,
+      "anilist": 30418
+    }
+  },
+  {
+    "id": "manga:anilist-30004",
+    "medium": "manga",
+    "title": {
+      "zh": "横滨购物纪行",
+      "original": "ヨコハマ買い出し紀行"
+    },
+    "year": 1994,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 10617,
+      "mal": 4,
+      "anilist": 30004
+    }
+  },
+  {
+    "id": "manga:anilist-39982",
+    "medium": "manga",
+    "title": {
+      "zh": "噬谎者",
+      "original": "嘘喰い"
+    },
+    "year": 2006,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 67104,
+      "mal": 9982,
+      "anilist": 39982
+    }
+  },
+  {
+    "id": "manga:anilist-85412",
+    "medium": "manga",
+    "title": {
+      "zh": "少女终末旅行",
+      "original": "少女終末旅行"
+    },
+    "year": 2014,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 128202,
+      "mal": 72467,
+      "anilist": 85412
+    }
+  },
+  {
+    "id": "manga:anilist-86218",
+    "medium": "manga",
+    "title": {
+      "zh": "终将成为你",
+      "original": "やがて君になる"
+    },
+    "year": 2015,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 132936,
+      "mal": 88660,
+      "anilist": 86218
     }
   },
   {
@@ -2190,21 +2805,6 @@
     }
   },
   {
-    "id": "manga:anilist-30081",
-    "medium": "manga",
-    "title": {
-      "zh": "Aria",
-      "original": "ARIA"
-    },
-    "year": 2002,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 81,
-      "anilist": 30081
-    }
-  },
-  {
     "id": "manga:anilist-30145",
     "medium": "manga",
     "title": {
@@ -2217,21 +2817,6 @@
       "bangumi": null,
       "mal": 145,
       "anilist": 30145
-    }
-  },
-  {
-    "id": "manga:anilist-86218",
-    "medium": "manga",
-    "title": {
-      "zh": "Bloom Into You",
-      "original": "やがて君になる"
-    },
-    "year": 2015,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 88660,
-      "anilist": 86218
     }
   },
   {
@@ -2292,36 +2877,6 @@
       "bangumi": null,
       "mal": 44,
       "anilist": 30044
-    }
-  },
-  {
-    "id": "manga:anilist-85412",
-    "medium": "manga",
-    "title": {
-      "zh": "Girls' Last Tour",
-      "original": "少女終末旅行"
-    },
-    "year": 2014,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 72467,
-      "anilist": 85412
-    }
-  },
-  {
-    "id": "manga:anilist-86559",
-    "medium": "manga",
-    "title": {
-      "zh": "Golden Kamuy",
-      "original": "ゴールデンカムイ"
-    },
-    "year": 2014,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 85968,
-      "anilist": 86559
     }
   },
   {
@@ -2415,588 +2970,33 @@
     }
   },
   {
-    "id": "manga:anilist-39982",
+    "id": "manga:bangumi-313622",
     "medium": "manga",
     "title": {
-      "zh": "Usogui",
-      "original": "嘘喰い"
-    },
-    "year": 2006,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 9982,
-      "anilist": 39982
-    }
-  },
-  {
-    "id": "manga:anilist-30004",
-    "medium": "manga",
-    "title": {
-      "zh": "Yokohama Kaidashi Kikou",
-      "original": "ヨコハマ買い出し紀行"
-    },
-    "year": 1994,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 4,
-      "anilist": 30004
-    }
-  },
-  {
-    "id": "manga:anilist-85850",
-    "medium": "manga",
-    "title": {
-      "zh": "19 Tian",
-      "original": "19天"
-    },
-    "year": 2014,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 116312,
-      "anilist": 85850
-    }
-  },
-  {
-    "id": "manga:anilist-41514",
-    "medium": "manga",
-    "title": {
-      "zh": "A Bride's Story",
-      "original": "乙嫁語り"
-    },
-    "year": 2008,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 11514,
-      "anilist": 41514
-    }
-  },
-  {
-    "id": "manga:anilist-30756",
-    "medium": "manga",
-    "title": {
-      "zh": "Banana Fish",
-      "original": "BANANA FISH"
-    },
-    "year": 1985,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 756,
-      "anilist": 30756
-    }
-  },
-  {
-    "id": "manga:anilist-41054",
-    "medium": "manga",
-    "title": {
-      "zh": "Billy Bat",
-      "original": "ビリーバット"
-    },
-    "year": 2008,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 11054,
-      "anilist": 41054
-    }
-  },
-  {
-    "id": "manga:anilist-114998",
-    "medium": "manga",
-    "title": {
-      "zh": "Bungo Stray Dogs Beast",
-      "original": "文豪ストレイドッグス　ＢＥＡＳＴ"
-    },
-    "year": 2019,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 123006,
-      "anilist": 114998
-    }
-  },
-  {
-    "id": "manga:anilist-105778",
-    "medium": "manga",
-    "title": {
-      "zh": "Chainsaw Man",
-      "original": "チェンソーマン"
-    },
-    "year": 2018,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 116778,
-      "anilist": 105778
-    }
-  },
-  {
-    "id": "manga:anilist-106929",
-    "medium": "manga",
-    "title": {
-      "zh": "Eleceed",
-      "original": "일렉시드"
-    },
-    "year": 2018,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 147171,
-      "anilist": 106929
-    }
-  },
-  {
-    "id": "manga:anilist-30102",
-    "medium": "manga",
-    "title": {
-      "zh": "Fruits Basket",
-      "original": "フルーツバスケット"
-    },
-    "year": 1998,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 102,
-      "anilist": 30102
-    }
-  },
-  {
-    "id": "manga:anilist-146983",
-    "medium": "manga",
-    "title": {
-      "zh": "Goodbye, Eri",
-      "original": "さよなら絵梨"
-    },
-    "year": 2022,
-    "format": "ONE_SHOT",
-    "ids": {
-      "bangumi": null,
-      "mal": 145863,
-      "anilist": 146983
-    }
-  },
-  {
-    "id": "manga:anilist-101563",
-    "medium": "manga",
-    "title": {
-      "zh": "Grandmaster of Demonic Cultivation: Mo Dao Zu Shi",
-      "original": "魔道祖师"
-    },
-    "year": 2017,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 137200,
-      "anilist": 101563
-    }
-  },
-  {
-    "id": "manga:anilist-100805",
-    "medium": "manga",
-    "title": {
-      "zh": "Here U Are",
-      "original": "Here U Are"
-    },
-    "year": 2017,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 119072,
-      "anilist": 100805
-    }
-  },
-  {
-    "id": "manga:anilist-132288",
-    "medium": "manga",
-    "title": {
-      "zh": "Hirayasumi",
-      "original": "ひらやすみ"
-    },
-    "year": 2021,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 137303,
-      "anilist": 132288
-    }
-  },
-  {
-    "id": "manga:anilist-55515",
-    "medium": "manga",
-    "title": {
-      "zh": "JoJo no Kimyou na Bouken: JoJolion",
-      "original": "ジョジョの奇妙な冒険 ジョジョリオン"
-    },
-    "year": 2011,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 25515,
-      "anilist": 55515
-    }
-  },
-  {
-    "id": "manga:anilist-174875",
-    "medium": "manga",
-    "title": {
-      "zh": "Kimi ni Okuru Eien",
-      "original": "君に贈る永遠"
-    },
-    "year": 2024,
-    "format": "ONE_SHOT",
-    "ids": {
-      "bangumi": null,
-      "mal": 180916,
-      "anilist": 174875
-    }
-  },
-  {
-    "id": "manga:anilist-30904",
-    "medium": "manga",
-    "title": {
-      "zh": "Lone Wolf and Cub",
-      "original": "子連れ狼"
-    },
-    "year": 1970,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 904,
-      "anilist": 30904
-    }
-  },
-  {
-    "id": "manga:anilist-86551",
-    "medium": "manga",
-    "title": {
-      "zh": "Made in Abyss",
-      "original": "メイドインアビス"
-    },
-    "year": 2012,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 91941,
-      "anilist": 86551
-    }
-  },
-  {
-    "id": "manga:anilist-85189",
-    "medium": "manga",
-    "title": {
-      "zh": "Mob Psycho 100",
-      "original": "モブサイコ100"
-    },
-    "year": 2012,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 60783,
-      "anilist": 85189
-    }
-  },
-  {
-    "id": "manga:anilist-30418",
-    "medium": "manga",
-    "title": {
-      "zh": "Mushishi",
-      "original": "蟲師"
-    },
-    "year": 1999,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 418,
-      "anilist": 30418
-    }
-  },
-  {
-    "id": "manga:anilist-31859",
-    "medium": "manga",
-    "title": {
-      "zh": "Natsume's Book of Friends",
-      "original": "夏目友人帳"
-    },
-    "year": 2003,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 1859,
-      "anilist": 31859
-    }
-  },
-  {
-    "id": "manga:anilist-74347",
-    "medium": "manga",
-    "title": {
-      "zh": "One-Punch Man",
-      "original": "ワンパンマン"
-    },
-    "year": 2012,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 44347,
-      "anilist": 74347
-    }
-  },
-  {
-    "id": "manga:anilist-35744",
-    "medium": "manga",
-    "title": {
-      "zh": "Ping Pong",
-      "original": "ピンポン"
-    },
-    "year": 1996,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 5744,
-      "anilist": 35744
-    }
-  },
-  {
-    "id": "manga:anilist-30745",
-    "medium": "manga",
-    "title": {
-      "zh": "Pluto",
-      "original": "PLUTO"
-    },
-    "year": 2003,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 745,
-      "anilist": 30745
-    }
-  },
-  {
-    "id": "manga:anilist-85849",
-    "medium": "manga",
-    "title": {
-      "zh": "ReLIFE",
-      "original": "リライフ"
-    },
-    "year": 2013,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 78523,
-      "anilist": 85849
-    }
-  },
-  {
-    "id": "manga:anilist-121565",
-    "medium": "manga",
-    "title": {
-      "zh": "Seasons of Blossom",
-      "original": "청춘 블라썸"
+      "zh": "—白身魚 自選イラスト集— 真昼の月",
+      "original": "—白身魚 自選イラスト集— 真昼の月"
     },
     "year": 2020,
-    "format": "MANGA",
+    "format": "画集",
     "ids": {
-      "bangumi": null,
-      "mal": 145539,
-      "anilist": 121565
+      "bangumi": 313622,
+      "mal": null,
+      "anilist": null
     }
   },
   {
-    "id": "manga:anilist-99022",
+    "id": "manga:bangumi-236135",
     "medium": "manga",
     "title": {
-      "zh": "The Apothecary Diaries",
-      "original": "薬屋のひとりごと"
+      "zh": "51区",
+      "original": "エリア51"
     },
-    "year": 2017,
-    "format": "MANGA",
+    "year": 2011,
+    "format": "漫画",
     "ids": {
-      "bangumi": null,
-      "mal": 107562,
-      "anilist": 99022
-    }
-  },
-  {
-    "id": "manga:anilist-100568",
-    "medium": "manga",
-    "title": {
-      "zh": "The Horizon",
-      "original": "수평선"
-    },
-    "year": 2016,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 125036,
-      "anilist": 100568
-    }
-  },
-  {
-    "id": "manga:anilist-177706",
-    "medium": "manga",
-    "title": {
-      "zh": "The Knight Only Lives Today",
-      "original": "오늘만 사는 기사"
-    },
-    "year": 2024,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 170427,
-      "anilist": 177706
-    }
-  },
-  {
-    "id": "manga:anilist-119521",
-    "medium": "manga",
-    "title": {
-      "zh": "The Legend of the Northern Blade",
-      "original": "북검전기"
-    },
-    "year": 2019,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 134744,
-      "anilist": 119521
-    }
-  },
-  {
-    "id": "manga:anilist-136109",
-    "medium": "manga",
-    "title": {
-      "zh": "The Moon on a Rainy Night",
-      "original": "雨夜の月"
-    },
-    "year": 2021,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 142310,
-      "anilist": 136109
-    }
-  },
-  {
-    "id": "manga:anilist-98842",
-    "medium": "manga",
-    "title": {
-      "zh": "Toilet-Bound Hanako-kun",
-      "original": "地縛少年 花子くん"
-    },
-    "year": 2014,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 105084,
-      "anilist": 98842
-    }
-  },
-  {
-    "id": "manga:anilist-86099",
-    "medium": "manga",
-    "title": {
-      "zh": "Wind Breaker",
-      "original": "윈드브레이커"
-    },
-    "year": 2013,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 103237,
-      "anilist": 86099
-    }
-  },
-  {
-    "id": "manga:anilist-30664",
-    "medium": "manga",
-    "title": {
-      "zh": "Akira",
-      "original": "AKIRA"
-    },
-    "year": 1982,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 664,
-      "anilist": 30664
-    }
-  },
-  {
-    "id": "manga:anilist-53390",
-    "medium": "manga",
-    "title": {
-      "zh": "Attack on Titan",
-      "original": "進撃の巨人"
-    },
-    "year": 2009,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 23390,
-      "anilist": 53390
-    }
-  },
-  {
-    "id": "manga:anilist-86890",
-    "medium": "manga",
-    "title": {
-      "zh": "Blue Giant",
-      "original": "BLUE GIANT"
-    },
-    "year": 2013,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 85719,
-      "anilist": 86890
-    }
-  },
-  {
-    "id": "manga:anilist-30021",
-    "medium": "manga",
-    "title": {
-      "zh": "Death Note",
-      "original": "DEATH NOTE"
-    },
-    "year": 2003,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 21,
-      "anilist": 30021
-    }
-  },
-  {
-    "id": "manga:anilist-87347",
-    "medium": "manga",
-    "title": {
-      "zh": "Given",
-      "original": "ギヴン"
-    },
-    "year": 2013,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 79085,
-      "anilist": 87347
-    }
-  },
-  {
-    "id": "manga:anilist-33006",
-    "medium": "manga",
-    "title": {
-      "zh": "JoJo's Bizarre Adventure Part 4: Diamond is Unbreakable",
-      "original": "ジョジョの奇妙な冒険 ダイヤモンドは砕けない"
-    },
-    "year": 1992,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 3006,
-      "anilist": 33006
+      "bangumi": 236135,
+      "mal": null,
+      "anilist": null
     }
   }
 ]

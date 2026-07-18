@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T06:05:41.138Z",
+  "generatedAt": "2026-07-18T06:20:02.132Z",
   "algorithmVersion": "1.0.0",
   "minimumSources": 1,
   "staleAfterDays": 14,
@@ -16,36 +16,36 @@
     "discoverySources": {
       "anime:anilist": "ok",
       "anime:mal": "partial",
-      "anime:bangumi": "error",
+      "anime:bangumi": "ok",
       "manga:anilist": "ok",
       "manga:mal": "partial",
-      "manga:bangumi": "error"
+      "manga:bangumi": "ok"
     },
-    "discoveryErrors": 4
+    "discoveryErrors": 2
   },
   "sources": {
     "bangumi": {
-      "status": "error",
-      "via": "Bangumi API v0",
-      "received": 0,
-      "errors": 2,
-      "lastSuccessAt": "2026-07-17T11:13:34.362Z",
-      "message": "anime: page 1: Network error while fetching https://api.bgm.tv/v0/subjects?type=2&sort=rank&limit=100&offset=0"
+      "status": "ok",
+      "via": "catalog discovery",
+      "received": 108,
+      "errors": 0,
+      "lastSuccessAt": "2026-07-18T06:19:56.862Z",
+      "message": null
     },
     "mal": {
       "status": "partial",
-      "via": "catalog discovery",
-      "received": 127,
-      "errors": 74,
-      "lastSuccessAt": "2026-07-18T06:05:36.810Z",
+      "via": "catalog discovery + Jikan (MAL mirror)",
+      "received": 113,
+      "errors": 35,
+      "lastSuccessAt": "2026-07-18T06:19:58.002Z",
       "message": "anime: page 5: 504 Gateway Time-out from https://api.jikan.moe/v4/top/anime?limit=25&page=5: {\"status\":504,\"type\":\"BadResponseException\",\"message\":\"Jikan failed to connect to MyAnimeList. MyAnimeList may be down\\/unavailable or refuses to connect\",\"error\":null}"
     },
     "anilist": {
       "status": "ok",
       "via": "catalog discovery",
-      "received": 198,
+      "received": 145,
       "errors": 0,
-      "lastSuccessAt": "2026-07-18T06:05:36.809Z",
+      "lastSuccessAt": "2026-07-18T06:19:56.843Z",
       "message": null
     }
   }
