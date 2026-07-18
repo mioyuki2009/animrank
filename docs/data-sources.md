@@ -10,7 +10,7 @@
 
 三者的用户群和评分习惯并不相同，但都能覆盖两个板块，也都能用稳定作品 ID 查询。AniDB 只有动画；Kitsu 的样本量和维护可信度较弱；豆瓣没有适合 GitHub Actions 的可靠开放接口，因此首版不把它们纳入总分。
 
-作品目录不在仓库中手工维护。`config/catalog.json` 只提供动画和漫画的最大条数；刷新阶段从 AniList、MAL/Jikan、Bangumi 的分页 API 发现作品并按平台 ID 合并。之后使用 Wikidata 的 Bangumi、MAL、AniList 外部 ID 补映射，再对仍缺失的条目调用 AniList GraphQL 和 Bangumi 搜索 API，并校验标题、年份和作品格式。平台未收录或无法可靠映射时保存为 `null`，页面显示 `-`。
+作品目录不在仓库中手工维护。`config/catalog.json` 只提供动画和漫画的最大条数，当前默认各 200 条；刷新阶段从 AniList、MAL/Jikan、Bangumi 的分页 API 发现作品并按平台 ID 合并。之后使用 Wikidata 的 Bangumi、MAL、AniList 外部 ID 补映射，再对仍缺失的条目调用 AniList GraphQL 和 Bangumi 搜索 API，并校验标题、年份和作品格式。平台未收录或无法可靠映射时保存为 `null`，页面显示 `-`。
 
 ## 综合分
 
@@ -32,15 +32,26 @@
 
 Bangumi 官方 v0 OpenAPI 没有销量、销售量或发行量字段。书籍条目的 `volumes` 仅表示由旧服务端从 wiki 解析的册数；通用 `infobox` 也没有稳定的销量结构，因此二者都不作为销量来源。
 
-漫画刷新通过 MediaWiki API 读取 Wikipedia 的 `List of best-selling manga` 表。脚本使用同一行的近似销量/发行量和单行本卷数，并保留“是否含数字版”的标记：
+漫画刷新优先读取 Manga Codex 的全部累计发行榜页面。完整榜单未命中的目录作品会调用 `/search/api.php`，再进入匹配作品的详情页读取累计发行量、卷数及发行量历史。详情只有 Oricon 各卷历史时，按有记录的卷计算平均值，并明确标注不等同于系列总发行量。搜索结果只用于定位候选；最终仍需校验标题、开始年份和媒介，不能只取搜索第一项。
 
 `卷均发行量 = 公告累计发行量 / 公告时已发行卷数`
 
-动画统一展示日本实体 BD + DVD 的单卷平均销量。刷新时先检查日文 Wikipedia 的 MediaWiki API，只接受同一句中明确出现 BD / DVD、平均口径和张数的记录；再读取 Internet Archive 保存的 Someanithing `Series Data - Quick View` 最终有效快照（2021-09-07），使用其 `Total` / `Average Sales` 列补历史数据。首周单卷、全系列累计、票房、漫画发行量和周边数量不会混入同一排序。
+Wikipedia 的 `List of best-selling manga` 表和日文作品条目作为补充。日文 wikitext 只接受完结后公布的累计量，或句子明确写出“全 N 卷”的记录；“系列累计”会被排除，防止把前传、续作或整个品牌算给单部作品。同作品有多份累计量时取更大的累计值；数值相同时优先采用 Manga Codex 中与发行量配套的卷数。
 
-Someanithing 已停止维护，归档数据不会伪装成当前数据，2021 年后的作品通常显示 `-`。Oricon 是更权威的行业基准，但没有适合公开 CI 的免费 API，因此动画商业数据覆盖率仍会低于评分数据。
+完全版、新装版、文库版等版本只有在去掉版本标记后能唯一、精确对应到已有原系列时，才继承原系列的累计量和原版卷数。详情会注明这不是该版本的独立销量；故事分部不会按此规则继承。
 
-`data/editorial.json` 中经过人工核验的数据和上次成功生成的数据是降级来源。自动 Wiki 结果优先，但绝不会用旧公告累计量除以今天的卷数。
+动画统一展示日本实体 DVD / BD 的系列单卷平均销量。刷新按以下来源合并：
+
+1. Manga Codex：读取全部 61 页 `Initial averages` 榜和 2000 年前榜。榜单负责发现，匹配后优先进入详情读取 `Sales avg (total)`；未命中作品再调用站内搜索。2000 年前电影使用同站初版与再版合计，因为电影本身只有一个作品单位。
+2. 日文 Wikipedia 的完整 wikitext：只接受同一句中明确出现 DVD / BD、累计或平均口径和张数的记录。
+3. Internet Archive 保存的 Someanithing `Series Data - Quick View` 最终有效快照（2021-09-07）：使用 `Total` / `Average Sales` 列补历史数据。
+4. ATWiki 的 2018–2025 年 TV 动画年度榜：使用榜单给出的 DVD / BD 累计单卷平均值；直连遇到 Cloudflare 时通过 Wayback Availability API 读取最新有效快照。
+
+匹配同时校验标题、年份、媒介格式和季号，同一商业记录只能分配给一个目录条目。不同季号互斥；明确写着 `Part 2`、后半战等分部的作品，不能继承只覆盖整季或整个篇章的记录。首周单卷、漫画单周榜、票房、漫画发行量和周边数量不会混入同一排序。
+
+Manga Codex 没有商业记录、作品尚未发售、只网络播出或没有可比实体影碟时，页面继续显示 `-`。Someanithing 已停止维护，因此归档日期会原样展示；ATWiki 年度榜只补充达到门槛的 TV 动画。Oricon 是行业基准，但没有适合公开 CI 的免费 API，因此商业数据覆盖率仍会低于评分数据。
+
+`data/editorial.json` 中经过人工核验的数据和上次成功生成的数据是降级来源。任何来源都不能用旧公告累计量除以今天的卷数。
 
 ## 失败与陈旧数据
 

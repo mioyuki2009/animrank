@@ -1,44 +1,61 @@
 {
-  "generatedAt": "2026-07-18T10:40:10.817Z",
+  "generatedAt": "2026-07-18T15:21:08.339Z",
   "algorithmVersion": "1.1.0",
   "minimumSources": 1,
   "staleAfterDays": 14,
   "calibration": "identity-fallback",
   "catalog": {
     "limits": {
-      "anime": 100,
-      "manga": 100
+      "anime": 200,
+      "manga": 200
     },
     "received": {
-      "anime": 100,
-      "manga": 100
+      "anime": 200,
+      "manga": 200
     },
     "discoverySources": {
       "anime:anilist": "ok",
       "anime:mal": "partial",
-      "anime:bangumi": "ok",
+      "anime:bangumi": "error",
       "anime:wikidata": "ok",
       "anime:anilist-resolver": "error",
-      "anime:bangumi-resolver": "ok",
+      "anime:bangumi-resolver": "error",
       "manga:anilist": "ok",
       "manga:mal": "partial",
-      "manga:bangumi": "ok",
+      "manga:bangumi": "error",
       "manga:wikidata": "ok",
       "manga:anilist-resolver": "error",
-      "manga:bangumi-resolver": "ok"
+      "manga:bangumi-resolver": "error"
     },
-    "discoveryErrors": 4,
+    "discoveryErrors": 8,
     "mappingsAdded": {
-      "wikidata": 136,
+      "wikidata": 59,
       "anilist": 0,
-      "bangumi": 65
+      "bangumi": 0
     }
   },
   "commercial": {
     "sources": {
+      "mangaCodexManga": {
+        "status": "ok",
+        "received": 124,
+        "pages": 4,
+        "message": null
+      },
+      "mangaCodexAnime": {
+        "status": "ok",
+        "received": 83,
+        "pages": 62,
+        "message": null
+      },
       "manga": {
         "status": "ok",
         "received": 191,
+        "message": null
+      },
+      "mangaWiki": {
+        "status": "ok",
+        "received": 34,
         "message": null
       },
       "animeWiki": {
@@ -48,46 +65,52 @@
       },
       "animeArchive": {
         "status": "ok",
+        "received": 61,
+        "message": null
+      },
+      "animeAnnual": {
+        "status": "ok",
         "received": 25,
         "message": null
       }
     },
+    "inheritedEditions": 4,
     "coverage": {
-      "anime": 25,
-      "manga": 25
+      "anime": 103,
+      "manga": 129
     }
   },
   "covers": {
-    "available": 200,
-    "downloaded": 56,
-    "reused": 144,
+    "available": 400,
+    "downloaded": 0,
+    "reused": 400,
     "failed": 0,
     "missing": 0,
-    "removed": 56
+    "removed": 0
   },
   "sources": {
     "bangumi": {
-      "status": "ok",
-      "via": "catalog discovery + Bangumi API v0",
-      "received": 185,
-      "errors": 0,
-      "lastSuccessAt": "2026-07-18T10:40:10.172Z",
-      "message": null
+      "status": "error",
+      "via": "Bangumi API v0",
+      "received": 0,
+      "errors": 271,
+      "lastSuccessAt": "2026-07-18T12:56:43.176Z",
+      "message": "anime: page 1: Network error while fetching https://api.bgm.tv/v0/subjects?type=2&sort=rank&limit=100&offset=0"
     },
     "mal": {
       "status": "partial",
       "via": "catalog discovery + Jikan (MAL mirror)",
-      "received": 103,
-      "errors": 76,
-      "lastSuccessAt": "2026-07-18T10:40:02.702Z",
+      "received": 133,
+      "errors": 248,
+      "lastSuccessAt": "2026-07-18T15:19:46.797Z",
       "message": "anime: page 5: 504 Gateway Time-out from https://api.jikan.moe/v4/top/anime?limit=25&page=5: {\"status\":504,\"type\":\"BadResponseException\",\"message\":\"Jikan failed to connect to MyAnimeList. MyAnimeList may be down\\/unavailable or refuses to connect\",\"error\":null}"
     },
     "anilist": {
       "status": "ok",
       "via": "catalog discovery + AniList GraphQL API",
-      "received": 177,
+      "received": 379,
       "errors": 0,
-      "lastSuccessAt": "2026-07-18T10:40:00.927Z",
+      "lastSuccessAt": "2026-07-18T15:19:42.603Z",
       "message": null
     }
   }

@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import { fetchAniList } from "./lib/adapters/anilist.mjs";
 import { fetchBangumi } from "./lib/adapters/bangumi.mjs";
 import { fetchMal } from "./lib/adapters/mal.mjs";
-import { fetchCommercialData } from "./lib/commercial.mjs";
+import { fetchCommercialData, inheritMangaEditions } from "./lib/commercial.mjs";
 import { cacheCoverAssets } from "./lib/covers.mjs";
 import { discoverCatalog } from "./lib/discover.mjs";
 import { calculateScore } from "./lib/score.mjs";
@@ -87,11 +87,40 @@ function editorialCommercialFor(title, editorial) {
   };
 }
 
-function commercialFor(title, wikiCommercial, editorial, oldItem) {
-  return wikiCommercial ||
-    editorialCommercialFor(title, editorial) ||
-    oldItem?.commercial ||
-    null;
+function commercialSourceKey(commercial, medium) {
+  const sourceUrl = String(commercial?.sourceUrl || "").toLocaleLowerCase("en-US");
+  if (medium === "anime") {
+    if (sourceUrl.includes("mangacodex.com/anime/")) return "mangaCodexAnime";
+    if (sourceUrl.includes("w.atwiki.jp/wallofmasterpieces")) return "animeAnnual";
+    if (sourceUrl.includes("someanithing.com")) return "animeArchive";
+    if (sourceUrl.includes("ja.wikipedia.org")) return "animeWiki";
+  }
+  if (medium === "manga") {
+    if (sourceUrl.includes("mangacodex.com/manga/")) return "mangaCodexManga";
+    if (sourceUrl.includes("/wiki/list_of_best-selling_manga")) return "manga";
+    if (sourceUrl.includes("ja.wikipedia.org")) return "mangaWiki";
+  }
+  return null;
+}
+
+export function commercialFor(title, automaticCommercial, editorial, oldItem, sources = {}) {
+  const fresh = automaticCommercial || editorialCommercialFor(title, editorial);
+  if (fresh) return fresh;
+
+  const previous = oldItem?.commercial || null;
+  const sourceKey = commercialSourceKey(previous, title.medium);
+  const source = sourceKey ? sources[sourceKey] : null;
+  if (source?.status === "ok" && source.received > 0) return null;
+  return previous;
+}
+
+export function bestMangaCommercial(...records) {
+  return records
+    .filter(Boolean)
+    .sort((left, right) =>
+      Number(Boolean(left.historyOnly)) - Number(Boolean(right.historyOnly)) ||
+      (right.circulation || 0) - (left.circulation || 0)
+    )[0] || null;
 }
 
 function coverOption(record, source) {
@@ -239,8 +268,15 @@ export async function refreshData() {
     const wikiCommercial = title.wikidata?.id
       ? commercialData.byWikidata.get(title.wikidata.id)
       : null;
-    const automaticCommercial =
-      wikiCommercial || commercialData.byTitleId.get(title.id) || null;
+    const mangaCodexCommercial = commercialData.primaryByTitleId.get(title.id);
+    const fallbackCommercial = commercialData.byTitleId.get(title.id);
+    const automaticCommercial = title.medium === "manga"
+      ? bestMangaCommercial(
+        mangaCodexCommercial,
+        wikiCommercial,
+        fallbackCommercial,
+      )
+      : mangaCodexCommercial || wikiCommercial || fallbackCommercial || null;
 
     return {
       id: title.id,
@@ -251,9 +287,16 @@ export async function refreshData() {
       cover: coverFor(title, discovered, bySource, oldItem),
       ratings: calculated.ratings,
       score: calculated.score,
-      commercial: commercialFor(title, automaticCommercial, editorial, oldItem),
+      commercial: commercialFor(
+        title,
+        automaticCommercial,
+        editorial,
+        oldItem,
+        commercialData.sources,
+      ),
     };
   });
+  const inheritedEditions = inheritMangaEditions(generated, titles);
 
   const freshCount = results.reduce((total, result) => total + result.ratings.size, 0);
   if (freshCount === 0 && previous.size === 0) {
@@ -277,6 +320,7 @@ export async function refreshData() {
     },
     commercial: {
       sources: commercialData.sources,
+      inheritedEditions,
       coverage: {
         anime: generated.filter(
           (item) => item.medium === "anime" && item.commercial?.metric === "bd-dvd-average",

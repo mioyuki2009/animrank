@@ -16,10 +16,12 @@ const anilistQuery = `
         format
         status
         averageScore
+        volumes
         siteUrl
         title { romaji english native }
         synonyms
         startDate { year }
+        endDate { year }
         coverImage { extraLarge large color }
         stats { scoreDistribution { amount } }
       }
@@ -33,10 +35,12 @@ const anilistResolutionFields = `
   format
   status
   averageScore
+  volumes
   siteUrl
   title { romaji english native }
   synonyms
   startDate { year }
+  endDate { year }
   coverImage { extraLarge large color }
   stats { scoreDistribution { amount } }
 `;
@@ -54,6 +58,37 @@ function yearOf(item) {
   return Number.isInteger(year) && year > 1900 ? year : null;
 }
 
+function publicationOf(item, medium) {
+  if (medium !== "manga") return null;
+  const volumes = Number(item.volumes);
+  const rawEndYear =
+    item.endDate?.year ??
+    item.published?.prop?.to?.year ??
+    item.published?.to?.slice?.(0, 4);
+  const endYear = Number(rawEndYear);
+  return {
+    status: item.status || null,
+    volumes: Number.isInteger(volumes) && volumes > 0 ? volumes : null,
+    endYear: Number.isInteger(endYear) && endYear > 1900 ? endYear : null,
+  };
+}
+
+function infoboxAliases(item) {
+  if (!Array.isArray(item.infobox)) return [];
+  return item.infobox
+    .filter((entry) =>
+      /^(?:中文名|英文名|日文名|原名|别名|別名|alias)/iu.test(entry?.key || "")
+    )
+    .flatMap((entry) => {
+      if (typeof entry.value === "string") return [entry.value];
+      if (!Array.isArray(entry.value)) return [];
+      return entry.value.flatMap((value) => {
+        if (typeof value === "string") return [value];
+        return [value?.v, value?.value].filter(Boolean);
+      });
+    });
+}
+
 function aliasesOf(item) {
   return [
     item.title?.romaji,
@@ -66,6 +101,7 @@ function aliasesOf(item) {
     item.name,
     ...(Array.isArray(item.synonyms) ? item.synonyms : []),
     ...(Array.isArray(item.titles) ? item.titles.map((title) => title?.title) : []),
+    ...infoboxAliases(item),
   ].filter((value) => typeof value === "string" && value.trim());
 }
 
@@ -220,6 +256,7 @@ function candidate(medium, source, item) {
     series: medium === "manga" && source === "bangumi"
       ? item.series ?? null
       : null,
+    publication: publicationOf(item, medium),
     source,
   };
 }
@@ -248,6 +285,12 @@ function merge(target, incoming) {
   existing.scores = { ...existing.scores, ...incoming.scores };
   if (incoming.series !== null && incoming.series !== undefined) {
     existing.series = incoming.series;
+  }
+  if (incoming.publication) {
+    existing.publication ||= { status: null, volumes: null, endYear: null };
+    for (const key of ["status", "volumes", "endYear"]) {
+      existing.publication[key] ||= incoming.publication[key];
+    }
   }
   existing.wikidata ||= incoming.wikidata || null;
   if (incoming.title?.zh && (!existing.title?.zh || existing.title.zh === existing.title.original)) {

@@ -14,9 +14,10 @@ MyAnimeList 优先使用官方 API；未配置 `MAL_CLIENT_ID` 时使用 [Jikan]
 
 Wikidata 只用于按平台 ID 补齐 Bangumi、MAL、AniList 的作品映射，不提供第四份评分。动画销量和漫画发行量不参与口碑评分：
 
-- 漫画从 MediaWiki API 读取 Wikipedia 的畅销漫画表，以同一行的累计量除以单行本卷数。
-- 动画优先读取日文 Wikipedia API 中明确写出的 BD / DVD 卷均；同时使用 Internet Archive 保存的 Someanithing 2021 年最终汇总页补历史卷均。
-- `data/editorial.json` 保留为经过人工核验的降级数据；本次 API 没有可靠结果时继续沿用上次成功值。Someanithing 已停止维护，因此 2021 年后的动画通常会显示 `-`，不会拿首周单卷或票房数字填空。
+- 漫画优先抓取 [Manga Codex](https://mangacodex.com/circulation) 的完整累计发行榜；榜单未命中时调用站内搜索并读取作品详情中的发行量、卷数和历史来源。只有单卷 Oricon 历史记录的作品会标为“有记录卷平均值”，不会伪装成系列累计量。Wikipedia 畅销榜与日文条目负责补缺，并在累计量更大时防止旧快照覆盖新公告。
+- 动画优先抓取 Manga Codex 的全部系列平均榜、2000 年前电影榜和作品详情；榜单未命中时调用站内搜索。日文 Wikipedia、Someanithing 历史汇总和 ATWiki 2018–2025 年 TV 动画年度榜作为补充。
+- 完全版、文库版等再版只有在标题能唯一对应原系列时才继承原版发行量，并在详情中明确标注。分季、分部和前后半不共用无法区分范围的销量。
+- `data/editorial.json` 保留为经过人工核验的降级数据；本次刷新没有可靠结果时继续沿用上次成功值。缺少同口径数据的作品显示 `-`，不会拿首周单卷、电影票房或整季数字填空。
 
 Bangumi v0 API 没有销量或发行量字段。书籍的 `volumes` 只是从 Bangumi wiki 解析出的册数，不能当作销量。刷新脚本也会把外站封面下载到 `public/data/covers/`，页面不再依赖用户浏览器直连 AniList 等图片域名。
 
@@ -35,7 +36,7 @@ npm run build
 npm run serve
 ```
 
-默认地址为 `http://127.0.0.1:4173/`。作品目录不在仓库中手工维护：`config/catalog.json` 只设置动画和漫画的最大条数。每次 `npm run refresh` 会从三个站点的分页 API 发现作品、合并平台 ID，并把目录缓存写入 `public/data/catalog.json`。
+默认地址为 `http://127.0.0.1:4173/`。作品目录不在仓库中手工维护：`config/catalog.json` 只设置动画和漫画的最大条数，当前默认各 200 条。每次 `npm run refresh` 会从三个评分站点的分页 API 发现作品、合并平台 ID，再从 Manga Codex 和补充来源生成商业数据，最终把静态目录写入 `public/data/catalog.json`。
 
 Bangumi 要求可识别的 User-Agent。本地可设置：
 
@@ -55,4 +56,4 @@ $env:MAL_CLIENT_ID='your-client-id'
 
 在仓库 Settings → Pages 中把 Source 设为 **GitHub Actions**。如需 MAL 官方 API，在 Actions secrets 中添加 `MAL_CLIENT_ID`。
 
-各评分、封面和商业数据归原平台及原作者所有。本项目不是 Bangumi、MyAnimeList、AniList、Wikipedia 或 Oricon 的关联服务，也不镜像评论、简介或完整平台数据库。
+各评分、封面和商业数据归原平台及原作者所有。本项目不是 Bangumi、MyAnimeList、AniList、Manga Codex、Wikipedia 或 Oricon 的关联服务，也不镜像评论、简介或完整平台数据库。

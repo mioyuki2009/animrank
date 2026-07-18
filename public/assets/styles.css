@@ -118,11 +118,6 @@ a:hover {
   line-height: 1;
 }
 
-.brand strong {
-  font-family: Georgia, "Songti SC", serif;
-  font-size: 19px;
-}
-
 .brand small {
   color: var(--muted);
   font-size: 9px;
@@ -862,7 +857,7 @@ dialog::backdrop {
     width: 32px;
   }
 
-  .brand small {
+  .brand > span:last-child {
     display: none;
   }
 

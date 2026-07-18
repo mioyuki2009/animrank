@@ -1,5 +1,9 @@
 import { parseHTML } from "linkedom";
 import { delay, fetchJson } from "./http.mjs";
+import {
+  fetchMangaCodexAnime,
+  fetchMangaCodexManga,
+} from "./mangacodex.mjs";
 
 const EN_API = "https://en.wikipedia.org/w/api.php";
 const JA_API = "https://ja.wikipedia.org/w/api.php";
@@ -8,6 +12,9 @@ const MANGA_PAGE_URL = "https://en.wikipedia.org/wiki/List_of_best-selling_manga
 const ANIME_ARCHIVE_AS_OF = "2021-09-07";
 const ANIME_ARCHIVE_URL =
   "https://web.archive.org/web/20210907181831id_/https://www.someanithing.com/series-data-quick-view";
+const ANIME_ANNUAL_URL =
+  "https://w.atwiki.jp/wallofmasterpieces/pages/21.html";
+const WAYBACK_AVAILABILITY_URL = "https://archive.org/wayback/available";
 
 function pageKey(value) {
   return String(value || "")
@@ -236,6 +243,8 @@ function archiveAliases(item) {
     ...(item.aliases || []),
     item.title?.zh,
     item.title?.original,
+    item.wikidata?.articles?.ja,
+    item.wikidata?.articles?.en,
   ].filter(Boolean))];
 }
 
@@ -245,13 +254,68 @@ function archiveFormatCompatible(item, row) {
   return !/(TV|MOVIE|FILM|剧场|劇場|映画)/u.test(format);
 }
 
+function installmentNumbers(value) {
+  const text = normalizeDigits(value).normalize("NFKC");
+  const numbers = new Set();
+  const patterns = [
+    /(?:season|シーズン)\s*([1-9]\d?)/giu,
+    /第\s*([1-9]\d?)\s*(?:期|季|シーズン|クール|部)/gu,
+    /([1-9]\d?)(?:st|nd|rd|th)\s*(?:season|cour|part)/giu,
+    /(?:part|cour|パート|クール)\s*([1-9]\d?)/giu,
+    /(?<!\d)([2-9])\s*$/gu,
+  ];
+  for (const pattern of patterns) {
+    for (const match of text.matchAll(pattern)) numbers.add(Number(match[1]));
+  }
+  return numbers;
+}
+
+function splitInstallments(value) {
+  const text = normalizeDigits(value).normalize("NFKC");
+  const parts = new Set();
+  const partPatterns = [
+    /(?:part|cour|パート|クール|parte|partie|teil)\s*[.:_-]?\s*([1-9]\d?)/giu,
+    /第\s*([1-9]\d?)\s*(?:クール|部)/gu,
+  ];
+  for (const pattern of partPatterns) {
+    for (const match of text.matchAll(pattern)) parts.add(Number(match[1]));
+  }
+
+  const halves = new Set();
+  if (/(?:(?:second|2nd|latter)\s+half|後半(?:戦)?|後編)/iu.test(text)) halves.add(2);
+  if (/(?:(?:first|1st|former)\s+half|前半(?:戦)?|前編)/iu.test(text)) halves.add(1);
+  return { parts, halves };
+}
+
+function setsOverlap(left, right) {
+  return [...left].some((value) => right.has(value));
+}
+
+function archiveInstallmentCompatible(item, aliases, rowTitle) {
+  const primary = splitInstallments([
+    item.title?.zh,
+    item.title?.original,
+  ].filter(Boolean).join(" "));
+  const rowSpecific = splitInstallments(rowTitle);
+  if (primary.parts.size > 0 && !setsOverlap(primary.parts, rowSpecific.parts)) return false;
+  if (primary.halves.size > 0 && !setsOverlap(primary.halves, rowSpecific.halves)) return false;
+
+  const itemNumbers = new Set(aliases.flatMap((alias) => [...installmentNumbers(alias)]));
+  const rowNumbers = installmentNumbers(rowTitle);
+  if (itemNumbers.size === 0 && rowNumbers.size === 0) return true;
+  if (itemNumbers.size === 0 || rowNumbers.size === 0) return true;
+  return setsOverlap(itemNumbers, rowNumbers);
+}
+
 export function matchAnimeArchive(titles, rows) {
   const result = new Map();
   for (const item of titles.filter((title) => title.medium === "anime")) {
     const aliases = archiveAliases(item);
     const ranked = rows
       .filter((row) =>
-        Math.abs(row.year - item.year) <= 1 && archiveFormatCompatible(item, row),
+        Math.abs(row.year - item.year) <= 1 &&
+        archiveFormatCompatible(item, row) &&
+        archiveInstallmentCompatible(item, aliases, row.title),
       )
       .map((row) => ({
         row,
@@ -266,9 +330,182 @@ export function matchAnimeArchive(titles, rows) {
   return result;
 }
 
+const MANGA_EDITION_MARKER =
+  /(?:完全版|新装版|新裝版|文庫版|愛蔵版|愛藏版|爱藏版|豪華版|豪华版|ワイド版|復刻版|复刻版|kanzenban|perfect edition|complete edition|deluxe edition|collector'?s edition|omnibus edition?)/iu;
+const MANGA_EDITION_MARKERS =
+  /(?:完全版|新装版|新裝版|文庫版|愛蔵版|愛藏版|爱藏版|豪華版|豪华版|ワイド版|復刻版|复刻版|kanzenban|perfect edition|complete edition|deluxe edition|collector'?s edition|omnibus edition?)/giu;
+
+function mangaAliases(item) {
+  return [...new Set([
+    ...(item.aliases || []),
+    item.title?.zh,
+    item.title?.original,
+    item.wikidata?.articles?.ja,
+    item.wikidata?.articles?.en,
+  ].filter(Boolean))];
+}
+
+function editionBases(value) {
+  const text = String(value || "").normalize("NFKC");
+  if (!MANGA_EDITION_MARKER.test(text)) return [];
+  const segments = text.split(MANGA_EDITION_MARKERS);
+  const cleaned = text
+    .replace(MANGA_EDITION_MARKERS, " ")
+    .replace(/\bthe masterpiece\b/giu, " ");
+  return [...new Set(
+    [...segments, cleaned]
+      .map((segment) => archiveTitle(segment))
+      .filter((segment) => segment.length >= 3),
+  )];
+}
+
+export function inheritMangaEditions(items, titles) {
+  const titleById = new Map(titles.map((title) => [title.id, title]));
+  const candidates = items
+    .filter((item) => item.medium === "manga" && item.commercial)
+    .map((item) => ({
+      item,
+      title: titleById.get(item.id),
+    }))
+    .filter((candidate) => candidate.title);
+  let inherited = 0;
+
+  for (const item of items) {
+    if (item.medium !== "manga" || item.commercial) continue;
+    const title = titleById.get(item.id);
+    if (!title) continue;
+    const bases = new Set(mangaAliases(title).flatMap(editionBases));
+    if (bases.size === 0) continue;
+
+    const matches = candidates.filter((candidate) =>
+      mangaAliases(candidate.title).some((alias) => bases.has(archiveTitle(alias))),
+    );
+    const sources = new Map(
+      matches.map((match) => [
+        [
+          match.item.commercial.sourceUrl,
+          match.item.commercial.circulation,
+          match.item.commercial.volumesAtAnnouncement,
+        ].join("|"),
+        match,
+      ]),
+    );
+    if (sources.size !== 1) continue;
+
+    const [{ item: source }] = sources.values();
+    item.commercial = {
+      ...source.commercial,
+      scope: source.commercial.scope +
+        "；该条目为完全版/再版，沿用原系列的发行量与原版卷数，非该版本单独销量",
+      sourceLabel: source.commercial.sourceLabel + "（原系列映射）",
+      inheritedFrom: {
+        id: source.id,
+        title: source.title.zh,
+      },
+    };
+    inherited += 1;
+  }
+
+  return inherited;
+}
+
 async function fetchAnimeArchive(titles) {
   const html = await fetchText(ANIME_ARCHIVE_URL);
   return matchAnimeArchive(titles, parseAnimeArchive(html));
+}
+
+function annualTitle(value) {
+  return String(value || "")
+    .replace(/\s*[（(][^（）()]*巻[^（）()]*[）)]\s*$/u, "")
+    .replace(/\s*[（(]※[^（）()]*枚[^（）()]*[）)]\s*$/u, "")
+    .trim();
+}
+
+function hasAnnualRows(html) {
+  return /○\s*20\d{2}年TVアニメ/u.test(String(html || "")) &&
+    !/<title>\s*Just a moment/iu.test(String(html || ""));
+}
+
+async function latestWaybackUrl(target) {
+  const data = await fetchJson(queryUrl(WAYBACK_AVAILABILITY_URL, { url: target }), {
+    attempts: 2,
+    timeoutMs: 20_000,
+  });
+  const snapshot = data.archived_snapshots?.closest;
+  if (!snapshot?.available || snapshot.status !== "200" || !/^\d{14}$/.test(snapshot.timestamp)) {
+    throw new Error("No usable Wayback snapshot for annual anime disc sales");
+  }
+  return "https://web.archive.org/web/" + snapshot.timestamp + "id_/" + target;
+}
+
+export function parseAnimeAnnual(html, sourceUrl = ANIME_ANNUAL_URL) {
+  const normalized = String(html || "").replace(/<br\s*\/?>/giu, "\n");
+  const { document } = parseHTML(normalized);
+  const body = document.querySelector("#wikibody");
+  if (!body) return [];
+
+  const modifiedAt = document.querySelector("time[datetime]")?.getAttribute("datetime");
+  const asOf = /^\d{4}-\d{2}-\d{2}/.exec(modifiedAt || "")?.[0] || dateOnly(modifiedAt);
+  const sourceLabel = sourceUrl.includes("web.archive.org")
+    ? "ATWiki 年度销量榜（Internet Archive）"
+    : "ATWiki 年度销量榜";
+  const records = [];
+  let year = null;
+
+  for (const rawLine of body.textContent.split(/\n+/u)) {
+    const line = rawLine.replace(/\s+/g, " ").trim();
+    if (!line) continue;
+
+    const heading = line.match(/^○\s*(20\d{2})年TVアニメ/u);
+    if (heading) {
+      year = Number(heading[1]);
+      continue;
+    }
+    if (!year) continue;
+
+    const match = line.match(/^\([^)]+\)\s*\*?\s*([\d,]+(?:\.\d+)?)\s+(.+)$/u);
+    const unitsPerVolume = Math.round(Number(match?.[1]?.replaceAll(",", "")));
+    const title = annualTitle(match?.[2]);
+    if (!title || !Number.isInteger(unitsPerVolume) || unitsPerVolume <= 0) continue;
+
+    records.push({
+      title,
+      year,
+      kind: "series",
+      commercial: {
+        metric: "bd-dvd-average",
+        unitsPerVolume,
+        releaseCount: null,
+        asOf,
+        scope: "日本 TV 动画 BD/DVD 累计单卷平均销量（年度榜单）",
+        sourceUrl,
+        sourceLabel,
+      },
+    });
+  }
+
+  return records;
+}
+
+async function fetchAnimeAnnual(titles) {
+  let sourceUrl = ANIME_ANNUAL_URL;
+  let html = null;
+
+  try {
+    html = await fetchText(sourceUrl, { attempts: 1, timeoutMs: 15_000 });
+  } catch {
+    html = null;
+  }
+
+  if (!hasAnnualRows(html)) {
+    sourceUrl = await latestWaybackUrl(ANIME_ANNUAL_URL);
+    html = await fetchText(sourceUrl, { attempts: 2, timeoutMs: 30_000 });
+  }
+  if (!hasAnnualRows(html)) {
+    throw new Error("Annual anime disc sales page did not contain ranking rows");
+  }
+
+  return matchAnimeArchive(titles, parseAnimeAnnual(html, sourceUrl));
 }
 
 async function fetchMangaCommercial() {
@@ -297,10 +534,67 @@ async function fetchMangaCommercial() {
   );
 }
 
+async function fetchJapaneseArticles(items) {
+  const result = new Map();
+  for (let offset = 0; offset < items.length; offset += 40) {
+    if (offset > 0) await delay(250);
+    const batch = items.slice(offset, offset + 40);
+    const data = await fetchJson(queryUrl(JA_API, {
+      action: "query",
+      prop: "revisions",
+      rvprop: "timestamp|content",
+      rvslots: "main",
+      redirects: "1",
+      titles: batch.map((item) => item.title).join("|"),
+      format: "json",
+      formatversion: "2",
+    }), { attempts: 3, timeoutMs: 30_000 });
+    const aliases = canonicalTitleMap(data.query || {});
+    const requested = new Map();
+    for (const item of batch) {
+      const key = pageKey(resolvePageTitle(item.title, aliases));
+      if (!requested.has(key)) requested.set(key, []);
+      requested.get(key).push(item);
+    }
+    for (const page of data.query?.pages || []) {
+      const matches = requested.get(pageKey(page.title)) || [];
+      const revision = page.revisions?.[0];
+      const content = revision?.slots?.main?.content ?? revision?.content;
+      if (!content) continue;
+      for (const item of matches) {
+        result.set(item.key, {
+          title: page.title,
+          content,
+          timestamp: revision.timestamp,
+        });
+      }
+    }
+  }
+  return result;
+}
+
 function normalizeDigits(value) {
   return String(value || "").replace(/[０-９]/g, (digit) =>
     String.fromCharCode(digit.charCodeAt(0) - 0xfee0),
   );
+}
+
+function plainWikitext(value) {
+  let text = normalizeDigits(value)
+    .replace(/<!--[\s\S]*?-->/g, " ")
+    .replace(/<ref\b[^>]*>[\s\S]*?<\/ref>/giu, " ")
+    .replace(/<ref\b[^>]*\/>/giu, " ")
+    .replace(/\{\{\s*formatnum\s*:\s*([^{}|]+)[^{}]*\}\}/giu, "$1")
+    .replace(/\[\[[^|\]]+\|([^\]]+)\]\]/g, "$1")
+    .replace(/\[\[([^\]]+)\]\]/g, "$1")
+    .replace(/\[https?:\/\/\S+\s+([^\]]+)\]/giu, "$1")
+    .replace(/<br\s*\/?>/giu, "\n")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/'{2,}/g, "");
+  for (let index = 0; index < 4; index += 1) {
+    text = text.replace(/\{\{[^{}]*\}\}/g, " ");
+  }
+  return text;
 }
 
 function reportedUnits(sentence) {
@@ -316,6 +610,82 @@ function reportedUnits(sentence) {
     if (Number.isFinite(value)) values.push(Math.round(value));
   }
   return values.length ? Math.max(...values) : null;
+}
+
+function reportedCopies(sentence) {
+  const normalized = normalizeDigits(sentence).replaceAll(",", "");
+  const values = [];
+  for (const match of normalized.matchAll(
+    /(?:(\d+(?:\.\d+)?)\s*億)?\s*(?:(\d+(?:\.\d+)?)\s*万)?\s*部/gu,
+  )) {
+    if (!match[1] && !match[2]) continue;
+    const value = Number(match[1] || 0) * 100_000_000 +
+      Number(match[2] || 0) * 10_000;
+    if (Number.isFinite(value) && value > 0) values.push(Math.round(value));
+  }
+  for (const match of normalized.matchAll(/(\d{5,})\s*部/gu)) {
+    const value = Number(match[1]);
+    if (Number.isFinite(value)) values.push(Math.round(value));
+  }
+  return values.length ? Math.max(...values) : null;
+}
+
+function circulationDate(sentence) {
+  const dates = [...normalizeDigits(sentence).matchAll(
+    /((?:19|20)\d{2})年(?:(\d{1,2})月)?(?:\d{1,2}日)?(?:時点|現在)/gu,
+  )].map((match) => ({
+    year: Number(match[1]),
+    month: Number(match[2] || 1),
+  }));
+  dates.sort((left, right) => right.year - left.year || right.month - left.month);
+  const date = dates[0];
+  return date
+    ? String(date.year) + "-" + String(date.month).padStart(2, "0") + "-01"
+    : null;
+}
+
+function completedPublication(publication) {
+  return Number.isInteger(publication?.volumes) &&
+    publication.volumes > 0 &&
+    Number.isInteger(publication?.endYear) &&
+    /(?:FINISHED|Finished|Completed|完結)/iu.test(publication?.status || "");
+}
+
+export function extractMangaCirculation(text, publication) {
+  if (!completedPublication(publication)) return null;
+  const finalVolumePattern = new RegExp(
+    "全\\s*" + publication.volumes + "\\s*巻",
+    "u",
+  );
+  const candidates = [];
+
+  for (const sentence of plainWikitext(text).split(/(?<=[。.!?])\s*|\n+/u)) {
+    if (!/累計発行部数/u.test(sentence)) continue;
+    if (/シリーズ累計発行部数/u.test(sentence)) continue;
+    const circulation = reportedCopies(sentence);
+    if (!circulation) continue;
+
+    const statementDate = circulationDate(sentence);
+    const statementYear = Number(statementDate?.slice(0, 4));
+    const usesFinalVolumes = finalVolumePattern.test(sentence);
+    if (!usesFinalVolumes && (!statementYear || statementYear < publication.endYear)) {
+      continue;
+    }
+
+    candidates.push({
+      circulation,
+      volumesAtAnnouncement: publication.volumes,
+      perVolume: Math.round(circulation / publication.volumes),
+      statementDate,
+      includesDigital: /電子(?:版|書籍|コミック)/u.test(sentence) ? true : null,
+      scope: sentence.replace(/\s+/g, " ").trim().slice(0, 280),
+    });
+  }
+
+  return candidates.sort((left, right) =>
+    Date.parse(right.statementDate || 0) - Date.parse(left.statementDate || 0) ||
+    right.circulation - left.circulation
+  )[0] || null;
 }
 
 export function extractDiscSales(text) {
@@ -341,74 +711,169 @@ export function extractDiscSales(text) {
   )[0] || null;
 }
 
+async function fetchMangaArticleCommercial(titles) {
+  const articleItems = titles
+    .filter((item) =>
+      item.medium === "manga" &&
+      item.wikidata?.id &&
+      item.wikidata.articles?.ja &&
+      completedPublication(item.publication),
+    )
+    .map((item) => ({
+      key: item.id,
+      qid: item.wikidata.id,
+      title: item.wikidata.articles.ja,
+      publication: item.publication,
+    }));
+  const articles = await fetchJapaneseArticles(articleItems);
+  const result = new Map();
+
+  for (const item of articleItems) {
+    const article = articles.get(item.key);
+    if (!article) continue;
+    const sales = extractMangaCirculation(article.content, item.publication);
+    if (!sales) continue;
+    result.set(item.qid, {
+      metric: "circulation-per-volume",
+      circulation: sales.circulation,
+      volumesAtAnnouncement: sales.volumesAtAnnouncement,
+      perVolume: sales.perVolume,
+      asOf: sales.statementDate || dateOnly(article.timestamp),
+      scope: sales.scope,
+      includesDigital: sales.includesDigital,
+      sourceUrl: "https://ja.wikipedia.org/wiki/" +
+        encodeURIComponent(article.title.replaceAll(" ", "_")),
+      sourceLabel: "Wikipedia - " + article.title,
+    });
+  }
+
+  return result;
+}
+
 async function fetchAnimeCommercial(titles) {
   const articleItems = titles
     .filter((item) => item.medium === "anime" && item.wikidata?.id && item.wikidata.articles?.ja)
-    .map((item) => ({ qid: item.wikidata.id, title: item.wikidata.articles.ja }));
+    .map((item) => ({
+      key: item.id,
+      qid: item.wikidata.id,
+      title: item.wikidata.articles.ja,
+    }));
+  const articles = await fetchJapaneseArticles(articleItems);
   const result = new Map();
 
-  for (let offset = 0; offset < articleItems.length; offset += 20) {
-    const batch = articleItems.slice(offset, offset + 20);
-    const data = await fetchJson(queryUrl(JA_API, {
-      action: "query",
-      prop: "extracts|revisions",
-      explaintext: "1",
-      rvprop: "timestamp",
-      redirects: "1",
-      titles: batch.map((item) => item.title).join("|"),
-      format: "json",
-      formatversion: "2",
-    }), { attempts: 2, timeoutMs: 25_000 });
-    const aliases = canonicalTitleMap(data.query || {});
-    const requested = new Map(
-      batch.map((item) => [pageKey(resolvePageTitle(item.title, aliases)), item]),
-    );
-    for (const page of data.query?.pages || []) {
-      const item = requested.get(pageKey(page.title));
-      if (!item) continue;
-      const sales = extractDiscSales(page.extract);
-      if (!sales?.unitsPerVolume) continue;
-      result.set(item.qid, {
-        metric: "bd-dvd-average",
-        unitsPerVolume: sales.unitsPerVolume,
-        releaseCount: null,
-        asOf: dateOnly(page.revisions?.[0]?.timestamp),
-        scope: sales.scope,
-        sourceUrl: `https://ja.wikipedia.org/wiki/${encodeURIComponent(page.title.replaceAll(" ", "_"))}`,
-        sourceLabel: `Wikipedia - ${page.title}`,
-      });
+  for (const item of articleItems) {
+    const article = articles.get(item.key);
+    if (!article) continue;
+    const sales = extractDiscSales(plainWikitext(article.content));
+    if (!sales?.unitsPerVolume) continue;
+    result.set(item.qid, {
+      metric: "bd-dvd-average",
+      unitsPerVolume: sales.unitsPerVolume,
+      releaseCount: null,
+      asOf: dateOnly(article.timestamp),
+      scope: sales.scope,
+      sourceUrl: "https://ja.wikipedia.org/wiki/" +
+        encodeURIComponent(article.title.replaceAll(" ", "_")),
+      sourceLabel: "Wikipedia - " + article.title,
+    });
+  }
+  return result;
+}
+
+export function mergeCommercialMaps(...maps) {
+  const result = new Map();
+  for (const records of maps) {
+    for (const [key, incoming] of records) {
+      const existing = result.get(key);
+      if (!existing) {
+        result.set(key, incoming);
+        continue;
+      }
+      const incomingDate = Date.parse(incoming.asOf || 0);
+      const existingDate = Date.parse(existing.asOf || 0);
+      const incomingValue = incoming.circulation || incoming.unitsPerVolume || 0;
+      const existingValue = existing.circulation || existing.unitsPerVolume || 0;
+      if (incomingDate > existingDate ||
+        (incomingDate === existingDate && incomingValue > existingValue)) {
+        result.set(key, incoming);
+      }
     }
   }
   return result;
 }
 
+function mangaCodexSource(outcome, value) {
+  if (outcome.status === "rejected") {
+    return {
+      status: "error",
+      received: 0,
+      pages: 0,
+      message: outcome.reason?.message || String(outcome.reason),
+    };
+  }
+  return {
+    status: value.errors.length === 0
+      ? "ok"
+      : value.records.size > 0 ? "partial" : "error",
+    received: value.records.size,
+    pages: value.pages,
+    message: value.errors[0] || null,
+  };
+}
+
 export async function fetchCommercialData(titles) {
   const settled = await Promise.allSettled([
+    fetchMangaCodexManga(titles),
+    fetchMangaCodexAnime(titles),
     fetchMangaCommercial(),
+    fetchMangaArticleCommercial(titles),
     fetchAnimeCommercial(titles),
     fetchAnimeArchive(titles),
+    fetchAnimeAnnual(titles),
   ]);
-  const [manga, animeWiki, animeArchive] = settled.map((result) =>
+  const mangaCodexManga = settled[0].status === "fulfilled"
+    ? settled[0].value
+    : { records: new Map(), errors: [], pages: 0 };
+  const mangaCodexAnime = settled[1].status === "fulfilled"
+    ? settled[1].value
+    : { records: new Map(), errors: [], pages: 0 };
+  const [manga, mangaWiki, animeWiki, animeArchive, animeAnnual] = settled.slice(2).map((result) =>
     result.status === "fulfilled" ? result.value : new Map(),
   );
   return {
-    byWikidata: new Map([...manga, ...animeWiki]),
-    byTitleId: animeArchive,
+    primaryByTitleId: new Map([
+      ...mangaCodexManga.records,
+      ...mangaCodexAnime.records,
+    ]),
+    byWikidata: mergeCommercialMaps(manga, mangaWiki, animeWiki),
+    byTitleId: new Map([...animeArchive, ...animeAnnual]),
     sources: {
+      mangaCodexManga: mangaCodexSource(settled[0], mangaCodexManga),
+      mangaCodexAnime: mangaCodexSource(settled[1], mangaCodexAnime),
       manga: {
-        status: settled[0].status === "fulfilled" ? "ok" : "error",
+        status: settled[2].status === "fulfilled" ? "ok" : "error",
         received: manga.size,
-        message: settled[0].status === "rejected" ? settled[0].reason.message : null,
+        message: settled[2].status === "rejected" ? settled[2].reason.message : null,
+      },
+      mangaWiki: {
+        status: settled[3].status === "fulfilled" ? "ok" : "error",
+        received: mangaWiki.size,
+        message: settled[3].status === "rejected" ? settled[3].reason.message : null,
       },
       animeWiki: {
-        status: settled[1].status === "fulfilled" ? "ok" : "error",
+        status: settled[4].status === "fulfilled" ? "ok" : "error",
         received: animeWiki.size,
-        message: settled[1].status === "rejected" ? settled[1].reason.message : null,
+        message: settled[4].status === "rejected" ? settled[4].reason.message : null,
       },
       animeArchive: {
-        status: settled[2].status === "fulfilled" ? "ok" : "error",
+        status: settled[5].status === "fulfilled" ? "ok" : "error",
         received: animeArchive.size,
-        message: settled[2].status === "rejected" ? settled[2].reason.message : null,
+        message: settled[5].status === "rejected" ? settled[5].reason.message : null,
+      },
+      animeAnnual: {
+        status: settled[6].status === "fulfilled" ? "ok" : "error",
+        received: animeAnnual.size,
+        message: settled[6].status === "rejected" ? settled[6].reason.message : null,
       },
     },
   };
