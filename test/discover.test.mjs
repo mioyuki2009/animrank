@@ -45,6 +45,12 @@ test("last-good IDs stay stable when one discovery source fails", async () => {
   const originalFetch = globalThis.fetch;
   globalThis.fetch = async (url, options = {}) => {
     const target = String(url);
+    if (target === "https://query.wikidata.org/sparql") {
+      return jsonResponse({ results: { bindings: [] } });
+    }
+    if (target.startsWith("https://api.bgm.tv/v0/search/subjects?")) {
+      return new Response("resolver disabled in this test", { status: 401 });
+    }
     if (target === "https://graphql.anilist.co") {
       return jsonResponse({ errors: [{ message: "temporary AniList outage" }] });
     }
@@ -100,8 +106,18 @@ test("later page failures keep earlier discovery records", async () => {
   const originalFetch = globalThis.fetch;
   globalThis.fetch = async (url, options = {}) => {
     const target = String(url);
+    if (target === "https://query.wikidata.org/sparql") {
+      return jsonResponse({ results: { bindings: [] } });
+    }
+    if (target.startsWith("https://api.bgm.tv/v0/search/subjects?")) {
+      return new Response("resolver disabled in this test", { status: 401 });
+    }
     if (target === "https://graphql.anilist.co") {
-      const variables = JSON.parse(options.body).variables;
+      const request = JSON.parse(options.body);
+      if (!request.query.includes("CatalogBatch")) {
+        return jsonResponse({ data: {} });
+      }
+      const variables = request.variables;
       if (variables.type === "ANIME" && variables.page === 2) {
         return jsonResponse({ errors: [{ message: "second page failed" }] });
       }
@@ -123,7 +139,7 @@ test("later page failures keep earlier discovery records", async () => {
                 synonyms: [],
                 startDate: { year: 2020 },
                 coverImage: {},
-                stats: { scoreDistribution: [{ amount: 100 }] },
+                stats: { scoreDistribution: [{ amount: 1000 }] },
               };
             }),
           },

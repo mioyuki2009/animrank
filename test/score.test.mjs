@@ -4,7 +4,6 @@ import { calculateScore, normalizeRating } from "../scripts/lib/score.mjs";
 
 const config = {
   minimumSources: 1,
-  prior: { mean: 6.5, weight: 0.05 },
   targetDistribution: {
     median: 6.5,
     spread: 1.25,
@@ -58,7 +57,7 @@ test("missing sources are omitted from the average", () => {
   const result = calculateScore({ a: rating(9), b: null, c: null }, "anime", config);
   assert.equal(result.score.status, "ranked");
   assert.equal(result.score.sourceCount, 1);
-  assert.ok(result.score.value > 8 && result.score.value < 9);
+  assert.equal(result.score.value, 9);
 });
 
 test("two mature sources produce a bounded final score", () => {
@@ -69,7 +68,7 @@ test("two mature sources produce a bounded final score", () => {
   );
   assert.equal(result.score.status, "ranked");
   assert.equal(result.score.sourceCount, 2);
-  assert.ok(result.score.value > 8 && result.score.value < 9);
+  assert.equal(result.score.value, 8.5714);
   assert.equal(result.score.coverage, 0.7);
 });
 

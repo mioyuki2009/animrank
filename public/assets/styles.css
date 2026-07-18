@@ -511,10 +511,14 @@ tbody tr:hover {
 
 .rating-cell a,
 .rating-cell > span,
-.commercial-cell {
+.commercial-value {
   display: grid;
   line-height: 1.1;
   text-decoration: none;
+}
+
+.commercial-cell {
+  vertical-align: middle;
 }
 
 .final-cell {
@@ -572,6 +576,11 @@ tbody tr:hover {
   font-variant-numeric: tabular-nums;
 }
 
+.rating-value-line {
+  align-items: baseline;
+  display: flex;
+}
+
 .rating-cell small,
 .commercial-cell small,
 .final-cell small {
@@ -615,7 +624,7 @@ tbody tr:hover {
 }
 
 .commercial-cell strong {
-  font-size: 15px;
+  font-size: 16px;
   font-variant-numeric: tabular-nums;
 }
 

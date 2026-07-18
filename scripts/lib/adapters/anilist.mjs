@@ -5,6 +5,7 @@ const query = `
     Page(page: 1, perPage: 50) {
       media(id_in: $ids, type: $type) {
         id
+        status
         averageScore
         siteUrl
         coverImage { extraLarge large color }
@@ -63,7 +64,7 @@ export async function fetchAniList(titles) {
               via: "AniList GraphQL API",
               stale: false,
             },
-            cover: item.coverImage?.extraLarge || item.coverImage?.large || null,
+            cover: item.coverImage?.large || item.coverImage?.extraLarge || null,
             color: item.coverImage?.color || null,
           });
         }

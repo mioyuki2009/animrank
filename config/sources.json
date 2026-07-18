@@ -1,11 +1,7 @@
 {
-  "algorithmVersion": "1.0.0",
+  "algorithmVersion": "1.1.0",
   "minimumSources": 1,
   "staleAfterDays": 14,
-  "prior": {
-    "mean": 6.5,
-    "weight": 0.05
-  },
   "targetDistribution": {
     "median": 6.5,
     "spread": 1.25,

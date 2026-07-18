@@ -11,7 +11,7 @@ export function commercialValue(item) {
   if (!item.commercial) return null;
   const value =
     item.medium === "anime"
-      ? item.commercial.unitsPerVolume
+      ? item.commercial.unitsTotal ?? item.commercial.unitsPerVolume
       : item.commercial.perVolume;
   return Number.isFinite(value) ? value : null;
 }

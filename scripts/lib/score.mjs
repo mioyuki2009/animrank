@@ -68,9 +68,8 @@ export function calculateScore(ratings, medium, config) {
     ? coveredBaseWeight / availableBaseWeight
     : 0;
   const hasEnoughSources = sourceCount >= config.minimumSources;
-  const value = hasEnoughSources
-    ? (config.prior.weight * config.prior.mean + weightedTotal) /
-      (config.prior.weight + totalWeight)
+  const value = hasEnoughSources && totalWeight > 0
+    ? weightedTotal / totalWeight
     : null;
 
   return {

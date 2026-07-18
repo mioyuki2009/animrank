@@ -1,8 +1,10 @@
 import { delay, fetchJson } from "./http.mjs";
+import { fetchWikidataMappings } from "./wikidata.mjs";
 
 const ANILIST_ENDPOINT = "https://graphql.anilist.co";
 const JIKAN_ENDPOINT = "https://api.jikan.moe/v4";
 const BANGUMI_ENDPOINT = "https://api.bgm.tv/v0/subjects";
+const BANGUMI_SEARCH_ENDPOINT = "https://api.bgm.tv/v0/search/subjects";
 const PAGE_SIZE = 50;
 
 const anilistQuery = `
@@ -12,6 +14,7 @@ const anilistQuery = `
         id
         idMal
         format
+        status
         averageScore
         siteUrl
         title { romaji english native }
@@ -22,6 +25,20 @@ const anilistQuery = `
       }
     }
   }
+`;
+
+const anilistResolutionFields = `
+  id
+  idMal
+  format
+  status
+  averageScore
+  siteUrl
+  title { romaji english native }
+  synonyms
+  startDate { year }
+  coverImage { extraLarge large color }
+  stats { scoreDistribution { amount } }
 `;
 
 function yearOf(item) {
@@ -83,23 +100,58 @@ function normalizedFormat(value) {
 function isAllowedFormat(medium, format) {
   const normalized = normalizedFormat(format);
   if (medium === "manga") {
-    return !["NOVEL", "LIGHT_NOVEL", "小说", "轻小说", "ライトノベル"].includes(normalized);
+    return ![
+      "NOVEL",
+      "LIGHT_NOVEL",
+      "小说",
+      "轻小说",
+      "ライトノベル",
+      "ART_BOOK",
+      "ARTBOOK",
+      "画集",
+      "插画集",
+      "イラスト集",
+    ].includes(normalized);
   }
   return !["MUSIC", "CM", "PV"].includes(normalized);
 }
 
+function isReleased(item) {
+  if (["NOT_YET_RELEASED", "Not yet aired", "Not yet published"].includes(item.status)) {
+    return false;
+  }
+  const rawDate = item.date || item.aired?.from || item.published?.from;
+  const timestamp = rawDate ? Date.parse(rawDate) : NaN;
+  return !Number.isFinite(timestamp) || timestamp <= Date.now();
+}
+
+function isDiscoveryEligible(item, medium, source) {
+  if (!isReleased(item)) return false;
+  if (medium === "manga" && source === "bangumi" && item.series === false) return false;
+  const votes = item.assets[source]?.rating?.votes;
+  if (!Number.isFinite(votes)) return true;
+  const minimum = {
+    anime: { anilist: 500, mal: 1000, bangumi: 100 },
+    manga: { anilist: 100, mal: 500, bangumi: 50 },
+  };
+  return votes >= minimum[medium][source];
+}
+
 function asset(source, raw, votes, url, cover, color, via) {
-  if (!Number.isFinite(raw) || !Number.isFinite(votes) || votes <= 0) return null;
+  const hasRating = Number.isFinite(raw) && Number.isFinite(votes) && votes > 0;
+  if (!hasRating && !cover) return null;
   return {
-    rating: {
-      raw,
-      scale: source === "anilist" ? 100 : 10,
-      votes,
-      url,
-      fetchedAt: new Date().toISOString(),
-      via,
-      stale: false,
-    },
+    rating: hasRating
+      ? {
+          raw,
+          scale: source === "anilist" ? 100 : 10,
+          votes,
+          url,
+          fetchedAt: new Date().toISOString(),
+          via,
+          stale: false,
+        }
+      : null,
     cover: cover || null,
     color: color || null,
   };
@@ -128,7 +180,7 @@ function candidate(medium, source, item) {
           item.averageScore,
           (item.stats?.scoreDistribution || []).reduce((sum, bucket) => sum + (bucket.amount || 0), 0),
           item.siteUrl || `https://anilist.co/${medium}/${item.id}`,
-          item.coverImage?.extraLarge || item.coverImage?.large,
+          item.coverImage?.large || item.coverImage?.extraLarge,
           item.coverImage?.color,
           "AniList GraphQL API",
         )
@@ -165,6 +217,9 @@ function candidate(medium, source, item) {
       [source]: source === "anilist" ? (Number.isFinite(item.averageScore) ? item.averageScore / 10 : null) :
         source === "mal" ? item.score : item.rating?.score,
     },
+    series: medium === "manga" && source === "bangumi"
+      ? item.series ?? null
+      : null,
     source,
   };
 }
@@ -191,6 +246,10 @@ function merge(target, incoming) {
   existing.aliases = [...new Set([...(existing.aliases || []), ...(incoming.aliases || [])])];
   existing.assets = { ...existing.assets, ...incoming.assets };
   existing.scores = { ...existing.scores, ...incoming.scores };
+  if (incoming.series !== null && incoming.series !== undefined) {
+    existing.series = incoming.series;
+  }
+  existing.wikidata ||= incoming.wikidata || null;
   if (incoming.title?.zh && (!existing.title?.zh || existing.title.zh === existing.title.original)) {
     existing.title.zh = incoming.title.zh;
   }
@@ -200,9 +259,114 @@ function merge(target, incoming) {
   return existing;
 }
 
+function consolidate(candidates) {
+  const consolidated = [];
+  for (const item of candidates) merge(consolidated, item);
+  candidates.splice(0, candidates.length, ...consolidated);
+}
+
+function removeMatchingCandidate(candidates, incoming) {
+  const index = candidates.findIndex((item) =>
+    ["bangumi", "mal", "anilist"].some(
+      (source) => incoming.ids[source] && item.ids[source] === incoming.ids[source],
+    ),
+  );
+  if (index >= 0) candidates.splice(index, 1);
+}
+
+function mappingMatches(item, mapping) {
+  return ["bangumi", "mal", "anilist"].some(
+    (source) => item.ids[source] && mapping.ids[source].includes(item.ids[source]),
+  );
+}
+
+function applyWikidataMappings(candidates, mappings) {
+  let enriched = 0;
+  for (const mapping of mappings) {
+    const matches = candidates.filter((item) => mappingMatches(item, mapping));
+    if (matches.length === 0) continue;
+    for (const item of matches) {
+      for (const source of ["bangumi", "mal", "anilist"]) {
+        if (!item.ids[source] && mapping.ids[source].length === 1) {
+          item.ids[source] = mapping.ids[source][0];
+          enriched += 1;
+        }
+      }
+      item.wikidata = {
+        id: mapping.wikidataId,
+        articles: mapping.articles,
+      };
+    }
+  }
+  consolidate(candidates);
+  return enriched;
+}
+
+function bigrams(value) {
+  const characters = Array.from(value);
+  if (characters.length < 2) return characters;
+  return characters.slice(0, -1).map((character, index) => character + characters[index + 1]);
+}
+
+function diceSimilarity(left, right) {
+  const a = normalize(left);
+  const b = normalize(right);
+  if (!a || !b) return 0;
+  if (a === b) return 1;
+  if (Math.min(a.length, b.length) < 5) return 0;
+  if (a.includes(b) || b.includes(a)) return Math.min(a.length, b.length) / Math.max(a.length, b.length);
+
+  const counts = new Map();
+  for (const pair of bigrams(b)) counts.set(pair, (counts.get(pair) || 0) + 1);
+  let overlap = 0;
+  const leftPairs = bigrams(a);
+  for (const pair of leftPairs) {
+    const count = counts.get(pair) || 0;
+    if (count > 0) {
+      overlap += 1;
+      counts.set(pair, count - 1);
+    }
+  }
+  return (2 * overlap) / (leftPairs.length + bigrams(b).length);
+}
+
+function formatGroup(value) {
+  const normalized = normalizedFormat(value);
+  if (/MOVIE|FILM|剧场|劇場|映画/.test(normalized)) return "MOVIE";
+  if (/OVA|OAD/.test(normalized)) return "OVA";
+  if (/ONA|WEB/.test(normalized)) return "ONA";
+  if (/TV/.test(normalized)) return "TV";
+  if (/MANGA|漫画/.test(normalized)) return "MANGA";
+  return null;
+}
+
+function matchScore(left, right) {
+  if (left.year && right.year && Math.abs(left.year - right.year) > 1) return 0;
+  const leftFormat = formatGroup(left.format);
+  const rightFormat = formatGroup(right.format);
+  if (leftFormat && rightFormat && leftFormat !== rightFormat) return 0;
+
+  let titleScore = 0;
+  for (const leftAlias of left.aliases || []) {
+    for (const rightAlias of right.aliases || []) {
+      titleScore = Math.max(titleScore, diceSimilarity(leftAlias, rightAlias));
+    }
+  }
+  const yearBonus = left.year && right.year
+    ? left.year === right.year ? 0.14 : 0.05
+    : 0;
+  const formatBonus = leftFormat && rightFormat ? 0.08 : 0;
+  return Math.min(1, titleScore * 0.78 + yearBonus + formatBonus);
+}
+
+function searchTitle(item) {
+  return item.title?.original || item.aliases?.[0] || item.title?.zh;
+}
+
 function cachedCandidate(item) {
   const format = formatOf(item, item.medium);
   if (!isAllowedFormat(item.medium, format)) return null;
+  if (item.medium === "manga" && item.series === false) return null;
 
   return {
     ...item,
@@ -211,9 +375,13 @@ function cachedCandidate(item) {
       mal: item.ids?.mal ?? null,
       anilist: item.ids?.anilist ?? null,
     },
-    aliases: [item.title?.zh, item.title?.original].filter(Boolean),
+    aliases: [...new Set([
+      ...(item.aliases || []),
+      item.title?.zh,
+      item.title?.original,
+    ].filter(Boolean))],
     assets: {},
-    scores: {},
+    scores: { ...(item.scores || {}) },
     source: "cache",
   };
 }
@@ -303,13 +471,131 @@ async function fetchBangumi(type, count) {
   return { records: records.slice(0, count), errors };
 }
 
+async function resolveAniList(candidates, shortlist, medium) {
+  const unresolved = shortlist.filter(
+    (item) => !item.ids.anilist && (item.ids.mal || searchTitle(item)),
+  );
+  const errors = [];
+  let resolved = 0;
+  const mediaType = medium === "anime" ? "ANIME" : "MANGA";
+
+  for (let offset = 0; offset < unresolved.length; offset += 20) {
+    const batch = unresolved.slice(offset, offset + 20);
+    const definitions = [];
+    const fields = [];
+    const variables = {};
+    const requests = [];
+
+    for (let index = 0; index < batch.length; index += 1) {
+      const item = batch[index];
+      const key = `m${index}`;
+      if (item.ids.mal) {
+        definitions.push(`$id${index}: Int`);
+        variables[`id${index}`] = item.ids.mal;
+        fields.push(`${key}: Media(idMal: $id${index}, type: ${mediaType}) { ${anilistResolutionFields} }`);
+        requests.push({ item, key, direct: true });
+      } else {
+        definitions.push(`$search${index}: String`);
+        variables[`search${index}`] = searchTitle(item);
+        fields.push(`${key}: Media(search: $search${index}, type: ${mediaType}) { ${anilistResolutionFields} }`);
+        requests.push({ item, key, direct: false });
+      }
+    }
+
+    try {
+      const data = await fetchJson(ANILIST_ENDPOINT, {
+        method: "POST",
+        attempts: 2,
+        timeoutMs: 20_000,
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          query: `query Resolve(${definitions.join(", ")}) { ${fields.join("\n")} }`,
+          variables,
+        }),
+      });
+      if (data.errors?.length) {
+        throw new Error(data.errors.map((error) => error.message).join("; "));
+      }
+
+      for (const request of requests) {
+        const raw = data.data?.[request.key];
+        if (!raw) continue;
+        const incoming = candidate(medium, "anilist", raw);
+        if (!incoming) continue;
+        if (!request.direct && matchScore(request.item, incoming) < 0.82) continue;
+        merge(candidates, incoming);
+        resolved += 1;
+      }
+    } catch (error) {
+      errors.push({ message: error.message });
+    }
+  }
+
+  consolidate(candidates);
+  return { resolved, errors };
+}
+
+async function resolveBangumi(candidates, shortlist, medium) {
+  const unresolved = shortlist.filter((item) => !item.ids.bangumi && searchTitle(item));
+  const errors = [];
+  let resolved = 0;
+  const subjectType = medium === "anime" ? 2 : 1;
+  const homepage = process.env.PROJECT_HOMEPAGE || "local-development";
+
+  for (let index = 0; index < unresolved.length; index += 1) {
+    const item = unresolved[index];
+    try {
+      const data = await fetchJson(`${BANGUMI_SEARCH_ENDPOINT}?limit=5&offset=0`, {
+        method: "POST",
+        attempts: 2,
+        timeoutMs: 15_000,
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+          "User-Agent": `FanRank/0.3 (${homepage})`,
+        },
+        body: JSON.stringify({
+          keyword: searchTitle(item),
+          sort: "match",
+          filter: { type: [subjectType] },
+        }),
+      });
+      const ranked = (data.data || [])
+        .map((raw) => candidate(medium, "bangumi", raw))
+        .filter(Boolean)
+        .map((incoming) => ({ incoming, score: matchScore(item, incoming) }))
+        .sort((left, right) => right.score - left.score);
+      if (ranked[0]?.score >= 0.82) {
+        merge(candidates, ranked[0].incoming);
+        resolved += 1;
+      }
+    } catch (error) {
+      errors.push({ message: error.message });
+      if (!error.status || [401, 403, 429].includes(error.status) || error.status >= 500) break;
+    }
+    if (index < unresolved.length - 1) await delay(250);
+  }
+
+  consolidate(candidates);
+  return { resolved, errors };
+}
+
+function sortCandidates(candidates) {
+  candidates.sort((left, right) => {
+    const leftCoverage = Object.values(left.ids).filter(Boolean).length;
+    const rightCoverage = Object.values(right.ids).filter(Boolean).length;
+    return rankingScore(right) - rankingScore(left) || rightCoverage - leftCoverage ||
+      left.title.zh.localeCompare(right.title.zh, "zh-CN");
+  });
+}
+
 function rankingScore(item) {
   const values = Object.values(item.scores).filter(Number.isFinite);
   return values.length ? values.reduce((sum, value) => sum + value, 0) / values.length : 0;
 }
 
 function clean(item) {
-  const { aliases, assets, scores, source, ...publicItem } = item;
+  const { assets, source, ...publicItem } = item;
   return publicItem;
 }
 
@@ -322,6 +608,8 @@ export async function discoverCatalog(limits, previous = []) {
     anime: [],
     manga: [],
     ratings: { bangumi: new Map(), mal: new Map(), anilist: new Map() },
+    assets: new Map(),
+    mapping: { wikidata: 0, anilist: 0, bangumi: 0 },
     sources: {},
     errors: [],
   };
@@ -366,16 +654,46 @@ export async function discoverCatalog(limits, previous = []) {
       }
       for (const raw of records) {
         const item = candidate(medium, source, raw);
-        if (item) merge(candidates, item);
+        if (!item) continue;
+        const invalidWork = !isReleased(raw) ||
+          (medium === "manga" && source === "bangumi" && raw.series === false);
+        if (invalidWork) {
+          removeMatchingCandidate(candidates, item);
+        } else if (isDiscoveryEligible(item, medium, source)) {
+          merge(candidates, item);
+        }
       }
     }
 
-    candidates.sort((left, right) => {
-      const leftCoverage = Object.values(left.ids).filter(Boolean).length;
-      const rightCoverage = Object.values(right.ids).filter(Boolean).length;
-      return rankingScore(right) - rankingScore(left) || rightCoverage - leftCoverage ||
-        left.title.zh.localeCompare(right.title.zh, "zh-CN");
-    });
+    try {
+      const mappings = await fetchWikidataMappings(candidates, medium);
+      result.mapping.wikidata += applyWikidataMappings(candidates, mappings);
+      result.sources[`${medium}:wikidata`] = "ok";
+    } catch (error) {
+      result.sources[`${medium}:wikidata`] = "error";
+      result.errors.push({ medium, source: "wikidata", message: error.message });
+    }
+
+    sortCandidates(candidates);
+    const shortlist = candidates.slice(0, pool);
+    const aniListResolution = await resolveAniList(candidates, shortlist, medium);
+    result.mapping.anilist += aniListResolution.resolved;
+    result.sources[`${medium}:anilist-resolver`] =
+      aniListResolution.errors.length === 0 ? "ok" : aniListResolution.resolved > 0 ? "partial" : "error";
+    for (const error of aniListResolution.errors) {
+      result.errors.push({ medium, source: "anilist-resolver", message: error.message });
+    }
+
+    sortCandidates(candidates);
+    const bangumiResolution = await resolveBangumi(candidates, candidates.slice(0, pool), medium);
+    result.mapping.bangumi += bangumiResolution.resolved;
+    result.sources[`${medium}:bangumi-resolver`] =
+      bangumiResolution.errors.length === 0 ? "ok" : bangumiResolution.resolved > 0 ? "partial" : "error";
+    for (const error of bangumiResolution.errors) {
+      result.errors.push({ medium, source: "bangumi-resolver", message: error.message });
+    }
+
+    sortCandidates(candidates);
 
     const selected = candidates.slice(0, limit);
     if (selected.length < limit) {
@@ -387,7 +705,13 @@ export async function discoverCatalog(limits, previous = []) {
     for (const item of selected) {
       const sourceAssets = candidates.find((candidateItem) => candidateItem.id === item.id)?.assets || {};
       for (const [source, record] of Object.entries(sourceAssets)) {
-        if (record) result.ratings[source].set(item.id, record);
+        if (record?.rating) result.ratings[source].set(item.id, record);
+      }
+      for (const source of ["anilist", "mal", "bangumi"]) {
+        const record = sourceAssets[source];
+        if (!record?.cover) continue;
+        result.assets.set(item.id, { ...record, source });
+        break;
       }
     }
   }

@@ -4,6 +4,8 @@ import { fileURLToPath } from "node:url";
 import { fetchAniList } from "./lib/adapters/anilist.mjs";
 import { fetchBangumi } from "./lib/adapters/bangumi.mjs";
 import { fetchMal } from "./lib/adapters/mal.mjs";
+import { fetchCommercialData } from "./lib/commercial.mjs";
+import { cacheCoverAssets } from "./lib/covers.mjs";
 import { discoverCatalog } from "./lib/discover.mjs";
 import { calculateScore } from "./lib/score.mjs";
 
@@ -56,7 +58,7 @@ function mergeSourceResult(key, discovered, adapter) {
   };
 }
 
-function commercialFor(title, editorial) {
+function editorialCommercialFor(title, editorial) {
   const entry = editorial[title.medium]?.[title.id];
   if (!entry) return null;
 
@@ -85,10 +87,76 @@ function commercialFor(title, editorial) {
   };
 }
 
+function commercialFor(title, wikiCommercial, editorial, oldItem) {
+  return wikiCommercial ||
+    editorialCommercialFor(title, editorial) ||
+    oldItem?.commercial ||
+    null;
+}
+
+function coverOption(record, source) {
+  if (!record?.cover) return null;
+  return {
+    url: record.cover,
+    color: record.color || null,
+    source: record.source || source || null,
+  };
+}
+
+function coverFor(title, discovered, bySource, oldItem) {
+  const candidates = [
+    coverOption(discovered.assets.get(title.id), discovered.assets.get(title.id)?.source),
+    coverOption(bySource.anilist.ratings.get(title.id), "anilist"),
+    coverOption(bySource.mal.ratings.get(title.id), "mal"),
+    coverOption(bySource.bangumi.ratings.get(title.id), "bangumi"),
+  ].filter(Boolean);
+  const oldRemoteUrl = oldItem?.cover?.remoteUrl ||
+    (/^https?:\/\//i.test(oldItem?.cover?.url || "") ? oldItem.cover.url : null);
+  if (oldRemoteUrl) {
+    candidates.push({
+      url: oldRemoteUrl,
+      color: oldItem.cover.color || null,
+      source: oldItem.cover.source || null,
+    });
+  }
+
+  const unique = candidates.filter(
+    (candidate, index) => candidates.findIndex((other) => other.url === candidate.url) === index,
+  );
+  if (unique.length === 0) return oldItem?.cover || null;
+  return {
+    url: unique[0].url,
+    remoteUrl: unique[0].url,
+    color: unique[0].color,
+    source: unique[0].source,
+    alternatives: unique,
+  };
+}
+
 function newestTimestamp(values) {
   const timestamps = values.filter(Boolean).map((value) => Date.parse(value));
   if (timestamps.length === 0) return null;
   return new Date(Math.max(...timestamps)).toISOString();
+}
+
+function discoveryCache(catalog, previous) {
+  return catalog.map((title) => {
+    const scores = { ...(title.scores || {}) };
+    const oldItem = previous.get(title.id);
+    for (const source of sourceKeys) {
+      const rating = oldItem?.ratings?.[source];
+      if (Number.isFinite(rating?.normalized)) {
+        scores[source] = rating.normalized;
+      } else if (
+        Number.isFinite(rating?.raw) &&
+        Number.isFinite(rating?.scale) &&
+        rating.scale > 0
+      ) {
+        scores[source] = (10 * rating.raw) / rating.scale;
+      }
+    }
+    return { ...title, scores };
+  });
 }
 
 export async function refreshData() {
@@ -113,7 +181,10 @@ export async function refreshData() {
   const previous = new Map(
     [...oldAnime, ...oldManga].map((item) => [item.id, item]),
   );
-  const discovered = await discoverCatalog(catalogConfig, oldCatalog);
+  const discovered = await discoverCatalog(
+    catalogConfig,
+    discoveryCache(oldCatalog, previous),
+  );
   const titles = [...discovered.anime, ...discovered.manga];
   const pending = Object.fromEntries(
     sourceKeys.map((source) => [
@@ -126,10 +197,13 @@ export async function refreshData() {
     ]),
   );
 
-  const settled = await Promise.allSettled([
-    fetchBangumi(pending.bangumi),
-    fetchMal(pending.mal),
-    fetchAniList(pending.anilist),
+  const [settled, commercialData] = await Promise.all([
+    Promise.allSettled([
+      fetchBangumi(pending.bangumi),
+      fetchMal(pending.mal),
+      fetchAniList(pending.anilist),
+    ]),
+    fetchCommercialData(titles),
   ]);
   const adapterKeys = ["bangumi", "mal", "anilist"];
   const results = settled.map((result, index) => {
@@ -144,7 +218,6 @@ export async function refreshData() {
   const generated = titles.map((title) => {
     const oldItem = previous.get(title.id);
     const rawRatings = {};
-    const freshAssets = [];
 
     for (const sourceKey of sourceKeys) {
       if (title.ids[sourceKey] === null) {
@@ -155,7 +228,6 @@ export async function refreshData() {
       const fresh = bySource[sourceKey].ratings.get(title.id);
       if (fresh) {
         rawRatings[sourceKey] = fresh.rating;
-        freshAssets.push(fresh);
       } else if (oldItem?.ratings?.[sourceKey]) {
         rawRatings[sourceKey] = { ...oldItem.ratings[sourceKey], stale: true };
       } else {
@@ -164,17 +236,11 @@ export async function refreshData() {
     }
 
     const calculated = calculateScore(rawRatings, title.medium, config);
-    const aniListAsset = bySource.anilist.ratings.get(title.id);
-    const malAsset = bySource.mal.ratings.get(title.id);
-    const bangumiAsset = bySource.bangumi.ratings.get(title.id);
-    const selectedAsset = aniListAsset || malAsset || bangumiAsset || freshAssets[0];
-    const cover = selectedAsset?.cover
-      ? {
-          url: selectedAsset.cover,
-          color: selectedAsset.color || oldItem?.cover?.color || null,
-          source: aniListAsset ? "anilist" : malAsset ? "mal" : "bangumi",
-        }
-      : oldItem?.cover || null;
+    const wikiCommercial = title.wikidata?.id
+      ? commercialData.byWikidata.get(title.wikidata.id)
+      : null;
+    const automaticCommercial =
+      wikiCommercial || commercialData.byTitleId.get(title.id) || null;
 
     return {
       id: title.id,
@@ -182,10 +248,10 @@ export async function refreshData() {
       title: title.title,
       year: title.year,
       format: title.format,
-      cover,
+      cover: coverFor(title, discovered, bySource, oldItem),
       ratings: calculated.ratings,
       score: calculated.score,
-      commercial: commercialFor(title, editorial) || oldItem?.commercial || null,
+      commercial: commercialFor(title, automaticCommercial, editorial, oldItem),
     };
   });
 
@@ -194,6 +260,7 @@ export async function refreshData() {
     throw new Error("Every rating source failed and there is no last-good data to deploy");
   }
 
+  const coverStats = await cacheCoverAssets(generated);
   const generatedAt = new Date().toISOString();
   const metadata = {
     generatedAt,
@@ -206,7 +273,20 @@ export async function refreshData() {
       received: { anime: discovered.anime.length, manga: discovered.manga.length },
       discoverySources: discovered.sources,
       discoveryErrors: discovered.errors.length,
+      mappingsAdded: discovered.mapping,
     },
+    commercial: {
+      sources: commercialData.sources,
+      coverage: {
+        anime: generated.filter(
+          (item) => item.medium === "anime" && item.commercial?.metric === "bd-dvd-average",
+        ).length,
+        manga: generated.filter(
+          (item) => item.medium === "manga" && item.commercial?.metric === "circulation-per-volume",
+        ).length,
+      },
+    },
+    covers: coverStats,
     sources: Object.fromEntries(
       results.map((result) => {
         const freshTimes = [...result.ratings.values()].map(

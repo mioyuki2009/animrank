@@ -61,6 +61,10 @@ test("coverage filters use source count and ranking status", () => {
 test("commercial helper and stale dates are deterministic", () => {
   assert.equal(commercialValue(items[0]), 1000);
   assert.equal(commercialValue(items[1]), null);
+  assert.equal(commercialValue({
+    medium: "anime",
+    commercial: { unitsTotal: 75_000, unitsPerVolume: 1000 },
+  }), 75_000);
   assert.equal(
     isOlderThan("2026-07-01T00:00:00.000Z", 14, Date.parse("2026-07-17T00:00:00.000Z")),
     true,

@@ -89,7 +89,7 @@ function ratingCell(source, rating) {
   return `
     <td class="rating-cell" data-label="${sourceLabels[source]}">
       <a href="${escapeHtml(rating.url)}" target="_blank" rel="noreferrer">
-        <strong>${rawScore(rating)}</strong>${stale}
+        <span class="rating-value-line"><strong>${rawScore(rating)}</strong>${stale}</span>
         <small>${compactNumber.format(rating.votes)} 票</small>
       </a>
     </td>`;
@@ -106,7 +106,10 @@ function coverMarkup(item) {
 function commercialMarkup(item) {
   const value = commercialValue(item);
   if (value === null) return '<span class="missing-value">-</span>';
-  return `<strong>${compactNumber.format(value)}</strong><small>${item.medium === "anime" ? "张 / 卷" : "册 / 卷"}</small>`;
+  const unit = item.medium === "anime"
+    ? Number.isFinite(item.commercial.unitsTotal) ? "张" : "张 / 卷"
+    : "册 / 卷";
+  return `<span class="commercial-value"><strong>${compactNumber.format(value)}</strong><small>${unit}</small></span>`;
 }
 
 function hasCurrentSortValue(item) {
@@ -144,7 +147,7 @@ function rowMarkup(item, index) {
           <small>${item.score.sourceCount} / 3 来源</small>
         </span>
       </td>
-      <td class="commercial-cell" data-label="${item.medium === "anime" ? "影碟卷均" : "卷均发行"}">
+      <td class="commercial-cell" data-label="${item.medium === "anime" ? "影碟销量" : "卷均发行"}">
         ${commercialMarkup(item)}
       </td>
       <td class="detail-cell">
@@ -198,7 +201,7 @@ function render() {
   elements.body.innerHTML = items.map(rowMarkup).join("");
   elements.empty.hidden = items.length !== 0;
   elements.resultCount.textContent = `${items.length} 部作品`;
-  elements.commercialHeading.textContent = state.medium === "anime" ? "影碟卷均" : "卷均发行";
+  elements.commercialHeading.textContent = state.medium === "anime" ? "影碟销量" : "卷均发行";
   document.querySelector("#anime-total").textContent = data.anime.length;
   document.querySelector("#manga-total").textContent = data.manga.length;
   elements.tabs.forEach((tab) => {
@@ -231,10 +234,11 @@ function sourceDetail(source, rating) {
 function commercialDetail(item) {
   if (!item.commercial) return '<p class="commercial-empty">该作品暂无可核验的商业数据。</p>';
   const commercial = item.commercial;
-  const values =
-    item.medium === "anime"
-      ? `<strong>${integerNumber.format(commercial.unitsPerVolume)}</strong><span>BD + DVD 卷均累计</span>`
-      : `<strong>${integerNumber.format(commercial.perVolume)}</strong><span>${integerNumber.format(commercial.circulation)} ÷ ${commercial.volumesAtAnnouncement} 卷</span>`;
+  const values = item.medium === "anime"
+    ? Number.isFinite(commercial.unitsTotal)
+      ? `<strong>${integerNumber.format(commercial.unitsTotal)}</strong><span>BD + DVD 累计销量</span>`
+      : `<strong>${integerNumber.format(commercial.unitsPerVolume)}</strong><span>BD + DVD 卷均累计</span>`
+    : `<strong>${integerNumber.format(commercial.perVolume)}</strong><span>${integerNumber.format(commercial.circulation)} ÷ ${commercial.volumesAtAnnouncement} 卷</span>`;
   return `
     <div class="commercial-detail">
       <div>${values}</div>
@@ -266,7 +270,7 @@ function openDetails(id) {
       </div>
     </section>
     <section class="commercial-section" aria-labelledby="commercial-title">
-      <h3 id="commercial-title">${item.medium === "anime" ? "实体影碟" : "累计发行"}</h3>
+      <h3 id="commercial-title">${item.medium === "anime" ? "实体影碟销量" : "累计发行"}</h3>
       ${commercialDetail(item)}
     </section>`;
   elements.dialog.showModal();

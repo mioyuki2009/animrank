@@ -1,50 +1,5 @@
 [
   {
-    "id": "anime:bangumi-326",
-    "medium": "anime",
-    "title": {
-      "zh": "攻壳机动队 S.A.C. 2nd GIG",
-      "original": "攻殻機動隊 S.A.C. 2nd GIG"
-    },
-    "year": 2004,
-    "format": "TV",
-    "ids": {
-      "bangumi": 326,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "anime:bangumi-324",
-    "medium": "anime",
-    "title": {
-      "zh": "攻壳机动队 STAND ALONE COMPLEX",
-      "original": "攻殻機動隊 STAND ALONE COMPLEX"
-    },
-    "year": 2002,
-    "format": "TV",
-    "ids": {
-      "bangumi": 324,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "anime:bangumi-25961",
-    "medium": "anime",
-    "title": {
-      "zh": "猫和老鼠（1965年电视版）",
-      "original": "Tom and Jerry"
-    },
-    "year": 1965,
-    "format": "TV",
-    "ids": {
-      "bangumi": 25961,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
     "id": "anime:anilist-189046",
     "medium": "anime",
     "title": {
@@ -54,10 +9,30 @@
     "year": 2026,
     "format": "TV",
     "ids": {
-      "bangumi": null,
+      "bangumi": 547888,
       "mal": 61316,
       "anilist": 189046
-    }
+    },
+    "wikidata": {
+      "id": "Q133542280",
+      "articles": {
+        "ja": null,
+        "en": "Re:Zero season 4"
+      }
+    },
+    "scores": {
+      "mal": 9.17,
+      "anilist": 9
+    },
+    "aliases": [
+      "Re:ZERO -Starting Life in Another World- Season 4",
+      "Re:ゼロから始める異世界生活 4th season",
+      "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
+      "Re:ZERO รีเซทชีวิต ฝ่าวิกฤตต่างโลก ซีซั่น 4",
+      "Re:ZERO – Жизнь с нуля в альтернативном мире 4",
+      "Re: Life in a different world from zero",
+      "ReZero"
+    ]
   },
   {
     "id": "anime:anilist-114129",
@@ -72,7 +47,27 @@
       "bangumi": null,
       "mal": 39486,
       "anilist": 114129
-    }
+    },
+    "wikidata": {
+      "id": "Q100595898",
+      "articles": {
+        "ja": "銀魂 THE FINAL",
+        "en": "Gintama: The Very Final"
+      }
+    },
+    "scores": {
+      "mal": 9.05,
+      "anilist": 9.1
+    },
+    "aliases": [
+      "Gintama: THE VERY FINAL",
+      "銀魂 THE FINAL",
+      "Gintama: THE FINAL",
+      "กินทามะ THE FINAL",
+      "Gintama: The Very Final",
+      "Gintama: The Final",
+      "N/A"
+    ]
   },
   {
     "id": "anime:anilist-4181",
@@ -87,7 +82,27 @@
       "bangumi": 876,
       "mal": 4181,
       "anilist": 4181
-    }
+    },
+    "wikidata": {
+      "id": "Q1095040",
+      "articles": {
+        "ja": "CLANNAD 〜AFTER STORY〜",
+        "en": null
+      }
+    },
+    "scores": {
+      "bangumi": 9.2,
+      "mal": 8.93,
+      "anilist": 8.8
+    },
+    "aliases": [
+      "CLANNAD 〜AFTER STORY〜",
+      "ＣＬＡＮＮＡＤ ~After Story~ クラナド アフターストーリー",
+      "CLANNAD: After Story",
+      "Clannad: After Story",
+      "CLANNAD〜AFTER STORY〜 クラナド アフターストーリー",
+      "Clannad ~After Story~"
+    ]
   },
   {
     "id": "anime:anilist-5114",
@@ -102,7 +117,38 @@
       "bangumi": 1428,
       "mal": 5114,
       "anilist": 5114
-    }
+    },
+    "wikidata": {
+      "id": "Q437808",
+      "articles": {
+        "ja": "鋼の錬金術師 FULLMETAL ALCHEMIST",
+        "en": "Fullmetal Alchemist: Brotherhood"
+      }
+    },
+    "scores": {
+      "bangumi": 8.8,
+      "mal": 9.11,
+      "anilist": 9
+    },
+    "aliases": [
+      "钢之炼金术师 FULLMETAL ALCHEMIST",
+      "鋼の錬金術師 FULLMETAL ALCHEMIST",
+      "Hagane no Renkinjutsushi: FULLMETAL ALCHEMIST",
+      "Fullmetal Alchemist: Brotherhood",
+      "FMA",
+      "FMAB",
+      "Hagaren",
+      "الخيميائي الفولاذي",
+      "אלכימאי המתכת: אחוות אחים",
+      "Full Metal Alchemist: Brotherhood",
+      "แขนกล คนแปรธาตุ: บราเธอร์ฮูด",
+      "Stalowy alchemik: Misja braci",
+      "Сталевий алхімік. Братерство",
+      "Стальной алхимик: Братство",
+      "Hagane no Renkinjutsushi: Fullmetal Alchemist",
+      "Fullmetal Alchemist (2009)",
+      "Fullmetal Alchemist Brotherhood"
+    ]
   },
   {
     "id": "anime:anilist-11061",
@@ -114,10 +160,36 @@
     "year": 2011,
     "format": "TV",
     "ids": {
-      "bangumi": null,
+      "bangumi": 21032,
       "mal": 11061,
       "anilist": 11061
-    }
+    },
+    "wikidata": {
+      "id": "Q70209136",
+      "articles": {
+        "ja": "HUNTER×HUNTER (2011年のアニメ)",
+        "en": "Hunter × Hunter (2011 TV series)"
+      }
+    },
+    "scores": {
+      "mal": 9.03,
+      "anilist": 8.9
+    },
+    "aliases": [
+      "Hunter x Hunter (2011)",
+      "HUNTER×HUNTER (2011)",
+      "ハンター×ハンター",
+      "HxH",
+      "全职猎人",
+      "האנטר האנטר",
+      "ฮันเตอร์ x ฮันเตอร์",
+      "القناص ",
+      "Мисливець X Мисливець",
+      "Hunter x Hunter",
+      "HUNTER×HUNTER（ハンター×ハンター）",
+      "HxH (2011)",
+      "Hunter X Hunter"
+    ]
   },
   {
     "id": "anime:anilist-154587",
@@ -132,7 +204,42 @@
       "bangumi": 400602,
       "mal": 52991,
       "anilist": 154587
-    }
+    },
+    "wikidata": {
+      "id": "Q130377145",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "bangumi": 8.5,
+      "mal": 9.26,
+      "anilist": 9.1
+    },
+    "aliases": [
+      "葬送的芙莉莲",
+      "葬送のフリーレン",
+      "Sousou no Frieren",
+      "Frieren: Beyond Journey’s End",
+      "Frieren at the Funeral",
+      "장송의 프리렌",
+      "Frieren - Oltre la Fine del Viaggio",
+      "คำอธิษฐานในวันที่จากลา Frieren",
+      "Frieren e a Jornada para o Além",
+      "Frieren – Nach dem Ende der Reise",
+      "葬送的芙莉蓮",
+      "Frieren: Más allá del final del viaje",
+      "Frieren en el funeral",
+      "Sōsō no Furīren",
+      "Frieren. U kresu drogi",
+      "Frieren - Pháp sư tiễn táng",
+      "Фрирен, провожающая в последний путь",
+      "فريرن: ما وراء نهاية الرحلة",
+      "Frieren: Tras finalizar el viaje",
+      "Frieren: Beyond Journey's End",
+      "Frieren The Slayer"
+    ]
   },
   {
     "id": "anime:anilist-190327",
@@ -147,7 +254,32 @@
       "bangumi": null,
       "mal": 61469,
       "anilist": 190327
-    }
+    },
+    "wikidata": {
+      "id": "Q133859292",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 9.1,
+      "anilist": 8.8
+    },
+    "aliases": [
+      "STEEL BALL RUN JoJo's Bizarre Adventure 1st STAGE",
+      "ジョジョの奇妙な冒険 スティール・ボール・ラン 1st STAGE",
+      "JoJo no Kimyou na Bouken: Steel Ball Run - 1st STAGE",
+      "JoJo's Bizarre Adventure: Part 7–Steel Ball Run",
+      "SBR",
+      "ГОНКА «СТАЛЬНОЙ ШАР»: Невероятные приключения ДжоДжо",
+      "Перегони «Сталева куля»: Химерні пригоди ДжоДжо",
+      "Steel Ball Run: JoJo's Bizarre Adventure",
+      "スティール・ボール・ラン ジョジョの奇妙な冒険",
+      "Steel Ball Run: JoJo no Kimyou na Bouken",
+      "JoJo's Bizarre Adventure Part 7: Steel Ball Run",
+      "JoJo no Kimyou na Bouken Part 7: Steel Ball Run"
+    ]
   },
   {
     "id": "anime:anilist-9253",
@@ -162,7 +294,28 @@
       "bangumi": 10380,
       "mal": 9253,
       "anilist": 9253
-    }
+    },
+    "wikidata": {
+      "id": "Q20590069",
+      "articles": {
+        "ja": "STEINS;GATE (アニメ)",
+        "en": "Steins;Gate (TV series)"
+      }
+    },
+    "scores": {
+      "bangumi": 8.8,
+      "mal": 9.07,
+      "anilist": 8.9
+    },
+    "aliases": [
+      "命运石之门",
+      "シュタインズ・ゲート",
+      "Steins;Gate",
+      "S;G",
+      "סטיינס;גייט",
+      "Врата;Штейна",
+      "STEINS;GATE"
+    ]
   },
   {
     "id": "anime:anilist-97889",
@@ -177,7 +330,26 @@
       "bangumi": null,
       "mal": 34096,
       "anilist": 97889
-    }
+    },
+    "wikidata": {
+      "id": "Q28454679",
+      "articles": {
+        "ja": null,
+        "en": "Gintama."
+      }
+    },
+    "scores": {
+      "mal": 8.98,
+      "anilist": 8.8
+    },
+    "aliases": [
+      "Gintama Season 4",
+      "銀魂。",
+      "Gintama.",
+      "Gintama. (2017)",
+      "Gintama Season 5",
+      "Gintama (2017)"
+    ]
   },
   {
     "id": "anime:anilist-21745",
@@ -189,10 +361,32 @@
     "year": 2017,
     "format": "TV",
     "ids": {
-      "bangumi": null,
+      "bangumi": 175596,
       "mal": 35247,
       "anilist": 21745
-    }
+    },
+    "wikidata": {
+      "id": "Q124310041",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.86,
+      "anilist": 8.9
+    },
+    "aliases": [
+      "Owarimonogatari Second Season",
+      "終物語（下）",
+      "Owarimonogatari (Ge)",
+      "Owarimonogatari 2",
+      "End Tale",
+      "終物語",
+      "Owarimonogatari 2nd Season",
+      "End Story 2nd Season",
+      "Owarimonogatari Saison 2"
+    ]
   },
   {
     "id": "anime:anilist-9969",
@@ -207,7 +401,30 @@
       "bangumi": 11834,
       "mal": 9969,
       "anilist": 9969
-    }
+    },
+    "wikidata": {
+      "id": "Q1703892",
+      "articles": {
+        "ja": null,
+        "en": "Gintama'"
+      }
+    },
+    "scores": {
+      "bangumi": 8.7,
+      "mal": 9.02,
+      "anilist": 8.9
+    },
+    "aliases": [
+      "银魂'",
+      "銀魂’",
+      "Gintama'",
+      "Gintama Season 2",
+      "Gintama (2011)",
+      "銀魂'",
+      "Gintama Staffel 2",
+      "Gintama Temporada 2",
+      "Gintama Saison 2"
+    ]
   },
   {
     "id": "anime:anilist-182469",
@@ -222,7 +439,24 @@
       "bangumi": 518519,
       "mal": 60022,
       "anilist": 182469
-    }
+    },
+    "wikidata": {
+      "id": "Q130581464",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "bangumi": 8.6,
+      "mal": 9.01,
+      "anilist": 9
+    },
+    "aliases": [
+      "航海王：粉丝来信",
+      "ONE PIECE FAN LETTER",
+      "One Piece Fan Letter"
+    ]
   },
   {
     "id": "anime:anilist-98478",
@@ -237,7 +471,33 @@
       "bangumi": 211567,
       "mal": 35180,
       "anilist": 98478
-    }
+    },
+    "wikidata": {
+      "id": "Q135277876",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "bangumi": 8.8,
+      "mal": 8.9,
+      "anilist": 8.9
+    },
+    "aliases": [
+      "3月的狮子 第二季",
+      "３月のライオン 第2シリーズ",
+      "3-gatsu no Lion 2nd Season",
+      "March comes in like a lion Season 2",
+      "Sangatsu no Lion 2",
+      "מרץ מגיע כאריה 2",
+      "March Comes In Like a Lion 2nd Season",
+      "3月のライオン 第2シリーズ",
+      "Sangatsu no Lion Second Season",
+      "March Come in Like a Lion Staffel 2",
+      "March Comes in like a Lion Temporada 2",
+      "March Comes in like a Lion Saison 2"
+    ]
   },
   {
     "id": "anime:anilist-20954",
@@ -249,10 +509,44 @@
     "year": 2016,
     "format": "MOVIE",
     "ids": {
-      "bangumi": null,
+      "bangumi": 117777,
       "mal": 28851,
       "anilist": 20954
-    }
+    },
+    "wikidata": {
+      "id": "Q23925035",
+      "articles": {
+        "ja": "映画 聲の形",
+        "en": "A Silent Voice (film)"
+      }
+    },
+    "scores": {
+      "mal": 8.93,
+      "anilist": 8.8
+    },
+    "aliases": [
+      "A Silent Voice",
+      "聲の形",
+      "Koe no Katachi",
+      "The Shape of Voice",
+      "A Voz do Silêncio",
+      "A Forma da Voz",
+      "La Forma della Voce",
+      "צורתו של קול",
+      "声之形",
+      "الحزن الصامت",
+      "Una voz silenciosa",
+      "La Forme de la voix",
+      "Форма голоса",
+      "Форма голосу",
+      "Tylus balsas",
+      "Balss forma",
+      "Дауыс пішіні",
+      "Sakit səs",
+      "รักไร้เสียง",
+      "Dáng hình thanh âm",
+      "Una Voz Silenciosa"
+    ]
   },
   {
     "id": "anime:anilist-176301",
@@ -264,10 +558,34 @@
     "year": 2025,
     "format": "TV",
     "ids": {
-      "bangumi": null,
+      "bangumi": 486347,
       "mal": 58514,
       "anilist": 176301
-    }
+    },
+    "wikidata": {
+      "id": "Q125116392",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.91,
+      "anilist": 8.8
+    },
+    "aliases": [
+      "The Apothecary Diaries Season 2",
+      "薬屋のひとりごと 第2期",
+      "Kusuriya no Hitorigoto 2nd Season",
+      "Die Tagebücher der Apothekerin Season 2",
+      "Diários de uma Apotecária 2ª Temporada",
+      "Монолог фармацевта 2",
+      "Les Carnets de l'apothicaire Saison 2",
+      "Los diarios de la boticaria temporada 2",
+      "Dược sư tự sự",
+      "The Pharmacist's Monologue",
+      "Drugstore Soliloquy"
+    ]
   },
   {
     "id": "anime:anilist-820",
@@ -282,7 +600,34 @@
       "bangumi": 2907,
       "mal": 820,
       "anilist": 820
-    }
+    },
+    "wikidata": {
+      "id": "Q20038487",
+      "articles": {
+        "ja": "銀河英雄伝説 (アニメ)",
+        "en": null
+      }
+    },
+    "scores": {
+      "bangumi": 8.7,
+      "mal": 9.02,
+      "anilist": 8.8
+    },
+    "aliases": [
+      "银河英雄传说",
+      "銀河英雄伝説",
+      "Ginga Eiyuu Densetsu",
+      "Legend of the Galactic Heroes",
+      "LoGH",
+      "LoTGH",
+      "Gin'eiden",
+      "Heldensagen vom Kosmosinsel",
+      "אגדת הגיבורים הגלקטיים",
+      "LotGH",
+      "GinEiDen",
+      "Heldensagen Vom Kosmosinsel",
+      "Les Héros de la Galaxie"
+    ]
   },
   {
     "id": "anime:anilist-182255",
@@ -294,10 +639,30 @@
     "year": 2026,
     "format": "TV",
     "ids": {
-      "bangumi": null,
+      "bangumi": 515759,
       "mal": 59978,
       "anilist": 182255
-    }
+    },
+    "wikidata": {
+      "id": "Q130377146",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.86,
+      "anilist": 8.8
+    },
+    "aliases": [
+      "Frieren: Beyond Journey’s End Season 2",
+      "葬送のフリーレン 第2期",
+      "Sousou no Frieren 2nd Season",
+      "Провожающая в последний путь Фрирен 2",
+      "장송의 프리렌 2기",
+      "Frieren: Beyond Journey's End Season 2",
+      "Frieren at the Funeral Season 2"
+    ]
   },
   {
     "id": "anime:mal-59571",
@@ -309,10 +674,26 @@
     "year": 2024,
     "format": "Movie",
     "ids": {
-      "bangumi": null,
+      "bangumi": 508708,
       "mal": 59571,
       "anilist": null
-    }
+    },
+    "wikidata": {
+      "id": "Q130598228",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.83
+    },
+    "aliases": [
+      "Attack on Titan: The Last Attack",
+      "劇場版 進撃の巨人 完結編 THE LAST ATTACK",
+      "Shingeki no Kyojin Movie: Kanketsu-hen - The Last Attack",
+      "Attack on Titan the Movie: The Last Attack"
+    ]
   },
   {
     "id": "anime:anilist-161645",
@@ -324,10 +705,42 @@
     "year": 2023,
     "format": "TV",
     "ids": {
-      "bangumi": null,
+      "bangumi": 420628,
       "mal": 54492,
       "anilist": 161645
-    }
+    },
+    "wikidata": {
+      "id": "Q125116391",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.85,
+      "anilist": 8.8
+    },
+    "aliases": [
+      "The Apothecary Diaries",
+      "薬屋のひとりごと",
+      "Kusuriya no Hitorigoto",
+      "Drugstore Soliloquy",
+      "Les Carnets de l'Apothicaire",
+      "Zapiski zielarki",
+      "Diários de uma Apotecária",
+      "Il monologo della Speziale",
+      "Los diarios de la boticaria",
+      "สืบคดีปริศนา หมอยาตำรับโคมแดง",
+      "Записки аптекаря",
+      "Die Tagebücher der Apothekerin",
+      "يوميات الصيدلانيّة",
+      "藥師少女的獨語",
+      "药屋少女的呢喃",
+      "Монолог фармацевта",
+      "약사의 혼잣말",
+      "Dược sư tự sự",
+      "The Pharmacist's Monologue"
+    ]
   },
   {
     "id": "anime:anilist-171627",
@@ -342,7 +755,34 @@
       "bangumi": 470660,
       "mal": 57555,
       "anilist": 171627
-    }
+    },
+    "wikidata": {
+      "id": "Q123906765",
+      "articles": {
+        "ja": "劇場版 チェンソーマン レゼ篇",
+        "en": "Chainsaw Man – The Movie: Reze Arc"
+      }
+    },
+    "scores": {
+      "bangumi": 8.4,
+      "mal": 9.06,
+      "anilist": 9
+    },
+    "aliases": [
+      "剧场版 链锯人 蕾塞篇",
+      "チェンソーマン レゼ篇",
+      "Chainsaw Man: Reze-hen",
+      "Chainsaw Man – The Movie: Reze Arc",
+      "CSM: Reze-hen",
+      "CSM – The Movie: Reze Arc",
+      "Chainsaw Man – O Filme: Arco da Reze",
+      "Chainsaw Man - La película: El arco de Reze",
+      "Chainsaw Man - Il Film: La Storia di Reze",
+      "Человек-бензопила: Фильм – История Резе",
+      "劇場版 チェンソーマン レゼ篇",
+      "Chainsaw Man Movie: Reze-hen",
+      "Gekijouban Chainsaw Man: Reze-hen"
+    ]
   },
   {
     "id": "anime:anilist-1",
@@ -357,7 +797,30 @@
       "bangumi": 253,
       "mal": 1,
       "anilist": 1
-    }
+    },
+    "wikidata": {
+      "id": "Q101244908",
+      "articles": {
+        "ja": "カウボーイビバップ",
+        "en": "Cowboy Bebop"
+      }
+    },
+    "scores": {
+      "bangumi": 9.1,
+      "mal": 8.75,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "星际牛仔",
+      "カウボーイビバップ",
+      "Cowboy Bebop",
+      "카우보이 비밥",
+      "קאובוי ביבופ",
+      "คาวบอย บีบ๊อป",
+      "Ковбой Бибоп",
+      "Καουμπόηδες του Διαστήματος",
+      "Kowboj Bebop"
+    ]
   },
   {
     "id": "anime:anilist-136430",
@@ -372,37 +835,24 @@
       "bangumi": null,
       "mal": 49387,
       "anilist": 136430
-    }
-  },
-  {
-    "id": "anime:bangumi-237",
-    "medium": "anime",
-    "title": {
-      "zh": "攻壳机动队",
-      "original": "GHOST IN THE SHELL / 攻殻機動隊"
     },
-    "year": 1995,
-    "format": "剧场版",
-    "ids": {
-      "bangumi": 237,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "anime:bangumi-321",
-    "medium": "anime",
-    "title": {
-      "zh": "机动警察剧场版2 和平保卫战",
-      "original": "機動警察パトレイバー 2 the Movie"
+    "wikidata": {
+      "id": "Q115730093",
+      "articles": {
+        "ja": null,
+        "en": "Vinland Saga season 2"
+      }
     },
-    "year": 1993,
-    "format": "剧场版",
-    "ids": {
-      "bangumi": 321,
-      "mal": null,
-      "anilist": null
-    }
+    "scores": {
+      "mal": 8.83,
+      "anilist": 8.8
+    },
+    "aliases": [
+      "Vinland Saga Season 2",
+      "ヴィンランド・サガ SEASON2",
+      "VINLAND SAGA SEASON 2",
+      "Сага о Винланде 2"
+    ]
   },
   {
     "id": "anime:anilist-15335",
@@ -417,7 +867,28 @@
       "bangumi": null,
       "mal": 15335,
       "anilist": 15335
-    }
+    },
+    "wikidata": {
+      "id": "Q14542320",
+      "articles": {
+        "ja": "劇場版 銀魂 完結篇 万事屋よ永遠なれ",
+        "en": "Gintama: The Movie: The Final Chapter: Be Forever Yorozuya"
+      }
+    },
+    "scores": {
+      "mal": 8.89,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "Gintama: The Final Chapter - Be Forever Yorozuya",
+      "劇場版 銀魂 完結篇 万事屋よ永遠なれ",
+      "Gintama: Kanketsu-hen - Yorozuya yo Eien Nare",
+      "Gintama Movie 2",
+      "Gintama the Final Movie",
+      "Gintama: The Movie: The Final Chapter: Be Forever Yorozuya",
+      "Gintama Movie 2: Kanketsu-hen - Yorozuya yo Eien Nare",
+      "Gintama the Movie 2"
+    ]
   },
   {
     "id": "anime:anilist-101925",
@@ -432,7 +903,24 @@
       "bangumi": null,
       "mal": 37491,
       "anilist": 101925
-    }
+    },
+    "wikidata": null,
+    "scores": {
+      "mal": 8.88,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "Gintama.: Silver Soul Arc - Second Half War",
+      "銀魂. 銀ノ魂篇2",
+      "Gintama.: Shirogane no Tamashii-hen - Kouhan-sen",
+      "Gintama.: Silver Soul Arc 2",
+      "Gintama. Silver Soul Arc Season 2",
+      "Gintama.: Shirogane no Tamashii-hen Season 2",
+      "Gintama. Silver Soul Arc - Second Half War",
+      "銀魂. 銀ノ魂篇 後半戦",
+      "Gintama. Shirogane no Tamashii-hen - Kouhan-sen",
+      "Gintama. Silver Soul Arc 2"
+    ]
   },
   {
     "id": "anime:anilist-2921",
@@ -447,7 +935,29 @@
       "bangumi": 67753,
       "mal": 2921,
       "anilist": 2921
-    }
+    },
+    "wikidata": {
+      "id": "Q124154026",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "bangumi": 8.7,
+      "mal": 8.81,
+      "anilist": 8.8
+    },
+    "aliases": [
+      "明日之丈2",
+      "あしたのジョー２",
+      "Ashita no Joe 2",
+      "Tomorrow's Joe 2",
+      "Rocky Joe 2",
+      "Champion Joe 2",
+      "N/A",
+      "El Campeón/ El mañana de Joe 2"
+    ]
   },
   {
     "id": "anime:anilist-103047",
@@ -459,10 +969,34 @@
     "year": 2020,
     "format": "MOVIE",
     "ids": {
-      "bangumi": null,
+      "bangumi": 242216,
       "mal": 37987,
       "anilist": 103047
-    }
+    },
+    "wikidata": {
+      "id": "Q106434135",
+      "articles": {
+        "ja": null,
+        "en": "Violet Evergarden: The Movie"
+      }
+    },
+    "scores": {
+      "mal": 8.83,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "Violet Evergarden: the Movie",
+      "劇場版 ヴァイオレット・エヴァーガーデン",
+      "Violet Evergarden Movie",
+      "Виолетта Эвергарден",
+      "Вайоллет Эвергарден",
+      "薇尔莉特·伊芙加登",
+      "Violet Evergarden : Le film",
+      "Violet Evergarden: The Movie",
+      "Gekijouban Violet Evergarden",
+      "Violet Evergarden: La película",
+      "Violet Evergarden: Le film"
+    ]
   },
   {
     "id": "anime:anilist-178789",
@@ -474,10 +1008,30 @@
     "year": 2026,
     "format": "TV",
     "ids": {
-      "bangumi": null,
+      "bangumi": 501963,
       "mal": 59193,
       "anilist": 178789
-    }
+    },
+    "wikidata": {
+      "id": "Q126947894",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.91,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Mushoku Tensei: Jobless Reincarnation Season 3",
+      "無職転生Ⅲ ～異世界行ったら本気だす～",
+      "Mushoku Tensei III: Isekai Ittara Honki Dasu",
+      "無職転生 ～異世界行ったら本気だす～ 第3期",
+      "Mushoku Tensei: Isekai Ittara Honki Dasu 3rd Season",
+      "เกิดชาตินี้พี่ต้องเทพ ซีซั่น 3",
+      "無職転生 III ～異世界行ったら本気だす～"
+    ]
   },
   {
     "id": "anime:anilist-20996",
@@ -492,7 +1046,30 @@
       "bangumi": 120791,
       "mal": 28977,
       "anilist": 20996
-    }
+    },
+    "wikidata": {
+      "id": "Q21067924",
+      "articles": {
+        "ja": null,
+        "en": "Gintama°"
+      }
+    },
+    "scores": {
+      "bangumi": 8.2,
+      "mal": 9.05,
+      "anilist": 9
+    },
+    "aliases": [
+      "银魂°",
+      "銀魂゜",
+      "Gintama°",
+      "Gintama Season 3",
+      "Gintama Season 4",
+      "銀魂°",
+      "Gintama' (2015)",
+      "Gintama Temporada 4",
+      "Gintama Saison 4"
+    ]
   },
   {
     "id": "anime:anilist-110277",
@@ -507,7 +1084,42 @@
       "bangumi": null,
       "mal": 40028,
       "anilist": 110277
-    }
+    },
+    "wikidata": {
+      "id": "Q100332172",
+      "articles": {
+        "ja": null,
+        "en": "Attack on Titan season 4"
+      }
+    },
+    "scores": {
+      "mal": 8.79,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "Attack on Titan Final Season",
+      "進撃の巨人 The Final Season",
+      "Shingeki no Kyojin: The Final Season",
+      "SnK 4",
+      "AoT 4",
+      "Shingeki no Kyojin 4",
+      "進撃の巨人4",
+      "Attack on Titan Season 4",
+      "진격의 거인 더 파이널 시즌",
+      "מתקפת הטיטאנים העונה האחרונה",
+      "L'Attaque des Titans Saison Finale",
+      "L'Attacco dei Giganti 4",
+      "L'Attacco dei Giganti - La Stagione Finale",
+      "حمله به تایتان فصل 4 ",
+      " ผ่าพิภพไททัน ไฟนอล ซีซั่น",
+      "ผ่าพิภพไททัน Final Season",
+      "ผ่าพิภพไททัน ภาค 4",
+      "هجوم العملاقة الجزء الأخير",
+      "Атака Титанов: Финал",
+      "Attack on Titan: Final Season",
+      "Shingeki no Kyojin Season 4",
+      "Ataque a los Titanes Temporada Final"
+    ]
   },
   {
     "id": "anime:anilist-15417",
@@ -522,7 +1134,31 @@
       "bangumi": 47576,
       "mal": 15417,
       "anilist": 15417
-    }
+    },
+    "wikidata": {
+      "id": "Q17002838",
+      "articles": {
+        "ja": null,
+        "en": "Gintama': Enchōsen"
+      }
+    },
+    "scores": {
+      "bangumi": 8.3,
+      "mal": 9.02,
+      "anilist": 8.9
+    },
+    "aliases": [
+      "银魂' 延长战",
+      "銀魂’延長戦",
+      "Gintama': Enchousen",
+      "Gintama Season 2 Part 2",
+      "Gintama' (2012)",
+      "Gintama' Overdrive",
+      "Kintama",
+      "Gintama: Enchousen",
+      "銀魂' 延長戦",
+      "Gintama Season 3"
+    ]
   },
   {
     "id": "anime:anilist-263",
@@ -534,10 +1170,71 @@
     "year": 2000,
     "format": "TV",
     "ids": {
-      "bangumi": null,
+      "bangumi": 10419,
       "mal": 263,
       "anilist": 263
-    }
+    },
+    "wikidata": {
+      "id": "Q115019882",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.78,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "Hajime no Ippo: The Fighting!",
+      "はじめの一歩 THE FIGHTING!",
+      "Hajime no Ippo: THE FIGHTING!",
+      "The First Step",
+      "Fighting Spirit",
+      "Espíritu de lucha",
+      "Hajime no Ippo: A Luta!",
+      "Первый шаг",
+      "Hajime no Ippo",
+      "Hajime no Ippo: The Fighting",
+      "Hajime no Ippo: Espíritu de Lucha",
+      "IPPO Le Challenger"
+    ]
+  },
+  {
+    "id": "anime:anilist-21400",
+    "medium": "anime",
+    "title": {
+      "zh": "Kizumonogatari Part 3: Reiketsu",
+      "original": "傷物語〈Ⅲ冷血篇〉"
+    },
+    "year": 2017,
+    "format": "MOVIE",
+    "ids": {
+      "bangumi": null,
+      "mal": 31758,
+      "anilist": 21400
+    },
+    "wikidata": {
+      "id": "Q27964616",
+      "articles": {
+        "ja": null,
+        "en": "Kizumonogatari Part 3: Reiketsu"
+      }
+    },
+    "scores": {
+      "mal": 8.78,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "Kizumonogatari Part 3: Reiketsu",
+      "傷物語〈Ⅲ冷血篇〉",
+      "Kizumonogatari III: Reiketsu-hen",
+      "Wound Tale 3: Cold Blood",
+      "Kizumonogatari Part 3: Cold-Blooded",
+      "Koyomi Vamp",
+      "Kizumonogatari III: Reiketsuhen",
+      "Kizumonogatari Partie 3: Sang Glacial"
+    ]
   },
   {
     "id": "anime:anilist-101338",
@@ -552,7 +1249,27 @@
       "bangumi": null,
       "mal": 37510,
       "anilist": 101338
-    }
+    },
+    "wikidata": {
+      "id": "Q114011046",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.78,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "Mob Psycho 100 II",
+      "モブサイコ100 II",
+      "Mob Psycho Hyaku",
+      "ม็อบไซโค 100 คนพลังจิต ภาค 2",
+      "Моб Психо 100 II",
+      "Mob Psycho 100 2nd Season",
+      "Mob Psycho One Hundred"
+    ]
   },
   {
     "id": "anime:anilist-113108",
@@ -564,10 +1281,28 @@
     "year": 2020,
     "format": "TV",
     "ids": {
-      "bangumi": null,
+      "bangumi": 294288,
       "mal": 40682,
       "anilist": 113108
-    }
+    },
+    "wikidata": {
+      "id": "Q104870254",
+      "articles": {
+        "ja": null,
+        "en": "Kingdom season 3"
+      }
+    },
+    "scores": {
+      "mal": 8.85,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Kingdom Season 3",
+      "キングダム 第3シリーズ",
+      "Kingdom 3rd Season",
+      "สงครามบัลลังก์ผงาดจิ๋นซี ภาค 3",
+      "Царство 3"
+    ]
   },
   {
     "id": "anime:anilist-125367",
@@ -582,7 +1317,78 @@
       "bangumi": 317613,
       "mal": 43608,
       "anilist": 125367
-    }
+    },
+    "wikidata": {
+      "id": "Q109229216",
+      "articles": {
+        "ja": null,
+        "en": "Kaguya-sama: Love Is War – Ultra Romantic"
+      }
+    },
+    "scores": {
+      "bangumi": 8.3,
+      "mal": 8.95,
+      "anilist": 8.9
+    },
+    "aliases": [
+      "辉夜大小姐想让我告白-超级浪漫-",
+      "かぐや様は告らせたい-ウルトラロマンティック-",
+      "Kaguya-sama wa Kokurasetai: Ultra Romantic",
+      "Kaguya-sama: Love is War -Ultra Romantic-",
+      "Kaguya-sama: Love is War Season 3",
+      "辉夜大小姐想让我告白～天才们的恋爱头脑战～ 3",
+      "辉夜大小姐想让我告白～天才们的恋爱头脑战～ 第三季",
+      "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen 3",
+      "สารภาพรักกับคุณคางุยะซะดี ๆ ~สงครามประสาทความรักของเหล่าอัจฉริยะ~ ภาค 3",
+      "สารภาพรักกับคุณคางุยะ ซะดี ๆ -อุลตร้า โรแมนติก-",
+      "Kaguya-sama wa Kokurasetai 3rd Season",
+      "Kaguya-sama: Cuộc Chiến Tỏ Tình - Ultra Romantic",
+      "Госпожа Кагуя: в любви как на войне. Ультраромантика",
+      "Nona Kaguya Ingin Ditembak: Ultra Romantic",
+      "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen 3rd Season",
+      "Kaguya-sama: Love is War Season 3rd Season"
+    ]
+  },
+  {
+    "id": "anime:anilist-21",
+    "medium": "anime",
+    "title": {
+      "zh": "One Piece",
+      "original": "ONE PIECE"
+    },
+    "year": 1999,
+    "format": "TV",
+    "ids": {
+      "bangumi": 975,
+      "mal": 21,
+      "anilist": 21
+    },
+    "wikidata": {
+      "id": "Q710324",
+      "articles": {
+        "ja": "ONE PIECE (アニメ)",
+        "en": "One Piece (1999 TV series)"
+      }
+    },
+    "scores": {
+      "mal": 8.73,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "One Piece",
+      "ONE PIECE",
+      "ワンピース",
+      "海贼王",
+      "וואן פיס",
+      "ون بيس",
+      "วันพีซ",
+      "Vua Hải Tặc",
+      "All'arrembaggio!",
+      "Tutti all'arrembaggio!",
+      "Ντρέηκ, το Κυνήγι του Θησαυρού",
+      "OP",
+      "Ван-Пис"
+    ]
   },
   {
     "id": "anime:anilist-131586",
@@ -597,7 +1403,28 @@
       "bangumi": null,
       "mal": 48569,
       "anilist": 131586
-    }
+    },
+    "wikidata": {
+      "id": "Q88295102",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.73,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "86 EIGHTY-SIX Part 2",
+      "86－エイティシックス－ 第2クール",
+      "86: Eighty Six Part 2",
+      "86－エイティシックス－ 2クール",
+      "86 -เอทตี้ซิกซ์- พาร์ท 2",
+      "86 Eighty-Six Part 2",
+      "86―エイティシックス―",
+      "86 Part 2"
+    ]
   },
   {
     "id": "anime:anilist-124194",
@@ -612,7 +1439,44 @@
       "bangumi": null,
       "mal": 42938,
       "anilist": 124194
-    }
+    },
+    "wikidata": {
+      "id": "Q90394739",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.93,
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Fruits Basket The Final Season",
+      "フルーツバスケットThe Final",
+      "Fruits Basket: The Final",
+      "Furuba",
+      "Fruba",
+      "フルバ",
+      "Fruits Basket Season 3",
+      "水果篮子 最终季",
+      "เสน่ห์สาวข้าวปั้น ภาค 3",
+      "เสน่ห์สาวข้าวปั้น ภาคสุดท้าย",
+      "Корзинка фруктов: Финал",
+      "Fruits Basket: 2nd Season",
+      "Fruits Basket Season 2",
+      "フルーツバスケット 2nd Season",
+      "水果篮子 第二季",
+      "เสน่ห์สาวข้าวปั้น ภาค 2",
+      "Fruits Basket (2019) 2",
+      "Корзинка фруктов 2",
+      "Fruits Basket: The Final Season",
+      "フルーツバスケット The Final",
+      "Fruits Basket 3rd Season",
+      "Fruits Basket (2019) 3rd Season",
+      "Fruits Basket Staffel 3",
+      "Fruits Basket Saison 3"
+    ]
   },
   {
     "id": "anime:anilist-109731",
@@ -627,7 +1491,28 @@
       "bangumi": null,
       "mal": 39894,
       "anilist": 109731
-    }
+    },
+    "wikidata": {
+      "id": "Q112231626",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.73,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "Sound! Euphonium 3",
+      "響け！ユーフォニアム３",
+      "Hibike! Euphonium 3",
+      "響け! ユーフォニアム 久美子3年生編",
+      "Hibike! Euphonium: Kumiko 3 Nensei-hen",
+      "Résonne ! Euphonium",
+      "響け！ユーフォニアム3",
+      "Hibike! Euphonium Third Season"
+    ]
   },
   {
     "id": "anime:anilist-21519",
@@ -639,10 +1524,75 @@
     "year": 2016,
     "format": "MOVIE",
     "ids": {
-      "bangumi": null,
+      "bangumi": 160209,
       "mal": 32281,
       "anilist": 21519
-    }
+    },
+    "wikidata": {
+      "id": "Q21697406",
+      "articles": {
+        "ja": "君の名は。",
+        "en": "Your Name"
+      }
+    },
+    "scores": {
+      "mal": 8.82,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Your Name.",
+      "君の名は。",
+      "Kimi no Na wa.",
+      "Your Name. - Gestern, heute und für immer",
+      "Mi a Neved?",
+      "你的名字。",
+      "너의 이름은.",
+      "Tu nombre",
+      "Твоё имя",
+      "หลับตาฝันถึงชื่อเธอ",
+      "Il tuo nome",
+      "השם שלך.",
+      "Twoje imię",
+      "Tên cậu là gì",
+      "Tvoje meno.",
+      "Tvoje jméno."
+    ]
+  },
+  {
+    "id": "anime:anilist-140439",
+    "medium": "anime",
+    "title": {
+      "zh": "Mob Psycho 100 III",
+      "original": "モブサイコ100 Ⅲ"
+    },
+    "year": 2022,
+    "format": "TV",
+    "ids": {
+      "bangumi": null,
+      "mal": 50172,
+      "anilist": 140439
+    },
+    "wikidata": {
+      "id": "Q114012814",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.72,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "Mob Psycho 100 III",
+      "モブサイコ100 Ⅲ",
+      "モブサイコ100 III",
+      "ม็อบไซโค 100 คนพลังจิต ภาค 3",
+      "Моб Психо 100 III",
+      "Mob Psycho 100 3rd Season",
+      "Mob Psycho Hyaku",
+      "Mob Psycho One Hundred"
+    ]
   },
   {
     "id": "anime:anilist-918",
@@ -657,7 +1607,29 @@
       "bangumi": 247,
       "mal": 918,
       "anilist": 918
-    }
+    },
+    "wikidata": {
+      "id": "Q709716",
+      "articles": {
+        "ja": "銀魂 (アニメ)",
+        "en": "Gintama (TV series)"
+      }
+    },
+    "scores": {
+      "bangumi": 8.7,
+      "mal": 8.93,
+      "anilist": 8.5
+    },
+    "aliases": [
+      "银魂",
+      "銀魂",
+      "Gintama",
+      "Gin Tama",
+      "Silver Soul",
+      "גינטאמה",
+      "Гинтама",
+      "Yorinuki Gintama-san"
+    ]
   },
   {
     "id": "anime:anilist-100784",
@@ -672,7 +1644,19 @@
       "bangumi": null,
       "mal": 36838,
       "anilist": 100784
-    }
+    },
+    "wikidata": null,
+    "scores": {
+      "mal": 8.81,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Gintama.: Silver Soul Arc",
+      "銀魂. 銀ノ魂篇",
+      "Gintama.: Shirogane no Tamashii-hen",
+      "Gintama. Silver Soul Arc",
+      "Gintama. Shirogane no Tamashii-hen"
+    ]
   },
   {
     "id": "anime:anilist-151384",
@@ -687,7 +1671,26 @@
       "bangumi": null,
       "mal": 52198,
       "anilist": 151384
-    }
+    },
+    "wikidata": {
+      "id": "Q121354029",
+      "articles": {
+        "ja": null,
+        "en": "Kaguya-sama: Love Is War – The First Kiss That Never Ends"
+      }
+    },
+    "scores": {
+      "mal": 8.71,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "Kaguya-sama: Love is War -The First Kiss That Never Ends-",
+      "かぐや様は告らせたい -ファーストキッスは終わらない-",
+      "Kaguya-sama wa Kokurasetai: First Kiss wa Owaranai",
+      "Kaguya-sama: Love is War Movie",
+      "Kaguya-sama: Cuộc chiến tỏ tình - Nụ hôn đầu không hồi kết",
+      "Госпожа Кагуя: в любви как на войне. Бесконечный первый поцелуй"
+    ]
   },
   {
     "id": "anime:anilist-182896",
@@ -702,22 +1705,32 @@
       "bangumi": null,
       "mal": 60098,
       "anilist": 182896
-    }
-  },
-  {
-    "id": "anime:anilist-32",
-    "medium": "anime",
-    "title": {
-      "zh": "新世纪福音战士剧场版 Air/真心为你",
-      "original": "新世紀エヴァンゲリオン劇場版 Air/まごころを、君に"
     },
-    "year": 1997,
-    "format": "MOVIE",
-    "ids": {
-      "bangumi": 6049,
-      "mal": 32,
-      "anilist": 32
-    }
+    "wikidata": {
+      "id": "Q135497547",
+      "articles": {
+        "ja": null,
+        "en": "My Hero Academia season 8"
+      }
+    },
+    "scores": {
+      "mal": 8.71,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "My Hero Academia FINAL SEASON",
+      "僕のヒーローアカデミア FINAL SEASON",
+      "Boku no Hero Academia FINAL SEASON",
+      "Boku no Hero Academia 8",
+      "My Hero Academia 8",
+      "BNHA 8",
+      "MHA 8",
+      "Моя геройская академия 8",
+      "ヒロアカ 8",
+      "มายฮีโร่ อคาเดเมีย ไฟนอลซีซัน",
+      "My Hero Academia Final Season",
+      "Boku no Hero Academia: Final Season"
+    ]
   },
   {
     "id": "anime:anilist-128207",
@@ -732,82 +1745,19 @@
       "bangumi": null,
       "mal": 45649,
       "anilist": 128207
-    }
-  },
-  {
-    "id": "anime:bangumi-110467",
-    "medium": "anime",
-    "title": {
-      "zh": "白箱",
-      "original": "SHIROBAKO"
     },
-    "year": 2014,
-    "format": "TV",
-    "ids": {
-      "bangumi": 110467,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "anime:bangumi-37460",
-    "medium": "anime",
-    "title": {
-      "zh": "哆啦A梦 大山版",
-      "original": "ドラえもん"
+    "wikidata": null,
+    "scores": {
+      "mal": 8.7,
+      "anilist": 8.7
     },
-    "year": 1979,
-    "format": "TV",
-    "ids": {
-      "bangumi": 37460,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "anime:bangumi-238",
-    "medium": "anime",
-    "title": {
-      "zh": "攻壳机动队2 无罪",
-      "original": "イノセンス"
-    },
-    "year": 2004,
-    "format": "剧场版",
-    "ids": {
-      "bangumi": 238,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "anime:bangumi-840",
-    "medium": "anime",
-    "title": {
-      "zh": "千年女优",
-      "original": "千年女優"
-    },
-    "year": 2002,
-    "format": "剧场版",
-    "ids": {
-      "bangumi": 840,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "anime:bangumi-265",
-    "medium": "anime",
-    "title": {
-      "zh": "新世纪福音战士",
-      "original": "新世紀エヴァンゲリオン"
-    },
-    "year": 1995,
-    "format": "TV",
-    "ids": {
-      "bangumi": 265,
-      "mal": null,
-      "anilist": null
-    }
+    "aliases": [
+      "The First Slam Dunk",
+      "THE FIRST SLAM DUNK",
+      "Slam Dunk Movie",
+      "ザ・ファーストスラムダンク",
+      "סלאם דאנק"
+    ]
   },
   {
     "id": "anime:anilist-44",
@@ -822,7 +1772,35 @@
       "bangumi": 1728,
       "mal": 44,
       "anilist": 44
-    }
+    },
+    "wikidata": {
+      "id": "Q960246",
+      "articles": {
+        "ja": null,
+        "en": "Rurouni Kenshin: Trust & Betrayal"
+      }
+    },
+    "scores": {
+      "bangumi": 8.9,
+      "mal": 8.69,
+      "anilist": 8.5
+    },
+    "aliases": [
+      "浪客剑心 追忆篇",
+      "るろうに剣心―明治剣客浪漫譚―追憶編",
+      "Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku-hen",
+      "Rurouni Kenshin OVA: Trust & Betrayal (Tsuioku-hen)",
+      "Rurouni Kenshin: Tsuiokuhen",
+      "Rurouni Kenshin: Reminiscence",
+      "רורואוני קנשין: זיכרונות",
+      "ซามูไรพเนจร ภาคกำเนิดเคนชิน",
+      "Kenshin samurai vagabondo: Memorie del passato",
+      "Lãng khách Kenshin: Truy tìm ký ức",
+      "Rurouni Kenshin Trust and Betrayal",
+      "Samurai X: Trust and Betrayal",
+      "Kenshin: El Guerrero Samurai \"Recuerdos\"",
+      "Kenshin Le Vagabond: Le Chapitre de la Mémoire"
+    ]
   },
   {
     "id": "anime:anilist-162314",
@@ -837,7 +1815,56 @@
       "bangumi": null,
       "mal": 51535,
       "anilist": 162314
-    }
+    },
+    "wikidata": {
+      "id": "Q123468078",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.77,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Attack on Titan Final Season THE FINAL CHAPTERS Special 2",
+      "進撃の巨人 The Final Season完結編 後編",
+      "Shingeki no Kyojin: The Final Season - Kanketsu-hen Kouhen",
+      "Shingeki no Kyojin: The Final Season Final Edition",
+      "Attack on Titan Final Season Part 3 Final Arc Part 2",
+      "Attack on Titan: The Final Season Part 4",
+      "Shingeki no Kyojin: The Final Season Part 4",
+      "SnK 4",
+      "AoT 4",
+      "Shingeki no Kyojin: The Final Season - Kanketsu-hen Zenpen",
+      "Attack on Titan Final Season THE FINAL CHAPTERS Special 1",
+      "進撃の巨人 The Final Season完結編 前編",
+      "Shingeki no Kyojin: The Final Season Part 3",
+      "ผ่าพิภพไททัน ภาค 4",
+      "ผ่าพิภพไททัน ไฟนอล ซีซั่น Part 3",
+      "Attack on Titan Final Season Part 3 Final Arc Part 1",
+      "Attack on Titan The Final Season The Final Part Special",
+      "Attack on Titan The Final Season The Final Part Part 1",
+      "حمله به تایتان فصل آخر قسمت ویژه 1 ",
+      "Shingeki no Kyojin: The Final Season Part 2",
+      "Attack on Titan Final Season Part 2",
+      "進撃の巨人 The Final Season Part 2",
+      "L'attaque des titans Saison Finale Partie 2",
+      "Shingeki no Kyojin: The Final Season (2022)",
+      "اتک عن تایتان",
+      "حمله به غول ها",
+      "حمله به تایتان فصل 4 ",
+      " ผ่าพิภพไททัน ไฟนอล ซีซั่น Part 2",
+      "L'Attacco dei Giganti 4 Parte 2",
+      "Атака титанов: Финал. Часть 2",
+      "Attack on Titan: Final Season - The Final Chapters",
+      "進撃の巨人 The Final Season完結編",
+      "Shingeki no Kyojin: The Final Season - Kanketsu-hen",
+      "Shingeki no Kyojin Season 4",
+      "Attack on Titan Season 4",
+      "Attack on Titan: Final Season Part 2"
+    ]
   },
   {
     "id": "anime:anilist-185407",
@@ -849,10 +1876,26 @@
     "year": 2025,
     "format": "ONA",
     "ids": {
-      "bangumi": null,
+      "bangumi": 527620,
       "mal": 60489,
       "anilist": 185407
-    }
+    },
+    "wikidata": {
+      "id": "Q131414367",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.75,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Takopi's Original Sin",
+      "タコピーの原罪",
+      "Takopii no Genzai"
+    ]
   },
   {
     "id": "anime:anilist-172420",
@@ -867,22 +1910,20 @@
       "bangumi": null,
       "mal": 57647,
       "anilist": 172420
-    }
-  },
-  {
-    "id": "anime:anilist-199448",
-    "medium": "anime",
-    "title": {
-      "zh": "Lord of Mysteries Specials",
-      "original": "诡秘之主 特别篇"
     },
-    "year": 2026,
-    "format": "ONA",
-    "ids": {
-      "bangumi": null,
-      "mal": 62276,
-      "anilist": 199448
-    }
+    "wikidata": null,
+    "scores": {
+      "mal": 8.64,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "Umamusume: Pretty Derby - Beginning of a New Era",
+      "ウマ娘 プリティーダービー 新時代の扉",
+      "Uma Musume: Pretty Derby - Shin Jidai no Tobira",
+      "Uma Musume: Pretty Derby Movie",
+      "劇場版 ウマ娘 プリティーダービー",
+      "ウマ娘 プリティーダービー BEGINNING OF A NEW ERA"
+    ]
   },
   {
     "id": "anime:anilist-151514",
@@ -894,10 +1935,37 @@
     "year": 2024,
     "format": "TV",
     "ids": {
-      "bangumi": null,
+      "bangumi": 389156,
       "mal": 52215,
       "anilist": 151514
-    }
+    },
+    "wikidata": {
+      "id": "Q128199315",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.72,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Orb: On the Movements of the Earth",
+      "チ。-地球の運動について-",
+      "Chi. Chikyuu no Undou ni Tsuite",
+      "Chi: About the Movement of the Earth",
+      "สุริยะปราชญ์ ทฤษฎีสีเลือด",
+      "O ruchach Ziemi",
+      "Du mouvement de la Terre",
+      "Tierra, sangre, conocimiento: Sobre el movimiento de la Tierra",
+      "Ketzer - Tödliches Wissen über die Bewegung der Erde",
+      "על תנועת כדור הארץ",
+      "Il movimento della Terra",
+      "Про рух Землі",
+      "チ。―地球の運動について―",
+      "About the Movement of the Earth"
+    ]
   },
   {
     "id": "anime:anilist-199",
@@ -912,37 +1980,45 @@
       "bangumi": 311,
       "mal": 199,
       "anilist": 199
-    }
-  },
-  {
-    "id": "anime:anilist-7311",
-    "medium": "anime",
-    "title": {
-      "zh": "凉宫春日的消失",
-      "original": "涼宮ハルヒの消失"
     },
-    "year": 2010,
-    "format": "MOVIE",
-    "ids": {
-      "bangumi": 3375,
-      "mal": 7311,
-      "anilist": 7311
-    }
-  },
-  {
-    "id": "anime:anilist-3297",
-    "medium": "anime",
-    "title": {
-      "zh": "水星领航员 第三季",
-      "original": "ARIA The ORIGINATION"
+    "wikidata": {
+      "id": "Q155653",
+      "articles": {
+        "ja": "千と千尋の神隠し",
+        "en": "Spirited Away"
+      }
     },
-    "year": 2008,
-    "format": "TV",
-    "ids": {
-      "bangumi": 1270,
-      "mal": 3297,
-      "anilist": 3297
-    }
+    "scores": {
+      "bangumi": 8.6,
+      "mal": 8.77,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "千与千寻",
+      "千と千尋の神隠し",
+      "Sen to Chihiro no Kamikakushi",
+      "Spirited Away",
+      "Le Voyage de Chihiro",
+      "La Città Incantata",
+      "El Viaje de Chihiro",
+      "Chihiros Reise ins Zauberland",
+      "Ruhların Kaçışı",
+      "המסע המופלא",
+      "Călătoria lui Chihiro",
+      "Spirited Away: W krainie bogów",
+      "Chihiro Szellemországban",
+      "A Viagem de Chihiro",
+      "Унесённые призраками",
+      "Chihiro og heksene",
+      "Ταξίδι στην Χώρα των Θαυμάτων",
+      "มิติวิญญาณมหัศจรรย์",
+      "Henkien kätkemä",
+      "Chihiro ilmmiid gaskkas",
+      "Vaimudest viidud",
+      "Chihiro og álögin",
+      "Sen and Chihiro's Spiriting Away",
+      "El viaje de Chihiro"
+    ]
   },
   {
     "id": "anime:anilist-116674",
@@ -954,10 +2030,75 @@
     "year": 2022,
     "format": "TV",
     "ids": {
-      "bangumi": null,
+      "bangumi": 457326,
       "mal": 41467,
       "anilist": 116674
-    }
+    },
+    "wikidata": {
+      "id": "Q112631839",
+      "articles": {
+        "ja": "BLEACH 千年血戦篇",
+        "en": "Bleach: Thousand-Year Blood War"
+      }
+    },
+    "scores": {
+      "mal": 8.7,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "BLEACH: Thousand-Year Blood War",
+      "BLEACH 千年血戦篇",
+      "BLEACH: Sennen Kessen-hen",
+      "بليتش: حرب الألف سنة الدموية",
+      "Bleach: La guerre sanglante de mille ans",
+      "BLEACH TYBW",
+      "BLEACH: Sennen Kessen-hen - Ketsubetsu-tan",
+      "BLEACH: Thousand-Year Blood War - The Separation",
+      "BLEACH 千年血戦篇-訣別譚-",
+      "BLEACH: Thousand Year Blood War Part 2",
+      "BLEACH 千年血戦篇 第2クール",
+      "Bleach: Thousand-Year Blood War",
+      "Bleach: Sennen Kessen-hen",
+      "Bleach: Thousand-Year Blood War Arc",
+      "Bleach: Thousand-Year Blood War - The Separation",
+      "Bleach: Sennen Kessen-hen - Ketsubetsu-tan",
+      "Bleach: Thousand-Year Blood War Arc Part 2"
+    ]
+  },
+  {
+    "id": "anime:anilist-21733",
+    "medium": "anime",
+    "title": {
+      "zh": "Descending Stories: Showa Genroku Rakugo Shinju",
+      "original": "昭和元禄落語心中～助六再び篇～"
+    },
+    "year": 2017,
+    "format": "TV",
+    "ids": {
+      "bangumi": 119394,
+      "mal": 33095,
+      "anilist": 21733
+    },
+    "wikidata": {
+      "id": "Q120333711",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.7,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Descending Stories: Showa Genroku Rakugo Shinju",
+      "昭和元禄落語心中～助六再び篇～",
+      "Shouwa Genroku Rakugo Shinjuu: Sukeroku Futatabi-hen",
+      "Le Rakugo ou la vie 2",
+      "Shouwa Genroku Rakugo Shinjuu 2nd Season",
+      "Showa and Genroku Era Lover's Suicide Through Rakugo 2nd Season",
+      "Le Rakugo ou la Vie 2"
+    ]
   },
   {
     "id": "anime:anilist-145064",
@@ -969,10 +2110,43 @@
     "year": 2023,
     "format": "TV",
     "ids": {
-      "bangumi": null,
+      "bangumi": 369304,
       "mal": 51009,
       "anilist": 145064
-    }
+    },
+    "wikidata": {
+      "id": "Q110897083",
+      "articles": {
+        "ja": null,
+        "en": "Jujutsu Kaisen season 2"
+      }
+    },
+    "scores": {
+      "mal": 8.7,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "JUJUTSU KAISEN Season 2",
+      "呪術廻戦 第2期",
+      "Jujutsu Kaisen 2nd Season",
+      "呪術廻戦 懐玉・玉折／渋谷事変 ",
+      "Jujutsu Kaisen: Kaigyoku Gyokusetsu / Shibuya Jihen",
+      "Jujutsu Kaisen: Hidden Inventory / Premature Death",
+      "JJK2",
+      "咒術迴戰  第二季",
+      "มหาเวทย์ผนึกมาร ภาค 2 ",
+      "咒术回战 2",
+      "2جوجوتسو كايسن ",
+      "Jujutsu Kaisen: Shibuya Incident",
+      "Jujutsu Kaisen Season 2",
+      "呪術廻戦 懐玉・玉折／渋谷事変",
+      "Jujutsu Kaisen: Kaigyoku Gyokusetsu",
+      "Jujutsu Kaisen: Shibuya Jihen",
+      "Jujutsu Kaisen: Hidden Inventory Arc",
+      "Jujutsu Kaisen: Shibuya Incident Arc",
+      "Sorcery Fight",
+      "JJK"
+    ]
   },
   {
     "id": "anime:anilist-126403",
@@ -987,7 +2161,29 @@
       "bangumi": null,
       "mal": 44074,
       "anilist": 126403
-    }
+    },
+    "wikidata": {
+      "id": "Q107012574",
+      "articles": {
+        "ja": "時光代理人 -LINK CLICK-",
+        "en": "Link Click"
+      }
+    },
+    "scores": {
+      "mal": 8.7,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Link Click",
+      "时光代理人",
+      "Shiguang Dailiren",
+      "Time Agent",
+      "CLICK",
+      "ข้ามเวลาพิชิตภารกิจ",
+      "時光代理人",
+      "Jikou Dairinin",
+      "Shi Guang Dai Li Ren"
+    ]
   },
   {
     "id": "anime:anilist-142329",
@@ -999,10 +2195,74 @@
     "year": 2021,
     "format": "TV",
     "ids": {
-      "bangumi": null,
+      "bangumi": 328195,
       "mal": 47778,
       "anilist": 142329
-    }
+    },
+    "wikidata": {
+      "id": "Q105847067",
+      "articles": {
+        "ja": "鬼滅の刃 遊郭編",
+        "en": "Demon Slayer: Kimetsu no Yaiba season 2"
+      }
+    },
+    "scores": {
+      "mal": 8.69,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Demon Slayer: Kimetsu no Yaiba Entertainment District Arc",
+      "鬼滅の刃 遊郭編",
+      "Kimetsu no Yaiba: Yuukaku-hen",
+      "KnY 2",
+      "Demon Slayer: Kimetsu no Yaiba - Le quartier des plaisirs",
+      "ดาบพิฆาตอสูร ภาค 2 บทย่านเริงรมย์",
+      "Miecz zabójcy demonów – Kimetsu no Yaiba: Dzielnica uciech",
+      "귀멸의 칼날: 환락의 거리편",
+      "Клинок, Рассекающий Демонов: Квартал Красных Фонарей"
+    ]
+  },
+  {
+    "id": "anime:anilist-20751",
+    "medium": "anime",
+    "title": {
+      "zh": "MUSHI-SHI The Next Passage 2",
+      "original": "蟲師 続章 2"
+    },
+    "year": 2014,
+    "format": "TV",
+    "ids": {
+      "bangumi": 92705,
+      "mal": 24701,
+      "anilist": 20751
+    },
+    "wikidata": {
+      "id": "Q132181137",
+      "articles": {
+        "ja": "蟲師 続章",
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.69,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "MUSHI-SHI The Next Passage 2",
+      "蟲師 続章 2",
+      "Mushishi Zoku Shou 2",
+      "Mushi-shi: Next Passage Part 2",
+      "蟲師 続章",
+      "Mushishi Zoku Shou 2nd Season",
+      "Mushi-shi: Next Passage Part 1",
+      "Mushishi Zoku Shou",
+      "Mushi-shi Zoku Shou",
+      "Mushishi: The Next Chapter",
+      "Mushi-Shi -The Next Passage-",
+      "Mushishi Zoku Shô",
+      "MUSHI-SHI The Next Passage",
+      "Mushishi Zokushou"
+    ]
   },
   {
     "id": "anime:anilist-182587",
@@ -1014,10 +2274,31 @@
     "year": 2026,
     "format": "TV",
     "ids": {
-      "bangumi": null,
+      "bangumi": 517057,
       "mal": 60058,
       "anilist": 182587
-    }
+    },
+    "wikidata": {
+      "id": "Q130442335",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.69,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "OSHI NO KO Season 3",
+      "【推しの子】第3期",
+      "[Oshi no Ko] 3rd Season",
+      "[OSHI NO KO] Season 3",
+      "【OSHI NO KO】Season 3",
+      "[Oshi No Ko] Season 3",
+      "【推しの子】 第3期",
+      "My Star Season 3"
+    ]
   },
   {
     "id": "anime:anilist-20607",
@@ -1032,6 +2313,99 @@
       "bangumi": 93739,
       "mal": 22135,
       "anilist": 20607
+    },
+    "wikidata": {
+      "id": "Q115221233",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "bangumi": 8.7,
+      "mal": 8.63,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "乒乓",
+      "ピンポン THE ANIMATION",
+      "Ping Pong THE ANIMATION",
+      "Ping Pong the Animation",
+      "PPTA"
+    ]
+  },
+  {
+    "id": "anime:anilist-166216",
+    "medium": "anime",
+    "title": {
+      "zh": "The Dangers in My Heart Season 2",
+      "original": "僕の心のヤバイやつ 第2期"
+    },
+    "year": 2024,
+    "format": "TV",
+    "ids": {
+      "bangumi": 441795,
+      "mal": 55690,
+      "anilist": 166216
+    },
+    "wikidata": {
+      "id": "Q120142534",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.68,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "The Dangers in My Heart Season 2",
+      "僕の心のヤバイやつ 第2期",
+      "Boku no Kokoro no Yabai Yatsu 2nd Season",
+      "BokuYaba 2",
+      "僕ヤバ 2",
+      "เธอผู้อันตรายต่อใจผม ภาคที่ 2",
+      "Czarne chmury w moim sercu. Sezon 2",
+      "Bokuyaba"
+    ]
+  },
+  {
+    "id": "anime:mal-23273",
+    "medium": "anime",
+    "title": {
+      "zh": "Your Lie in April",
+      "original": "四月は君の嘘"
+    },
+    "year": 2014,
+    "format": "TV",
+    "ids": {
+      "bangumi": 100444,
+      "mal": 23273,
+      "anilist": 20665
+    },
+    "aliases": [
+      "Your Lie in April",
+      "四月は君の嘘",
+      "Shigatsu wa Kimi no Uso",
+      "Shigatsu wa Kimi no Uso",
+      "Kimiuso",
+      "四月は君の嘘",
+      "Your Lie in April",
+      "Shigatsu Wa Kimi No Uso - Sekunden in Moll",
+      "Your Lie in April",
+      "Your Lie in April"
+    ],
+    "scores": {
+      "mal": 8.64
+    },
+    "series": null,
+    "wikidata": {
+      "id": "Q91333870",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
     }
   },
   {
@@ -1047,22 +2421,23 @@
       "bangumi": null,
       "mal": 56784,
       "anilist": 169755
-    }
-  },
-  {
-    "id": "anime:mal-23273",
-    "medium": "anime",
-    "title": {
-      "zh": "Your Lie in April",
-      "original": "四月は君の嘘"
     },
-    "year": 2014,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 23273,
-      "anilist": null
-    }
+    "wikidata": null,
+    "scores": {
+      "mal": 8.68,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "BLEACH: Thousand-Year Blood War - The Conflict",
+      "BLEACH 千年血戦篇-相剋譚-",
+      "BLEACH: Sennen Kessen-hen - Soukoku-tan",
+      "BLEACH: Thousand Year Blood War Part 3",
+      "BLEACH 千年血戦篇 第3クール",
+      "BLEACH TYBW",
+      "Bleach: Thousand-Year Blood War - The Conflict",
+      "Bleach: Sennen Kessen-hen - Soukoku-tan",
+      "Bleach: Thousand-Year Blood War Arc Part 3"
+    ]
   },
   {
     "id": "anime:anilist-2904",
@@ -1077,7 +2452,28 @@
       "bangumi": 8,
       "mal": 2904,
       "anilist": 2904
-    }
+    },
+    "wikidata": {
+      "id": "Q4384067",
+      "articles": {
+        "ja": "コードギアス 反逆のルルーシュ",
+        "en": "Code Geass Lelouch of the Rebellion"
+      }
+    },
+    "scores": {
+      "bangumi": 8.3,
+      "mal": 8.92,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "Code Geass 反叛的鲁路修R2",
+      "コードギアス 反逆のルルーシュ R2",
+      "Code Geass: Hangyaku no Lelouch R2",
+      "Code Geass: Lelouch of the Rebellion R2",
+      "Code Geass: Hangyaku no Lelouch 2nd Season",
+      "Code Geass: Hangyaku no Lelouch Second Season",
+      "Code Geass: Lelouch, el de la Rebelión R2"
+    ]
   },
   {
     "id": "anime:anilist-195240",
@@ -1092,7 +2488,25 @@
       "bangumi": null,
       "mal": 61930,
       "anilist": 195240
-    }
+    },
+    "wikidata": {
+      "id": "Q129652334",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.67,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Umamusume: Cinderella Gray 2nd Cour",
+      "ウマ娘 シンデレラグレイ 第2クール",
+      "Uma Musume: Cinderella Gray Part 2",
+      "Umamusume: Cinderella Gray Cour 2",
+      "Umamusume: Cinderella Gray Part 2"
+    ]
   },
   {
     "id": "anime:anilist-19",
@@ -1107,7 +2521,67 @@
       "bangumi": 1959,
       "mal": 19,
       "anilist": 19
-    }
+    },
+    "wikidata": {
+      "id": "Q100944081",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "bangumi": 8.2,
+      "mal": 8.89,
+      "anilist": 8.8
+    },
+    "aliases": [
+      "怪物",
+      "MONSTER",
+      "Monster",
+      "モンスター",
+      "מונסטר",
+      "מפלצת",
+      "مونستر ",
+      "وحش",
+      "Монстр"
+    ]
+  },
+  {
+    "id": "anime:anilist-7311",
+    "medium": "anime",
+    "title": {
+      "zh": "凉宫春日的消失",
+      "original": "涼宮ハルヒの消失"
+    },
+    "year": 2010,
+    "format": "MOVIE",
+    "ids": {
+      "bangumi": 3375,
+      "mal": 7311,
+      "anilist": 7311
+    },
+    "wikidata": {
+      "id": "Q1193324",
+      "articles": {
+        "ja": "涼宮ハルヒの消失 (映画)",
+        "en": "The Disappearance of Haruhi Suzumiya"
+      }
+    },
+    "scores": {
+      "bangumi": 8.7,
+      "mal": 8.59,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "凉宫春日的消失",
+      "涼宮ハルヒの消失",
+      "Suzumiya Haruhi no Shoushitsu",
+      "The Disappearance of Haruhi Suzumiya",
+      "스즈미야 하루히의 소실",
+      "La Disparition de Haruhi Suzumiya",
+      "La Scomparsa di Haruhi Suzumiya",
+      "Исчезновение Харухи Судзумии "
+    ]
   },
   {
     "id": "anime:anilist-178788",
@@ -1122,7 +2596,87 @@
       "bangumi": null,
       "mal": 59192,
       "anilist": 178788
-    }
+    },
+    "wikidata": {
+      "id": "Q133249620",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.66,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+      "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来",
+      "Kimetsu no Yaiba: Mugenjou-hen Movie 1 - Akaza Sairai",
+      "Demon Slayer: Kimetsu no Yaiba La Forteresse infinie",
+      "Demon Slayer: Kimetsu no Yaiba Castelo Infinito",
+      "Клинок, Рассекающий Демонов: Бесконечный Замок",
+      "Demon Slayer: Kimetsu no Yaiba - The Movie: Infinity Castle - Part 1: Akaza Returns",
+      "劇場版 鬼滅の刃 無限城編 第一章 猗窩座再来",
+      "Kimetsu no Yaiba Movie 1: Mugenjou-hen - Akaza Sairai"
+    ]
+  },
+  {
+    "id": "anime:anilist-104578",
+    "medium": "anime",
+    "title": {
+      "zh": "Attack on Titan Season 3 Part 2",
+      "original": "進撃の巨人 Season３ Part.2"
+    },
+    "year": 2019,
+    "format": "TV",
+    "ids": {
+      "bangumi": null,
+      "mal": 38524,
+      "anilist": 104578
+    },
+    "wikidata": {
+      "id": "Q60518750",
+      "articles": {
+        "ja": null,
+        "en": "Attack on Titan season 3"
+      }
+    },
+    "scores": {
+      "mal": 8.65,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Attack on Titan Season 3 Part 2",
+      "進撃の巨人 Season３ Part.2",
+      "Shingeki no Kyojin Season 3 Part 2",
+      "SnK 3",
+      "AoT 3",
+      "Shingeki no Kyojin Season 3 (2019)",
+      "L'Attaco dei Giganti 3 Parte 2",
+      "L'Attacco dei Giganti - Terza Stagione Parte 2",
+      "מתקפת הטיטאנים עונה 3 חלק 2",
+      "L'Attaque des Titans Saison 3 Partie 2 ",
+      "ผ่าพิภพไททัน ภาค 3 Part 2",
+      "ผ่าพิภพไททัน ภาค 3 พาร์ท 2",
+      "حمله به تایتان فصل 3",
+      "Shingeki no Kyojin Season 3",
+      "Attack on Titan Season 3",
+      "進撃の巨人 Season３",
+      "מתקפת הטיטאנים עונה 3",
+      "L'Attacco dei Giganti 3",
+      "L'Attacco dei Giganti - Terza Stagione",
+      "ผ่าพิภพไททัน ภาค 3",
+      "ผ่าพิภพไททัน ภาค 3 Part 1",
+      "Атака титанов 3",
+      "進撃の巨人 Season3 Part.2",
+      "Attack on Titan Staffel 3 Teil 2",
+      "Ataque a los Titanes Temporada 3 Parte 2",
+      "L'Attaque des Titans Saison 3 Partie 2",
+      "進撃の巨人 Season3",
+      "Attack on Titan 3. Staffel",
+      "Ataque a los Titanes Temporada 3",
+      "L'Attaque des Titans Saison 3"
+    ]
   },
   {
     "id": "anime:anilist-121467",
@@ -1137,7 +2691,29 @@
       "bangumi": null,
       "mal": 40434,
       "anilist": 121467
-    }
+    },
+    "wikidata": null,
+    "scores": {
+      "mal": 8.65,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "The Founder of Diabolism: Final Season",
+      "魔道祖师 第三季",
+      "Modao Zushi 3",
+      "Mo Dao Zu Shi 3",
+      "Grandmaster of Demonic Cultivation 3",
+      "The Founder of Diabolism 3",
+      "The Founder of Evil Magic 3",
+      "魔道祖师完结篇",
+      "The Master of Diabolism 3",
+      "魔道祖师 完结篇",
+      "Mo Dao Zu Shi: Wanjie Pian",
+      "The Master of Diabolism 3rd Season",
+      "Mo Dao Zu Shi 3rd Season",
+      "Mo Dao Zu Shi Final Arc",
+      "MDZS"
+    ]
   },
   {
     "id": "anime:anilist-21698",
@@ -1152,7 +2728,70 @@
       "bangumi": 173849,
       "mal": 32935,
       "anilist": 21698
-    }
+    },
+    "wikidata": {
+      "id": "Q97304395",
+      "articles": {
+        "ja": null,
+        "en": "Haikyu!! season 3"
+      }
+    },
+    "scores": {
+      "bangumi": 8.4,
+      "mal": 8.77,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "排球少年 乌野高校 VS 白鸟泽学园高校",
+      "ハイキュー!! 烏野高校 VS 白鳥沢学園高校",
+      "Haikyuu!!: Karasuno Koukou VS Shiratorizawa Gakuen Koukou",
+      "HAIKYU!! 3rd Season",
+      "Haikyu!! Karasuno High vs Shiratorizawa Academy",
+      "Haikyuu!! 3",
+      "ไฮคิว!! คู่ตบฟ้าประทาน ภาค 3",
+      "Haikyu!! 3rd Season",
+      "Haikyuu!! Karasuno Koukou vs. Shiratorizawa Gakuen Koukou",
+      "Haikyuu!! Third Season",
+      "Haikyuu!! Karasuno High VS Shiratorizawa Academy",
+      "Haikyuu!!Staffel 3 Karasuno vs. Shiratorizawa",
+      "Haikyu!! Los Ases del Vóley Temporada 3",
+      "Haikyuu!! Saison 3"
+    ]
+  },
+  {
+    "id": "anime:anilist-173533",
+    "medium": "anime",
+    "title": {
+      "zh": "MONOGATARI Series: OFF & MONSTER Season",
+      "original": "〈物語〉シリーズ オフ&モンスターシーズン"
+    },
+    "year": 2024,
+    "format": "ONA",
+    "ids": {
+      "bangumi": 475354,
+      "mal": 57864,
+      "anilist": 173533
+    },
+    "wikidata": {
+      "id": "Q124310059",
+      "articles": {
+        "ja": "〈物語〉シリーズ オフ&モンスターシーズン",
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.64,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "MONOGATARI Series: OFF & MONSTER Season",
+      "〈物語〉シリーズ オフ&モンスターシーズン",
+      "Monogatari Series: Off & Monster Season",
+      "Orokamonogatari",
+      "Nademonogatari",
+      "Wazamonogatari",
+      "Shinobumonogatari"
+    ]
   },
   {
     "id": "anime:anilist-127976",
@@ -1167,7 +2806,22 @@
       "bangumi": null,
       "mal": 50399,
       "anilist": 127976
-    }
+    },
+    "wikidata": null,
+    "scores": {
+      "mal": 8.64,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Heaven Official's Blessing Season 2",
+      "天官赐福 第二季",
+      "Tian Guan Ci Fu 2",
+      "天官賜福 貳",
+      "Tian Guan Cifu Er",
+      "Tian Guan Cifu 2nd Season",
+      "Tian Guan Ci Fu",
+      "TGCF"
+    ]
   },
   {
     "id": "anime:anilist-457",
@@ -1182,7 +2836,29 @@
       "bangumi": 340,
       "mal": 457,
       "anilist": 457
-    }
+    },
+    "wikidata": {
+      "id": "Q132181136",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "bangumi": 8.7,
+      "mal": 8.65,
+      "anilist": 8.5
+    },
+    "aliases": [
+      "虫师",
+      "蟲師",
+      "Mushishi",
+      "MUSHI-SHI",
+      "מושישי",
+      "กีฏจารย์กับอาถรรพ์แมลงพิสดาร",
+      "Мастер Муши",
+      "Mushi-Shi"
+    ]
   },
   {
     "id": "anime:anilist-140350",
@@ -1194,10 +2870,28 @@
     "year": 2022,
     "format": "TV",
     "ids": {
-      "bangumi": null,
+      "bangumi": 353266,
       "mal": 50160,
       "anilist": 140350
-    }
+    },
+    "wikidata": {
+      "id": "Q111949415",
+      "articles": {
+        "ja": null,
+        "en": "Kingdom season 4"
+      }
+    },
+    "scores": {
+      "mal": 8.73,
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Kingdom Season 4",
+      "キングダム 第4シリーズ",
+      "Kingdom 4th Season",
+      "สงครามบัลลังก์ผงาดจิ๋นซี ภาค 4",
+      "Царство 4"
+    ]
   },
   {
     "id": "anime:anilist-130003",
@@ -1212,7 +2906,31 @@
       "bangumi": 328609,
       "mal": 47917,
       "anilist": 130003
-    }
+    },
+    "wikidata": {
+      "id": "Q132396815",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "bangumi": 8.4,
+      "mal": 8.73,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "孤独摇滚！",
+      "ぼっち・ざ・ろっく！",
+      "Bocchi the Rock!",
+      "BOCCHI THE ROCK!",
+      "РОК-ТИХОНЯ!",
+      "บจจิเดอะร็อก!",
+      "孤獨搖滾！",
+      "외톨이 THE ROCK!",
+      "봇치 더 록!",
+      "BTR"
+    ]
   },
   {
     "id": "anime:anilist-177385",
@@ -1227,7 +2945,114 @@
       "bangumi": 493016,
       "mal": 58788,
       "anilist": 177385
-    }
+    },
+    "wikidata": {
+      "id": "Q125760077",
+      "articles": {
+        "ja": "違国日記 (アニメ)",
+        "en": null
+      }
+    },
+    "scores": {
+      "bangumi": 8.4,
+      "mal": 8.73,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "异国日记",
+      "違国日記",
+      "Ikoku Nikki",
+      "Journal with Witch",
+      "Diary of a Strange Land",
+      "Foreign Country Diary",
+      "Different Country Diary",
+      "บันทึกจากวิเทศ",
+      "مذكرات من بلد آخر",
+      "Entre les lignes",
+      "위국일기"
+    ]
+  },
+  {
+    "id": "anime:anilist-155227",
+    "medium": "anime",
+    "title": {
+      "zh": "Kingdom Season 5",
+      "original": "キングダム 第5シリーズ"
+    },
+    "year": 2024,
+    "format": "TV",
+    "ids": {
+      "bangumi": 403503,
+      "mal": 53223,
+      "anilist": 155227
+    },
+    "wikidata": {
+      "id": "Q123018535",
+      "articles": {
+        "ja": null,
+        "en": "Kingdom season 5"
+      }
+    },
+    "scores": {
+      "mal": 8.72,
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Kingdom Season 5",
+      "キングダム 第5シリーズ",
+      "Kingdom 5th Season",
+      "สงครามบัลลังก์ผงาดจิ๋นซี ภาค 5",
+      "Царство 5"
+    ]
+  },
+  {
+    "id": "anime:anilist-199448",
+    "medium": "anime",
+    "title": {
+      "zh": "Lord of Mysteries Specials",
+      "original": "诡秘之主 特别篇"
+    },
+    "year": 2026,
+    "format": "ONA",
+    "ids": {
+      "bangumi": 345824,
+      "mal": 62276,
+      "anilist": 199448
+    },
+    "wikidata": {
+      "id": "Q136028097",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.72,
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Lord of Mysteries Specials",
+      "诡秘之主 特别篇",
+      "Guimi Zhi Zhu Specials",
+      "City of Silver",
+      "The Marked Hunt",
+      "诡秘之主特别篇",
+      "Guimi Zhi Zhu Tebie Pian",
+      "诡秘之主特别篇: 猎物​",
+      "Guimi Zhi Zhu Tebie Pian: Liewu",
+      "Lord of Mysteries Special: Prey",
+      "Lord of the Mysteries Special: Prey",
+      "LOTM",
+      "Guimi Zhi Zhu: Xiaochou Pian",
+      "Lord of Mysteries",
+      "诡秘之主 小丑篇​",
+      "Lord of the Mysteries",
+      "诡秘之主",
+      "Lord of Mysteries: The Clown",
+      "Chúa Tể Huyền Bí",
+      "Tuan Misteri",
+      "신비의 제왕"
+    ]
   },
   {
     "id": "anime:anilist-153658",
@@ -1242,67 +3067,33 @@
       "bangumi": null,
       "mal": 52742,
       "anilist": 153658
-    }
-  },
-  {
-    "id": "anime:anilist-155227",
-    "medium": "anime",
-    "title": {
-      "zh": "Kingdom Season 5",
-      "original": "キングダム 第5シリーズ"
     },
-    "year": 2024,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 53223,
-      "anilist": 155227
-    }
-  },
-  {
-    "id": "anime:anilist-113024",
-    "medium": "anime",
-    "title": {
-      "zh": "剧场版 少女☆歌剧 Revue Starlight",
-      "original": "劇場版 少女☆歌劇 レヴュースタァライト"
+    "wikidata": {
+      "id": "Q123354229",
+      "articles": {
+        "ja": null,
+        "en": "Haikyu!! The Dumpster Battle"
+      }
     },
-    "year": 2021,
-    "format": "MOVIE",
-    "ids": {
-      "bangumi": 294135,
-      "mal": 40664,
-      "anilist": 113024
-    }
-  },
-  {
-    "id": "anime:anilist-437",
-    "medium": "anime",
-    "title": {
-      "zh": "蓝色恐惧",
-      "original": "PERFECT BLUE"
+    "scores": {
+      "mal": 8.62,
+      "anilist": 8.6
     },
-    "year": 1998,
-    "format": "MOVIE",
-    "ids": {
-      "bangumi": 839,
-      "mal": 437,
-      "anilist": 437
-    }
-  },
-  {
-    "id": "anime:anilist-172463",
-    "medium": "anime",
-    "title": {
-      "zh": "JUJUTSU KAISEN Season 3: The Culling Game Part 1",
-      "original": "呪術廻戦 死滅回游 前編"
-    },
-    "year": 2026,
-    "format": "TV",
-    "ids": {
-      "bangumi": null,
-      "mal": 57658,
-      "anilist": 172463
-    }
+    "aliases": [
+      "HAIKYU!! The Dumpster Battle",
+      "ハイキュー!! ゴミ捨て場の決戦",
+      "Haikyuu!!: Gomi Suteba no Kessen",
+      "ハイキュー!! FINAL ",
+      "Haikyuu!! FINAL",
+      "Haikyuu!! Battle at the Garbage Dump",
+      "Haikyu!! Movie: Decisive Battle at the Garbage Dump",
+      "HAIKYU!! La Batalla del Basurero",
+      "HAIKYU!! La Guerre des Poubelles",
+      "Haikyu!! Movie: The Dumpster Battle",
+      "劇場版ハイキュー!! ゴミ捨て場の決戦",
+      "Haikyuu!! Movie: Gomisuteba no Kessen",
+      "Haikyu!! Final Movie"
+    ]
   },
   {
     "id": "anime:anilist-136484",
@@ -1317,7 +3108,88 @@
       "bangumi": null,
       "mal": 49413,
       "anilist": 136484
-    }
+    },
+    "wikidata": null,
+    "scores": {
+      "mal": 8.62,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Link Click Season 2",
+      "时光代理人 第二季",
+      "Shiguang Dailiren II",
+      "LINK CLICK II",
+      "ข้ามเวลาพิชิตภารกิจ ภาค 2"
+    ]
+  },
+  {
+    "id": "anime:anilist-1575",
+    "medium": "anime",
+    "title": {
+      "zh": "Code Geass: Lelouch of the Rebellion",
+      "original": "コードギアス 反逆のルルーシュ"
+    },
+    "year": 2006,
+    "format": "TV",
+    "ids": {
+      "bangumi": 793,
+      "mal": 1575,
+      "anilist": 1575
+    },
+    "wikidata": {
+      "id": "Q4384067",
+      "articles": {
+        "ja": "コードギアス 反逆のルルーシュ",
+        "en": "Code Geass Lelouch of the Rebellion"
+      }
+    },
+    "scores": {
+      "mal": 8.71,
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Code Geass: Lelouch of the Rebellion",
+      "コードギアス 反逆のルルーシュ",
+      "Code Geass: Hangyaku no Lelouch",
+      "Code Geass: Lelouch de la Rebelión",
+      "קוד גיאס: המהפכה של ללוש",
+      "Code Geass: Lelouch, el de la Rebelión"
+    ]
+  },
+  {
+    "id": "anime:anilist-172463",
+    "medium": "anime",
+    "title": {
+      "zh": "JUJUTSU KAISEN Season 3: The Culling Game Part 1",
+      "original": "呪術廻戦 死滅回游 前編"
+    },
+    "year": 2026,
+    "format": "TV",
+    "ids": {
+      "bangumi": 472741,
+      "mal": 57658,
+      "anilist": 172463
+    },
+    "wikidata": {
+      "id": "Q136030307",
+      "articles": {
+        "ja": null,
+        "en": "Jujutsu Kaisen season 3"
+      }
+    },
+    "scores": {
+      "mal": 8.61,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "JUJUTSU KAISEN Season 3: The Culling Game Part 1",
+      "呪術廻戦 死滅回游 前編",
+      "Jujutsu Kaisen: Shimetsu Kaiyuu - Zenpen",
+      "Jujutsu Kaisen 3rd Season",
+      "呪術廻戦 第3期",
+      "JJK3",
+      "มหาเวทย์ผนึกมาร จรดลล้างบาง พาร์ต 1"
+    ]
   },
   {
     "id": "anime:anilist-174788",
@@ -1329,130 +3201,89 @@
     "year": 2024,
     "format": "MOVIE",
     "ids": {
-      "bangumi": null,
+      "bangumi": 480441,
       "mal": 58125,
       "anilist": 174788
-    }
+    },
+    "wikidata": {
+      "id": "Q127526724",
+      "articles": {
+        "ja": null,
+        "en": "Look Back (2024 film)"
+      }
+    },
+    "scores": {
+      "mal": 8.61,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "LOOK BACK",
+      "ルックバック",
+      "Look Back"
+    ]
   },
   {
-    "id": "anime:anilist-20751",
+    "id": "anime:anilist-113024",
     "medium": "anime",
     "title": {
-      "zh": "MUSHI-SHI The Next Passage 2",
-      "original": "蟲師 続章 2"
+      "zh": "剧场版 少女☆歌剧 Revue Starlight",
+      "original": "劇場版 少女☆歌劇 レヴュースタァライト"
     },
-    "year": 2014,
+    "year": 2021,
+    "format": "MOVIE",
+    "ids": {
+      "bangumi": 294135,
+      "mal": 40664,
+      "anilist": 113024
+    },
+    "wikidata": {
+      "id": "Q113661356",
+      "articles": {
+        "ja": "劇場版 少女☆歌劇 レヴュースタァライト",
+        "en": null
+      }
+    },
+    "scores": {
+      "bangumi": 8.5,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "剧场版 少女☆歌剧 Revue Starlight",
+      "劇場版 少女☆歌劇 レヴュースタァライト",
+      "Shoujo☆Kageki Revue Starlight Movie",
+      "Revue Starlight: The Movie"
+    ]
+  },
+  {
+    "id": "anime:anilist-20992",
+    "medium": "anime",
+    "title": {
+      "zh": "HAIKYU!! 2nd Season",
+      "original": "ハイキュー!! セカンドシーズン"
+    },
+    "year": 2015,
     "format": "TV",
     "ids": {
       "bangumi": null,
-      "mal": 24701,
-      "anilist": 20751
-    }
-  },
-  {
-    "id": "anime:bangumi-106207",
-    "medium": "anime",
-    "title": {
-      "zh": "虫师 续章 第2部分",
-      "original": "蟲師 続章 第2クール"
+      "mal": 28891,
+      "anilist": 20992
     },
-    "year": 2014,
-    "format": "TV",
-    "ids": {
-      "bangumi": 106207,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "anime:bangumi-1608",
-    "medium": "anime",
-    "title": {
-      "zh": "灌篮高手",
-      "original": "スラムダンク"
+    "wikidata": {
+      "id": "Q97304394",
+      "articles": {
+        "ja": null,
+        "en": "Haikyu!! season 2"
+      }
     },
-    "year": 1993,
-    "format": "TV",
-    "ids": {
-      "bangumi": 1608,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "anime:bangumi-1015",
-    "medium": "anime",
-    "title": {
-      "zh": "机动战士高达0080 口袋里的战争",
-      "original": "機動戦士ガンダム0080 ポケットの中の戦争"
+    "scores": {
+      "anilist": 8.6
     },
-    "year": 1989,
-    "format": "OVA",
-    "ids": {
-      "bangumi": 1015,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "anime:bangumi-44693",
-    "medium": "anime",
-    "title": {
-      "zh": "剧场版 魔法少女小圆 [新篇] 叛逆的物语",
-      "original": "劇場版 魔法少女まどか☆マギカ [新編] 叛逆の物語"
-    },
-    "year": 2013,
-    "format": "剧场版",
-    "ids": {
-      "bangumi": 44693,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "anime:bangumi-216371",
-    "medium": "anime",
-    "title": {
-      "zh": "莉兹与青鸟",
-      "original": "リズと青い鳥"
-    },
-    "year": 2018,
-    "format": "剧场版",
-    "ids": {
-      "bangumi": 216371,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "anime:bangumi-9717",
-    "medium": "anime",
-    "title": {
-      "zh": "魔法少女小圆",
-      "original": "魔法少女まどか☆マギカ"
-    },
-    "year": 2011,
-    "format": "TV",
-    "ids": {
-      "bangumi": 9717,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "anime:anilist-20595",
-    "medium": "anime",
-    "title": {
-      "zh": "虫师 续章",
-      "original": "蟲師 続章"
-    },
-    "year": 2014,
-    "format": "TV",
-    "ids": {
-      "bangumi": 92705,
-      "mal": 21939,
-      "anilist": 20595
-    }
+    "aliases": [
+      "HAIKYU!! 2nd Season",
+      "ハイキュー!! セカンドシーズン",
+      "Haikyuu!! 2nd Season",
+      "ไฮคิว!! คู่ตบฟ้าประทาน ภาค 2"
+    ]
   },
   {
     "id": "anime:anilist-21827",
@@ -1464,10 +3295,60 @@
     "year": 2018,
     "format": "TV",
     "ids": {
-      "bangumi": null,
+      "bangumi": 183878,
       "mal": 33352,
       "anilist": 21827
-    }
+    },
+    "wikidata": {
+      "id": "Q57390937",
+      "articles": {
+        "ja": "ヴァイオレット・エヴァーガーデン (アニメ)",
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.69,
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Violet Evergarden",
+      "ヴァイオレット・エヴァーガーデン",
+      "ויולט אברגרדן",
+      "فيوليت",
+      "紫罗兰永恒花园"
+    ]
+  },
+  {
+    "id": "anime:anilist-3297",
+    "medium": "anime",
+    "title": {
+      "zh": "水星领航员 第三季",
+      "original": "ARIA The ORIGINATION"
+    },
+    "year": 2008,
+    "format": "TV",
+    "ids": {
+      "bangumi": 1270,
+      "mal": 3297,
+      "anilist": 3297
+    },
+    "wikidata": {
+      "id": "Q90570316",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "bangumi": 8.7,
+      "mal": 8.48,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "水星领航员 第三季",
+      "ARIA The ORIGINATION",
+      "アリア ジ オリジネーション"
+    ]
   },
   {
     "id": "anime:anilist-101348",
@@ -1482,7 +3363,29 @@
       "bangumi": 240386,
       "mal": 37521,
       "anilist": 101348
-    }
+    },
+    "wikidata": {
+      "id": "Q111677557",
+      "articles": {
+        "ja": null,
+        "en": "Vinland Saga season 1"
+      }
+    },
+    "scores": {
+      "bangumi": 8.3,
+      "mal": 8.78,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "冰海战记",
+      "ヴィンランド・サガ",
+      "VINLAND SAGA",
+      "Vinland Saga",
+      "סאגת וינלנד",
+      "فينلاند ساغا",
+      "สงครามคนทมิฬ",
+      "Сага о Винланде"
+    ]
   },
   {
     "id": "anime:anilist-17074",
@@ -1497,37 +3400,411 @@
       "bangumi": 68812,
       "mal": 17074,
       "anilist": 17074
-    }
+    },
+    "wikidata": {
+      "id": "Q13664680",
+      "articles": {
+        "ja": "〈物語〉シリーズ セカンドシーズン",
+        "en": null
+      }
+    },
+    "scores": {
+      "bangumi": 8.2,
+      "mal": 8.76,
+      "anilist": 8.8
+    },
+    "aliases": [
+      "物语系列 第二季",
+      "〈物語〉シリーズ セカンドシーズン",
+      "Monogatari Series: Second Season",
+      "Monogatari Series Second Season",
+      "Nekomonogatari White",
+      "Kabukimonogatari",
+      "Otorimonogatari",
+      "Onimonogatari",
+      "Koimonogatari",
+      "Nekomonogatari: Shiro",
+      "Monogatari Seconde Saison"
+    ]
   },
   {
-    "id": "manga:bangumi-5391",
-    "medium": "manga",
+    "id": "anime:anilist-156092",
+    "medium": "anime",
     "title": {
-      "zh": "ARIA (12)",
-      "original": "ARIA (12)"
+      "zh": "To Be Hero X",
+      "original": "凸变英雄X"
     },
-    "year": 2008,
-    "format": "漫画",
+    "year": 2025,
+    "format": "ONA",
     "ids": {
-      "bangumi": 5391,
-      "mal": null,
-      "anilist": null
-    }
+      "bangumi": 405212,
+      "mal": 53447,
+      "anilist": 156092
+    },
+    "wikidata": {
+      "id": "Q133866311",
+      "articles": {
+        "ja": "TO BE HERO X",
+        "en": "To Be Hero X"
+      }
+    },
+    "scores": {
+      "mal": 8.67,
+      "anilist": 8.5
+    },
+    "aliases": [
+      "To Be Hero X",
+      "凸变英雄X",
+      "Tu Bian Yingxiong X",
+      "凸变英雄 第三季",
+      "To Be Hero 3",
+      "TBHX"
+    ]
   },
   {
-    "id": "manga:bangumi-18462",
-    "medium": "manga",
+    "id": "anime:anilist-5258",
+    "medium": "anime",
     "title": {
-      "zh": "灌篮高手 完全版",
-      "original": "SLAM DUNK 完全版"
+      "zh": "Hajime no Ippo: The Fighting! New Challenger",
+      "original": "はじめの一歩 New Challenger"
     },
-    "year": 2001,
-    "format": "漫画",
+    "year": 2009,
+    "format": "TV",
     "ids": {
-      "bangumi": 18462,
-      "mal": null,
-      "anilist": null
-    }
+      "bangumi": null,
+      "mal": 5258,
+      "anilist": 5258
+    },
+    "wikidata": {
+      "id": "Q115019889",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.67,
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Hajime no Ippo: The Fighting! New Challenger",
+      "はじめの一歩 New Challenger",
+      "Hajime no Ippo: New Challenger",
+      "Hajime no Ippo Season II",
+      "Hajime no Ippo 2",
+      "Fighting Spirit: New Challenger",
+      "Hajime no Ippo: A Luta! - Um Novo Desafiante",
+      "はじめの一歩 新シリーズ",
+      "Hajime no Ippo New Series",
+      "Hajime no Ippo: The Fighting. New Challenger"
+    ]
+  },
+  {
+    "id": "anime:anilist-431",
+    "medium": "anime",
+    "title": {
+      "zh": "Howl‘s Moving Castle",
+      "original": "ハウルの動く城"
+    },
+    "year": 2004,
+    "format": "MOVIE",
+    "ids": {
+      "bangumi": null,
+      "mal": 431,
+      "anilist": 431
+    },
+    "wikidata": {
+      "id": "Q29011",
+      "articles": {
+        "ja": "ハウルの動く城",
+        "en": "Howl's Moving Castle (film)"
+      }
+    },
+    "scores": {
+      "mal": 8.67,
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Howl‘s Moving Castle",
+      "ハウルの動く城",
+      "Howl no Ugoku Shiro",
+      "Hauru no Ugoku Shiro",
+      "Das wandelnde Schloss",
+      "El Castillo Ambulante",
+      "Il castello errante di Howl",
+      "Le Château Ambulant",
+      "הטירה הנעה של האוול",
+      "Ruchomy zamek Hauru",
+      "قلعة هاول المتحركة",
+      "A Vándorló palota",
+      "O Castelo Animado",
+      "Yürüyen Şato",
+      "Ходячий замок",
+      "Det Levende Slottet",
+      "Το Κινούμενο Κάστρο",
+      "ปราสาทเวทมนตร์ของฮาวล์",
+      "Det levande slottet",
+      "Hinn kviki kastali Howls",
+      "El increible castillo vagabundo",
+      "O Castelo Andante",
+      "Howl's Moving Castle",
+      "Le Château ambulant"
+    ]
+  },
+  {
+    "id": "anime:anilist-164",
+    "medium": "anime",
+    "title": {
+      "zh": "Princess Mononoke",
+      "original": "もののけ姫"
+    },
+    "year": 1997,
+    "format": "MOVIE",
+    "ids": {
+      "bangumi": null,
+      "mal": 164,
+      "anilist": 164
+    },
+    "wikidata": {
+      "id": "Q186572",
+      "articles": {
+        "ja": "もののけ姫",
+        "en": "Princess Mononoke"
+      }
+    },
+    "scores": {
+      "mal": 8.67,
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Princess Mononoke",
+      "もののけ姫",
+      "Mononoke-hime",
+      "La Princesa Mononoke",
+      "Księżniczka Mononoke",
+      "Principessa Mononoke",
+      "الأميرة مونونوكي",
+      "Prenses Mononoke",
+      "Princesse Mononoké",
+      "Princesa Mononoke",
+      "A Princesa Mononoke",
+      "Prinzessin Mononoke",
+      "Πριγκίπισσα Μονονόκε",
+      "Prinsessan Mononoke",
+      "Prinsesse Mononoke",
+      "Mononoke Prinsessa",
+      "Mononoke Hime"
+    ]
+  },
+  {
+    "id": "anime:anilist-2001",
+    "medium": "anime",
+    "title": {
+      "zh": "Gurren Lagann",
+      "original": "天元突破グレンラガン"
+    },
+    "year": 2007,
+    "format": "TV",
+    "ids": {
+      "bangumi": 770,
+      "mal": 2001,
+      "anilist": 2001
+    },
+    "wikidata": {
+      "id": "Q4277",
+      "articles": {
+        "ja": "天元突破グレンラガン",
+        "en": "Gurren Lagann"
+      }
+    },
+    "scores": {
+      "mal": 8.65,
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Gurren Lagann",
+      "天元突破グレンラガン",
+      "Tengen Toppa Gurren Lagann",
+      "Heavenly Breakthrough Gurren Lagann",
+      "TTGL",
+      "Sfondamento dei cieli Gurren Lagann",
+      "Heaven-Piercing Gurren Lagann",
+      "Гуррен-Лаганн",
+      "Ґуррен Лаґанн",
+      "อภินิหารหุ่นทะลวงสวรรค์",
+      "Tengen Toppa Gurren-Lagann",
+      "Making Break-Through Gurren Lagann",
+      "Gurren Laggan"
+    ]
+  },
+  {
+    "id": "anime:anilist-166475",
+    "medium": "anime",
+    "title": {
+      "zh": "The Legend of Hei 2",
+      "original": "罗小黑战记 2"
+    },
+    "year": 2025,
+    "format": "MOVIE",
+    "ids": {
+      "bangumi": null,
+      "mal": 61952,
+      "anilist": 166475
+    },
+    "wikidata": null,
+    "scores": {
+      "mal": 8.65,
+      "anilist": 8.5
+    },
+    "aliases": [
+      "The Legend of Hei 2",
+      "罗小黑战记 2",
+      "Luo Xiaohei Zhan Ji 2",
+      "罗小黑战记2",
+      "Luo Xiaohei Zhanji 2",
+      "The Legend of Hei II",
+      "Luo Xiao Hei Zhan Ji 2",
+      "羅小黒戦記２ ぼくらが望む未来"
+    ]
+  },
+  {
+    "id": "anime:anilist-11665",
+    "medium": "anime",
+    "title": {
+      "zh": "Natsume's Book of Friends Season 4",
+      "original": "夏目友人帳 肆"
+    },
+    "year": 2012,
+    "format": "TV",
+    "ids": {
+      "bangumi": 23495,
+      "mal": 11665,
+      "anilist": 11665
+    },
+    "wikidata": {
+      "id": "Q120141836",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.63,
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Natsume's Book of Friends Season 4",
+      "夏目友人帳 肆",
+      "Natsume Yuujinchou Shi",
+      "Natsume Yuujinchou Four",
+      "Natsume Yuujinchou 4",
+      "Natsume Yujincho 4",
+      "Natsume Yujin-cho Staffel 4",
+      "Natsume Yujin-cho Temporada 4",
+      "Natsume Yujin-cho Saison 4"
+    ]
+  },
+  {
+    "id": "anime:anilist-128547",
+    "medium": "anime",
+    "title": {
+      "zh": "ODDTAXI",
+      "original": "オッドタクシー"
+    },
+    "year": 2021,
+    "format": "TV",
+    "ids": {
+      "bangumi": 325285,
+      "mal": 46102,
+      "anilist": 128547
+    },
+    "wikidata": {
+      "id": "Q105965081",
+      "articles": {
+        "ja": "オッドタクシー",
+        "en": "Odd Taxi"
+      }
+    },
+    "scores": {
+      "mal": 8.63,
+      "anilist": 8.5
+    },
+    "aliases": [
+      "ODDTAXI",
+      "オッドタクシー",
+      "Odd Taxi",
+      "Необычное такси"
+    ]
+  },
+  {
+    "id": "anime:anilist-21719",
+    "medium": "anime",
+    "title": {
+      "zh": "Fate/stay night [Heaven’s Feel] III. spring song",
+      "original": "Fate/stay night[Heaven's Feel] ⅠⅠⅠ.spring song"
+    },
+    "year": 2020,
+    "format": "MOVIE",
+    "ids": {
+      "bangumi": null,
+      "mal": 33050,
+      "anilist": 21719
+    },
+    "wikidata": {
+      "id": "Q74237069",
+      "articles": {
+        "ja": null,
+        "en": "Stay Night: Heaven's Feel III. spring song"
+      }
+    },
+    "scores": {
+      "mal": 8.63,
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Fate/stay night [Heaven’s Feel] III. spring song",
+      "Fate/stay night[Heaven's Feel] ⅠⅠⅠ.spring song",
+      "Fate/stay night [Heaven's Feel] III. spring song",
+      "Fate/HF III",
+      "Судьба/Ночь схватки: Прикосновение небес 3",
+      "Fate/stay night: Heaven's Feel - III. Spring Song",
+      "劇場版「Fate/stay night [Heaven's Feel] III.spring song」",
+      "Fate/stay night Movie: Heaven's Feel - III. Spring Song",
+      "Fate/stay night Movie: Heaven's Feel 3"
+    ]
+  },
+  {
+    "id": "anime:anilist-245",
+    "medium": "anime",
+    "title": {
+      "zh": "GTO: Great Teacher Onizuka",
+      "original": "GTO"
+    },
+    "year": 1999,
+    "format": "TV",
+    "ids": {
+      "bangumi": null,
+      "mal": 245,
+      "anilist": 245
+    },
+    "wikidata": {
+      "id": "Q120653495",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.68,
+      "anilist": 8.4
+    },
+    "aliases": [
+      "GTO: Great Teacher Onizuka",
+      "GTO",
+      "グレート・ティーチャー・オニヅカ",
+      "GTO - The Animation",
+      "Great Teacher Onizuka"
+    ]
   },
   {
     "id": "manga:anilist-30002",
@@ -1542,52 +3819,36 @@
       "bangumi": 9640,
       "mal": 2,
       "anilist": 30002
-    }
-  },
-  {
-    "id": "manga:bangumi-27684",
-    "medium": "manga",
-    "title": {
-      "zh": "哆啦A梦",
-      "original": "ドラえもん"
     },
-    "year": 1974,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 27684,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-25896",
-    "medium": "manga",
-    "title": {
-      "zh": "火之鸟",
-      "original": "火の鳥（朝日ソノラマ版）"
+    "wikidata": {
+      "id": "Q18558978",
+      "articles": {
+        "ja": "ベルセルク (漫画)",
+        "en": "Berserk (manga)"
+      }
     },
-    "year": 1997,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 25896,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-9115",
-    "medium": "manga",
-    "title": {
-      "zh": "SLAM DUNK 完全版 (23)",
-      "original": "SLAM DUNK 完全版 (23)"
+    "scores": {
+      "bangumi": 9.3,
+      "mal": 9.46,
+      "anilist": 9.2
     },
-    "year": 2002,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 9115,
-      "mal": null,
-      "anilist": null
-    }
+    "aliases": [
+      "剑风传奇",
+      "ベルセルク",
+      "Berserk",
+      "بيرسيرك",
+      "Beruseruku",
+      "Берсерк",
+      "ברזרק",
+      "برزرک",
+      "เบอร์เซิร์ก",
+      "烙印勇士",
+      "烙印战士",
+      "베르세르크",
+      "Berserk Max",
+      "烙印戰士",
+      "Berserk: The Prototype"
+    ]
   },
   {
     "id": "manga:anilist-31706",
@@ -1602,52 +3863,31 @@
       "bangumi": null,
       "mal": 1706,
       "anilist": 31706
-    }
-  },
-  {
-    "id": "manga:bangumi-199308",
-    "medium": "manga",
-    "title": {
-      "zh": "進撃の巨人 (21)",
-      "original": "進撃の巨人 (21)"
     },
-    "year": 2016,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 199308,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-239449",
-    "medium": "manga",
-    "title": {
-      "zh": "少女終末旅行 (6)",
-      "original": "少女終末旅行 (6)"
+    "wikidata": {
+      "id": "Q2738699",
+      "articles": {
+        "ja": "スティール・ボール・ラン",
+        "en": "Steel Ball Run"
+      }
     },
-    "year": 2018,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 239449,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-9116",
-    "medium": "manga",
-    "title": {
-      "zh": "SLAM DUNK 完全版 (24)",
-      "original": "SLAM DUNK 完全版 (24)"
+    "scores": {
+      "mal": 9.34,
+      "anilist": 9.2
     },
-    "year": 2002,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 9116,
-      "mal": null,
-      "anilist": null
-    }
+    "aliases": [
+      "JoJo's Bizarre Adventure: Part 7–Steel Ball Run",
+      "ジョジョの奇妙な冒険 スティール・ボール・ラン",
+      "JoJo no Kimyou na Bouken: Steel Ball Run",
+      "Dai 7 Bu Johnny Joestar",
+      "JoJo's Bizarre Adventure Part 7: Steel Ball Run",
+      "מרוץ כדור הפלדה",
+      "Le bizzarre avventure di JoJo: Steel Ball Run",
+      "ジョジョの奇妙な冒険 Part7 STEEL BALL RUN",
+      "JoJo no Kimyou na Bouken Part 7: Steel Ball Run",
+      "SBR",
+      "Steel Ball Run"
+    ]
   },
   {
     "id": "manga:anilist-30051",
@@ -1662,67 +3902,28 @@
       "bangumi": 36752,
       "mal": 51,
       "anilist": 30051
-    }
-  },
-  {
-    "id": "manga:bangumi-172526",
-    "medium": "manga",
-    "title": {
-      "zh": "水星领航员 完全版",
-      "original": "ARIA 完全版 ARIA The MASTERPIECE"
     },
-    "year": 2016,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 172526,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-44996",
-    "medium": "manga",
-    "title": {
-      "zh": "JoJo的奇妙冒险 第七部 飙马野郎",
-      "original": "ジョジョの奇妙な冒険 Part7『スティール・ボール・ラン』"
+    "wikidata": {
+      "id": "Q714760",
+      "articles": {
+        "ja": "SLAM DUNK",
+        "en": "Slam Dunk (manga)"
+      }
     },
-    "year": 2004,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 44996,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-12143",
-    "medium": "manga",
-    "title": {
-      "zh": "ONE PIECE (23)",
-      "original": "ONE PIECE (23)"
+    "scores": {
+      "bangumi": 9.3,
+      "mal": 9.09,
+      "anilist": 9
     },
-    "year": 2002,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 12143,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-12164",
-    "medium": "manga",
-    "title": {
-      "zh": "ONE PIECE (44)",
-      "original": "ONE PIECE (44)"
-    },
-    "year": 2006,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 12164,
-      "mal": null,
-      "anilist": null
-    }
+    "aliases": [
+      "灌篮高手",
+      "SLAM DUNK",
+      "Slam Dunk",
+      "スラムダンク",
+      "Slam Dunk: 10 Days After",
+      "سلام دانك",
+      "슬램덩크 "
+    ]
   },
   {
     "id": "manga:anilist-30656",
@@ -1737,7 +3938,66 @@
       "bangumi": 32435,
       "mal": 656,
       "anilist": 30656
-    }
+    },
+    "wikidata": {
+      "id": "Q1244799",
+      "articles": {
+        "ja": "バガボンド",
+        "en": "Vagabond (manga)"
+      }
+    },
+    "scores": {
+      "bangumi": 8.9,
+      "mal": 9.27,
+      "anilist": 9.1
+    },
+    "aliases": [
+      "浪客行",
+      "バガボンド",
+      "Vagabond",
+      "배가본드"
+    ]
+  },
+  {
+    "id": "manga:anilist-30642",
+    "medium": "manga",
+    "title": {
+      "zh": "Vinland Saga",
+      "original": "ヴィンランド・サガ"
+    },
+    "year": 2005,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 29993,
+      "mal": 642,
+      "anilist": 30642
+    },
+    "wikidata": {
+      "id": "Q930990",
+      "articles": {
+        "ja": "ヴィンランド・サガ",
+        "en": "Vinland Saga (manga)"
+      }
+    },
+    "scores": {
+      "mal": 9.09,
+      "anilist": 9
+    },
+    "aliases": [
+      "Vinland Saga",
+      "ヴィンランド・サガ",
+      "Saga Winlandzka",
+      "Сага о Винланде",
+      "Сага про Вінланд",
+      "海盜戰記VINLAND SAGA",
+      "빈란드 사가",
+      "Sayounara ga Chikai node",
+      "For Our Farewell Is Near",
+      "Because Goodbyes Are Coming Soon",
+      "\"Assasin's Creed Valhalla\" Collab Bangai-hen",
+      "Assassin's Creed x Vinland Saga",
+      "Assassin's Creed Valhalla x Vinland Saga"
+    ]
   },
   {
     "id": "manga:anilist-140407",
@@ -1752,22 +4012,32 @@
       "bangumi": null,
       "mal": 147272,
       "anilist": 140407
-    }
-  },
-  {
-    "id": "manga:anilist-30642",
-    "medium": "manga",
-    "title": {
-      "zh": "Vinland Saga",
-      "original": "ヴィンランド・サガ"
     },
-    "year": 2005,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 642,
-      "anilist": 30642
-    }
+    "wikidata": {
+      "id": "Q122827852",
+      "articles": {
+        "ja": null,
+        "en": "The Greatest Estate Developer"
+      }
+    },
+    "scores": {
+      "mal": 9.09,
+      "anilist": 9
+    },
+    "aliases": [
+      "The Greatest Estate Developer",
+      "역대급 영지 설계사",
+      "Yeokdaegeum Yeongji Seolgyesa",
+      "The World's Best Engineer",
+      "The Greatest Estate Designer ",
+      "El mejor desarrollador inmobiliario",
+      "史詩級領地設計師",
+      "史上最高の領地設計士",
+      "史诗级领地设计师",
+      "ยอดสถาปนิกผู้พิทักษ์อาณาจักร",
+      "The Greatest Estate Designer",
+      "Yeokdaegeup Yeongji Seolgyesa"
+    ]
   },
   {
     "id": "manga:anilist-30013",
@@ -1782,52 +4052,30 @@
       "bangumi": 3510,
       "mal": 13,
       "anilist": 30013
-    }
-  },
-  {
-    "id": "manga:bangumi-185941",
-    "medium": "manga",
-    "title": {
-      "zh": "進撃の巨人 (20)",
-      "original": "進撃の巨人 (20)"
     },
-    "year": 2016,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 185941,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-1626",
-    "medium": "manga",
-    "title": {
-      "zh": "守望者",
-      "original": "Watchmen"
+    "wikidata": {
+      "id": "Q28667972",
+      "articles": {
+        "ja": "ONE PIECE",
+        "en": "One Piece"
+      }
     },
-    "year": 1987,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 1626,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-380499",
-    "medium": "manga",
-    "title": {
-      "zh": "チ。―地球の運動について― (8)",
-      "original": "チ。―地球の運動について― (8)"
+    "scores": {
+      "bangumi": 8.8,
+      "mal": 9.21,
+      "anilist": 9.1
     },
-    "year": 2022,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 380499,
-      "mal": null,
-      "anilist": null
-    }
+    "aliases": [
+      "航海王",
+      "ONE PIECE",
+      "One Piece",
+      "원피스",
+      "וואן פיס ",
+      "One Piece - Большой куш",
+      "ワンピース",
+      "ONE PIECE～航海王～",
+      "วันพีซ"
+    ]
   },
   {
     "id": "manga:anilist-46765",
@@ -1839,10 +4087,26 @@
     "year": 2006,
     "format": "MANGA",
     "ids": {
-      "bangumi": null,
+      "bangumi": 42435,
       "mal": 16765,
       "anilist": 46765
-    }
+    },
+    "wikidata": {
+      "id": "Q1058984",
+      "articles": {
+        "ja": "キングダム (漫画)",
+        "en": "Kingdom (manga)"
+      }
+    },
+    "scores": {
+      "mal": 9.02,
+      "anilist": 8.9
+    },
+    "aliases": [
+      "Kingdom",
+      "キングダム",
+      "킹덤"
+    ]
   },
   {
     "id": "manga:anilist-74489",
@@ -1854,10 +4118,40 @@
     "year": 2012,
     "format": "MANGA",
     "ids": {
-      "bangumi": null,
+      "bangumi": 111590,
       "mal": 44489,
       "anilist": 74489
-    }
+    },
+    "wikidata": {
+      "id": "Q17217234",
+      "articles": {
+        "ja": "宝石の国",
+        "en": "Land of the Lustrous"
+      }
+    },
+    "scores": {
+      "mal": 9,
+      "anilist": 8.9
+    },
+    "aliases": [
+      "Land of the Lustrous",
+      "宝石の国",
+      "Houseki no Kuni",
+      "La Tierra de las Gemas",
+      "L'Ère des Cristaux",
+      "Das Land der Juwelen",
+      "Terra das Gemas",
+      "Vương quốc bảo thạch",
+      "HNK",
+      "LOTL",
+      "Kraina klejnotów",
+      "寶石之國",
+      "宝石之国",
+      "보석의 나라",
+      "Страна самоцветов",
+      "Край самоцвітів",
+      "La tierra de las gemas"
+    ]
   },
   {
     "id": "manga:anilist-30657",
@@ -1872,7 +4166,22 @@
       "bangumi": null,
       "mal": 657,
       "anilist": 30657
-    }
+    },
+    "wikidata": {
+      "id": "Q547895",
+      "articles": {
+        "ja": "リアル (漫画)",
+        "en": "Real (manga)"
+      }
+    },
+    "scores": {
+      "mal": 8.98,
+      "anilist": 8.9
+    },
+    "aliases": [
+      "Real",
+      "リアル"
+    ]
   },
   {
     "id": "manga:anilist-119247",
@@ -1884,10 +4193,28 @@
     "year": 2020,
     "format": "MANGA",
     "ids": {
-      "bangumi": null,
+      "bangumi": 323196,
       "mal": 133431,
       "anilist": 119247
-    }
+    },
+    "wikidata": {
+      "id": "Q104336957",
+      "articles": {
+        "ja": "ウマ娘 シンデレラグレイ",
+        "en": "Umamusume: Cinderella Gray"
+      }
+    },
+    "scores": {
+      "mal": 8.97,
+      "anilist": 8.9
+    },
+    "aliases": [
+      "Uma Musume: Cinderella Gray",
+      "ウマ娘 シンデレラグレイ",
+      "Uma Musume Cinderella Gray",
+      "UmaMusu Cinderella Gray",
+      "Uma Musume Cinderella Gray Gaiden: The Mermaid Left Behind"
+    ]
   },
   {
     "id": "manga:anilist-31303",
@@ -1899,10 +4226,31 @@
     "year": 1968,
     "format": "MANGA",
     "ids": {
-      "bangumi": null,
+      "bangumi": 48094,
       "mal": 1303,
       "anilist": 31303
-    }
+    },
+    "wikidata": {
+      "id": "Q697000",
+      "articles": {
+        "ja": "あしたのジョー",
+        "en": "Ashita no Joe"
+      }
+    },
+    "scores": {
+      "mal": 8.95,
+      "anilist": 8.9
+    },
+    "aliases": [
+      "Ashita no Joe: Fighting for Tomorrow",
+      "あしたのジョー",
+      "Ashita no Joe",
+      "Rocky Joe",
+      "Tomorrow's Joe",
+      "Joe del Mañana",
+      "Boy Action II",
+      "Ashita no Joe - Em Busca do Amanhã"
+    ]
   },
   {
     "id": "manga:anilist-30025",
@@ -1917,112 +4265,39 @@
       "bangumi": 4923,
       "mal": 25,
       "anilist": 30025
-    }
-  },
-  {
-    "id": "manga:bangumi-32693",
-    "medium": "manga",
-    "title": {
-      "zh": "好逑双物语",
-      "original": "H2"
     },
-    "year": 1992,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 32693,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-25902",
-    "medium": "manga",
-    "title": {
-      "zh": "火之鸟 复刻版 04 凤凰篇",
-      "original": "火の鳥 4・鳳凰編"
+    "wikidata": {
+      "id": "Q189562",
+      "articles": {
+        "ja": "鋼の錬金術師",
+        "en": "Fullmetal Alchemist"
+      }
     },
-    "year": 2009,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 25902,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-210459",
-    "medium": "manga",
-    "title": {
-      "zh": "進撃の巨人 (22)",
-      "original": "進撃の巨人 (22)"
+    "scores": {
+      "bangumi": 8.8,
+      "mal": 9.05,
+      "anilist": 8.9
     },
-    "year": 2017,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 210459,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-7213",
-    "medium": "manga",
-    "title": {
-      "zh": "猎人（27）名字",
-      "original": "HUNTER×HUNTER (27) 名前"
-    },
-    "year": 2009,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 7213,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-27466",
-    "medium": "manga",
-    "title": {
-      "zh": "龙珠",
-      "original": "DRAGON BALL"
-    },
-    "year": 1984,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 27466,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-10787",
-    "medium": "manga",
-    "title": {
-      "zh": "女仆咖啡厅",
-      "original": "それでも町は廻っている"
-    },
-    "year": 2006,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 10787,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-28842",
-    "medium": "manga",
-    "title": {
-      "zh": "竹光侍",
-      "original": "竹光侍"
-    },
-    "year": 2006,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 28842,
-      "mal": null,
-      "anilist": null
-    }
+    "aliases": [
+      "钢之炼金术师",
+      "鋼の錬金術師",
+      "Hagane no Renkinjutsushi",
+      "Fullmetal Alchemist",
+      "Full Metal Alchemist",
+      "FMA",
+      "HagaRen",
+      "Fullmetal Alchemist Gaiden",
+      "Çelik Simyacı",
+      "Fullmetal Alchemist - Ocelový alchymista",
+      " Стальной Алхимик",
+      "Сталевий Алхімік",
+      "Cang Giả Kim Thuật Sư",
+      "Čelični alhemičar",
+      "鋼之鍊金術師",
+      "แขนกลคนแปรธาตุ",
+      "강철의 연금술사",
+      "Железният Алхимик"
+    ]
   },
   {
     "id": "manga:anilist-30001",
@@ -2037,7 +4312,25 @@
       "bangumi": 2139,
       "mal": 1,
       "anilist": 30001
-    }
+    },
+    "wikidata": {
+      "id": "Q858384",
+      "articles": {
+        "ja": "MONSTER (漫画)",
+        "en": "Monster (manga)"
+      }
+    },
+    "scores": {
+      "bangumi": 8.5,
+      "mal": 9.16,
+      "anilist": 9
+    },
+    "aliases": [
+      "怪物",
+      "MONSTER",
+      "Monster",
+      "몬스터"
+    ]
   },
   {
     "id": "manga:anilist-30104",
@@ -2052,7 +4345,34 @@
       "bangumi": 10086,
       "mal": 104,
       "anilist": 30104
-    }
+    },
+    "wikidata": {
+      "id": "Q390279",
+      "articles": {
+        "ja": "よつばと!",
+        "en": "Yotsuba&!"
+      }
+    },
+    "scores": {
+      "bangumi": 8.9,
+      "mal": 8.92,
+      "anilist": 8.8
+    },
+    "aliases": [
+      "四叶妹妹！",
+      "よつばと！",
+      "Yotsuba to!",
+      "Yotsuba&!",
+      "Yotsuba and!",
+      "Yotsuba!",
+      "Yotsubato",
+      "Ёцуба!",
+      "요츠바랑!",
+      "四葉妹妹!",
+      "よつばと!",
+      "¡Yotsuba!",
+      "Yotsuba & !"
+    ]
   },
   {
     "id": "manga:anilist-30003",
@@ -2064,10 +4384,31 @@
     "year": 1999,
     "format": "MANGA",
     "ids": {
-      "bangumi": null,
+      "bangumi": 2057,
       "mal": 3,
       "anilist": 30003
-    }
+    },
+    "wikidata": {
+      "id": "Q91458",
+      "articles": {
+        "ja": "20世紀少年",
+        "en": "20th Century Boys"
+      }
+    },
+    "scores": {
+      "mal": 8.93,
+      "anilist": 8.8
+    },
+    "aliases": [
+      "20th Century Boys",
+      "20世紀少年",
+      "20 Seiki Shounen",
+      "Nijuu Seiki Shounen",
+      "Nijuusseiki Shounen",
+      "20thCB",
+      "20th Century Boys - Chłopaki z dwudziestego wieku",
+      "فتيان القرن 20"
+    ]
   },
   {
     "id": "manga:anilist-64053",
@@ -2082,7 +4423,27 @@
       "bangumi": 92966,
       "mal": 34053,
       "anilist": 64053
-    }
+    },
+    "wikidata": {
+      "id": "Q139566625",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "bangumi": 8.6,
+      "mal": 8.96,
+      "anilist": 9
+    },
+    "aliases": [
+      "海猫鸣泣之时散EP8：黄金魔女的暮光",
+      "うみねこのなく頃に散 - Episode 8: Twilight of the Golden Witch",
+      "Umineko no Naku Koro ni Chiru Episode 8: Twilight of the Golden Witch",
+      "Umineko When They Cry Episode 8: Twilight of the Golden Witch",
+      "When Seagulls Cry Episode 8: Twilight of the Golden Witch",
+      "Umineko no Naku Koro ni Chiru - Episode 8: Twilight of the Golden Witch"
+    ]
   },
   {
     "id": "manga:anilist-187189",
@@ -2097,7 +4458,24 @@
       "bangumi": null,
       "mal": 178182,
       "anilist": 187189
-    }
+    },
+    "wikidata": null,
+    "scores": {
+      "mal": 8.83,
+      "anilist": 8.8
+    },
+    "aliases": [
+      "On the Way to Meet Mom",
+      "엄마를 만나러 가는 길",
+      "Eommareul Mannareo Ganeun Gil",
+      "On My Way to See My Mom",
+      "Camino a conocer a mamá",
+      "Le Chemin vers Maman",
+      "去见妈妈的路上",
+      "去見媽咪的路上",
+      "มัมหมีจ๋าหนูมาแบ๊ว",
+      "On the Way to See My Mom"
+    ]
   },
   {
     "id": "manga:anilist-87395",
@@ -2112,7 +4490,28 @@
       "bangumi": 118165,
       "mal": 70345,
       "anilist": 87395
-    }
+    },
+    "wikidata": {
+      "id": "Q20044054",
+      "articles": {
+        "ja": "ぐらんぶる",
+        "en": "Grand Blue Dreaming"
+      }
+    },
+    "scores": {
+      "bangumi": 8.5,
+      "mal": 9.04,
+      "anilist": 8.9
+    },
+    "aliases": [
+      "GRANDBLUE 碧蓝之海",
+      "ぐらんぶる",
+      "Grand Blue",
+      "Grand Blue Dreaming",
+      "Необъятный океан",
+      "Неосяжна блакить",
+      "ก๊วนป่วนชวนบุ๋งบุ๋ง"
+    ]
   },
   {
     "id": "manga:anilist-30028",
@@ -2124,10 +4523,27 @@
     "year": 2000,
     "format": "MANGA",
     "ids": {
-      "bangumi": null,
+      "bangumi": 5297,
       "mal": 28,
       "anilist": 30028
-    }
+    },
+    "wikidata": {
+      "id": "Q423658",
+      "articles": {
+        "ja": "NANA",
+        "en": "Nana (manga)"
+      }
+    },
+    "scores": {
+      "mal": 8.82,
+      "anilist": 8.8
+    },
+    "aliases": [
+      "Nana",
+      "NANA",
+      "ナナ",
+      "나나"
+    ]
   },
   {
     "id": "manga:anilist-30026",
@@ -2142,7 +4558,27 @@
       "bangumi": 24596,
       "mal": 26,
       "anilist": 30026
-    }
+    },
+    "wikidata": {
+      "id": "Q696071",
+      "articles": {
+        "ja": "HUNTER×HUNTER",
+        "en": "Hunter × Hunter"
+      }
+    },
+    "scores": {
+      "bangumi": 8.8,
+      "anilist": 8.8
+    },
+    "aliases": [
+      "猎人",
+      "HUNTER×HUNTER",
+      "Hunter x Hunter",
+      "ハンター×ハンター",
+      "HxH",
+      "헌터×헌터",
+      "القناص"
+    ]
   },
   {
     "id": "manga:anilist-75143",
@@ -2157,97 +4593,25 @@
       "bangumi": null,
       "mal": 45143,
       "anilist": 75143
-    }
-  },
-  {
-    "id": "manga:bangumi-32612",
-    "medium": "manga",
-    "title": {
-      "zh": "棒球英豪 完全版",
-      "original": "タッチ―完全版"
     },
-    "year": 2005,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 32612,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-4771",
-    "medium": "manga",
-    "title": {
-      "zh": "蟲師 (1)",
-      "original": "蟲師 (1)"
+    "wikidata": {
+      "id": "Q11266796",
+      "articles": {
+        "ja": "この音とまれ!",
+        "en": "Kono Oto Tomare! Sounds of Life"
+      }
     },
-    "year": 2000,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 4771,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-31808",
-    "medium": "manga",
-    "title": {
-      "zh": "哆啦A梦大长篇",
-      "original": "大長編ドラえもん"
+    "scores": {
+      "anilist": 8.8
     },
-    "year": 1983,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 31808,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-140984",
-    "medium": "manga",
-    "title": {
-      "zh": "花葬",
-      "original": "花葬"
-    },
-    "year": 2015,
-    "format": "画集",
-    "ids": {
-      "bangumi": 140984,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-26476",
-    "medium": "manga",
-    "title": {
-      "zh": "龙珠 完全版",
-      "original": "DRAGON BALL 完全版"
-    },
-    "year": 2002,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 26476,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-39416",
-    "medium": "manga",
-    "title": {
-      "zh": "三个阿道夫",
-      "original": "アドルフに告ぐ"
-    },
-    "year": 1985,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 39416,
-      "mal": null,
-      "anilist": null
-    }
+    "aliases": [
+      "Kono Oto Tomare!",
+      "この音とまれ！",
+      "Stop this sound!",
+      "ฝากฝันไว้ที่เสียงโคโตะ!",
+      "Sounds of Life",
+      "一弦定音！"
+    ]
   },
   {
     "id": "manga:anilist-135129",
@@ -2262,7 +4626,18 @@
       "bangumi": null,
       "mal": null,
       "anilist": 135129
-    }
+    },
+    "wikidata": null,
+    "scores": {
+      "anilist": 8.8
+    },
+    "aliases": [
+      "Vagabond: Saigo no Manga-ten",
+      "バガボンド 最後のマンガ展",
+      "Vagabond: The Last Manga Exhibition",
+      "いのうえの 三日月篇",
+      "いのうえの 満月篇"
+    ]
   },
   {
     "id": "manga:anilist-34632",
@@ -2277,7 +4652,40 @@
       "bangumi": 36261,
       "mal": 4632,
       "anilist": 34632
-    }
+    },
+    "wikidata": {
+      "id": "Q2910245",
+      "articles": {
+        "ja": "おやすみプンプン",
+        "en": "Goodnight Punpun"
+      }
+    },
+    "scores": {
+      "bangumi": 8.6,
+      "mal": 8.97,
+      "anilist": 8.8
+    },
+    "aliases": [
+      "晚安，布布",
+      "おやすみプンプン",
+      "Oyasumi Punpun",
+      "Goodnight Punpun",
+      "Dobranoc, Punpunie",
+      "Bonne nuit Punpun!",
+      "Boa Noite Punpun",
+      "Bona nit, Punpun",
+      "Buenas noches, Punpun",
+      "Gute Nacht, Punpun",
+      "잘자 뿡뿡",
+      "晚安布布",
+      "לילה טוב, פונפון",
+      "Buonanotte, Punpun",
+      "İyi Geceler, Punpun",
+      "ฝันดีนะปุนปุน",
+      "Laku noć, Punpune",
+      "Добраніч, Пунпуне",
+      "Bonne nuit Punpun"
+    ]
   },
   {
     "id": "manga:anilist-86635",
@@ -2292,7 +4700,34 @@
       "bangumi": null,
       "mal": 90125,
       "anilist": 86635
-    }
+    },
+    "wikidata": {
+      "id": "Q24867647",
+      "articles": {
+        "ja": "かぐや様は告らせたい〜天才たちの恋愛頭脳戦〜",
+        "en": "Kaguya-sama: Love Is War"
+      }
+    },
+    "scores": {
+      "mal": 8.88,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "Kaguya-sama: Love is War",
+      "かぐや様は告らせたい～天才たちの恋愛頭脳戦～",
+      "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen",
+      "Kaguya Wants to be Confessed To: The Geniuses' War of Love and Brains",
+      "카구야 님은 고백받고 싶어 ~천재들의 연애 두뇌전~",
+      "Miłość to wojna",
+      "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen",
+      "Госпожа Кагуя: В любви как на войне. Любовная битва двух гениев",
+      "สารภาพรักกับคุณคางุยะซะดีๆ ~สงครามประสาทความรักของเหล่าอัจฉริยะ~ ",
+      "Kaguya-sama: Cuộc chiến tỏ tình",
+      "辉夜大小姐想让我告白 ~天才们的恋爱头脑战",
+      "輝夜姬想讓人告白~天才們的戀愛頭腦戰~",
+      "Kaguya-sama: Aşk Savaştır",
+      "Kaguya-sama: Love Is War"
+    ]
   },
   {
     "id": "manga:anilist-31224",
@@ -2307,7 +4742,35 @@
       "bangumi": 1902,
       "mal": 1224,
       "anilist": 31224
-    }
+    },
+    "wikidata": {
+      "id": "Q4049046",
+      "articles": {
+        "ja": "3月のライオン",
+        "en": "March Comes In like a Lion"
+      }
+    },
+    "scores": {
+      "bangumi": 8.8,
+      "mal": 8.86,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "3月的狮子",
+      "3月のライオン",
+      "3-gatsu no Lion",
+      "March Comes in Like a Lion",
+      "Sangatsu no Lion",
+      "Lion of March",
+      "Un marzo da leoni",
+      "El león de marzo",
+      "Marcowy lew",
+      "O Leão de Março",
+      "Sư Tử Tháng 3",
+      "3月的獅子",
+      "3월의 라이온",
+      "March comes in like a lion"
+    ]
   },
   {
     "id": "manga:anilist-118586",
@@ -2319,10 +4782,43 @@
     "year": 2020,
     "format": "MANGA",
     "ids": {
-      "bangumi": null,
+      "bangumi": 305429,
       "mal": 126287,
       "anilist": 118586
-    }
+    },
+    "wikidata": {
+      "id": "Q98642652",
+      "articles": {
+        "ja": "葬送のフリーレン",
+        "en": "Frieren"
+      }
+    },
+    "scores": {
+      "mal": 8.87,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "Frieren: Beyond Journey’s End",
+      "葬送のフリーレン",
+      "Sousou no Frieren",
+      "Frieren at the Funeral",
+      "장송의 프리렌",
+      "Frieren: Oltre la Fine del Viaggio",
+      "คำอธิษฐานในวันที่จากลา Frieren",
+      "Frieren e a Jornada para o Além",
+      "Frieren – Nach dem Ende der Reise",
+      "葬送的芙莉蓮",
+      "Frieren After \"The End\"",
+      "Frieren: Remnants of the Departed",
+      "Frieren. U kresu drogi",
+      "Frieren",
+      "FRIEREN: Más allá del fin del viaje",
+      "Проводжальниця Фрірен",
+      "Frieren: Ved reisens ende",
+      "Frieren - Pháp sư tiễn táng",
+      "Frieren: Beyond Journey's End",
+      "Frieren the Slayer"
+    ]
   },
   {
     "id": "manga:anilist-85135",
@@ -2337,7 +4833,36 @@
       "bangumi": null,
       "mal": 56805,
       "anilist": 85135
-    }
+    },
+    "wikidata": {
+      "id": "Q11611205",
+      "articles": {
+        "ja": "聲の形",
+        "en": "A Silent Voice (manga)"
+      }
+    },
+    "scores": {
+      "mal": 8.86,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "A Silent Voice",
+      "聲の形",
+      "Koe no Katachi",
+      "The Shape of Voice",
+      "A Voz do Silêncio",
+      "A Forma da Voz",
+      "Kształt twojego głosu",
+      "Sessizliğin Sesi",
+      "声之形",
+      "Форма голоса",
+      "Němý hlas",
+      "รักไร้เสียง",
+      "Oblik glasa",
+      "목소리의 형태",
+      "Форма голосу",
+      "Silhuett av en stemme"
+    ]
   },
   {
     "id": "manga:anilist-30651",
@@ -2352,7 +4877,36 @@
       "bangumi": 25402,
       "mal": 651,
       "anilist": 30651
-    }
+    },
+    "wikidata": {
+      "id": "Q95047",
+      "articles": {
+        "ja": "風の谷のナウシカ",
+        "en": "Nausicaä of the Valley of the Wind (manga)"
+      }
+    },
+    "scores": {
+      "bangumi": 9,
+      "mal": 8.81,
+      "anilist": 8.5
+    },
+    "aliases": [
+      "风之谷",
+      "風の谷のナウシカ",
+      "Kaze no Tani no Nausicaä",
+      "Nausicaä of the Valley of the Wind",
+      "Kaze no Tani no Naushika",
+      "Kaze no Tani no Nausicaa",
+      "Nausicaä do Vale do Vento",
+      "Nausicaä de la Vallée du Vent",
+      "Nausicaä della Valle del vento",
+      "Nausicaä aus dem Tal der Winde",
+      "Nausikaja od Vetrovite doline",
+      "Nausicaä z Doliny Wiatru",
+      "Naušika z Větrného údolí",
+      "Nausicaä del valle del viento",
+      "Nausicaä de la vallée du vent"
+    ]
   },
   {
     "id": "manga:anilist-112275",
@@ -2367,7 +4921,24 @@
       "bangumi": null,
       "mal": 140765,
       "anilist": 112275
-    }
+    },
+    "wikidata": null,
+    "scores": {
+      "mal": 8.84,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "Heaven Official's Blessing",
+      "天官赐福",
+      "Tian Guan Ci Fu",
+      "Heaven Official’s Blessing",
+      "TGCF",
+      "La Bendicion Oficial Del Cielo",
+      "천관사복",
+      "สวรรค์ประทานพร",
+      "Thiên quan tứ phúc",
+      "Tian Guan Cifu"
+    ]
   },
   {
     "id": "manga:anilist-51525",
@@ -2379,10 +4950,35 @@
     "year": 2009,
     "format": "MANGA",
     "ids": {
-      "bangumi": null,
+      "bangumi": 60124,
       "mal": 21525,
       "anilist": 51525
-    }
+    },
+    "wikidata": {
+      "id": "Q11514831",
+      "articles": {
+        "ja": "暁のヨナ",
+        "en": "Yona of the Dawn"
+      }
+    },
+    "scores": {
+      "mal": 8.83,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "Yona of the Dawn",
+      "暁のヨナ",
+      "Akatsuki no Yona",
+      "AkaYona",
+      "Yona: The Girl Standing in the Blush of Dawn",
+      "Yona, Princesa del Amanecer",
+      "Yona w blasku świtu",
+      "Yona - Prinzessin der Morgendämmerung",
+      "Yona - Công chúa bình minh",
+      "Yona, Princesse de l'Aube",
+      "Yona: A Princesa do Alvorecer",
+      "Yona, princesa del amanecer"
+    ]
   },
   {
     "id": "manga:anilist-65243",
@@ -2397,7 +4993,33 @@
       "bangumi": 42232,
       "mal": 35243,
       "anilist": 65243
-    }
+    },
+    "wikidata": {
+      "id": "Q326642",
+      "articles": {
+        "ja": "ハイキュー!!",
+        "en": "Haikyu!!"
+      }
+    },
+    "scores": {
+      "bangumi": 8.5,
+      "mal": 8.86,
+      "anilist": 8.9
+    },
+    "aliases": [
+      "排球少年!!",
+      "ハイキュー！！",
+      "Haikyuu!!",
+      "Haikyu!!",
+      "Ball High!!",
+      "HQ!!",
+      "High Kyuu!!",
+      "ไฮคิว!! คู่ตบฟ้าประทาน",
+      "Haikyu!! - Chàng khổng lồ tí hon",
+      "ハイキュー!!",
+      "Nisekyuu!!",
+      "Haikyu !! - Les As du volley"
+    ]
   },
   {
     "id": "manga:anilist-116170",
@@ -2412,7 +5034,26 @@
       "bangumi": null,
       "mal": 132678,
       "anilist": 116170
-    }
+    },
+    "wikidata": {
+      "id": "Q139731187",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "mal": 8.79,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "Veil",
+      "面纱",
+      "Veil: Body Temperature of Orange",
+      "Veil: Calming Noir",
+      "Veil: Graceful White",
+      "Veil: Transparent Burns"
+    ]
   },
   {
     "id": "manga:anilist-30336",
@@ -2424,10 +5065,31 @@
     "year": 1997,
     "format": "MANGA",
     "ids": {
-      "bangumi": null,
+      "bangumi": 35698,
       "mal": 336,
       "anilist": 30336
-    }
+    },
+    "wikidata": {
+      "id": "Q457981",
+      "articles": {
+        "ja": "GTO (漫画)",
+        "en": "Great Teacher Onizuka"
+      }
+    },
+    "scores": {
+      "mal": 8.86,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "GTO: Great Teacher Onizuka",
+      "GTO",
+      "ジーティーオー",
+      "GTO: Tomoko's Big Adventures",
+      "Great Teacher Onizuka",
+      "グレート・ティーチャー・オニヅカ",
+      "GTO คุณครูพันธ์หายาก",
+      "GTO. Great Teacher Onizuka"
+    ]
   },
   {
     "id": "manga:anilist-118371",
@@ -2442,7 +5104,27 @@
       "bangumi": 307237,
       "mal": 129621,
       "anilist": 118371
-    }
+    },
+    "wikidata": {
+      "id": "Q106392491",
+      "articles": {
+        "ja": "メダリスト (漫画)",
+        "en": "Medalist (manga)"
+      }
+    },
+    "scores": {
+      "bangumi": 8.7,
+      "mal": 8.79,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "金牌得主",
+      "メダリスト",
+      "Medalist",
+      "ทอฝันบนลานสเกต",
+      "Madalya Peşinde",
+      "Медалістка"
+    ]
   },
   {
     "id": "manga:anilist-37375",
@@ -2457,7 +5139,27 @@
       "bangumi": 43126,
       "mal": 7375,
       "anilist": 37375
-    }
+    },
+    "wikidata": {
+      "id": "Q11448101",
+      "articles": {
+        "ja": "孤高の人",
+        "en": "The Climber (manga)"
+      }
+    },
+    "scores": {
+      "bangumi": 8.6,
+      "mal": 8.84,
+      "anilist": 8.7
+    },
+    "aliases": [
+      "孤高之人",
+      "孤高の人",
+      "Kokou no Hito",
+      "The Climber",
+      "Ascension",
+      "Koko no Hito"
+    ]
   },
   {
     "id": "manga:anilist-126986",
@@ -2472,7 +5174,20 @@
       "bangumi": null,
       "mal": 147769,
       "anilist": 126986
-    }
+    },
+    "wikidata": null,
+    "scores": {
+      "mal": 8.81,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Jibi Eopseo",
+      "집이 없어",
+      "Homeless",
+      "No Home",
+      "無家可歸",
+      "Jib-i Eopseo"
+    ]
   },
   {
     "id": "manga:anilist-86082",
@@ -2487,7 +5202,38 @@
       "bangumi": 105206,
       "mal": 85781,
       "anilist": 86082
-    }
+    },
+    "wikidata": {
+      "id": "Q20016948",
+      "articles": {
+        "ja": "ダンジョン飯",
+        "en": "Delicious in Dungeon"
+      }
+    },
+    "scores": {
+      "bangumi": 8.5,
+      "mal": 8.81,
+      "anilist": 8.8
+    },
+    "aliases": [
+      "迷宫饭",
+      "ダンジョン飯",
+      "Dungeon Meshi",
+      "Delicious in Dungeon",
+      "Dungeon Food",
+      "Dungeon Meal",
+      "Tragones y Mazmorras",
+      "Gloutons et Dragons",
+      "Подземное питание",
+      "던전밥",
+      "สูตรลับตำรับดันเจียน",
+      "Mỹ vị hầm ngục",
+      "迷宮飯",
+      "Підземелля смакоти",
+      "Delicious in Dungeon: Calabouços e Delícias",
+      "Dungeon Meshi: Lochy i smakołyki",
+      "Tragones y mazmorras"
+    ]
   },
   {
     "id": "manga:anilist-30081",
@@ -2502,7 +5248,186 @@
       "bangumi": 5392,
       "mal": 81,
       "anilist": 30081
-    }
+    },
+    "wikidata": {
+      "id": "Q91802",
+      "articles": {
+        "ja": "ARIA (漫画)",
+        "en": "Aria (manga)"
+      }
+    },
+    "scores": {
+      "bangumi": 8.8,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "水星领航员",
+      "ARIA",
+      "Aria",
+      "アリア",
+      "Ария",
+      "Aria: The Masterpiece"
+    ]
+  },
+  {
+    "id": "manga:anilist-106331",
+    "medium": "manga",
+    "title": {
+      "zh": "Ikoku Nikki",
+      "original": "違国日記"
+    },
+    "year": 2017,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 216582,
+      "mal": 118804,
+      "anilist": 106331
+    },
+    "wikidata": {
+      "id": "Q119170838",
+      "articles": {
+        "ja": "違国日記",
+        "en": "Journal with Witch"
+      }
+    },
+    "scores": {
+      "anilist": 8.7
+    },
+    "aliases": [
+      "Ikoku Nikki",
+      "違国日記",
+      "Different Country Diary",
+      "Foreign Country Diary",
+      "Entre les Lignes",
+      "異國日記",
+      "위국일기",
+      "Diary of a Strange Land"
+    ]
+  },
+  {
+    "id": "manga:anilist-140475",
+    "medium": "manga",
+    "title": {
+      "zh": "The Fragrant Flower Blooms With Dignity",
+      "original": "薫る花は凛と咲く"
+    },
+    "year": 2021,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 355555,
+      "mal": 144267,
+      "anilist": 140475
+    },
+    "wikidata": {
+      "id": "Q117005561",
+      "articles": {
+        "ja": "薫る花は凛と咲く",
+        "en": "The Fragrant Flower Blooms with Dignity"
+      }
+    },
+    "scores": {
+      "anilist": 8.7
+    },
+    "aliases": [
+      "The Fragrant Flower Blooms With Dignity",
+      "薫る花は凛と咲く",
+      "Kaoru Hana wa Rin to Saku",
+      "薰香花朵凛然綻放",
+      "Kaoruhana",
+      "La Nobleza de las Flores",
+      "Kaoru und Rin: So nah und doch so fern",
+      "Kaoru i Rin. Rozkwitając z tobą",
+      "Bloom",
+      "The Fragrant Flower Blooms With Dignity - Kaoru & Rin",
+      "A Nobreza das Flores",
+      "Güzel Kokulu Çiçekler Zarafetle Açar",
+      "향기로운 꽃은 늠름하게 핀다",
+      "Hoa thơm kiêu hãnh",
+      "Духмяна квітка в гордім цвітінні"
+    ]
+  },
+  {
+    "id": "manga:anilist-117620",
+    "medium": "manga",
+    "title": {
+      "zh": "The Summer You Were There",
+      "original": "君と綴るうたかた"
+    },
+    "year": 2020,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 306906,
+      "mal": 128365,
+      "anilist": 117620
+    },
+    "wikidata": {
+      "id": "Q106093831",
+      "articles": {
+        "ja": "君と綴るうたかた",
+        "en": "The Summer You Were There"
+      }
+    },
+    "scores": {
+      "anilist": 8.7
+    },
+    "aliases": [
+      "The Summer You Were There",
+      "君と綴るうたかた",
+      "Kimi to Tsuzuru Utakata",
+      "KimiTsuzu",
+      "きみつづ",
+      "ร้อยเรียงรักไปกับเธอ",
+      "Notre été éphémère",
+      "Der Sommer, als du da warst",
+      "Un amor de tinta y espuma",
+      "Áng phù du mùa hạ"
+    ]
+  },
+  {
+    "id": "manga:anilist-98263",
+    "medium": "manga",
+    "title": {
+      "zh": "Witch Hat Atelier",
+      "original": "とんがり帽子のアトリエ"
+    },
+    "year": 2016,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 187871,
+      "mal": 100035,
+      "anilist": 98263
+    },
+    "wikidata": {
+      "id": "Q56346242",
+      "articles": {
+        "ja": "とんがり帽子のアトリエ",
+        "en": "Witch Hat Atelier"
+      }
+    },
+    "scores": {
+      "anilist": 8.7
+    },
+    "aliases": [
+      "Witch Hat Atelier",
+      "とんがり帽子のアトリエ",
+      "Tongari Boushi no Atelier",
+      "L'Atelier des Sorciers",
+      "Atelier spiczastych kapeluszy",
+      "Atelier of Witch Hat",
+      "Ателье колдовских колпаков",
+      " 고깔모자의 아틀리에",
+      "Ateliér špičatých klobouků",
+      "Xưởng phép thuật",
+      "El Atelier de Sombreros de Mago",
+      " จอมเวทฝึกหัดกับหมวกมหัศจรรย์",
+      "Ательє чаклунських капелюхів",
+      "Atelierul Vrăjitoarelor",
+      "魔法帽的工作室",
+      "Cadı Şapkası Atölyesi",
+      "尖帽子的魔法工坊",
+      "Das Geheimnis der Hexen",
+      "Heksehatt-atelieret"
+    ]
   },
   {
     "id": "manga:anilist-30007",
@@ -2517,52 +5442,27 @@
       "bangumi": null,
       "mal": 7,
       "anilist": 30007
-    }
-  },
-  {
-    "id": "manga:anilist-106331",
-    "medium": "manga",
-    "title": {
-      "zh": "Ikoku Nikki",
-      "original": "違国日記"
     },
-    "year": 2017,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 118804,
-      "anilist": 106331
-    }
-  },
-  {
-    "id": "manga:anilist-140475",
-    "medium": "manga",
-    "title": {
-      "zh": "The Fragrant Flower Blooms With Dignity",
-      "original": "薫る花は凛と咲く"
+    "wikidata": {
+      "id": "Q715193",
+      "articles": {
+        "ja": "はじめの一歩",
+        "en": "Hajime no Ippo"
+      }
     },
-    "year": 2021,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 144267,
-      "anilist": 140475
-    }
-  },
-  {
-    "id": "manga:anilist-117620",
-    "medium": "manga",
-    "title": {
-      "zh": "The Summer You Were There",
-      "original": "君と綴るうたかた"
+    "scores": {
+      "anilist": 8.7
     },
-    "year": 2020,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 128365,
-      "anilist": 117620
-    }
+    "aliases": [
+      "Hajime no Ippo: Fighting Spirit!",
+      "はじめの一歩",
+      "Hajime no Ippo",
+      "The Fighting!",
+      "Fighting Spirit",
+      "The Fighting! Ippo",
+      "Hajime no Ippo Gaiden: Naniwa Tiger",
+      "Fight!! Ippo"
+    ]
   },
   {
     "id": "manga:anilist-53900",
@@ -2577,127 +5477,23 @@
       "bangumi": null,
       "mal": 23900,
       "anilist": 53900
-    }
-  },
-  {
-    "id": "manga:anilist-98263",
-    "medium": "manga",
-    "title": {
-      "zh": "Witch Hat Atelier",
-      "original": "とんがり帽子のアトリエ"
     },
-    "year": 2016,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 100035,
-      "anilist": 98263
-    }
-  },
-  {
-    "id": "manga:bangumi-105716",
-    "medium": "manga",
-    "title": {
-      "zh": "丁丁历险记",
-      "original": "Les Aventures de Tintin et Milou"
+    "wikidata": {
+      "id": "Q139566608",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
     },
-    "year": 1930,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 105716,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-5424",
-    "medium": "manga",
-    "title": {
-      "zh": "蜂蜜与四叶草",
-      "original": "ハチミツとクローバー"
+    "scores": {
+      "anilist": 8.7
     },
-    "year": 2002,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 5424,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-25898",
-    "medium": "manga",
-    "title": {
-      "zh": "火之鸟 复刻版 02 未来篇",
-      "original": "火の鳥 2・未来編"
-    },
-    "year": 2009,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 25898,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-134364",
-    "medium": "manga",
-    "title": {
-      "zh": "錦織敦史 アニメーションワークス Telegenic!",
-      "original": "錦織敦史 アニメーションワークス Telegenic!"
-    },
-    "year": 2015,
-    "format": "画集",
-    "ids": {
-      "bangumi": 134364,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-15792",
-    "medium": "manga",
-    "title": {
-      "zh": "棋魂完全版",
-      "original": "ヒカルの碁 完全版"
-    },
-    "year": 2009,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 15792,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-10924",
-    "medium": "manga",
-    "title": {
-      "zh": "五星物语",
-      "original": "ファイブスター物語"
-    },
-    "year": 1987,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 10924,
-      "mal": null,
-      "anilist": null
-    }
-  },
-  {
-    "id": "manga:bangumi-1814",
-    "medium": "manga",
-    "title": {
-      "zh": "MONSTER (1)",
-      "original": "MONSTER (1)"
-    },
-    "year": 1995,
-    "format": "漫画",
-    "ids": {
-      "bangumi": 1814,
-      "mal": null,
-      "anilist": null
-    }
+    "aliases": [
+      "Umineko When They Cry Episode 7: Requiem of the Golden Witch",
+      "うみねこのなく頃に散 - Episode 7: Requiem of the Golden Witch",
+      "Umineko no Naku Koro ni Chiru Episode 7: Requiem of the Golden Witch",
+      "When Seagulls Cry Episode 7: Requiem of the Golden Witch"
+    ]
   },
   {
     "id": "manga:anilist-30418",
@@ -2712,7 +5508,27 @@
       "bangumi": 3822,
       "mal": 418,
       "anilist": 30418
-    }
+    },
+    "wikidata": {
+      "id": "Q1055370",
+      "articles": {
+        "ja": "蟲師",
+        "en": "Mushishi"
+      }
+    },
+    "scores": {
+      "bangumi": 8.8,
+      "anilist": 8.5
+    },
+    "aliases": [
+      "虫师",
+      "蟲師",
+      "Mushishi",
+      "Mushi-shi",
+      "Bug Master",
+      "Знаток муси",
+      "Trùng Sư"
+    ]
   },
   {
     "id": "manga:anilist-30004",
@@ -2727,7 +5543,31 @@
       "bangumi": 10617,
       "mal": 4,
       "anilist": 30004
-    }
+    },
+    "wikidata": {
+      "id": "Q1321644",
+      "articles": {
+        "ja": "ヨコハマ買い出し紀行",
+        "en": "Yokohama Kaidashi Kikou"
+      }
+    },
+    "scores": {
+      "bangumi": 8.7,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "横滨购物纪行",
+      "ヨコハマ買い出し紀行",
+      "Yokohama Kaidashi Kikou",
+      "Yokohama Shopping Log",
+      "Yokohama Shopping Trip",
+      "Touge",
+      "Quiet Country Cafe",
+      "YKK",
+      "Escale à Yokohama",
+      "Путевые заметки о поездке за покупками в Йокогаму",
+      "Поездка за покупками в Иокогаму"
+    ]
   },
   {
     "id": "manga:anilist-39982",
@@ -2742,7 +5582,25 @@
       "bangumi": 67104,
       "mal": 9982,
       "anilist": 39982
-    }
+    },
+    "wikidata": {
+      "id": "Q4006634",
+      "articles": {
+        "ja": "嘘喰い",
+        "en": "Usogui"
+      }
+    },
+    "scores": {
+      "bangumi": 8.7,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "噬谎者",
+      "嘘喰い",
+      "Usogui",
+      "The Lie Eater",
+      "บาคุ ลับ ลวง หลอก"
+    ]
   },
   {
     "id": "manga:anilist-85412",
@@ -2757,112 +5615,35 @@
       "bangumi": 128202,
       "mal": 72467,
       "anilist": 85412
-    }
-  },
-  {
-    "id": "manga:anilist-86218",
-    "medium": "manga",
-    "title": {
-      "zh": "终将成为你",
-      "original": "やがて君になる"
     },
-    "year": 2015,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": 132936,
-      "mal": 88660,
-      "anilist": 86218
-    }
-  },
-  {
-    "id": "manga:anilist-86569",
-    "medium": "manga",
-    "title": {
-      "zh": "Ace of the Diamond Act II",
-      "original": "ダイヤのA act II"
+    "wikidata": {
+      "id": "Q36489734",
+      "articles": {
+        "ja": "少女終末旅行",
+        "en": "Girls' Last Tour"
+      }
     },
-    "year": 2015,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 92559,
-      "anilist": 86569
-    }
-  },
-  {
-    "id": "manga:anilist-107279",
-    "medium": "manga",
-    "title": {
-      "zh": "Aoashi",
-      "original": "アオアシ"
+    "scores": {
+      "bangumi": 8.6,
+      "mal": 8.74,
+      "anilist": 8.6
     },
-    "year": 2015,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 102256,
-      "anilist": 107279
-    }
-  },
-  {
-    "id": "manga:anilist-30145",
-    "medium": "manga",
-    "title": {
-      "zh": "BECK",
-      "original": "BECK"
-    },
-    "year": 2000,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 145,
-      "anilist": 30145
-    }
-  },
-  {
-    "id": "manga:anilist-107237",
-    "medium": "manga",
-    "title": {
-      "zh": "Blue Period",
-      "original": "ブルーピリオド"
-    },
-    "year": 2017,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 107931,
-      "anilist": 107237
-    }
-  },
-  {
-    "id": "manga:anilist-43245",
-    "medium": "manga",
-    "title": {
-      "zh": "Chihayafuru",
-      "original": "ちはやふる"
-    },
-    "year": 2007,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 13245,
-      "anilist": 43245
-    }
-  },
-  {
-    "id": "manga:anilist-31133",
-    "medium": "manga",
-    "title": {
-      "zh": "Dorohedoro",
-      "original": "ドロヘドロ"
-    },
-    "year": 2000,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 1133,
-      "anilist": 31133
-    }
+    "aliases": [
+      "少女终末旅行",
+      "少女終末旅行",
+      "Shoujo Shuumatsu Ryokou",
+      "Girls' Last Tour",
+      "The End Girl Trip",
+      "GLT",
+      "Последнее путешествие девочек",
+      "Остання подорож дівчат",
+      "L'ultimo viaggio delle ragazze",
+      "Poslednje putovanje",
+      "As Viajantes do Fim",
+      "Ostatnia podróż",
+      "소녀종말여행",
+      "Lang thang giữa thế gian hoang tàn"
+    ]
   },
   {
     "id": "manga:anilist-30044",
@@ -2877,7 +5658,407 @@
       "bangumi": null,
       "mal": 44,
       "anilist": 30044
-    }
+    },
+    "wikidata": {
+      "id": "Q764135",
+      "articles": {
+        "ja": "銀魂",
+        "en": "Gintama"
+      }
+    },
+    "scores": {
+      "mal": 8.65,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Gin Tama",
+      "銀魂",
+      "Gintama",
+      "Dandelion",
+      "Shiro Kuro",
+      "Black and White",
+      "גינטמה",
+      "กินทามะ"
+    ]
+  },
+  {
+    "id": "manga:anilist-86218",
+    "medium": "manga",
+    "title": {
+      "zh": "终将成为你",
+      "original": "やがて君になる"
+    },
+    "year": 2015,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 132936,
+      "mal": 88660,
+      "anilist": 86218
+    },
+    "wikidata": {
+      "id": "Q22932761",
+      "articles": {
+        "ja": "やがて君になる",
+        "en": "Bloom Into You"
+      }
+    },
+    "scores": {
+      "bangumi": 8.6,
+      "anilist": 8.6
+    },
+    "aliases": [
+      "终将成为你",
+      "やがて君になる",
+      "Yagate Kimi ni Naru",
+      "Bloom Into You",
+      "Eventually I Will Become Yours",
+      "YagaKimi",
+      "Gdy zakwitnie w nas miłość ",
+      "終將成為妳",
+      "สุดท้ายก็คือเธอ",
+      "Rồi hoa sẽ nở",
+      "Jednou rozkvetu i já"
+    ]
+  },
+  {
+    "id": "manga:anilist-107279",
+    "medium": "manga",
+    "title": {
+      "zh": "Aoashi",
+      "original": "アオアシ"
+    },
+    "year": 2015,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 212189,
+      "mal": 102256,
+      "anilist": 107279
+    },
+    "wikidata": {
+      "id": "Q28687464",
+      "articles": {
+        "ja": "アオアシ",
+        "en": "Aoashi"
+      }
+    },
+    "scores": {
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Aoashi",
+      "アオアシ",
+      "AOASHI แข็งเด็กหัวใจนักสู้",
+      "Ao Ashi - Playmaker"
+    ]
+  },
+  {
+    "id": "manga:anilist-30145",
+    "medium": "manga",
+    "title": {
+      "zh": "BECK",
+      "original": "BECK"
+    },
+    "year": 2000,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 49520,
+      "mal": 145,
+      "anilist": 30145
+    },
+    "wikidata": {
+      "id": "Q339394",
+      "articles": {
+        "ja": "BECK (漫画)",
+        "en": "Beck (manga)"
+      }
+    },
+    "scores": {
+      "anilist": 8.6
+    },
+    "aliases": [
+      "BECK",
+      "ベック",
+      "Beck: Mongolian Chop Squad"
+    ]
+  },
+  {
+    "id": "manga:anilist-107237",
+    "medium": "manga",
+    "title": {
+      "zh": "Blue Period",
+      "original": "ブルーピリオド"
+    },
+    "year": 2017,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 217833,
+      "mal": 107931,
+      "anilist": 107237
+    },
+    "wikidata": {
+      "id": "Q74458180",
+      "articles": {
+        "ja": "ブルーピリオド",
+        "en": "Blue Period (manga)"
+      }
+    },
+    "scores": {
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Blue Period",
+      "ブルーピリオド",
+      "The Blue Period",
+      "Блакитний період",
+      "藍色時期",
+      "블루 피리어드",
+      "Голубой период"
+    ]
+  },
+  {
+    "id": "manga:anilist-43245",
+    "medium": "manga",
+    "title": {
+      "zh": "Chihayafuru",
+      "original": "ちはやふる"
+    },
+    "year": 2007,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 19289,
+      "mal": 13245,
+      "anilist": 43245
+    },
+    "wikidata": {
+      "id": "Q182469",
+      "articles": {
+        "ja": "ちはやふる",
+        "en": "Chihayafuru"
+      }
+    },
+    "scores": {
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Chihayafuru",
+      "ちはやふる",
+      "치하야후루",
+      "花牌情緣"
+    ]
+  },
+  {
+    "id": "manga:anilist-31133",
+    "medium": "manga",
+    "title": {
+      "zh": "Dorohedoro",
+      "original": "ドロヘドロ"
+    },
+    "year": 2000,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 266301,
+      "mal": 1133,
+      "anilist": 31133
+    },
+    "wikidata": {
+      "id": "Q92554",
+      "articles": {
+        "ja": "ドロヘドロ",
+        "en": "Dorohedoro"
+      }
+    },
+    "scores": {
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Dorohedoro",
+      "ドロヘドロ",
+      "דורוהדורו",
+      "도로헤도로",
+      "Дорохедоро"
+    ]
+  },
+  {
+    "id": "manga:anilist-119257",
+    "medium": "manga",
+    "title": {
+      "zh": "Omniscient Reader",
+      "original": "전지적 독자 시점"
+    },
+    "year": 2020,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 314399,
+      "mal": 132214,
+      "anilist": 119257
+    },
+    "wikidata": {
+      "id": "Q139567602",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Omniscient Reader",
+      "전지적 독자 시점",
+      "Jeonjijeok Dokja Sijeom",
+      "Omniscient Reader's Viewpoint",
+      "ORV",
+      "Punkt Widzenia Wszechwiedzącego Czytelnika",
+      "Lector omnisciente",
+      "Lecteur Omniscient",
+      "Der allwissende Leser",
+      "전독시",
+      "全知读者",
+      "全知讀者視角",
+      "อ่านชะตาวันสิ้นโลก",
+      "全知的な読者の視点から",
+      "Zenchiteki na Dokusha no Shiten kara",
+      "Всеведущий читатель"
+    ]
+  },
+  {
+    "id": "manga:anilist-44483",
+    "medium": "manga",
+    "title": {
+      "zh": "Space Brothers",
+      "original": "宇宙兄弟"
+    },
+    "year": 2007,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 29137,
+      "mal": 14483,
+      "anilist": 44483
+    },
+    "wikidata": {
+      "id": "Q39043",
+      "articles": {
+        "ja": "宇宙兄弟",
+        "en": "Space Brothers (manga)"
+      }
+    },
+    "scores": {
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Space Brothers",
+      "宇宙兄弟",
+      "Uchuu Kyoudai",
+      "Uchu Kyodai",
+      "Uchu kyodai - Fratelli nello spazio",
+      "Space Bros.",
+      "Anh em phi hành gia",
+      "สเปซบราเธอร์ส สองสิงห์อวกาศ",
+      "우주형제"
+    ]
+  },
+  {
+    "id": "manga:anilist-97553",
+    "medium": "manga",
+    "title": {
+      "zh": "Three Days of Happiness",
+      "original": "寿命を買い取ってもらった。一年につき、一万円で。"
+    },
+    "year": 2016,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 188263,
+      "mal": 100448,
+      "anilist": 97553
+    },
+    "wikidata": {
+      "id": "Q131457023",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Three Days of Happiness",
+      "寿命を買い取ってもらった。一年につき、一万円で。",
+      "Jumyou wo Kaitotte Moratta. Ichinen ni Tsuki, Ichimanen de.",
+      "Mikkakan no Koufuku",
+      "I sold my life for ten thousand yen per year.",
+      "Sprzedałem swoje życie za 10 000 jenów rocznie",
+      "Il prezzo di una vita.",
+      "以一年一萬圓的價格，賣掉我剩餘的壽命。",
+      " Ich habe mein Leben für 10.000 Yen pro Jahr verkauft",
+      "Ba ngày hạnh phúc",
+      "Le prix du reste de ma vie",
+      "El precio de mi vida"
+    ]
+  },
+  {
+    "id": "manga:anilist-86569",
+    "medium": "manga",
+    "title": {
+      "zh": "Ace of the Diamond Act II",
+      "original": "ダイヤのA act II"
+    },
+    "year": 2015,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": null,
+      "mal": 92559,
+      "anilist": 86569
+    },
+    "wikidata": {
+      "id": "Q62583582",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Ace of the Diamond Act II",
+      "ダイヤのA act II",
+      "Diamond no Ace Act II",
+      "Ace of Diamond Act II",
+      "Daiya no Ace Act II"
+    ]
+  },
+  {
+    "id": "manga:anilist-86559",
+    "medium": "manga",
+    "title": {
+      "zh": "Golden Kamuy",
+      "original": "ゴールデンカムイ"
+    },
+    "year": 2014,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": null,
+      "mal": 85968,
+      "anilist": 86559
+    },
+    "wikidata": {
+      "id": "Q19781419",
+      "articles": {
+        "ja": "ゴールデンカムイ",
+        "en": "Golden Kamuy"
+      }
+    },
+    "scores": {
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Golden Kamuy",
+      "ゴールデンカムイ",
+      "Golden Kamui",
+      "黃金神威",
+      "골든 카무이"
+    ]
   },
   {
     "id": "manga:anilist-187944",
@@ -2892,22 +6073,18 @@
       "bangumi": null,
       "mal": 178671,
       "anilist": 187944
-    }
-  },
-  {
-    "id": "manga:anilist-119257",
-    "medium": "manga",
-    "title": {
-      "zh": "Omniscient Reader",
-      "original": "전지적 독자 시점"
     },
-    "year": 2020,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 132214,
-      "anilist": 119257
-    }
+    "wikidata": null,
+    "scores": {
+      "anilist": 8.6
+    },
+    "aliases": [
+      "My Bias Gets on the Last Train",
+      "내 최애는 막차를 탄다",
+      "Nae Choeaeneun Makchareul Tanda",
+      "末班车上的Crush",
+      "Mi bias toma el último tren"
+    ]
   },
   {
     "id": "manga:anilist-109285",
@@ -2922,37 +6099,26 @@
       "bangumi": null,
       "mal": 118289,
       "anilist": 109285
-    }
-  },
-  {
-    "id": "manga:anilist-44483",
-    "medium": "manga",
-    "title": {
-      "zh": "Space Brothers",
-      "original": "宇宙兄弟"
     },
-    "year": 2007,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 14483,
-      "anilist": 44483
-    }
-  },
-  {
-    "id": "manga:anilist-97553",
-    "medium": "manga",
-    "title": {
-      "zh": "Three Days of Happiness",
-      "original": "寿命を買い取ってもらった。一年につき、一万円で。"
+    "wikidata": {
+      "id": "Q65239988",
+      "articles": {
+        "ja": "スキップとローファー",
+        "en": "Skip and Loafer"
+      }
     },
-    "year": 2016,
-    "format": "MANGA",
-    "ids": {
-      "bangumi": null,
-      "mal": 100448,
-      "anilist": 97553
-    }
+    "scores": {
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Skip and Loafer",
+      "スキップとローファー",
+      "Skip to Loafer",
+      "Skip and Loafer - Nhịp Bước Tuổi Xanh",
+      "Skip y Loafer",
+      "スキロー",
+      "스킵과 로퍼"
+    ]
   },
   {
     "id": "manga:anilist-89278",
@@ -2967,36 +6133,1224 @@
       "bangumi": null,
       "mal": 61579,
       "anilist": 89278
-    }
-  },
-  {
-    "id": "manga:bangumi-313622",
-    "medium": "manga",
-    "title": {
-      "zh": "—白身魚 自選イラスト集— 真昼の月",
-      "original": "—白身魚 自選イラスト集— 真昼の月"
     },
-    "year": 2020,
-    "format": "画集",
-    "ids": {
-      "bangumi": 313622,
-      "mal": null,
-      "anilist": null
-    }
+    "wikidata": null,
+    "scores": {
+      "anilist": 8.6
+    },
+    "aliases": [
+      "Tobaku Datenroku Kaiji: One Poker-hen",
+      "賭博堕天録カイジ ワン・ポーカー編",
+      "Kaiji Part 5",
+      "Gambling Outcast Kaiji: One Poker Arc",
+      "Tobaku Datenroku Kaiji: One Poker Arc"
+    ]
   },
   {
-    "id": "manga:bangumi-236135",
+    "id": "manga:anilist-41514",
     "medium": "manga",
     "title": {
-      "zh": "51区",
-      "original": "エリア51"
+      "zh": "A Bride's Story",
+      "original": "乙嫁語り"
+    },
+    "year": 2008,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 22818,
+      "mal": 11514,
+      "anilist": 41514
+    },
+    "wikidata": {
+      "id": "Q1072982",
+      "articles": {
+        "ja": "乙嫁語り",
+        "en": "A Bride's Story"
+      }
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "A Bride's Story",
+      "乙嫁語り",
+      "Otoyomegatari",
+      "Otome-Katari",
+      "Otoyome Gatari",
+      "Otomegatari",
+      "Young Bride's Story",
+      "Opowieść Panny Młodej",
+      "Cô dâu thảo nguyên",
+      "เจ้าสาวแห่งทางสายไหม",
+      "Bride Stories",
+      "姊嫁物語",
+      "I Giorni Della Sposa",
+      "The Bride's Stories",
+      "신부 이야기"
+    ]
+  },
+  {
+    "id": "manga:anilist-30756",
+    "medium": "manga",
+    "title": {
+      "zh": "Banana Fish",
+      "original": "BANANA FISH"
+    },
+    "year": 1985,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 48090,
+      "mal": 756,
+      "anilist": 30756
+    },
+    "wikidata": {
+      "id": "Q806077",
+      "articles": {
+        "ja": "BANANA FISH",
+        "en": "Banana Fish"
+      }
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Banana Fish",
+      "BANANA FISH",
+      "バナナフィッシュ",
+      "바나나 피시"
+    ]
+  },
+  {
+    "id": "manga:anilist-41054",
+    "medium": "manga",
+    "title": {
+      "zh": "Billy Bat",
+      "original": "ビリーバット"
+    },
+    "year": 2008,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 28273,
+      "mal": 11054,
+      "anilist": 41054
+    },
+    "wikidata": {
+      "id": "Q594758",
+      "articles": {
+        "ja": "BILLY BAT",
+        "en": "Billy Bat"
+      }
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Billy Bat",
+      "ビリーバット",
+      "BILLY BAT比利蝙蝠"
+    ]
+  },
+  {
+    "id": "manga:anilist-105778",
+    "medium": "manga",
+    "title": {
+      "zh": "Chainsaw Man",
+      "original": "チェンソーマン"
+    },
+    "year": 2018,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 268279,
+      "mal": 116778,
+      "anilist": 105778
+    },
+    "wikidata": {
+      "id": "Q65240543",
+      "articles": {
+        "ja": "チェンソーマン",
+        "en": "Chainsaw Man"
+      }
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Chainsaw Man",
+      "チェンソーマン",
+      "CSM",
+      "رجل المنشار",
+      "Человек-бензопила",
+      "체인소 맨",
+      "鏈鋸人",
+      "电锯人",
+      "มนุษย์เลื่อยยนต์",
+      "Testere Adam"
+    ]
+  },
+  {
+    "id": "manga:anilist-30102",
+    "medium": "manga",
+    "title": {
+      "zh": "Fruits Basket",
+      "original": "フルーツバスケット"
+    },
+    "year": 1998,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 517,
+      "mal": 102,
+      "anilist": 30102
+    },
+    "wikidata": {
+      "id": "Q216204",
+      "articles": {
+        "ja": "フルーツバスケット (漫画)",
+        "en": "Fruits Basket"
+      }
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Fruits Basket",
+      "フルーツバスケット",
+      "Furuba",
+      "Fruba",
+      "フルバ",
+      "水果篮子",
+      "후르츠 바스켓 "
+    ]
+  },
+  {
+    "id": "manga:anilist-146983",
+    "medium": "manga",
+    "title": {
+      "zh": "Goodbye, Eri",
+      "original": "さよなら絵梨"
+    },
+    "year": 2022,
+    "format": "ONE_SHOT",
+    "ids": {
+      "bangumi": 377599,
+      "mal": 145863,
+      "anilist": 146983
+    },
+    "wikidata": {
+      "id": "Q111631438",
+      "articles": {
+        "ja": null,
+        "en": "Goodbye, Eri"
+      }
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Goodbye, Eri",
+      "さよなら絵梨",
+      "Sayonara Eri",
+      "Adiós, Eri",
+      "Adieu, Eri",
+      "Żegnaj, Eri ",
+      "안녕, 에리",
+      "Adeus, Eri",
+      "Tạm biệt Eri",
+      "Elveda Eri"
+    ]
+  },
+  {
+    "id": "manga:anilist-30904",
+    "medium": "manga",
+    "title": {
+      "zh": "Lone Wolf and Cub",
+      "original": "子連れ狼"
+    },
+    "year": 1970,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 87735,
+      "mal": 904,
+      "anilist": 30904
+    },
+    "wikidata": {
+      "id": "Q640785",
+      "articles": {
+        "ja": "子連れ狼",
+        "en": "Lone Wolf and Cub"
+      }
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Lone Wolf and Cub",
+      "子連れ狼",
+      "Kozure Ookami",
+      "Lobo Solitário",
+      "Lobo solitario y su cachorro",
+      "Yalnız Kurt ve Yavrusu",
+      "Samotny wilk i szczenię"
+    ]
+  },
+  {
+    "id": "manga:anilist-86551",
+    "medium": "manga",
+    "title": {
+      "zh": "Made in Abyss",
+      "original": "メイドインアビス"
+    },
+    "year": 2012,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 119393,
+      "mal": 91941,
+      "anilist": 86551
+    },
+    "wikidata": {
+      "id": "Q18335422",
+      "articles": {
+        "ja": "メイドインアビス",
+        "en": "Made in Abyss"
+      }
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Made in Abyss",
+      "メイドインアビス",
+      "Meido in Abisu",
+      "Созданный в Бездне",
+      "ผ่าเหวนรก",
+      "Зроблено в Безодні",
+      "메이드 인 어비스"
+    ]
+  },
+  {
+    "id": "manga:anilist-85189",
+    "medium": "manga",
+    "title": {
+      "zh": "Mob Psycho 100",
+      "original": "モブサイコ100"
+    },
+    "year": 2012,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 64113,
+      "mal": 60783,
+      "anilist": 85189
+    },
+    "wikidata": {
+      "id": "Q11344543",
+      "articles": {
+        "ja": "モブサイコ100",
+        "en": "Mob Psycho 100"
+      }
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Mob Psycho 100",
+      "モブサイコ100",
+      "One Hundred Mob Psycho",
+      "Mob Psycho One Hundred",
+      "100 Mob Psycho",
+      "ม็อบไซโค 100 คนพลังจิต",
+      "Моб Психо 100",
+      "Mob Psycho Hyaku"
+    ]
+  },
+  {
+    "id": "manga:anilist-31859",
+    "medium": "manga",
+    "title": {
+      "zh": "Natsume's Book of Friends",
+      "original": "夏目友人帳"
+    },
+    "year": 2003,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 3821,
+      "mal": 1859,
+      "anilist": 31859
+    },
+    "wikidata": {
+      "id": "Q641767",
+      "articles": {
+        "ja": "夏目友人帳",
+        "en": "Natsume's Book of Friends"
+      }
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Natsume's Book of Friends",
+      "夏目友人帳",
+      "Natsume Yuujinchou",
+      "The Natsume Book of Friends",
+      "Manabiya no Sumi",
+      "Natsu niwa Tameiki wo Tsuku",
+      "Księga Przyjaciół Natsume",
+      "Тетрадь дружбы Нацумэ",
+      "Natsume degli spiriti",
+      "Le Pacte des yôkai",
+      "Pakt der Yokai – Natsume’s Book of Friends"
+    ]
+  },
+  {
+    "id": "manga:anilist-35744",
+    "medium": "manga",
+    "title": {
+      "zh": "Ping Pong",
+      "original": "ピンポン"
+    },
+    "year": 1996,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 28648,
+      "mal": 5744,
+      "anilist": 35744
+    },
+    "wikidata": {
+      "id": "Q837883",
+      "articles": {
+        "ja": "ピンポン (漫画)",
+        "en": "Ping Pong (manga)"
+      }
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Ping Pong",
+      "ピンポン"
+    ]
+  },
+  {
+    "id": "manga:anilist-30745",
+    "medium": "manga",
+    "title": {
+      "zh": "Pluto",
+      "original": "PLUTO"
+    },
+    "year": 2003,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 2140,
+      "mal": 745,
+      "anilist": 30745
+    },
+    "wikidata": {
+      "id": "Q1197216",
+      "articles": {
+        "ja": "PLUTO",
+        "en": "Pluto: Urasawa x Tezuka"
+      }
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Pluto",
+      "PLUTO",
+      "プルートウ",
+      "Pluto: Urasawa x Tezuka",
+      "PLUTO冥王",
+      "플루토"
+    ]
+  },
+  {
+    "id": "manga:anilist-98842",
+    "medium": "manga",
+    "title": {
+      "zh": "Toilet-Bound Hanako-kun",
+      "original": "地縛少年 花子くん"
+    },
+    "year": 2014,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 138475,
+      "mal": 105084,
+      "anilist": 98842
+    },
+    "wikidata": {
+      "id": "Q28684168",
+      "articles": {
+        "ja": "地縛少年花子くん",
+        "en": "Toilet-Bound Hanako-kun"
+      }
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Toilet-Bound Hanako-kun",
+      "地縛少年 花子くん",
+      "Jibaku Shounen Hanako-kun",
+      "지박소년 하나코 군",
+      "Hanako, duch ze szkolnej toalety",
+      "Hanako-Kun e os mistérios do colégio Kamome",
+      "Hanako-Kun, El Fantasma del Lavabo",
+      "地缚少年花子君",
+      "ฮานาโกะคุง วิญญาณติดที่",
+      "Hanako kun - I sette misteri dell'Accademia Kamome",
+      "\"Cậu\" ma nhà xí Hanako",
+      "Туалетний привид Ханако",
+      "Туалетный мальчик Ханако",
+      "Hanako si Arwah Penasaran",
+      "Mein Schulgeist Hanako",
+      "Hanako-Kun y los misterios de la Academia Kamome"
+    ]
+  },
+  {
+    "id": "manga:anilist-85850",
+    "medium": "manga",
+    "title": {
+      "zh": "19 Tian",
+      "original": "19天"
+    },
+    "year": 2014,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": null,
+      "mal": 116312,
+      "anilist": 85850
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "19 Tian",
+      "19天",
+      "19 Days",
+      "19日"
+    ],
+    "wikidata": null
+  },
+  {
+    "id": "manga:anilist-114998",
+    "medium": "manga",
+    "title": {
+      "zh": "Bungo Stray Dogs Beast",
+      "original": "文豪ストレイドッグス　ＢＥＡＳＴ"
+    },
+    "year": 2019,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": null,
+      "mal": 123006,
+      "anilist": 114998
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Bungo Stray Dogs Beast",
+      "文豪ストレイドッグス　ＢＥＡＳＴ",
+      "Bungou Stray Dogs BEAST",
+      "Bungo Stray Dogs BEAST",
+      "BEAST",
+      "문호 스트레이독스 BEAST"
+    ],
+    "wikidata": null
+  },
+  {
+    "id": "manga:anilist-106929",
+    "medium": "manga",
+    "title": {
+      "zh": "Eleceed",
+      "original": "일렉시드"
+    },
+    "year": 2018,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": null,
+      "mal": 147171,
+      "anilist": 106929
+    },
+    "wikidata": {
+      "id": "Q109458954",
+      "articles": {
+        "ja": "エレキシード",
+        "en": "Eleceed"
+      }
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Eleceed",
+      "일렉시드",
+      "Eleceed: Velocidad eléctrica",
+      "觉醒吧，铲屎官！",
+      "覺醒吧！貓奴"
+    ]
+  },
+  {
+    "id": "manga:anilist-101563",
+    "medium": "manga",
+    "title": {
+      "zh": "Grandmaster of Demonic Cultivation: Mo Dao Zu Shi",
+      "original": "魔道祖师"
+    },
+    "year": 2017,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": null,
+      "mal": 137200,
+      "anilist": 101563
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Grandmaster of Demonic Cultivation: Mo Dao Zu Shi",
+      "魔道祖师",
+      "Modao Zushi",
+      "The Founder of Diabolism",
+      "The Grandmaster of Demonic Cultivation",
+      "O Fundador da Cultivação Demoníaca",
+      "마도조사",
+      "赤笛云琴记",
+      "Le Grand Maître de la Cultivation Démoniaque",
+      "Mo Dao Zu Shi"
+    ],
+    "wikidata": null
+  },
+  {
+    "id": "manga:anilist-100805",
+    "medium": "manga",
+    "title": {
+      "zh": "Here U Are",
+      "original": "Here U Are"
+    },
+    "year": 2017,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": null,
+      "mal": 119072,
+      "anilist": 100805
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Here U Are",
+      "Te encontré",
+      "原来你在这里"
+    ],
+    "wikidata": null
+  },
+  {
+    "id": "manga:anilist-132288",
+    "medium": "manga",
+    "title": {
+      "zh": "Hirayasumi",
+      "original": "ひらやすみ"
+    },
+    "year": 2021,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": null,
+      "mal": 137303,
+      "anilist": 132288
+    },
+    "wikidata": {
+      "id": "Q111611202",
+      "articles": {
+        "ja": "ひらやすみ",
+        "en": "Hirayasumi"
+      }
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Hirayasumi",
+      "ひらやすみ",
+      "Hirayasumi: Uma Pausa Relaxante em uma Casa térrea",
+      "平屋慢生活",
+      "Хіраясумі"
+    ]
+  },
+  {
+    "id": "manga:anilist-55515",
+    "medium": "manga",
+    "title": {
+      "zh": "JoJo no Kimyou na Bouken: JoJolion",
+      "original": "ジョジョの奇妙な冒険 ジョジョリオン"
     },
     "year": 2011,
-    "format": "漫画",
+    "format": "MANGA",
     "ids": {
-      "bangumi": 236135,
-      "mal": null,
-      "anilist": null
-    }
+      "bangumi": null,
+      "mal": 25515,
+      "anilist": 55515
+    },
+    "wikidata": {
+      "id": "Q22343522",
+      "articles": {
+        "ja": "ジョジョリオン",
+        "en": "JoJolion"
+      }
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "JoJo no Kimyou na Bouken: JoJolion",
+      "ジョジョの奇妙な冒険 ジョジョリオン",
+      "Dai 8 Bu Jousuke Higashikata",
+      "JoJo's Bizarre Adventure Part 8: Jojolion",
+      "Le bizzarre avventure di JoJo: JoJolion"
+    ]
+  },
+  {
+    "id": "manga:anilist-174875",
+    "medium": "manga",
+    "title": {
+      "zh": "Kimi ni Okuru Eien",
+      "original": "君に贈る永遠"
+    },
+    "year": 2024,
+    "format": "ONE_SHOT",
+    "ids": {
+      "bangumi": null,
+      "mal": 180916,
+      "anilist": 174875
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Kimi ni Okuru Eien",
+      "君に贈る永遠",
+      "The Eternity For You \"The summer you were there\""
+    ],
+    "wikidata": null
+  },
+  {
+    "id": "manga:anilist-74347",
+    "medium": "manga",
+    "title": {
+      "zh": "One-Punch Man",
+      "original": "ワンパンマン"
+    },
+    "year": 2012,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": null,
+      "mal": 44347,
+      "anilist": 74347
+    },
+    "wikidata": {
+      "id": "Q22341690",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "One-Punch Man",
+      "ワンパンマン",
+      "One Punch-Man",
+      "OPM",
+      "One Punch Man",
+      "Wanpanman",
+      "رجل اللكمة الواحدة",
+      "One-Punch Man: Tek Yumruk",
+      "원펀맨",
+      "ONE-PUNCH MAN 一拳超人"
+    ]
+  },
+  {
+    "id": "manga:anilist-85849",
+    "medium": "manga",
+    "title": {
+      "zh": "ReLIFE",
+      "original": "リライフ"
+    },
+    "year": 2013,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": null,
+      "mal": 78523,
+      "anilist": 85849
+    },
+    "wikidata": {
+      "id": "Q17231373",
+      "articles": {
+        "ja": "ReLIFE",
+        "en": "ReLIFE"
+      }
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "ReLIFE",
+      "リライフ",
+      "ReLife",
+      "Re LIFE",
+      "إعادة الحياة",
+      "리라이프",
+      "重生计划"
+    ]
+  },
+  {
+    "id": "manga:anilist-121565",
+    "medium": "manga",
+    "title": {
+      "zh": "Seasons of Blossom",
+      "original": "청춘 블라썸"
+    },
+    "year": 2020,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": null,
+      "mal": 145539,
+      "anilist": 121565
+    },
+    "wikidata": {
+      "id": "Q113187856",
+      "articles": {
+        "ja": null,
+        "en": "Seasons of Blossom"
+      }
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Seasons of Blossom",
+      "청춘 블라썸",
+      "Cheongchun Blossom",
+      "Youth Blossom",
+      "Cheongchun Beullasseom",
+      "青春选择题",
+      "戀愛的季節",
+      "青春ブロッサム",
+      "Temporada de flores"
+    ]
+  },
+  {
+    "id": "manga:anilist-99022",
+    "medium": "manga",
+    "title": {
+      "zh": "The Apothecary Diaries",
+      "original": "薬屋のひとりごと"
+    },
+    "year": 2017,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": null,
+      "mal": 107562,
+      "anilist": 99022
+    },
+    "wikidata": {
+      "id": "Q106090656",
+      "articles": {
+        "ja": null,
+        "en": null
+      }
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "The Apothecary Diaries",
+      "薬屋のひとりごと",
+      "Kusuriya no Hitorigoto",
+      "Zapiski zielarki",
+      "Les Carnets de l'apothicaire",
+      "I diari della speziale",
+      "Dược sư tự sự",
+      "ตำรับปริศนา หมอยาแห่งวังหลัง",
+      "Монолог Травниці",
+      "Diários de Uma Apotecária",
+      "藥師少女的獨語",
+      "药屋少女的呢喃",
+      "Los diarios de la boticaria",
+      "Die Tagebücher der Apothekerin",
+      "Şifacı Günceleri",
+      "약사의 혼잣말"
+    ]
+  },
+  {
+    "id": "manga:anilist-100568",
+    "medium": "manga",
+    "title": {
+      "zh": "The Horizon",
+      "original": "수평선"
+    },
+    "year": 2016,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": null,
+      "mal": 125036,
+      "anilist": 100568
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "The Horizon",
+      "수평선",
+      "Supyeongseon",
+      "Горизонт",
+      "El horizonte",
+      "水平线",
+      "เส้นขอบฟ้า",
+      "Крайнебо",
+      "Horizont"
+    ],
+    "wikidata": null
+  },
+  {
+    "id": "manga:anilist-177706",
+    "medium": "manga",
+    "title": {
+      "zh": "The Knight Only Lives Today",
+      "original": "오늘만 사는 기사"
+    },
+    "year": 2024,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": null,
+      "mal": 170427,
+      "anilist": 177706
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "The Knight Only Lives Today",
+      "오늘만 사는 기사",
+      "Oneulman Saneun Gisa",
+      "Eternally Regressing Knight",
+      "Der Ritter lebt nur heute",
+      "死に戻り騎士は今日も生きる",
+      "只活今天的轮回骑士",
+      "今日騎士",
+      "อัศวินวันเดียว"
+    ],
+    "wikidata": null
+  },
+  {
+    "id": "manga:anilist-119521",
+    "medium": "manga",
+    "title": {
+      "zh": "The Legend of the Northern Blade",
+      "original": "북검전기"
+    },
+    "year": 2019,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": null,
+      "mal": 134744,
+      "anilist": 119521
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "The Legend of the Northern Blade",
+      "북검전기",
+      "Bukgeom Jeongi",
+      "北剑江湖"
+    ],
+    "wikidata": null
+  },
+  {
+    "id": "manga:anilist-136109",
+    "medium": "manga",
+    "title": {
+      "zh": "The Moon on a Rainy Night",
+      "original": "雨夜の月"
+    },
+    "year": 2021,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": null,
+      "mal": 142310,
+      "anilist": 136109
+    },
+    "wikidata": {
+      "id": "Q117478012",
+      "articles": {
+        "ja": "雨夜の月",
+        "en": "The Moon on a Rainy Night"
+      }
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "The Moon on a Rainy Night",
+      "雨夜の月",
+      "Amayo no Tsuki",
+      "La luna en una noche de lluvia",
+      "雨夜之月",
+      "Der Mond in einer Regennacht",
+      "Vầng trăng đêm ",
+      "비 오는 밤의 달"
+    ]
+  },
+  {
+    "id": "manga:anilist-86099",
+    "medium": "manga",
+    "title": {
+      "zh": "Wind Breaker",
+      "original": "윈드브레이커"
+    },
+    "year": 2013,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": null,
+      "mal": 103237,
+      "anilist": 86099
+    },
+    "wikidata": {
+      "id": "Q122227187",
+      "articles": {
+        "ja": null,
+        "en": "Wind Breaker (manhwa)"
+      }
+    },
+    "scores": {
+      "anilist": 8.5
+    },
+    "aliases": [
+      "Wind Breaker",
+      "윈드브레이커",
+      "ウインドブレーカー",
+      "冲锋衣",
+      "衝鋒衣",
+      "ปั่นสู้ฝัน Wind Breaker"
+    ]
+  },
+  {
+    "id": "manga:anilist-30664",
+    "medium": "manga",
+    "title": {
+      "zh": "Akira",
+      "original": "AKIRA"
+    },
+    "year": 1982,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 25487,
+      "mal": 664,
+      "anilist": 30664
+    },
+    "wikidata": {
+      "id": "Q91486",
+      "articles": {
+        "ja": "AKIRA (漫画)",
+        "en": "Akira (manga)"
+      }
+    },
+    "scores": {
+      "anilist": 8.4
+    },
+    "aliases": [
+      "Akira",
+      "AKIRA",
+      "アキラ"
+    ]
+  },
+  {
+    "id": "manga:anilist-53390",
+    "medium": "manga",
+    "title": {
+      "zh": "Attack on Titan",
+      "original": "進撃の巨人"
+    },
+    "year": 2009,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 8491,
+      "mal": 23390,
+      "anilist": 53390
+    },
+    "wikidata": {
+      "id": "Q586025",
+      "articles": {
+        "ja": "進撃の巨人",
+        "en": "Attack on Titan"
+      }
+    },
+    "scores": {
+      "anilist": 8.4
+    },
+    "aliases": [
+      "Attack on Titan",
+      "進撃の巨人",
+      "Shingeki no Kyojin",
+      "Atak Tytanów",
+      "SnK",
+      "AoT",
+      "Ataque dos Titãs",
+      "Ataque a los Titanes",
+      "L'Attacco dei Giganti",
+      "Titana Saldırı",
+      "Útok titánů",
+      "Titaanien sota - Attack on Titan",
+      "Атака на титанов",
+      "Napad titana",
+      "ผ่าพิภพไททัน",
+      "L'Attaque des Titans",
+      "Atacul Titanilor",
+      "進擊的巨人",
+      "진격의 거인",
+      "Đại chiến Titan",
+      " Ataque de los Titanes",
+      "Atac als Titans",
+      "Атака титанів",
+      "Атаката на титаните"
+    ]
+  },
+  {
+    "id": "manga:anilist-86890",
+    "medium": "manga",
+    "title": {
+      "zh": "Blue Giant",
+      "original": "BLUE GIANT"
+    },
+    "year": 2013,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 129441,
+      "mal": 85719,
+      "anilist": 86890
+    },
+    "wikidata": {
+      "id": "Q21019487",
+      "articles": {
+        "ja": "BLUE GIANT",
+        "en": "Blue Giant (manga)"
+      }
+    },
+    "scores": {
+      "anilist": 8.4
+    },
+    "aliases": [
+      "Blue Giant",
+      "BLUE GIANT",
+      "블루 자이언트",
+      "蓝巨人",
+      "ブルージャイアント",
+      "Blue Giant Tokubetsu-hen",
+      "BLUE GIANT 特別編",
+      "ブルージャイント"
+    ]
+  },
+  {
+    "id": "manga:anilist-30021",
+    "medium": "manga",
+    "title": {
+      "zh": "Death Note",
+      "original": "DEATH NOTE"
+    },
+    "year": 2003,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 1674,
+      "mal": 21,
+      "anilist": 30021
+    },
+    "wikidata": {
+      "id": "Q1834",
+      "articles": {
+        "ja": "DEATH NOTE",
+        "en": "Death Note"
+      }
+    },
+    "scores": {
+      "anilist": 8.4
+    },
+    "aliases": [
+      "Death Note",
+      "DEATH NOTE",
+      "デスノート",
+      "Ölüm Defteri",
+      "Death Note - Zápisník smrti",
+      "Beležnica smrti",
+      "Τετράδιο θανάτου",
+      "Death Note: Тетрадка на смъртта",
+      "死亡筆記本",
+      "데스노트"
+    ]
+  },
+  {
+    "id": "manga:anilist-87347",
+    "medium": "manga",
+    "title": {
+      "zh": "Given",
+      "original": "ギヴン"
+    },
+    "year": 2013,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 124842,
+      "mal": 79085,
+      "anilist": 87347
+    },
+    "wikidata": {
+      "id": "Q62065509",
+      "articles": {
+        "ja": "ギヴン",
+        "en": "Given (manga)"
+      }
+    },
+    "scores": {
+      "anilist": 8.4
+    },
+    "aliases": [
+      "Given",
+      "ギヴン",
+      "GIVEN 被贈與的未來",
+      "기븐-given-"
+    ]
+  },
+  {
+    "id": "manga:anilist-30698",
+    "medium": "manga",
+    "title": {
+      "zh": "Neon Genesis Evangelion",
+      "original": "新世紀エヴァンゲリオン"
+    },
+    "year": 1994,
+    "format": "MANGA",
+    "ids": {
+      "bangumi": 6133,
+      "mal": 698,
+      "anilist": 30698
+    },
+    "wikidata": {
+      "id": "Q1977621",
+      "articles": {
+        "ja": "新世紀エヴァンゲリオン (漫画)",
+        "en": "Neon Genesis Evangelion (manga)"
+      }
+    },
+    "scores": {
+      "anilist": 8.4
+    },
+    "aliases": [
+      "Neon Genesis Evangelion",
+      "新世紀エヴァンゲリオン",
+      "Shin Seiki Evangelion",
+      "Shinseiki Evangelion",
+      "Neogénesis Evangelion",
+      "เอวานเกเลี่ยน",
+      "Новый век: Евангелион",
+      "신세기 에반게리온",
+      "新世紀福音戰士"
+    ]
   }
 ]

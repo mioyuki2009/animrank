@@ -130,6 +130,13 @@ export function validateGenerated(items, config) {
       );
       assert(item.commercial.perVolume === expected, `Per-volume mismatch: ${item.id}`, errors);
     }
+    if (item.medium === "anime" && item.commercial) {
+      const totalValid = Number.isInteger(item.commercial.unitsTotal) &&
+        item.commercial.unitsTotal > 0;
+      const averageValid = Number.isFinite(item.commercial.unitsPerVolume) &&
+        item.commercial.unitsPerVolume > 0;
+      assert(totalValid || averageValid, `Invalid anime commercial data: ${item.id}`, errors);
+    }
   }
 
   return errors;
