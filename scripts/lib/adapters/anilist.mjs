@@ -24,49 +24,52 @@ export async function fetchAniList(titles) {
     );
     if (selected.length === 0) continue;
 
-    try {
-      const data = await fetchJson("https://graphql.anilist.co", {
-        method: "POST",
-        headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify({
-          query,
-          variables: {
-            ids: selected.map((item) => item.ids.anilist),
-            type: medium === "anime" ? "ANIME" : "MANGA",
-          },
-        }),
-      });
-
-      if (data.errors?.length) {
-        throw new Error(data.errors.map((error) => error.message).join("; "));
-      }
-
-      const byId = new Map(data.data.Page.media.map((item) => [item.id, item]));
-      for (const title of selected) {
-        const item = byId.get(title.ids.anilist);
-        if (!item || !Number.isFinite(item.averageScore)) continue;
-        const votes = item.stats.scoreDistribution.reduce(
-          (total, bucket) => total + bucket.amount,
-          0,
-        );
-        if (votes <= 0) continue;
-
-        ratings.set(title.id, {
-          rating: {
-            raw: item.averageScore,
-            scale: 100,
-            votes,
-            url: item.siteUrl || `https://anilist.co/${medium}/${title.ids.anilist}`,
-            fetchedAt: new Date().toISOString(),
-            via: "AniList GraphQL API",
-            stale: false,
-          },
-          cover: item.coverImage?.extraLarge || item.coverImage?.large || null,
-          color: item.coverImage?.color || null,
+    for (let offset = 0; offset < selected.length; offset += 50) {
+      const batch = selected.slice(offset, offset + 50);
+      try {
+        const data = await fetchJson("https://graphql.anilist.co", {
+          method: "POST",
+          headers: { "Content-Type": "application/json", Accept: "application/json" },
+          body: JSON.stringify({
+            query,
+            variables: {
+              ids: batch.map((item) => item.ids.anilist),
+              type: medium === "anime" ? "ANIME" : "MANGA",
+            },
+          }),
         });
+
+        if (data.errors?.length) {
+          throw new Error(data.errors.map((error) => error.message).join("; "));
+        }
+
+        const byId = new Map((data.data?.Page?.media || []).map((item) => [item.id, item]));
+        for (const title of batch) {
+          const item = byId.get(title.ids.anilist);
+          if (!item || !Number.isFinite(item.averageScore)) continue;
+          const votes = (item.stats?.scoreDistribution || []).reduce(
+            (total, bucket) => total + bucket.amount,
+            0,
+          );
+          if (votes <= 0) continue;
+
+          ratings.set(title.id, {
+            rating: {
+              raw: item.averageScore,
+              scale: 100,
+              votes,
+              url: item.siteUrl || `https://anilist.co/${medium}/${title.ids.anilist}`,
+              fetchedAt: new Date().toISOString(),
+              via: "AniList GraphQL API",
+              stale: false,
+            },
+            cover: item.coverImage?.extraLarge || item.coverImage?.large || null,
+            color: item.coverImage?.color || null,
+          });
+        }
+      } catch (error) {
+        for (const title of batch) errors.push({ id: title.id, message: error.message });
       }
-    } catch (error) {
-      for (const title of selected) errors.push({ id: title.id, message: error.message });
     }
   }
 

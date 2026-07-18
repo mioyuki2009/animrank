@@ -9,9 +9,21 @@ function searchableText(item) {
 
 export function commercialValue(item) {
   if (!item.commercial) return null;
-  return item.medium === "anime"
-    ? item.commercial.unitsPerVolume
-    : item.commercial.perVolume;
+  const value =
+    item.medium === "anime"
+      ? item.commercial.unitsPerVolume
+      : item.commercial.perVolume;
+  return Number.isFinite(value) ? value : null;
+}
+
+export function ratingValue(item, source) {
+  const rating = item.ratings?.[source];
+  if (!rating) return null;
+  if (Number.isFinite(rating.normalized)) return rating.normalized;
+  if (Number.isFinite(rating.raw) && Number.isFinite(rating.scale) && rating.scale > 0) {
+    return (10 * rating.raw) / rating.scale;
+  }
+  return null;
 }
 
 function numericCompare(left, right, direction) {
@@ -46,6 +58,8 @@ export function filterAndSort(items, options = {}) {
       compared = numericCompare(left.score.value, right.score.value, direction);
     } else if (sort === "commercial") {
       compared = numericCompare(commercialValue(left), commercialValue(right), direction);
+    } else if (["bangumi", "mal", "anilist"].includes(sort)) {
+      compared = numericCompare(ratingValue(left, sort), ratingValue(right, sort), direction);
     } else if (sort === "year") {
       compared = numericCompare(left.year, right.year, direction);
     } else if (sort === "sources") {

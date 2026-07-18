@@ -1,32 +1,51 @@
 {
-  "generatedAt": "2026-07-18T05:36:20.816Z",
+  "generatedAt": "2026-07-18T06:05:41.138Z",
   "algorithmVersion": "1.0.0",
-  "minimumSources": 2,
+  "minimumSources": 1,
   "staleAfterDays": 14,
   "calibration": "identity-fallback",
+  "catalog": {
+    "limits": {
+      "anime": 100,
+      "manga": 100
+    },
+    "received": {
+      "anime": 100,
+      "manga": 100
+    },
+    "discoverySources": {
+      "anime:anilist": "ok",
+      "anime:mal": "partial",
+      "anime:bangumi": "error",
+      "manga:anilist": "ok",
+      "manga:mal": "partial",
+      "manga:bangumi": "error"
+    },
+    "discoveryErrors": 4
+  },
   "sources": {
     "bangumi": {
-      "status": "ok",
+      "status": "error",
       "via": "Bangumi API v0",
-      "received": 18,
-      "errors": 0,
-      "lastSuccessAt": "2026-07-18T05:35:58.443Z",
-      "message": null
+      "received": 0,
+      "errors": 2,
+      "lastSuccessAt": "2026-07-17T11:13:34.362Z",
+      "message": "anime: page 1: Network error while fetching https://api.bgm.tv/v0/subjects?type=2&sort=rank&limit=100&offset=0"
     },
     "mal": {
       "status": "partial",
-      "via": "Jikan (MAL mirror)",
-      "received": 14,
-      "errors": 4,
-      "lastSuccessAt": "2026-07-18T05:36:09.558Z",
-      "message": "504 Gateway Time-out from https://api.jikan.moe/v4/manga/1: {\"status\":504,\"type\":\"BadResponseException\",\"message\":\"Jikan failed to connect to MyAnimeList. MyAnimeList may be down\\/unavailable or refuses to connect\",\"error\":null}"
+      "via": "catalog discovery",
+      "received": 127,
+      "errors": 74,
+      "lastSuccessAt": "2026-07-18T06:05:36.810Z",
+      "message": "anime: page 5: 504 Gateway Time-out from https://api.jikan.moe/v4/top/anime?limit=25&page=5: {\"status\":504,\"type\":\"BadResponseException\",\"message\":\"Jikan failed to connect to MyAnimeList. MyAnimeList may be down\\/unavailable or refuses to connect\",\"error\":null}"
     },
     "anilist": {
       "status": "ok",
-      "via": "AniList GraphQL API",
-      "received": 18,
+      "via": "catalog discovery",
+      "received": 198,
       "errors": 0,
-      "lastSuccessAt": "2026-07-18T05:35:55.717Z",
+      "lastSuccessAt": "2026-07-18T06:05:36.809Z",
       "message": null
     }
   }

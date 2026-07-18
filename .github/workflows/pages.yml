@@ -47,7 +47,7 @@ jobs:
         continue-on-error: true
         shell: bash
         run: |
-          if git diff --quiet -- public/data; then
+          if [ -z "$(git status --porcelain -- public/data)" ]; then
             exit 0
           fi
           git config user.name "github-actions[bot]"

@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 import { fetchAniList } from "./lib/adapters/anilist.mjs";
 import { fetchBangumi } from "./lib/adapters/bangumi.mjs";
 import { fetchMal } from "./lib/adapters/mal.mjs";
+import { discoverCatalog } from "./lib/discover.mjs";
 import { calculateScore } from "./lib/score.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -30,6 +31,28 @@ function adapterFailure(key, error) {
     errors: [{ id: null, message: error.message }],
     status: "error",
     via: "unavailable",
+  };
+}
+
+function mergeSourceResult(key, discovered, adapter) {
+  const ratings = new Map(discovered.ratings[key]);
+  for (const [id, record] of adapter.ratings) ratings.set(id, record);
+
+  const discoveryErrors = discovered.errors
+    .filter((error) => error.source === key)
+    .map((error) => ({ id: null, message: `${error.medium}: ${error.message}` }));
+  const errors = [...discoveryErrors, ...adapter.errors];
+  const usedDiscovery = discovered.ratings[key].size > 0;
+  const via = [usedDiscovery ? "catalog discovery" : null, adapter.ratings.size ? adapter.via : null]
+    .filter(Boolean)
+    .join(" + ") || adapter.via;
+
+  return {
+    key,
+    ratings,
+    errors,
+    status: errors.length === 0 ? "ok" : ratings.size > 0 ? "partial" : "error",
+    via,
   };
 }
 
@@ -69,31 +92,53 @@ function newestTimestamp(values) {
 }
 
 export async function refreshData() {
-  const [config, titles, editorial, oldAnime, oldManga, oldMetadata] =
-    await Promise.all([
-      readJson("config/sources.json"),
-      readJson("config/titles.json"),
-      readJson("data/editorial.json"),
-      readJson("public/data/anime.json", []),
-      readJson("public/data/manga.json", []),
-      readJson("public/data/metadata.json", {}),
-    ]);
+  const [
+    config,
+    catalogConfig,
+    editorial,
+    oldAnime,
+    oldManga,
+    oldMetadata,
+    oldCatalog,
+  ] = await Promise.all([
+    readJson("config/sources.json"),
+    readJson("config/catalog.json"),
+    readJson("data/editorial.json"),
+    readJson("public/data/anime.json", []),
+    readJson("public/data/manga.json", []),
+    readJson("public/data/metadata.json", {}),
+    readJson("public/data/catalog.json", []),
+  ]);
 
   const previous = new Map(
     [...oldAnime, ...oldManga].map((item) => [item.id, item]),
   );
+  const discovered = await discoverCatalog(catalogConfig, oldCatalog);
+  const titles = [...discovered.anime, ...discovered.manga];
+  const pending = Object.fromEntries(
+    sourceKeys.map((source) => [
+      source,
+      titles.filter(
+        (title) =>
+          title.ids[source] !== null &&
+          !discovered.ratings[source].has(title.id),
+      ),
+    ]),
+  );
 
   const settled = await Promise.allSettled([
-    fetchBangumi(titles),
-    fetchMal(titles),
-    fetchAniList(titles),
+    fetchBangumi(pending.bangumi),
+    fetchMal(pending.mal),
+    fetchAniList(pending.anilist),
   ]);
   const adapterKeys = ["bangumi", "mal", "anilist"];
-  const results = settled.map((result, index) =>
-    result.status === "fulfilled"
-      ? result.value
-      : adapterFailure(adapterKeys[index], result.reason),
-  );
+  const results = settled.map((result, index) => {
+    const adapter =
+      result.status === "fulfilled"
+        ? result.value
+        : adapterFailure(adapterKeys[index], result.reason);
+    return mergeSourceResult(adapterKeys[index], discovered, adapter);
+  });
   const bySource = Object.fromEntries(results.map((result) => [result.key, result]));
 
   const generated = titles.map((title) => {
@@ -140,7 +185,7 @@ export async function refreshData() {
       cover,
       ratings: calculated.ratings,
       score: calculated.score,
-      commercial: commercialFor(title, editorial),
+      commercial: commercialFor(title, editorial) || oldItem?.commercial || null,
     };
   });
 
@@ -156,6 +201,12 @@ export async function refreshData() {
     minimumSources: config.minimumSources,
     staleAfterDays: config.staleAfterDays,
     calibration: "identity-fallback",
+    catalog: {
+      limits: catalogConfig,
+      received: { anime: discovered.anime.length, manga: discovered.manga.length },
+      discoverySources: discovered.sources,
+      discoveryErrors: discovered.errors.length,
+    },
     sources: Object.fromEntries(
       results.map((result) => {
         const freshTimes = [...result.ratings.values()].map(
@@ -188,6 +239,7 @@ export async function refreshData() {
   await Promise.all([
     writeJson("public/data/anime.json", anime),
     writeJson("public/data/manga.json", manga),
+    writeJson("public/data/catalog.json", titles),
     writeJson("public/data/metadata.json", metadata),
   ]);
 

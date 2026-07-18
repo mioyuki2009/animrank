@@ -3,7 +3,7 @@ import test from "node:test";
 import { calculateScore, normalizeRating } from "../scripts/lib/score.mjs";
 
 const config = {
-  minimumSources: 2,
+  minimumSources: 1,
   prior: { mean: 6.5, weight: 0.05 },
   targetDistribution: {
     median: 6.5,
@@ -54,11 +54,11 @@ test("85/100 and 8.5/10 normalize to the same score", () => {
   assert.equal(tenPoint.normalized, hundredPoint.normalized);
 });
 
-test("missing sources do not count as zero", () => {
+test("missing sources are omitted from the average", () => {
   const result = calculateScore({ a: rating(9), b: null, c: null }, "anime", config);
-  assert.equal(result.score.value, null);
-  assert.equal(result.score.status, "single-source");
+  assert.equal(result.score.status, "ranked");
   assert.equal(result.score.sourceCount, 1);
+  assert.ok(result.score.value > 8 && result.score.value < 9);
 });
 
 test("two mature sources produce a bounded final score", () => {

@@ -41,7 +41,13 @@ export async function fetchBangumi(titles) {
       }
     } catch (error) {
       errors.push({ id: title.id, message: error.message });
-      if (!error.status) networkUnavailable = true;
+      if (
+        !error.status ||
+        [401, 403, 429].includes(error.status) ||
+        error.status >= 500
+      ) {
+        networkUnavailable = true;
+      }
     }
   }
 

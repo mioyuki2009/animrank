@@ -24,7 +24,7 @@ const state = {
   coverage: ["all", "ranked", "complete", "missing"].includes(params.get("coverage"))
     ? params.get("coverage")
     : "all",
-  sort: ["score", "commercial", "year", "sources", "title"].includes(params.get("sort"))
+  sort: ["score", "bangumi", "mal", "anilist", "commercial"].includes(params.get("sort"))
     ? params.get("sort")
     : "score",
   direction: params.get("direction") === "asc" ? "asc" : "desc",
@@ -109,12 +109,25 @@ function commercialMarkup(item) {
   return `<strong>${compactNumber.format(value)}</strong><small>${item.medium === "anime" ? "张 / 卷" : "册 / 卷"}</small>`;
 }
 
+function hasCurrentSortValue(item) {
+  if (state.sort === "score") return item.score.value !== null;
+  if (state.sort === "commercial") return commercialValue(item) !== null;
+  if (sourceOrder.includes(state.sort)) {
+    return item.ratings[state.sort]?.normalized !== undefined;
+  }
+  return true;
+}
+
 function rowMarkup(item, index) {
   const final = item.score.value === null ? "-" : item.score.value.toFixed(2);
   const scoreClass = item.score.value >= 8.5 ? "excellent" : item.score.value >= 7.5 ? "strong" : "";
+  const coverage = Math.round((item.score.coverage || 0) * 100);
+  const rank = hasCurrentSortValue(item)
+    ? index + 1
+    : '<span class="missing-value">-</span>';
   return `
     <tr>
-      <td class="rank-cell" data-label="排名">${index + 1}</td>
+      <td class="rank-cell" data-label="排名">${rank}</td>
       <td class="work-cell" data-label="作品">
         ${coverMarkup(item)}
         <span class="work-copy">
@@ -125,8 +138,11 @@ function rowMarkup(item, index) {
       </td>
       ${sourceOrder.map((source) => ratingCell(source, item.ratings[source])).join("")}
       <td class="final-cell ${scoreClass}" data-label="综合">
-        <strong>${final}</strong>
-        <small>${item.score.sourceCount} / 3 源</small>
+        <span class="final-score-line"><strong>${final}</strong><em>/10</em></span>
+        <span class="source-meter" aria-label="${item.score.sourceCount} / 3 个来源，覆盖 ${coverage}%">
+          <i style="--coverage:${coverage}%"></i>
+          <small>${item.score.sourceCount} / 3 来源</small>
+        </span>
       </td>
       <td class="commercial-cell" data-label="${item.medium === "anime" ? "影碟卷均" : "卷均发行"}">
         ${commercialMarkup(item)}
@@ -200,7 +216,7 @@ function render() {
 
 function sourceDetail(source, rating) {
   if (!rating) {
-    return `<tr><th scope="row">${sourceLabels[source]}</th><td class="missing-value">-</td><td>-</td><td>-</td></tr>`;
+    return `<tr><th scope="row">${sourceLabels[source]}</th><td class="missing-value">-</td><td>-</td><td>-</td><td>-</td></tr>`;
   }
   return `
     <tr>

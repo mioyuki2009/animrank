@@ -66,3 +66,65 @@ test("commercial helper and stale dates are deterministic", () => {
     true,
   );
 });
+const sourceItems = [
+  {
+    id: "anime:source-a",
+    medium: "anime",
+    title: { zh: "源甲", original: "Source A" },
+    year: 2020,
+    format: "TV",
+    score: { value: 8, sourceCount: 3, status: "ranked" },
+    ratings: {
+      bangumi: { raw: 8.8, scale: 10, normalized: 8.8 },
+      mal: { raw: 8.5, scale: 10, normalized: 8.5 },
+      anilist: { raw: 90, scale: 100, normalized: 9 },
+    },
+    commercial: { unitsPerVolume: 1000 },
+  },
+  {
+    id: "anime:source-b",
+    medium: "anime",
+    title: { zh: "源乙", original: "Source B" },
+    year: 2020,
+    format: "TV",
+    score: { value: 7, sourceCount: 2, status: "ranked" },
+    ratings: {
+      bangumi: { raw: 7.2, scale: 10, normalized: 7.2 },
+      mal: { raw: 7.8, scale: 10, normalized: 7.8 },
+      anilist: { raw: 80, scale: 100, normalized: 8 },
+    },
+    commercial: { unitsPerVolume: 500 },
+  },
+  {
+    id: "anime:source-missing",
+    medium: "anime",
+    title: { zh: "源缺失", original: "Source Missing" },
+    year: 2020,
+    format: "TV",
+    score: { value: null, sourceCount: 0, status: "unrated" },
+    ratings: { bangumi: null, mal: null, anilist: null },
+    commercial: null,
+  },
+];
+
+test("source score sorts use normalized ten-point values and keep missing last", () => {
+  assert.deepEqual(
+    filterAndSort(sourceItems, { sort: "anilist", direction: "desc" }).map((item) => item.id),
+    ["anime:source-a", "anime:source-b", "anime:source-missing"],
+  );
+  assert.deepEqual(
+    filterAndSort(sourceItems, { sort: "bangumi", direction: "asc" }).map((item) => item.id),
+    ["anime:source-b", "anime:source-a", "anime:source-missing"],
+  );
+});
+
+test("commercial sorting keeps missing values at the bottom in both directions", () => {
+  assert.deepEqual(
+    filterAndSort(sourceItems, { sort: "commercial", direction: "desc" }).map((item) => item.id),
+    ["anime:source-a", "anime:source-b", "anime:source-missing"],
+  );
+  assert.deepEqual(
+    filterAndSort(sourceItems, { sort: "commercial", direction: "asc" }).map((item) => item.id),
+    ["anime:source-b", "anime:source-a", "anime:source-missing"],
+  );
+});

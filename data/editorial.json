@@ -1,7 +1,7 @@
 {
   "anime": {},
   "manga": {
-    "manga:one-piece": {
+    "manga:anilist-30013": {
       "circulation": 516566000,
       "volumesAtAnnouncement": 103,
       "asOf": "2022-08-04",
@@ -10,7 +10,7 @@
       "sourceUrl": "https://en.wikipedia.org/wiki/One_Piece",
       "sourceLabel": "One Piece - circulation (source summary)"
     },
-    "manga:fullmetal-alchemist": {
+    "manga:anilist-30025": {
       "circulation": 80000000,
       "volumesAtAnnouncement": 27,
       "asOf": "2021-07-12",

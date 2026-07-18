@@ -1,5 +1,15 @@
 const sourceKeys = ["bangumi", "mal", "anilist"];
 
+export function validateCatalogConfig(config) {
+  const errors = [];
+  assert(config && typeof config === "object" && !Array.isArray(config), "Catalog config must be an object", errors);
+  for (const medium of ["anime", "manga"]) {
+    const value = config?.[medium];
+    assert(Number.isInteger(value) && value > 0 && value <= 500, `Invalid ${medium} catalog limit`, errors);
+  }
+  return errors;
+}
+
 function assert(condition, message, errors) {
   if (!condition) errors.push(message);
 }
@@ -17,6 +27,16 @@ function isHttpUrl(value) {
   }
 }
 
+function isExcludedFormat(medium, format) {
+  const normalized = String(format || "")
+    .trim()
+    .toLocaleUpperCase("en-US")
+    .replace(/[\s-]+/g, "_");
+  return medium === "manga"
+    ? ["NOVEL", "LIGHT_NOVEL", "小说", "轻小说", "ライトノベル"].includes(normalized)
+    : ["MUSIC", "CM", "PV"].includes(normalized);
+}
+
 export function validateCatalog(titles) {
   const errors = [];
   const ids = new Set();
@@ -29,6 +49,7 @@ export function validateCatalog(titles) {
     assert(item.id.startsWith(`${item.medium}:`), `ID/medium mismatch: ${item.id}`, errors);
     assert(Boolean(item.title?.zh && item.title?.original), `Missing title: ${item.id}`, errors);
     assert(Number.isInteger(item.year) && item.year > 1900, `Invalid year: ${item.id}`, errors);
+    assert(!isExcludedFormat(item.medium, item.format), `Excluded format: ${item.id}`, errors);
     for (const source of sourceKeys) {
       const value = item.ids?.[source];
       assert(
@@ -38,8 +59,8 @@ export function validateCatalog(titles) {
       );
     }
     assert(
-      sourceKeys.filter((source) => item.ids?.[source] !== null).length >= 2,
-      `Fewer than two mapped sources: ${item.id}`,
+      sourceKeys.filter((source) => item.ids?.[source] !== null).length >= 1,
+      `No mapped source: ${item.id}`,
       errors,
     );
   }
@@ -49,11 +70,11 @@ export function validateCatalog(titles) {
 
 export function validateEditorial(editorial, titles) {
   const errors = [];
-  const catalogIds = new Set(titles.map((item) => item.id));
 
   for (const medium of ["anime", "manga"]) {
     for (const [id, item] of Object.entries(editorial[medium] || {})) {
-      assert(catalogIds.has(id), `Editorial item is not in catalog: ${id}`, errors);
+      // Editorial audits may outlive the current capped catalog; they are
+      // applied when a matching discovered ID returns to the list.
       assert(id.startsWith(`${medium}:`), `Editorial medium mismatch: ${id}`, errors);
       assert(isIsoDate(item.asOf), `Invalid editorial date: ${id}`, errors);
       assert(isHttpUrl(item.sourceUrl), `Invalid editorial source URL: ${id}`, errors);

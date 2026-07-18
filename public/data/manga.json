@@ -1,9 +1,9 @@
 [
   {
-    "id": "manga:berserk",
+    "id": "manga:anilist-30002",
     "medium": "manga",
     "title": {
-      "zh": "剑风传奇",
+      "zh": "Berserk",
       "original": "ベルセルク"
     },
     "year": 1989,
@@ -14,25 +14,13 @@
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": {
-        "raw": 9.3,
-        "scale": 10,
-        "votes": 3075,
-        "url": "https://bgm.tv/subject/9640",
-        "fetchedAt": "2026-07-18T05:35:57.290Z",
-        "via": "Bangumi API v0",
-        "stale": false,
-        "normalized": 9.3,
-        "voteConfidence": 0.9447,
-        "effectiveWeight": 0.2267,
-        "calibrationMode": "identity-fallback"
-      },
+      "bangumi": null,
       "mal": {
         "raw": 9.46,
         "scale": 10,
-        "votes": 401668,
+        "votes": 401736,
         "url": "https://myanimelist.net/manga/2/Berserk",
-        "fetchedAt": "2026-07-18T05:36:04.281Z",
+        "fetchedAt": "2026-07-18T06:05:36.809Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 9.46,
@@ -45,7 +33,7 @@
         "scale": 100,
         "votes": 82443,
         "url": "https://anilist.co/manga/30002",
-        "fetchedAt": "2026-07-18T05:35:55.717Z",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 9.2,
@@ -55,83 +43,71 @@
       }
     },
     "score": {
-      "value": 9.0958,
-      "sourceCount": 3,
-      "coverage": 1,
-      "totalWeight": 0.5822,
+      "value": 8.9817,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3555,
       "status": "ranked"
     },
     "commercial": null
   },
   {
-    "id": "manga:slam-dunk",
+    "id": "manga:anilist-31706",
     "medium": "manga",
     "title": {
-      "zh": "灌篮高手",
-      "original": "SLAM DUNK"
+      "zh": "JoJo's Bizarre Adventure: Part 7–Steel Ball Run",
+      "original": "ジョジョの奇妙な冒険 スティール・ボール・ラン"
     },
-    "year": 1990,
+    "year": 2004,
     "format": "MANGA",
     "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30051-5KJyPlO7z5F4.png",
-      "color": "#f18650",
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx31706-lRncu9VbcBB7.png",
+      "color": "#c9e45d",
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": {
-        "raw": 9.3,
-        "scale": 10,
-        "votes": 1057,
-        "url": "https://bgm.tv/subject/36752",
-        "fetchedAt": "2026-07-18T05:35:57.923Z",
-        "via": "Bangumi API v0",
-        "stale": false,
-        "normalized": 9.3,
-        "voteConfidence": 0.8545,
-        "effectiveWeight": 0.2051,
-        "calibrationMode": "identity-fallback"
-      },
+      "bangumi": null,
       "mal": {
-        "raw": 9.09,
+        "raw": 9.34,
         "scale": 10,
-        "votes": 89593,
-        "url": "https://myanimelist.net/manga/51/Slam_Dunk",
-        "fetchedAt": "2026-07-18T05:36:09.558Z",
+        "votes": 203509,
+        "url": "https://myanimelist.net/manga/1706/JoJo_no_Kimyou_na_Bouken_Part_7__Steel_Ball_Run",
+        "fetchedAt": "2026-07-18T06:05:36.809Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
-        "normalized": 9.09,
-        "voteConfidence": 0.9676,
-        "effectiveWeight": 0.1742,
+        "normalized": 9.34,
+        "voteConfidence": 0.9855,
+        "effectiveWeight": 0.1774,
         "calibrationMode": "identity-fallback"
       },
       "anilist": {
-        "raw": 90,
+        "raw": 92,
         "scale": 100,
-        "votes": 22010,
-        "url": "https://anilist.co/manga/30051",
-        "fetchedAt": "2026-07-18T05:35:55.717Z",
+        "votes": 49989,
+        "url": "https://anilist.co/manga/31706",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
         "via": "AniList GraphQL API",
         "stale": false,
-        "normalized": 9,
-        "voteConfidence": 0.9362,
-        "effectiveWeight": 0.1685,
+        "normalized": 9.2,
+        "voteConfidence": 0.9709,
+        "effectiveWeight": 0.1748,
         "calibrationMode": "identity-fallback"
       }
     },
     "score": {
-      "value": 8.9201,
-      "sourceCount": 3,
-      "coverage": 1,
-      "totalWeight": 0.5478,
+      "value": 8.9261,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3522,
       "status": "ranked"
     },
     "commercial": null
   },
   {
-    "id": "manga:vagabond",
+    "id": "manga:anilist-30656",
     "medium": "manga",
     "title": {
-      "zh": "浪客行",
+      "zh": "Vagabond",
       "original": "バガボンド"
     },
     "year": 1998,
@@ -142,25 +118,13 @@
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": {
-        "raw": 8.9,
-        "scale": 10,
-        "votes": 1215,
-        "url": "https://bgm.tv/subject/32435",
-        "fetchedAt": "2026-07-18T05:35:57.762Z",
-        "via": "Bangumi API v0",
-        "stale": false,
-        "normalized": 8.9,
-        "voteConfidence": 0.871,
-        "effectiveWeight": 0.209,
-        "calibrationMode": "identity-fallback"
-      },
+      "bangumi": null,
       "mal": {
         "raw": 9.27,
         "scale": 10,
         "votes": 177338,
         "url": "https://myanimelist.net/manga/656/Vagabond",
-        "fetchedAt": "2026-07-18T05:36:08.987Z",
+        "fetchedAt": "2026-07-18T06:05:36.809Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 9.27,
@@ -173,7 +137,7 @@
         "scale": 100,
         "votes": 43631,
         "url": "https://anilist.co/manga/30656",
-        "fetchedAt": "2026-07-18T05:35:55.717Z",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 9.1,
@@ -183,19 +147,19 @@
       }
     },
     "score": {
-      "value": 8.8677,
-      "sourceCount": 3,
-      "coverage": 1,
-      "totalWeight": 0.56,
+      "value": 8.8508,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.351,
       "status": "ranked"
     },
     "commercial": null
   },
   {
-    "id": "manga:one-piece",
+    "id": "manga:anilist-30013",
     "medium": "manga",
     "title": {
-      "zh": "航海王",
+      "zh": "One Piece",
       "original": "ONE PIECE"
     },
     "year": 1997,
@@ -206,25 +170,13 @@
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": {
-        "raw": 8.8,
-        "scale": 10,
-        "votes": 2644,
-        "url": "https://bgm.tv/subject/3510",
-        "fetchedAt": "2026-07-18T05:35:57.599Z",
-        "via": "Bangumi API v0",
-        "stale": false,
-        "normalized": 8.8,
-        "voteConfidence": 0.9363,
-        "effectiveWeight": 0.2247,
-        "calibrationMode": "identity-fallback"
-      },
+      "bangumi": null,
       "mal": {
         "raw": 9.21,
         "scale": 10,
         "votes": 423441,
         "url": "https://myanimelist.net/manga/13/One_Piece",
-        "fetchedAt": "2026-07-18T05:36:08.417Z",
+        "fetchedAt": "2026-07-18T06:05:36.809Z",
         "via": "Jikan (MAL mirror)",
         "stale": false,
         "normalized": 9.21,
@@ -237,7 +189,7 @@
         "scale": 100,
         "votes": 94489,
         "url": "https://anilist.co/manga/30013",
-        "fetchedAt": "2026-07-18T05:35:55.717Z",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 9.1,
@@ -247,10 +199,10 @@
       }
     },
     "score": {
-      "value": 8.8181,
-      "sourceCount": 3,
-      "coverage": 1,
-      "totalWeight": 0.5806,
+      "value": 8.8282,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3559,
       "status": "ranked"
     },
     "commercial": {
@@ -266,10 +218,218 @@
     }
   },
   {
-    "id": "manga:fullmetal-alchemist",
+    "id": "manga:anilist-30001",
     "medium": "manga",
     "title": {
-      "zh": "钢之炼金术师",
+      "zh": "Monster",
+      "original": "MONSTER"
+    },
+    "year": 1994,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30001-Knby7l1jevE7.jpg",
+      "color": "#50a1e4",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 9.16,
+        "scale": 10,
+        "votes": 117869,
+        "url": "https://myanimelist.net/manga/1/Monster",
+        "fetchedAt": "2026-07-18T06:05:36.809Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 9.16,
+        "voteConfidence": 0.9752,
+        "effectiveWeight": 0.1755,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 90,
+        "scale": 100,
+        "votes": 31335,
+        "url": "https://anilist.co/manga/30001",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 9,
+        "voteConfidence": 0.9543,
+        "effectiveWeight": 0.1718,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.7561,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3473,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-30642",
+    "medium": "manga",
+    "title": {
+      "zh": "Vinland Saga",
+      "original": "ヴィンランド・サガ"
+    },
+    "year": 2005,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30642-0mjRDkf4THpo.jpg",
+      "color": "#f16b43",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 9.09,
+        "scale": 10,
+        "votes": 161252,
+        "url": "https://myanimelist.net/manga/642/Vinland_Saga",
+        "fetchedAt": "2026-07-18T06:05:36.809Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 9.09,
+        "voteConfidence": 0.9817,
+        "effectiveWeight": 0.1767,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 90,
+        "scale": 100,
+        "votes": 43630,
+        "url": "https://anilist.co/manga/30642",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 9,
+        "voteConfidence": 0.9668,
+        "effectiveWeight": 0.174,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.7277,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3507,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-30051",
+    "medium": "manga",
+    "title": {
+      "zh": "Slam Dunk",
+      "original": "SLAM DUNK"
+    },
+    "year": 1990,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30051-5KJyPlO7z5F4.png",
+      "color": "#f18650",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 9.09,
+        "scale": 10,
+        "votes": 89604,
+        "url": "https://myanimelist.net/manga/51/Slam_Dunk",
+        "fetchedAt": "2026-07-18T06:05:36.809Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 9.09,
+        "voteConfidence": 0.9676,
+        "effectiveWeight": 0.1742,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 90,
+        "scale": 100,
+        "votes": 22010,
+        "url": "https://anilist.co/manga/30051",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 9,
+        "voteConfidence": 0.9362,
+        "effectiveWeight": 0.1685,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.7216,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3427,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-140407",
+    "medium": "manga",
+    "title": {
+      "zh": "The Greatest Estate Developer",
+      "original": "역대급 영지 설계사"
+    },
+    "year": 2021,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx140407-fJQr0fmqq1IO.png",
+      "color": "#ffc943",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 9.09,
+        "scale": 10,
+        "votes": 43705,
+        "url": "https://myanimelist.net/manga/147272/The_Greatest_Estate_Developer",
+        "fetchedAt": "2026-07-18T06:05:36.809Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 9.09,
+        "voteConfidence": 0.9358,
+        "effectiveWeight": 0.1684,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 90,
+        "scale": 100,
+        "votes": 19937,
+        "url": "https://anilist.co/manga/140407",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 9,
+        "voteConfidence": 0.93,
+        "effectiveWeight": 0.1674,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.7153,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3358,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-30025",
+    "medium": "manga",
+    "title": {
+      "zh": "Fullmetal Alchemist",
       "original": "鋼の錬金術師"
     },
     "year": 2001,
@@ -280,26 +440,26 @@
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": {
-        "raw": 8.8,
+      "bangumi": null,
+      "mal": {
+        "raw": 9.05,
         "scale": 10,
-        "votes": 1889,
-        "url": "https://bgm.tv/subject/4923",
-        "fetchedAt": "2026-07-18T05:35:58.082Z",
-        "via": "Bangumi API v0",
+        "votes": 171167,
+        "url": "https://myanimelist.net/manga/25/Fullmetal_Alchemist",
+        "fetchedAt": "2026-07-18T06:05:36.809Z",
+        "via": "Jikan (MAL mirror)",
         "stale": false,
-        "normalized": 8.8,
-        "voteConfidence": 0.913,
-        "effectiveWeight": 0.2191,
+        "normalized": 9.05,
+        "voteConfidence": 0.9828,
+        "effectiveWeight": 0.1769,
         "calibrationMode": "identity-fallback"
       },
-      "mal": null,
       "anilist": {
         "raw": 89,
         "scale": 100,
         "votes": 28722,
         "url": "https://anilist.co/manga/30025",
-        "fetchedAt": "2026-07-18T05:35:55.717Z",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.9,
@@ -309,10 +469,10 @@
       }
     },
     "score": {
-      "value": 8.5776,
+      "value": 8.6652,
       "sourceCount": 2,
-      "coverage": 0.7,
-      "totalWeight": 0.3902,
+      "coverage": 0.6,
+      "totalWeight": 0.348,
       "status": "ranked"
     },
     "commercial": {
@@ -328,11 +488,479 @@
     }
   },
   {
-    "id": "manga:yotsuba",
+    "id": "manga:anilist-87395",
     "medium": "manga",
     "title": {
-      "zh": "四叶妹妹！",
-      "original": "よつばと!"
+      "zh": "Grand Blue Dreaming",
+      "original": "ぐらんぶる"
+    },
+    "year": 2014,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx87395-axsA49kSZp72.jpg",
+      "color": "#e4a15d",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 9.04,
+        "scale": 10,
+        "votes": 76508,
+        "url": "https://myanimelist.net/manga/70345/Grand_Blue",
+        "fetchedAt": "2026-07-18T06:05:36.809Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 9.04,
+        "voteConfidence": 0.9623,
+        "effectiveWeight": 0.1732,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 89,
+        "scale": 100,
+        "votes": 18940,
+        "url": "https://anilist.co/manga/87395",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.9,
+        "voteConfidence": 0.9266,
+        "effectiveWeight": 0.1668,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.6545,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.34,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-46765",
+    "medium": "manga",
+    "title": {
+      "zh": "Kingdom",
+      "original": "キングダム"
+    },
+    "year": 2006,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx46765-KPXir4sRqJBW.png",
+      "color": "#e46b43",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 9.02,
+        "scale": 10,
+        "votes": 72390,
+        "url": "https://myanimelist.net/manga/16765/Kingdom",
+        "fetchedAt": "2026-07-18T06:05:36.809Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 9.02,
+        "voteConfidence": 0.9602,
+        "effectiveWeight": 0.1728,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 89,
+        "scale": 100,
+        "votes": 17870,
+        "url": "https://anilist.co/manga/46765",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.9,
+        "voteConfidence": 0.9226,
+        "effectiveWeight": 0.1661,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.6448,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3389,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-74489",
+    "medium": "manga",
+    "title": {
+      "zh": "Land of the Lustrous",
+      "original": "宝石の国"
+    },
+    "year": 2012,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx74489-5HtDCFfut8Be.jpg",
+      "color": null,
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 9,
+        "scale": 10,
+        "votes": 60456,
+        "url": "https://myanimelist.net/manga/44489/Houseki_no_Kuni",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 9,
+        "voteConfidence": 0.9527,
+        "effectiveWeight": 0.1715,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 89,
+        "scale": 100,
+        "votes": 23870,
+        "url": "https://anilist.co/manga/74489",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.9,
+        "voteConfidence": 0.9409,
+        "effectiveWeight": 0.1694,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.6369,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3409,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-30657",
+    "medium": "manga",
+    "title": {
+      "zh": "Real",
+      "original": "リアル"
+    },
+    "year": 1999,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30657-AzyyUOWMJ6fd.png",
+      "color": "#f16b28",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.98,
+        "scale": 10,
+        "votes": 25637,
+        "url": "https://myanimelist.net/manga/657/Real",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.98,
+        "voteConfidence": 0.8952,
+        "effectiveWeight": 0.1611,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 89,
+        "scale": 100,
+        "votes": 8908,
+        "url": "https://anilist.co/manga/30657",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.9,
+        "voteConfidence": 0.8559,
+        "effectiveWeight": 0.1541,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.6067,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3152,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-34632",
+    "medium": "manga",
+    "title": {
+      "zh": "Goodnight Punpun",
+      "original": "おやすみプンプン"
+    },
+    "year": 2007,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx34632-5xMDkx3pXsEh.png",
+      "color": "#e4c943",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.97,
+        "scale": 10,
+        "votes": 221001,
+        "url": "https://myanimelist.net/manga/4632/Oyasumi_Punpun",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.97,
+        "voteConfidence": 0.9866,
+        "effectiveWeight": 0.1776,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 88,
+        "scale": 100,
+        "votes": 61186,
+        "url": "https://anilist.co/manga/34632",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.8,
+        "voteConfidence": 0.9761,
+        "effectiveWeight": 0.1757,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.5897,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3533,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-31303",
+    "medium": "manga",
+    "title": {
+      "zh": "Ashita no Joe: Fighting for Tomorrow",
+      "original": "あしたのジョー"
+    },
+    "year": 1968,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx31303-l21HJn9AXl7w.jpg",
+      "color": "#d61a50",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.95,
+        "scale": 10,
+        "votes": 20682,
+        "url": "https://myanimelist.net/manga/1303/Ashita_no_Joe",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.95,
+        "voteConfidence": 0.8733,
+        "effectiveWeight": 0.1572,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 89,
+        "scale": 100,
+        "votes": 8070,
+        "url": "https://anilist.co/manga/31303",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.9,
+        "voteConfidence": 0.8433,
+        "effectiveWeight": 0.1518,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.5876,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.309,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-65243",
+    "medium": "manga",
+    "title": {
+      "zh": "Haikyu!!",
+      "original": "ハイキュー！！"
+    },
+    "year": 2012,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx65243-mR4MnJFmfaOF.png",
+      "color": "#f17843",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.86,
+        "scale": 10,
+        "votes": 119173,
+        "url": "https://myanimelist.net/manga/35243/Haikyuu",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.86,
+        "voteConfidence": 0.9754,
+        "effectiveWeight": 0.1756,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 89,
+        "scale": 100,
+        "votes": 36226,
+        "url": "https://anilist.co/manga/65243",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.9,
+        "voteConfidence": 0.9602,
+        "effectiveWeight": 0.1728,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.5812,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3484,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-64053",
+    "medium": "manga",
+    "title": {
+      "zh": "Umineko When They Cry Episode 8: Twilight of the Golden Witch",
+      "original": "うみねこのなく頃に散 - Episode 8: Twilight of the Golden Witch"
+    },
+    "year": 2012,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx64053-tHJHWLRrWbeA.png",
+      "color": "#bbe4f1",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.96,
+        "scale": 10,
+        "votes": 8535,
+        "url": "https://myanimelist.net/manga/34053/Umineko_no_Naku_Koro_ni_Chiru_-_Episode_8__Twilight_of_the_Golden_Witch",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.96,
+        "voteConfidence": 0.7399,
+        "effectiveWeight": 0.1332,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 90,
+        "scale": 100,
+        "votes": 3539,
+        "url": "https://anilist.co/manga/64053",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 9,
+        "voteConfidence": 0.7023,
+        "effectiveWeight": 0.1264,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.579,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.2596,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-30003",
+    "medium": "manga",
+    "title": {
+      "zh": "20th Century Boys",
+      "original": "20世紀少年"
+    },
+    "year": 1999,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30003-E84fwIh22LAQ.jpg",
+      "color": "#e4c943",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.93,
+        "scale": 10,
+        "votes": 110268,
+        "url": "https://myanimelist.net/manga/3/20th_Century_Boys",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.93,
+        "voteConfidence": 0.9735,
+        "effectiveWeight": 0.1752,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 88,
+        "scale": 100,
+        "votes": 26564,
+        "url": "https://anilist.co/manga/30003",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.8,
+        "voteConfidence": 0.9466,
+        "effectiveWeight": 0.1704,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.5669,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3456,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-30104",
+    "medium": "manga",
+    "title": {
+      "zh": "Yotsuba&!",
+      "original": "よつばと！"
     },
     "year": 2003,
     "format": "MANGA",
@@ -342,26 +970,26 @@
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": {
-        "raw": 8.9,
+      "bangumi": null,
+      "mal": {
+        "raw": 8.92,
         "scale": 10,
-        "votes": 844,
-        "url": "https://bgm.tv/subject/10086",
-        "fetchedAt": "2026-07-18T05:35:58.278Z",
-        "via": "Bangumi API v0",
+        "votes": 61808,
+        "url": "https://myanimelist.net/manga/104/Yotsuba_to",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
         "stale": false,
-        "normalized": 8.9,
-        "voteConfidence": 0.8242,
-        "effectiveWeight": 0.1978,
+        "normalized": 8.92,
+        "voteConfidence": 0.9537,
+        "effectiveWeight": 0.1717,
         "calibrationMode": "identity-fallback"
       },
-      "mal": null,
       "anilist": {
         "raw": 88,
         "scale": 100,
         "votes": 15119,
         "url": "https://anilist.co/manga/30104",
-        "fetchedAt": "2026-07-18T05:35:55.717Z",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.8,
@@ -371,71 +999,227 @@
       }
     },
     "score": {
-      "value": 8.5687,
+      "value": 8.5551,
       "sourceCount": 2,
-      "coverage": 0.7,
-      "totalWeight": 0.3616,
+      "coverage": 0.6,
+      "totalWeight": 0.3355,
       "status": "ranked"
     },
     "commercial": null
   },
   {
-    "id": "manga:monster",
+    "id": "manga:anilist-30028",
     "medium": "manga",
     "title": {
-      "zh": "MONSTER",
-      "original": "MONSTER"
+      "zh": "Nana",
+      "original": "NANA"
     },
-    "year": 1994,
+    "year": 2000,
     "format": "MANGA",
     "cover": {
-      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30001-Knby7l1jevE7.jpg",
-      "color": "#50a1e4",
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30028-VJqBC1ar6AxE.png",
+      "color": "#781a6b",
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": {
-        "raw": 8.5,
+      "bangumi": null,
+      "mal": {
+        "raw": 8.82,
         "scale": 10,
-        "votes": 1247,
-        "url": "https://bgm.tv/subject/2139",
-        "fetchedAt": "2026-07-18T05:35:57.447Z",
-        "via": "Bangumi API v0",
+        "votes": 53576,
+        "url": "https://myanimelist.net/manga/28/Nana",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
         "stale": false,
-        "normalized": 8.5,
-        "voteConfidence": 0.8739,
-        "effectiveWeight": 0.2097,
+        "normalized": 8.82,
+        "voteConfidence": 0.947,
+        "effectiveWeight": 0.1705,
         "calibrationMode": "identity-fallback"
       },
-      "mal": null,
       "anilist": {
-        "raw": 90,
+        "raw": 88,
         "scale": 100,
-        "votes": 31335,
-        "url": "https://anilist.co/manga/30001",
-        "fetchedAt": "2026-07-18T05:35:55.717Z",
+        "votes": 11091,
+        "url": "https://anilist.co/manga/30028",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
         "via": "AniList GraphQL API",
         "stale": false,
-        "normalized": 9,
-        "voteConfidence": 0.9543,
-        "effectiveWeight": 0.1718,
+        "normalized": 8.8,
+        "voteConfidence": 0.8809,
+        "effectiveWeight": 0.1586,
         "calibrationMode": "identity-fallback"
       }
     },
     "score": {
-      "value": 8.4673,
+      "value": 8.5056,
       "sourceCount": 2,
-      "coverage": 0.7,
-      "totalWeight": 0.3815,
+      "coverage": 0.6,
+      "totalWeight": 0.3291,
       "status": "ranked"
     },
     "commercial": null
   },
   {
-    "id": "manga:frieren",
+    "id": "manga:anilist-86635",
     "medium": "manga",
     "title": {
-      "zh": "葬送的芙莉莲",
+      "zh": "Kaguya-sama: Love is War",
+      "original": "かぐや様は告らせたい～天才たちの恋愛頭脳戦～"
+    },
+    "year": 2015,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx86635-EdaLQmsn86Fy.png",
+      "color": "#d61a35",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.88,
+        "scale": 10,
+        "votes": 150705,
+        "url": "https://myanimelist.net/manga/90125/Kaguya-sama_wa_Kokurasetai__Tensai-tachi_no_Renai_Zunousen",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.88,
+        "voteConfidence": 0.9805,
+        "effectiveWeight": 0.1765,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 87,
+        "scale": 100,
+        "votes": 43373,
+        "url": "https://anilist.co/manga/86635",
+        "fetchedAt": "2026-07-18T06:05:36.800Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.9666,
+        "effectiveWeight": 0.174,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.5047,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3505,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-86082",
+    "medium": "manga",
+    "title": {
+      "zh": "Delicious in Dungeon",
+      "original": "ダンジョン飯"
+    },
+    "year": 2014,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx86082-MXizJxzbijdd.jpg",
+      "color": "#f1c993",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.81,
+        "scale": 10,
+        "votes": 42378,
+        "url": "https://myanimelist.net/manga/85781/Dungeon_Meshi",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.81,
+        "voteConfidence": 0.9339,
+        "effectiveWeight": 0.1681,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 88,
+        "scale": 100,
+        "votes": 15522,
+        "url": "https://anilist.co/manga/86082",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.8,
+        "voteConfidence": 0.9119,
+        "effectiveWeight": 0.1641,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.5035,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3322,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-85135",
+    "medium": "manga",
+    "title": {
+      "zh": "A Silent Voice",
+      "original": "聲の形"
+    },
+    "year": 2013,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx85135-11OOnyaqV71k.png",
+      "color": "#e49343",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.86,
+        "scale": 10,
+        "votes": 158181,
+        "url": "https://myanimelist.net/manga/56805/Koe_no_Katachi",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.86,
+        "voteConfidence": 0.9814,
+        "effectiveWeight": 0.1766,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 87,
+        "scale": 100,
+        "votes": 37264,
+        "url": "https://anilist.co/manga/85135",
+        "fetchedAt": "2026-07-18T06:05:36.800Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.9613,
+        "effectiveWeight": 0.173,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.4954,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3496,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-118586",
+    "medium": "manga",
+    "title": {
+      "zh": "Frieren: Beyond Journey’s End",
       "original": "葬送のフリーレン"
     },
     "year": 2020,
@@ -446,26 +1230,26 @@
       "source": "anilist"
     },
     "ratings": {
-      "bangumi": {
-        "raw": 8,
+      "bangumi": null,
+      "mal": {
+        "raw": 8.87,
         "scale": 10,
-        "votes": 3051,
-        "url": "https://bgm.tv/subject/305429",
-        "fetchedAt": "2026-07-18T05:35:58.443Z",
-        "via": "Bangumi API v0",
+        "votes": 58040,
+        "url": "https://myanimelist.net/manga/126287/Sousou_no_Frieren",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
         "stale": false,
-        "normalized": 8,
-        "voteConfidence": 0.9443,
-        "effectiveWeight": 0.2266,
+        "normalized": 8.87,
+        "voteConfidence": 0.9509,
+        "effectiveWeight": 0.1712,
         "calibrationMode": "identity-fallback"
       },
-      "mal": null,
       "anilist": {
         "raw": 87,
         "scale": 100,
         "votes": 19935,
         "url": "https://anilist.co/manga/118586",
-        "fetchedAt": "2026-07-18T05:35:55.717Z",
+        "fetchedAt": "2026-07-18T06:05:36.800Z",
         "via": "AniList GraphQL API",
         "stale": false,
         "normalized": 8.7,
@@ -475,10 +1259,3254 @@
       }
     },
     "score": {
-      "value": 8.095,
+      "value": 8.4918,
       "sourceCount": 2,
-      "coverage": 0.7,
-      "totalWeight": 0.394,
+      "coverage": 0.6,
+      "totalWeight": 0.3386,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-37375",
+    "medium": "manga",
+    "title": {
+      "zh": "The Climber",
+      "original": "孤高の人"
+    },
+    "year": 2007,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx37375-wkgev4kXhamw.png",
+      "color": "#5daee4",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.84,
+        "scale": 10,
+        "votes": 52761,
+        "url": "https://myanimelist.net/manga/7375/Kokou_no_Hito",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.84,
+        "voteConfidence": 0.9462,
+        "effectiveWeight": 0.1703,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 87,
+        "scale": 100,
+        "votes": 17892,
+        "url": "https://anilist.co/manga/37375",
+        "fetchedAt": "2026-07-18T06:05:36.800Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.9226,
+        "effectiveWeight": 0.1661,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.477,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3364,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-51525",
+    "medium": "manga",
+    "title": {
+      "zh": "Yona of the Dawn",
+      "original": "暁のヨナ"
+    },
+    "year": 2009,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx51525-wZ1AjkbXrKns.png",
+      "color": "#f18643",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.83,
+        "scale": 10,
+        "votes": 54142,
+        "url": "https://myanimelist.net/manga/21525/Akatsuki_no_Yona",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.83,
+        "voteConfidence": 0.9475,
+        "effectiveWeight": 0.1705,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 87,
+        "scale": 100,
+        "votes": 12115,
+        "url": "https://anilist.co/manga/51525",
+        "fetchedAt": "2026-07-18T06:05:36.800Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.8898,
+        "effectiveWeight": 0.1602,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.4693,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3307,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-31224",
+    "medium": "manga",
+    "title": {
+      "zh": "March Comes in Like a Lion",
+      "original": "3月のライオン"
+    },
+    "year": 2007,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx31224-dxugU08jahRT.jpg",
+      "color": "#f1c95d",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.86,
+        "scale": 10,
+        "votes": 21360,
+        "url": "https://myanimelist.net/manga/1224/3-gatsu_no_Lion",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.86,
+        "voteConfidence": 0.8768,
+        "effectiveWeight": 0.1578,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 87,
+        "scale": 100,
+        "votes": 6308,
+        "url": "https://anilist.co/manga/31224",
+        "fetchedAt": "2026-07-18T06:05:36.800Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.8079,
+        "effectiveWeight": 0.1454,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.46,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3032,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-119247",
+    "medium": "manga",
+    "title": {
+      "zh": "Uma Musume: Cinderella Gray",
+      "original": "ウマ娘 シンデレラグレイ"
+    },
+    "year": 2020,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx119247-8ylxneez5fa8.jpg",
+      "color": "#d61a1a",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.97,
+        "scale": 10,
+        "votes": 4025,
+        "url": "https://myanimelist.net/manga/133431/Uma_Musume_Cinderella_Gray",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.97,
+        "voteConfidence": 0.573,
+        "effectiveWeight": 0.1031,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 89,
+        "scale": 100,
+        "votes": 2005,
+        "url": "https://anilist.co/manga/119247",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.9,
+        "voteConfidence": 0.572,
+        "effectiveWeight": 0.103,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.4596,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.2061,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-30336",
+    "medium": "manga",
+    "title": {
+      "zh": "GTO: Great Teacher Onizuka",
+      "original": "GTO"
+    },
+    "year": 1997,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30336-KWTPMwsNTeSa.png",
+      "color": "#e4bb5d",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.86,
+        "scale": 10,
+        "votes": 72730,
+        "url": "https://myanimelist.net/manga/336/GTO",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.86,
+        "voteConfidence": 0.9604,
+        "effectiveWeight": 0.1729,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 12131,
+        "url": "https://anilist.co/manga/30336",
+        "fetchedAt": "2026-07-18T06:05:36.801Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.89,
+        "effectiveWeight": 0.1602,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.4433,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3331,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-187189",
+    "medium": "manga",
+    "title": {
+      "zh": "On the Way to Meet Mom",
+      "original": "엄마를 만나러 가는 길"
+    },
+    "year": 2024,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx187189-B5zA4zPh3UJA.jpg",
+      "color": "#1a6ba1",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.83,
+        "scale": 10,
+        "votes": 5568,
+        "url": "https://myanimelist.net/manga/178182/On_the_Way_to_Meet_Mom",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.83,
+        "voteConfidence": 0.6499,
+        "effectiveWeight": 0.117,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 88,
+        "scale": 100,
+        "votes": 3066,
+        "url": "https://anilist.co/manga/187189",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.8,
+        "voteConfidence": 0.6715,
+        "effectiveWeight": 0.1209,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.4127,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.2379,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-85412",
+    "medium": "manga",
+    "title": {
+      "zh": "Girls' Last Tour",
+      "original": "少女終末旅行"
+    },
+    "year": 2014,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx85412-wzZ2QFwbZJED.jpg",
+      "color": null,
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.74,
+        "scale": 10,
+        "votes": 36337,
+        "url": "https://myanimelist.net/manga/72467/Shoujo_Shuumatsu_Ryokou",
+        "fetchedAt": "2026-07-17T16:47:13.860Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": true,
+        "normalized": 8.74,
+        "voteConfidence": 0.9237,
+        "effectiveWeight": 0.1663,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 15130,
+        "url": "https://anilist.co/manga/85412",
+        "fetchedAt": "2026-07-18T06:05:36.801Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.9098,
+        "effectiveWeight": 0.1638,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.385,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3301,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-112275",
+    "medium": "manga",
+    "title": {
+      "zh": "Heaven Official's Blessing",
+      "original": "天官赐福"
+    },
+    "year": 2019,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx112275-fh0u5cH2qB5b.jpg",
+      "color": "#e4c95d",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.84,
+        "scale": 10,
+        "votes": 5640,
+        "url": "https://myanimelist.net/manga/140765/Tian_Guan_Cifu",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.84,
+        "voteConfidence": 0.6528,
+        "effectiveWeight": 0.1175,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 87,
+        "scale": 100,
+        "votes": 3541,
+        "url": "https://anilist.co/manga/112275",
+        "fetchedAt": "2026-07-18T06:05:36.800Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.7024,
+        "effectiveWeight": 0.1264,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.3817,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.2439,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-116170",
+    "medium": "manga",
+    "title": {
+      "zh": "Veil",
+      "original": "Veil"
+    },
+    "year": 2018,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx116170-Q9f5Wk6cod5E.jpg",
+      "color": "#e4ae5d",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.79,
+        "scale": 10,
+        "votes": 6957,
+        "url": "https://myanimelist.net/manga/132678/Veil",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.79,
+        "voteConfidence": 0.6987,
+        "effectiveWeight": 0.1258,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 87,
+        "scale": 100,
+        "votes": 3284,
+        "url": "https://anilist.co/manga/116170",
+        "fetchedAt": "2026-07-18T06:05:36.800Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.6865,
+        "effectiveWeight": 0.1236,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.3704,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.2494,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-30651",
+    "medium": "manga",
+    "title": {
+      "zh": "Nausicaä of the Valley of the Wind",
+      "original": "風の谷のナウシカ"
+    },
+    "year": 1982,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30651-xLufeLnDPqpn.jpg",
+      "color": "#e4a150",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.81,
+        "scale": 10,
+        "votes": 19080,
+        "url": "https://myanimelist.net/manga/651/Kaze_no_Tani_no_Nausicaä",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.81,
+        "voteConfidence": 0.8641,
+        "effectiveWeight": 0.1555,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 4169,
+        "url": "https://anilist.co/manga/30651",
+        "fetchedAt": "2026-07-18T06:05:36.804Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.7354,
+        "effectiveWeight": 0.1324,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.3467,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.2879,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-30044",
+    "medium": "manga",
+    "title": {
+      "zh": "Gin Tama",
+      "original": "銀魂"
+    },
+    "year": 2003,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30044-vPmoz3vTPvZs.jpg",
+      "color": "#e4435d",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.65,
+        "scale": 10,
+        "votes": 42115,
+        "url": "https://myanimelist.net/manga/44/Gintama",
+        "fetchedAt": "2026-07-17T16:47:13.212Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": true,
+        "normalized": 8.65,
+        "voteConfidence": 0.9335,
+        "effectiveWeight": 0.168,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 8292,
+        "url": "https://anilist.co/manga/30044",
+        "fetchedAt": "2026-07-18T06:05:36.801Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.8468,
+        "effectiveWeight": 0.1524,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.3392,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3204,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-86559",
+    "medium": "manga",
+    "title": {
+      "zh": "Golden Kamuy",
+      "original": "ゴールデンカムイ"
+    },
+    "year": 2014,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx86559-Y4xDmoz4ud43.jpg",
+      "color": "#f1860d",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.65,
+        "scale": 10,
+        "votes": 30552,
+        "url": "https://myanimelist.net/manga/85968/Golden_Kamuy",
+        "fetchedAt": "2026-07-17T16:47:14.502Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": true,
+        "normalized": 8.65,
+        "voteConfidence": 0.9106,
+        "effectiveWeight": 0.1639,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 10318,
+        "url": "https://anilist.co/manga/86559",
+        "fetchedAt": "2026-07-18T06:05:36.801Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.8731,
+        "effectiveWeight": 0.1572,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.3391,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3211,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-86551",
+    "medium": "manga",
+    "title": {
+      "zh": "Made in Abyss",
+      "original": "メイドインアビス"
+    },
+    "year": 2012,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx86551-0EzmsMZiPSu9.jpg",
+      "color": "#e4a15d",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.71,
+        "scale": 10,
+        "votes": 60898,
+        "url": "https://myanimelist.net/manga/91941/Made_in_Abyss",
+        "fetchedAt": "2026-07-17T16:49:02.976Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": true,
+        "normalized": 8.71,
+        "voteConfidence": 0.9531,
+        "effectiveWeight": 0.1715,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 14513,
+        "url": "https://anilist.co/manga/86551",
+        "fetchedAt": "2026-07-18T06:05:36.805Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.9063,
+        "effectiveWeight": 0.1631,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.3336,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3346,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-118371",
+    "medium": "manga",
+    "title": {
+      "zh": "Medalist",
+      "original": "メダリスト"
+    },
+    "year": 2020,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx118371-3xk9VUbWnnRR.jpg",
+      "color": "#35c9f1",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.79,
+        "scale": 10,
+        "votes": 4829,
+        "url": "https://myanimelist.net/manga/129621/Medalist",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.79,
+        "voteConfidence": 0.6168,
+        "effectiveWeight": 0.111,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 87,
+        "scale": 100,
+        "votes": 2384,
+        "url": "https://anilist.co/manga/118371",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.6138,
+        "effectiveWeight": 0.1105,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.3316,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.2215,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-30026",
+    "medium": "manga",
+    "title": {
+      "zh": "Hunter x Hunter",
+      "original": "HUNTER×HUNTER"
+    },
+    "year": 1998,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30026-uCvXMudMzmwI.jpg",
+      "color": "#ffbb43",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 88,
+        "scale": 100,
+        "votes": 33343,
+        "url": "https://anilist.co/manga/30026",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.8,
+        "voteConfidence": 0.9569,
+        "effectiveWeight": 0.1723,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.2827,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1723,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-126986",
+    "medium": "manga",
+    "title": {
+      "zh": "Jibi Eopseo",
+      "original": "집이 없어"
+    },
+    "year": 2018,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx126986-hIK16AdoJhNo.jpg",
+      "color": "#50aefe",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.81,
+        "scale": 10,
+        "votes": 4040,
+        "url": "https://myanimelist.net/manga/147769/No_Home",
+        "fetchedAt": "2026-07-18T06:05:36.810Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": false,
+        "normalized": 8.81,
+        "voteConfidence": 0.5739,
+        "effectiveWeight": 0.1033,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 2004,
+        "url": "https://anilist.co/manga/126986",
+        "fetchedAt": "2026-07-18T06:05:36.801Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.5719,
+        "effectiveWeight": 0.1029,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.2748,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.2062,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-106929",
+    "medium": "manga",
+    "title": {
+      "zh": "Eleceed",
+      "original": "일렉시드"
+    },
+    "year": 2018,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx106929-flAUvHZDUz5v.jpg",
+      "color": "#35c9e4",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.51,
+        "scale": 10,
+        "votes": 16914,
+        "url": "https://myanimelist.net/manga/147171/Eleceed",
+        "fetchedAt": "2026-07-17T16:48:29.711Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": true,
+        "normalized": 8.51,
+        "voteConfidence": 0.8494,
+        "effectiveWeight": 0.1529,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 10474,
+        "url": "https://anilist.co/manga/106929",
+        "fetchedAt": "2026-07-18T06:05:36.805Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.8747,
+        "effectiveWeight": 0.1575,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.2268,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.3104,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-30904",
+    "medium": "manga",
+    "title": {
+      "zh": "Lone Wolf and Cub",
+      "original": "子連れ狼"
+    },
+    "year": 1970,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30904-KRN1WE3ZU3vl.jpg",
+      "color": "#286b93",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": {
+        "raw": 8.65,
+        "scale": 10,
+        "votes": 8140,
+        "url": "https://myanimelist.net/manga/904/Kozure_Ookami",
+        "fetchedAt": "2026-07-17T16:49:01.515Z",
+        "via": "Jikan (MAL mirror)",
+        "stale": true,
+        "normalized": 8.65,
+        "voteConfidence": 0.7307,
+        "effectiveWeight": 0.1315,
+        "calibrationMode": "identity-fallback"
+      },
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 2119,
+        "url": "https://anilist.co/manga/30904",
+        "fetchedAt": "2026-07-18T06:05:36.805Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.5855,
+        "effectiveWeight": 0.1054,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.2202,
+      "sourceCount": 2,
+      "coverage": 0.6,
+      "totalWeight": 0.2369,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-140475",
+    "medium": "manga",
+    "title": {
+      "zh": "The Fragrant Flower Blooms With Dignity",
+      "original": "薫る花は凛と咲く"
+    },
+    "year": 2021,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx140475-QEGtrmdvbpOv.jpg",
+      "color": null,
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 87,
+        "scale": 100,
+        "votes": 19419,
+        "url": "https://anilist.co/manga/140475",
+        "fetchedAt": "2026-07-18T06:05:36.800Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.9283,
+        "effectiveWeight": 0.1671,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.1933,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1671,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-98263",
+    "medium": "manga",
+    "title": {
+      "zh": "Witch Hat Atelier",
+      "original": "とんがり帽子のアトリエ"
+    },
+    "year": 2016,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx98263-kIeaTXrAbGkj.jpg",
+      "color": "#f1c950",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 87,
+        "scale": 100,
+        "votes": 15605,
+        "url": "https://anilist.co/manga/98263",
+        "fetchedAt": "2026-07-18T06:05:36.800Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.9123,
+        "effectiveWeight": 0.1642,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.1865,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1642,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-75143",
+    "medium": "manga",
+    "title": {
+      "zh": "Kono Oto Tomare!",
+      "original": "この音とまれ！"
+    },
+    "year": 2012,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx75143-qPFON51fyZpt.png",
+      "color": "#e48643",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 88,
+        "scale": 100,
+        "votes": 4768,
+        "url": "https://anilist.co/manga/75143",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.8,
+        "voteConfidence": 0.7607,
+        "effectiveWeight": 0.1369,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.1847,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1369,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-30007",
+    "medium": "manga",
+    "title": {
+      "zh": "Hajime no Ippo: Fighting Spirit!",
+      "original": "はじめの一歩"
+    },
+    "year": 1989,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx30007-jVUNk721L0Uz.jpg",
+      "color": "#e49350",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 87,
+        "scale": 100,
+        "votes": 8687,
+        "url": "https://anilist.co/manga/30007",
+        "fetchedAt": "2026-07-18T06:05:36.800Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.8528,
+        "effectiveWeight": 0.1535,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.1595,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1535,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-117620",
+    "medium": "manga",
+    "title": {
+      "zh": "The Summer You Were There",
+      "original": "君と綴るうたかた"
+    },
+    "year": 2020,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx117620-cyvy8nO9GLm8.jpg",
+      "color": null,
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 87,
+        "scale": 100,
+        "votes": 7051,
+        "url": "https://anilist.co/manga/117620",
+        "fetchedAt": "2026-07-18T06:05:36.800Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.8246,
+        "effectiveWeight": 0.1484,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.1456,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1484,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-97553",
+    "medium": "manga",
+    "title": {
+      "zh": "Three Days of Happiness",
+      "original": "寿命を買い取ってもらった。一年につき、一万円で。"
+    },
+    "year": 2016,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx97553-vqJj5DFS8v2p.jpg",
+      "color": "#5dbbe4",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 36270,
+        "url": "https://anilist.co/manga/97553",
+        "fetchedAt": "2026-07-18T06:05:36.802Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.9603,
+        "effectiveWeight": 0.1729,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.1289,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1729,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-119257",
+    "medium": "manga",
+    "title": {
+      "zh": "Omniscient Reader",
+      "original": "전지적 독자 시점"
+    },
+    "year": 2020,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx119257-Pi21aq3ey9GG.jpg",
+      "color": null,
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 33400,
+        "url": "https://anilist.co/manga/119257",
+        "fetchedAt": "2026-07-18T06:05:36.802Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.957,
+        "effectiveWeight": 0.1723,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.1277,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1723,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-86218",
+    "medium": "manga",
+    "title": {
+      "zh": "Bloom Into You",
+      "original": "やがて君になる"
+    },
+    "year": 2015,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx86218-sIl9tnqHZQyh.jpg",
+      "color": "#f1d6c9",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 22725,
+        "url": "https://anilist.co/manga/86218",
+        "fetchedAt": "2026-07-18T06:05:36.802Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.9381,
+        "effectiveWeight": 0.1689,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.1203,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1689,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-31133",
+    "medium": "manga",
+    "title": {
+      "zh": "Dorohedoro",
+      "original": "ドロヘドロ"
+    },
+    "year": 2000,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx31133-Jx6map3Oidz1.png",
+      "color": "#a15d28",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 20597,
+        "url": "https://anilist.co/manga/31133",
+        "fetchedAt": "2026-07-18T06:05:36.801Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.9321,
+        "effectiveWeight": 0.1678,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.1179,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1678,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-135129",
+    "medium": "manga",
+    "title": {
+      "zh": "Vagabond: Saigo no Manga-ten",
+      "original": "バガボンド 最後のマンガ展"
+    },
+    "year": 2008,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b135129-rbQyUsPfUZTj.jpg",
+      "color": "#f1e4bb",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 88,
+        "scale": 100,
+        "votes": 2895,
+        "url": "https://anilist.co/manga/135129",
+        "fetchedAt": "2026-07-18T06:05:36.799Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.8,
+        "voteConfidence": 0.6587,
+        "effectiveWeight": 0.1186,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.1179,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1186,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-107237",
+    "medium": "manga",
+    "title": {
+      "zh": "Blue Period",
+      "original": "ブルーピリオド"
+    },
+    "year": 2017,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx107237-tyQXghsKmE0t.jpg",
+      "color": "#5dc9e4",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 16218,
+        "url": "https://anilist.co/manga/107237",
+        "fetchedAt": "2026-07-18T06:05:36.802Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.9153,
+        "effectiveWeight": 0.1648,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.1112,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1648,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-107279",
+    "medium": "manga",
+    "title": {
+      "zh": "Aoashi",
+      "original": "アオアシ"
+    },
+    "year": 2015,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx107279-R2vxyPQRqV0X.jpg",
+      "color": "#f1c943",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 7667,
+        "url": "https://anilist.co/manga/107279",
+        "fetchedAt": "2026-07-18T06:05:36.801Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.8364,
+        "effectiveWeight": 0.1505,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0763,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1505,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-30145",
+    "medium": "manga",
+    "title": {
+      "zh": "BECK",
+      "original": "BECK"
+    },
+    "year": 2000,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30145-ipNuwNgD5AJS.png",
+      "color": "#e46b5d",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 7514,
+        "url": "https://anilist.co/manga/30145",
+        "fetchedAt": "2026-07-18T06:05:36.801Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.8336,
+        "effectiveWeight": 0.15,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.075,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.15,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-30004",
+    "medium": "manga",
+    "title": {
+      "zh": "Yokohama Kaidashi Kikou",
+      "original": "ヨコハマ買い出し紀行"
+    },
+    "year": 1994,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b30004-k0YUnO94IB4x.jpg",
+      "color": "#f1d61a",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 7482,
+        "url": "https://anilist.co/manga/30004",
+        "fetchedAt": "2026-07-18T06:05:36.802Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.833,
+        "effectiveWeight": 0.1499,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0747,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1499,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-109285",
+    "medium": "manga",
+    "title": {
+      "zh": "Skip and Loafer",
+      "original": "スキップとローファー"
+    },
+    "year": 2018,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx109285-HmBZpzsO2zxd.jpg",
+      "color": null,
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 6345,
+        "url": "https://anilist.co/manga/109285",
+        "fetchedAt": "2026-07-18T06:05:36.802Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.8088,
+        "effectiveWeight": 0.1456,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0632,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1456,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-105778",
+    "medium": "manga",
+    "title": {
+      "zh": "Chainsaw Man",
+      "original": "チェンソーマン"
+    },
+    "year": 2018,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx105778-euxXZEIfDY2u.png",
+      "color": "#f1c90d",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 146881,
+        "url": "https://anilist.co/manga/105778",
+        "fetchedAt": "2026-07-18T06:05:36.806Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.9899,
+        "effectiveWeight": 0.1782,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0618,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1782,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-74347",
+    "medium": "manga",
+    "title": {
+      "zh": "One-Punch Man",
+      "original": "ワンパンマン"
+    },
+    "year": 2012,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx74347-sZpmNJ5xLwRK.jpg",
+      "color": null,
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 56988,
+        "url": "https://anilist.co/manga/74347",
+        "fetchedAt": "2026-07-18T06:05:36.806Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.9744,
+        "effectiveWeight": 0.1754,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0563,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1754,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-39982",
+    "medium": "manga",
+    "title": {
+      "zh": "Usogui",
+      "original": "嘘喰い"
+    },
+    "year": 2006,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx39982-68LS2Z9075Kw.jpg",
+      "color": "#e40d28",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 5620,
+        "url": "https://anilist.co/manga/39982",
+        "fetchedAt": "2026-07-18T06:05:36.801Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.7893,
+        "effectiveWeight": 0.1421,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0534,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1421,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-146983",
+    "medium": "manga",
+    "title": {
+      "zh": "Goodbye, Eri",
+      "original": "さよなら絵梨"
+    },
+    "year": 2022,
+    "format": "ONE_SHOT",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx146983-pLf4apCkFwKL.jpg",
+      "color": "#f1500d",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 40654,
+        "url": "https://anilist.co/manga/146983",
+        "fetchedAt": "2026-07-18T06:05:36.804Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.9644,
+        "effectiveWeight": 0.1736,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0528,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1736,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-53900",
+    "medium": "manga",
+    "title": {
+      "zh": "Umineko When They Cry Episode 7: Requiem of the Golden Witch",
+      "original": "うみねこのなく頃に散 - Episode 7: Requiem of the Golden Witch"
+    },
+    "year": 2011,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx53900-aDalkx2qmugI.png",
+      "color": "#f1d650",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 87,
+        "scale": 100,
+        "votes": 2948,
+        "url": "https://anilist.co/manga/53900",
+        "fetchedAt": "2026-07-18T06:05:36.800Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.6628,
+        "effectiveWeight": 0.1193,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0503,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1193,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-55515",
+    "medium": "manga",
+    "title": {
+      "zh": "JoJo no Kimyou na Bouken: JoJolion",
+      "original": "ジョジョの奇妙な冒険 ジョジョリオン"
+    },
+    "year": 2011,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx55515-HhCsfAsd7VK1.png",
+      "color": "#e4c943",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 24487,
+        "url": "https://anilist.co/manga/55515",
+        "fetchedAt": "2026-07-18T06:05:36.806Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.9423,
+        "effectiveWeight": 0.1696,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0446,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1696,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-100568",
+    "medium": "manga",
+    "title": {
+      "zh": "The Horizon",
+      "original": "수평선"
+    },
+    "year": 2016,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx100568-4BC0PsdwU4bL.png",
+      "color": null,
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 22853,
+        "url": "https://anilist.co/manga/100568",
+        "fetchedAt": "2026-07-18T06:05:36.804Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.9384,
+        "effectiveWeight": 0.1689,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0432,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1689,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-85849",
+    "medium": "manga",
+    "title": {
+      "zh": "ReLIFE",
+      "original": "リライフ"
+    },
+    "year": 2013,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx85849-TYAa7nhwSvbx.jpg",
+      "color": "#1aaed6",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 20168,
+        "url": "https://anilist.co/manga/85849",
+        "fetchedAt": "2026-07-18T06:05:36.805Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.9308,
+        "effectiveWeight": 0.1675,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0402,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1675,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-43245",
+    "medium": "manga",
+    "title": {
+      "zh": "Chihayafuru",
+      "original": "ちはやふる"
+    },
+    "year": 2007,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx43245-Ied8R99LH3u6.jpg",
+      "color": "#e46b35",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 4726,
+        "url": "https://anilist.co/manga/43245",
+        "fetchedAt": "2026-07-18T06:05:36.801Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.7591,
+        "effectiveWeight": 0.1366,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0373,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1366,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-98842",
+    "medium": "manga",
+    "title": {
+      "zh": "Toilet-Bound Hanako-kun",
+      "original": "地縛少年 花子くん"
+    },
+    "year": 2014,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx98842-Ji0v423UZ4er.jpg",
+      "color": "#e4355d",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 16120,
+        "url": "https://anilist.co/manga/98842",
+        "fetchedAt": "2026-07-18T06:05:36.805Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.9149,
+        "effectiveWeight": 0.1647,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0342,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1647,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-30745",
+    "medium": "manga",
+    "title": {
+      "zh": "Pluto",
+      "original": "PLUTO"
+    },
+    "year": 2003,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30745-kueBpwriQkvZ.jpg",
+      "color": "#d6ae78",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 14493,
+        "url": "https://anilist.co/manga/30745",
+        "fetchedAt": "2026-07-18T06:05:36.804Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.9062,
+        "effectiveWeight": 0.1631,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0307,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1631,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-85189",
+    "medium": "manga",
+    "title": {
+      "zh": "Mob Psycho 100",
+      "original": "モブサイコ100"
+    },
+    "year": 2012,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx85189-06aXUBq5jwce.jpg",
+      "color": "#ff0d00",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 14226,
+        "url": "https://anilist.co/manga/85189",
+        "fetchedAt": "2026-07-18T06:05:36.804Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.9046,
+        "effectiveWeight": 0.1628,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0301,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1628,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-119521",
+    "medium": "manga",
+    "title": {
+      "zh": "The Legend of the Northern Blade",
+      "original": "북검전기"
+    },
+    "year": 2019,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx119521-qYqxFvn0NnXo.png",
+      "color": null,
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 12380,
+        "url": "https://anilist.co/manga/119521",
+        "fetchedAt": "2026-07-18T06:05:36.803Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.8919,
+        "effectiveWeight": 0.1605,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0249,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1605,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-30102",
+    "medium": "manga",
+    "title": {
+      "zh": "Fruits Basket",
+      "original": "フルーツバスケット"
+    },
+    "year": 1998,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30102-MJuQ0e0k2CgU.png",
+      "color": "#f15d43",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 10787,
+        "url": "https://anilist.co/manga/30102",
+        "fetchedAt": "2026-07-18T06:05:36.806Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.8779,
+        "effectiveWeight": 0.158,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0192,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.158,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-100805",
+    "medium": "manga",
+    "title": {
+      "zh": "Here U Are",
+      "original": "Here U Are"
+    },
+    "year": 2017,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx100805-3DCHMdZ5blWl.jpg",
+      "color": "#f1d6c9",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 10360,
+        "url": "https://anilist.co/manga/100805",
+        "fetchedAt": "2026-07-18T06:05:36.803Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.8735,
+        "effectiveWeight": 0.1572,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0174,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1572,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-187944",
+    "medium": "manga",
+    "title": {
+      "zh": "My Bias Gets on the Last Train",
+      "original": "내 최애는 막차를 탄다"
+    },
+    "year": 2024,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx187944-gzNbL7zeY7Ma.jpg",
+      "color": "#e45da1",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 3829,
+        "url": "https://anilist.co/manga/187944",
+        "fetchedAt": "2026-07-18T06:05:36.803Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.7185,
+        "effectiveWeight": 0.1293,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0144,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1293,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-86099",
+    "medium": "manga",
+    "title": {
+      "zh": "Wind Breaker",
+      "original": "윈드브레이커"
+    },
+    "year": 2013,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx86099-lgjjEP3wqzB8.jpg",
+      "color": null,
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 9583,
+        "url": "https://anilist.co/manga/86099",
+        "fetchedAt": "2026-07-18T06:05:36.807Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.8647,
+        "effectiveWeight": 0.1556,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0136,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1556,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-30081",
+    "medium": "manga",
+    "title": {
+      "zh": "Aria",
+      "original": "ARIA"
+    },
+    "year": 2002,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30081-oCRaPkTGq4vP.jpg",
+      "color": "#f1e435",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 3769,
+        "url": "https://anilist.co/manga/30081",
+        "fetchedAt": "2026-07-18T06:05:36.801Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.7153,
+        "effectiveWeight": 0.1288,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0128,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1288,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-99022",
+    "medium": "manga",
+    "title": {
+      "zh": "The Apothecary Diaries",
+      "original": "薬屋のひとりごと"
+    },
+    "year": 2017,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx99022-Hh2WdyNgR8HM.jpg",
+      "color": null,
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 8898,
+        "url": "https://anilist.co/manga/99022",
+        "fetchedAt": "2026-07-18T06:05:36.803Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.8557,
+        "effectiveWeight": 0.154,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0098,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.154,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-41054",
+    "medium": "manga",
+    "title": {
+      "zh": "Billy Bat",
+      "original": "ビリーバット"
+    },
+    "year": 2008,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx41054-zXqZzpwjJCCR.png",
+      "color": "#d6281a",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 8291,
+        "url": "https://anilist.co/manga/41054",
+        "fetchedAt": "2026-07-18T06:05:36.804Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.8468,
+        "effectiveWeight": 0.1524,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0059,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1524,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-106331",
+    "medium": "manga",
+    "title": {
+      "zh": "Ikoku Nikki",
+      "original": "違国日記"
+    },
+    "year": 2017,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx106331-C1F1hqpHnJ0U.jpg",
+      "color": "#fe9328",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 87,
+        "scale": 100,
+        "votes": 2263,
+        "url": "https://anilist.co/manga/106331",
+        "fetchedAt": "2026-07-18T06:05:36.800Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.7,
+        "voteConfidence": 0.6014,
+        "effectiveWeight": 0.1082,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 8.0047,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1082,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-85850",
+    "medium": "manga",
+    "title": {
+      "zh": "19 Tian",
+      "original": "19天"
+    },
+    "year": 2014,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b85850-C9jxTZSRutBw.png",
+      "color": "#e49343",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 6808,
+        "url": "https://anilist.co/manga/85850",
+        "fetchedAt": "2026-07-18T06:05:36.805Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.8195,
+        "effectiveWeight": 0.1475,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 7.9937,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1475,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-53390",
+    "medium": "manga",
+    "title": {
+      "zh": "Attack on Titan",
+      "original": "進撃の巨人"
+    },
+    "year": 2009,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx53390-1RsuABC34P9D.jpg",
+      "color": "#d6431a",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 84,
+        "scale": 100,
+        "votes": 114608,
+        "url": "https://anilist.co/manga/53390",
+        "fetchedAt": "2026-07-18T06:05:36.807Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.4,
+        "voteConfidence": 0.9871,
+        "effectiveWeight": 0.1777,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 7.9828,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1777,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-121565",
+    "medium": "manga",
+    "title": {
+      "zh": "Seasons of Blossom",
+      "original": "청춘 블라썸"
+    },
+    "year": 2020,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx121565-JaDVhpjegXvw.jpg",
+      "color": "#f1c9bb",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 5811,
+        "url": "https://anilist.co/manga/121565",
+        "fetchedAt": "2026-07-18T06:05:36.804Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.7948,
+        "effectiveWeight": 0.1431,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 7.9821,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1431,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-177706",
+    "medium": "manga",
+    "title": {
+      "zh": "The Knight Only Lives Today",
+      "original": "오늘만 사는 기사"
+    },
+    "year": 2024,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx177706-3r8dnAr8Prjq.jpg",
+      "color": "#d67850",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 5582,
+        "url": "https://anilist.co/manga/177706",
+        "fetchedAt": "2026-07-18T06:05:36.804Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.7882,
+        "effectiveWeight": 0.1419,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 7.9789,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1419,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-30021",
+    "medium": "manga",
+    "title": {
+      "zh": "Death Note",
+      "original": "DEATH NOTE"
+    },
+    "year": 2003,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30021-FE6kmrfpuKyb.jpg",
+      "color": "#f1e4ae",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 84,
+        "scale": 100,
+        "votes": 38359,
+        "url": "https://anilist.co/manga/30021",
+        "fetchedAt": "2026-07-18T06:05:36.808Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.4,
+        "voteConfidence": 0.9624,
+        "effectiveWeight": 0.1732,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 7.9744,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1732,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-30756",
+    "medium": "manga",
+    "title": {
+      "zh": "Banana Fish",
+      "original": "BANANA FISH"
+    },
+    "year": 1985,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30756-rlxjQWBAizHX.jpg",
+      "color": "#ffbb35",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 5137,
+        "url": "https://anilist.co/manga/30756",
+        "fetchedAt": "2026-07-18T06:05:36.804Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.774,
+        "effectiveWeight": 0.1393,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 7.9717,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1393,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-30418",
+    "medium": "manga",
+    "title": {
+      "zh": "Mushishi",
+      "original": "蟲師"
+    },
+    "year": 1999,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30418-8unnG2Y01lXX.jpg",
+      "color": "#f1e486",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 4573,
+        "url": "https://anilist.co/manga/30418",
+        "fetchedAt": "2026-07-18T06:05:36.804Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.753,
+        "effectiveWeight": 0.1355,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 7.9609,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1355,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-86569",
+    "medium": "manga",
+    "title": {
+      "zh": "Ace of the Diamond Act II",
+      "original": "ダイヤのA act II"
+    },
+    "year": 2015,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx86569-KC2nXAGtv0Cx.jpg",
+      "color": "#f15d78",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 2598,
+        "url": "https://anilist.co/manga/86569",
+        "fetchedAt": "2026-07-18T06:05:36.803Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.634,
+        "effectiveWeight": 0.1141,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 7.9601,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1141,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-33006",
+    "medium": "manga",
+    "title": {
+      "zh": "JoJo's Bizarre Adventure Part 4: Diamond is Unbreakable",
+      "original": "ジョジョの奇妙な冒険 ダイヤモンドは砕けない"
+    },
+    "year": 1992,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx33006-uFu4BInfxXNx.png",
+      "color": "#e4f15d",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 84,
+        "scale": 100,
+        "votes": 17025,
+        "url": "https://anilist.co/manga/33006",
+        "fetchedAt": "2026-07-18T06:05:36.808Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.4,
+        "voteConfidence": 0.919,
+        "effectiveWeight": 0.1654,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 7.959,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1654,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-41514",
+    "medium": "manga",
+    "title": {
+      "zh": "A Bride's Story",
+      "original": "乙嫁語り"
+    },
+    "year": 2008,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx41514-IHeXFwqmWivk.jpg",
+      "color": "#e4d6ae",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 4267,
+        "url": "https://anilist.co/manga/41514",
+        "fetchedAt": "2026-07-18T06:05:36.805Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.7399,
+        "effectiveWeight": 0.1332,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 7.9541,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1332,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-87347",
+    "medium": "manga",
+    "title": {
+      "zh": "Given",
+      "original": "ギヴン"
+    },
+    "year": 2013,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx87347-GOCU76cl37dK.png",
+      "color": "#f19300",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 84,
+        "scale": 100,
+        "votes": 10939,
+        "url": "https://anilist.co/manga/87347",
+        "fetchedAt": "2026-07-18T06:05:36.809Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.4,
+        "voteConfidence": 0.8794,
+        "effectiveWeight": 0.1583,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 7.9439,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1583,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-30664",
+    "medium": "manga",
+    "title": {
+      "zh": "Akira",
+      "original": "AKIRA"
+    },
+    "year": 1982,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30664-JJq9tosQvlpW.jpg",
+      "color": "#e45043",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 84,
+        "scale": 100,
+        "votes": 10853,
+        "url": "https://anilist.co/manga/30664",
+        "fetchedAt": "2026-07-18T06:05:36.808Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.4,
+        "voteConfidence": 0.8786,
+        "effectiveWeight": 0.1581,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 7.9435,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1581,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-35744",
+    "medium": "manga",
+    "title": {
+      "zh": "Ping Pong",
+      "original": "ピンポン"
+    },
+    "year": 1996,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx35744-JB0ACECS2Ts2.png",
+      "color": "#fe9350",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 3479,
+        "url": "https://anilist.co/manga/35744",
+        "fetchedAt": "2026-07-18T06:05:36.807Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.6987,
+        "effectiveWeight": 0.1258,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 7.9312,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1258,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-44483",
+    "medium": "manga",
+    "title": {
+      "zh": "Space Brothers",
+      "original": "宇宙兄弟"
+    },
+    "year": 2007,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx44483-j8urUUmaCOaD.jpg",
+      "color": "#e46b50",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 2104,
+        "url": "https://anilist.co/manga/44483",
+        "fetchedAt": "2026-07-18T06:05:36.802Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.5838,
+        "effectiveWeight": 0.1051,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 7.923,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1051,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-101563",
+    "medium": "manga",
+    "title": {
+      "zh": "Grandmaster of Demonic Cultivation: Mo Dao Zu Shi",
+      "original": "魔道祖师"
+    },
+    "year": 2017,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx101563-nTBq5IEYYWbX.png",
+      "color": null,
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 3000,
+        "url": "https://anilist.co/manga/101563",
+        "fetchedAt": "2026-07-18T06:05:36.806Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.6667,
+        "effectiveWeight": 0.12,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 7.9118,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.12,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-114998",
+    "medium": "manga",
+    "title": {
+      "zh": "Bungo Stray Dogs Beast",
+      "original": "文豪ストレイドッグス　ＢＥＡＳＴ"
+    },
+    "year": 2019,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx114998-JTCzDczl8eBD.jpg",
+      "color": "#d6281a",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 2717,
+        "url": "https://anilist.co/manga/114998",
+        "fetchedAt": "2026-07-18T06:05:36.803Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.6443,
+        "effectiveWeight": 0.116,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 7.8976,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.116,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-89278",
+    "medium": "manga",
+    "title": {
+      "zh": "Tobaku Datenroku Kaiji: One Poker-hen",
+      "original": "賭博堕天録カイジ ワン・ポーカー編"
+    },
+    "year": 2013,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx89278-2nemnSgiesJa.jpg",
+      "color": "#d61a35",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 86,
+        "scale": 100,
+        "votes": 1772,
+        "url": "https://anilist.co/manga/89278",
+        "fetchedAt": "2026-07-18T06:05:36.800Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.6,
+        "voteConfidence": 0.5416,
+        "effectiveWeight": 0.0975,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 7.8881,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.0975,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-132288",
+    "medium": "manga",
+    "title": {
+      "zh": "Hirayasumi",
+      "original": "ひらやすみ"
+    },
+    "year": 2021,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx132288-YnkpDO1wNHNM.png",
+      "color": "#f1bb28",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 2450,
+        "url": "https://anilist.co/manga/132288",
+        "fetchedAt": "2026-07-18T06:05:36.806Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.6203,
+        "effectiveWeight": 0.1116,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 7.8812,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1116,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-136109",
+    "medium": "manga",
+    "title": {
+      "zh": "The Moon on a Rainy Night",
+      "original": "雨夜の月"
+    },
+    "year": 2021,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx136109-h4mux2toQJkD.jpg",
+      "color": "#e46b5d",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 2183,
+        "url": "https://anilist.co/manga/136109",
+        "fetchedAt": "2026-07-18T06:05:36.803Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.5927,
+        "effectiveWeight": 0.1067,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 7.8618,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1067,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-31859",
+    "medium": "manga",
+    "title": {
+      "zh": "Natsume's Book of Friends",
+      "original": "夏目友人帳"
+    },
+    "year": 2003,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx31859-mITgIaJFBzl4.png",
+      "color": "#ffa143",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 1984,
+        "url": "https://anilist.co/manga/31859",
+        "fetchedAt": "2026-07-18T06:05:36.804Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.5695,
+        "effectiveWeight": 0.1025,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 7.8443,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1025,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-86890",
+    "medium": "manga",
+    "title": {
+      "zh": "Blue Giant",
+      "original": "BLUE GIANT"
+    },
+    "year": 2013,
+    "format": "MANGA",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx86890-hYxIiVM6rBBG.jpg",
+      "color": "#35aee4",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 84,
+        "scale": 100,
+        "votes": 2519,
+        "url": "https://anilist.co/manga/86890",
+        "fetchedAt": "2026-07-18T06:05:36.809Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.4,
+        "voteConfidence": 0.6268,
+        "effectiveWeight": 0.1128,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 7.8165,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.1128,
+      "status": "ranked"
+    },
+    "commercial": null
+  },
+  {
+    "id": "manga:anilist-174875",
+    "medium": "manga",
+    "title": {
+      "zh": "Kimi ni Okuru Eien",
+      "original": "君に贈る永遠"
+    },
+    "year": 2024,
+    "format": "ONE_SHOT",
+    "cover": {
+      "url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx174875-4dU2x0Rmtwqa.jpg",
+      "color": "#5daee4",
+      "source": "anilist"
+    },
+    "ratings": {
+      "bangumi": null,
+      "mal": null,
+      "anilist": {
+        "raw": 85,
+        "scale": 100,
+        "votes": 1560,
+        "url": "https://anilist.co/manga/174875",
+        "fetchedAt": "2026-07-18T06:05:36.803Z",
+        "via": "AniList GraphQL API",
+        "stale": false,
+        "normalized": 8.5,
+        "voteConfidence": 0.5098,
+        "effectiveWeight": 0.0918,
+        "calibrationMode": "identity-fallback"
+      }
+    },
+    "score": {
+      "value": 7.7948,
+      "sourceCount": 1,
+      "coverage": 0.3,
+      "totalWeight": 0.0918,
       "status": "ranked"
     },
     "commercial": null

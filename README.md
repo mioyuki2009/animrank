@@ -1,6 +1,6 @@
 # 番鉴
 
-一个面向 GitHub Pages 的静态动画 / 漫画评分站。浏览器只读取仓库内生成的 JSON；Bangumi、MyAnimeList 和 AniList 的请求全部发生在数据刷新阶段。
+一个面向 GitHub Pages 的静态动画 / 漫画评分站。浏览器只读取仓库内生成的 JSON；作品目录与评分请求全部发生在数据刷新阶段。
 
 ## 数据源
 
@@ -10,7 +10,7 @@
 - [MyAnimeList](https://myanimelist.net/)：基础权重 30%
 - [AniList](https://anilist.co/)：基础权重 30%
 
-MyAnimeList 优先使用官方 API；未配置 `MAL_CLIENT_ID` 时使用 [Jikan](https://jikan.moe/) 作为 MAL 数据的备用取数通道。Jikan 不会被视为第四个评分平台。
+MyAnimeList 优先使用官方 API；未配置 `MAL_CLIENT_ID` 时使用 [Jikan](https://jikan.moe/) 作为 MAL 数据的备用取数通道。Jikan 不会被视为第四个评分平台。目录发现和评分抓取都发生在 CI 构建阶段，浏览器只读取生成后的静态 JSON。
 
 动画销量和漫画发行量不参与口碑评分。由于 Oricon 没有适合公开 CI 的免费 API，这部分数据位于 `data/editorial.json`，需要人工核对来源。脚本只负责校验字段以及计算漫画卷均。
 
@@ -28,7 +28,7 @@ npm run build
 npm run serve
 ```
 
-默认地址为 `http://127.0.0.1:4173/`。新增作品时编辑 `config/titles.json`，为每个平台填写人工确认的 ID；缺失 ID 使用 `null`，不要使用标题模糊匹配。
+默认地址为 `http://127.0.0.1:4173/`。作品目录不在仓库中手工维护：`config/catalog.json` 只设置动画和漫画的最大条数。每次 `npm run refresh` 会从三个站点的分页 API 发现作品、合并平台 ID，并把目录缓存写入 `public/data/catalog.json`。
 
 Bangumi 要求可识别的 User-Agent。本地可设置：
 

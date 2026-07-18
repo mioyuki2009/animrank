@@ -1,6 +1,6 @@
 {
   "algorithmVersion": "1.0.0",
-  "minimumSources": 2,
+  "minimumSources": 1,
   "staleAfterDays": 14,
   "prior": {
     "mean": 6.5,

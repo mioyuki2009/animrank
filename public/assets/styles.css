@@ -511,11 +511,60 @@ tbody tr:hover {
 
 .rating-cell a,
 .rating-cell > span,
-.commercial-cell,
-.final-cell {
+.commercial-cell {
   display: grid;
   line-height: 1.1;
   text-decoration: none;
+}
+
+.final-cell {
+  min-width: 92px;
+  vertical-align: middle;
+}
+
+.final-score-line {
+  align-items: baseline;
+  display: flex;
+  gap: 3px;
+}
+
+.final-score-line strong {
+  font-family: Georgia, serif;
+  font-size: 22px;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.final-score-line em {
+  color: var(--faint);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.source-meter {
+  display: grid;
+  gap: 5px;
+  margin-top: 7px;
+}
+
+.source-meter i {
+  background: var(--line);
+  border-radius: 99px;
+  display: block;
+  height: 3px;
+  overflow: hidden;
+  position: relative;
+  width: 54px;
+}
+
+.source-meter i::after {
+  background: var(--green);
+  border-radius: inherit;
+  content: "";
+  inset: 0 auto 0 0;
+  position: absolute;
+  width: var(--coverage, 0%);
 }
 
 .rating-cell strong {
@@ -550,20 +599,14 @@ tbody tr:hover {
 }
 
 .final-column {
-  width: 9%;
+  width: 10%;
 }
 
-.final-cell strong {
-  font-family: Georgia, serif;
-  font-size: 24px;
-  font-variant-numeric: tabular-nums;
-}
-
-.final-cell.strong strong {
+.final-cell.strong .final-score-line strong {
   color: var(--blue);
 }
 
-.final-cell.excellent strong {
+.final-cell.excellent .final-score-line strong {
   color: var(--red);
 }
 
@@ -977,7 +1020,7 @@ dialog::backdrop {
     padding-top: 10px;
   }
 
-  .final-cell strong {
+  .final-score-line strong {
     font-size: 20px;
   }
 
@@ -989,12 +1032,12 @@ dialog::backdrop {
     padding: 10px 0 0;
   }
 
-  .detail-cell {
+  .catalog #catalog-body > tr > .detail-cell {
     align-self: end;
     border-top: 1px solid var(--line);
     grid-column: 10 / 13;
     grid-row: 4;
-    padding-top: 10px;
+    padding: 10px 8px 0 0;
     text-align: right;
   }
 
