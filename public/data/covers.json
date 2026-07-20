@@ -65,14 +65,6 @@
       "source": "anilist",
       "color": "#ffc993"
     },
-    "anime:anilist-20954": {
-      "file": "anime-anilist-20954.jpg",
-      "path": "./data/covers/anime-anilist-20954.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20954-sYRfE5jQRtSB.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#5dbbe4"
-    },
     "anime:anilist-820": {
       "file": "anime-anilist-820.png",
       "path": "./data/covers/anime-anilist-820.png",
@@ -169,6 +161,22 @@
       "source": "bangumi",
       "color": null
     },
+    "anime:bangumi-37460": {
+      "file": "anime-bangumi-37460.jpg",
+      "path": "./data/covers/anime-bangumi-37460.jpg",
+      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/64/b3/37460_gtg0V.jpg",
+      "contentType": "image/jpeg",
+      "source": "bangumi",
+      "color": null
+    },
+    "anime:bangumi-238": {
+      "file": "anime-bangumi-238.jpg",
+      "path": "./data/covers/anime-bangumi-238.jpg",
+      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/ac/1d/238_jJONA.jpg",
+      "contentType": "image/jpeg",
+      "source": "bangumi",
+      "color": null
+    },
     "anime:anilist-44": {
       "file": "anime-anilist-44.png",
       "path": "./data/covers/anime-anilist-44.png",
@@ -176,6 +184,22 @@
       "contentType": "image/png",
       "source": "anilist",
       "color": "#ffd6bb"
+    },
+    "anime:anilist-185407": {
+      "file": "anime-anilist-185407.jpg",
+      "path": "./data/covers/anime-anilist-185407.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185407-7uzY4fA3hokP.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#e4435d"
+    },
+    "anime:anilist-151514": {
+      "file": "anime-anilist-151514.jpg",
+      "path": "./data/covers/anime-anilist-151514.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx151514-Y0d82Ah2ZOHX.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": null
     },
     "anime:anilist-189046": {
       "file": "anime-anilist-189046.jpg",
@@ -200,6 +224,22 @@
       "contentType": "image/jpeg",
       "source": "anilist",
       "color": "#e46b50"
+    },
+    "anime:anilist-145064": {
+      "file": "anime-anilist-145064.jpg",
+      "path": "./data/covers/anime-anilist-145064.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx145064-hSNRJM03pvv1.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#a178d6"
+    },
+    "anime:anilist-182587": {
+      "file": "anime-anilist-182587.jpg",
+      "path": "./data/covers/anime-anilist-182587.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx182587-fsU8LOjmd7oj.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#d643e4"
     },
     "anime:anilist-20607": {
       "file": "anime-anilist-20607.jpg",
@@ -257,22 +297,6 @@
       "source": "anilist",
       "color": "#d6bb78"
     },
-    "anime:anilist-140350": {
-      "file": "anime-anilist-140350.jpg",
-      "path": "./data/covers/anime-anilist-140350.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140350-Qf5IB0HxaJZf.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#e4785d"
-    },
-    "anime:anilist-103047": {
-      "file": "anime-anilist-103047.jpg",
-      "path": "./data/covers/anime-anilist-103047.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx109190-e8mv1qdmpjLW.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#e4e4a1"
-    },
     "anime:anilist-130003": {
       "file": "anime-anilist-130003.png",
       "path": "./data/covers/anime-anilist-130003.png",
@@ -289,13 +313,13 @@
       "source": "anilist",
       "color": "#aee4e4"
     },
-    "anime:anilist-155227": {
-      "file": "anime-anilist-155227.jpg",
-      "path": "./data/covers/anime-anilist-155227.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx155227-ZEAyBcZjSeet.jpg",
+    "anime:anilist-199448": {
+      "file": "anime-anilist-199448.jpg",
+      "path": "./data/covers/anime-anilist-199448.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx137667-xQxzQRAerw53.jpg",
       "contentType": "image/jpeg",
       "source": "anilist",
-      "color": "#50a1e4"
+      "color": "#93c9e4"
     },
     "anime:anilist-113024": {
       "file": "anime-anilist-113024.png",
@@ -313,13 +337,13 @@
       "source": "anilist",
       "color": "#1a356b"
     },
-    "anime:anilist-172463": {
-      "file": "anime-anilist-172463.jpg",
-      "path": "./data/covers/anime-anilist-172463.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx172463-LnXqHzt74SJL.jpg",
+    "anime:anilist-174788": {
+      "file": "anime-anilist-174788.jpg",
+      "path": "./data/covers/anime-anilist-174788.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx174788-9LsUnn0oEppv.jpg",
       "contentType": "image/jpeg",
       "source": "anilist",
-      "color": "#78aee4"
+      "color": "#e4bb50"
     },
     "anime:bangumi-1015": {
       "file": "anime-bangumi-1015.jpg",
@@ -336,14 +360,6 @@
       "contentType": "image/jpeg",
       "source": "bangumi",
       "color": null
-    },
-    "anime:anilist-21827": {
-      "file": "anime-anilist-21827.png",
-      "path": "./data/covers/anime-anilist-21827.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21827-ubzq619ZA2E9.png",
-      "contentType": "image/png",
-      "source": "anilist",
-      "color": "#3586e4"
     },
     "anime:anilist-3297": {
       "file": "anime-anilist-3297.png",
@@ -368,6 +384,14 @@
       "contentType": "image/png",
       "source": "anilist",
       "color": "#43a1e4"
+    },
+    "anime:anilist-156092": {
+      "file": "anime-anilist-156092.jpg",
+      "path": "./data/covers/anime-anilist-156092.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx156092-yHqgQZOF2mbg.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#d61a1a"
     },
     "anime:anilist-136430": {
       "file": "anime-anilist-136430.jpg",
@@ -417,6 +441,14 @@
       "source": "anilist",
       "color": "#f15d35"
     },
+    "anime:anilist-142329": {
+      "file": "anime-anilist-142329.png",
+      "path": "./data/covers/anime-anilist-142329.png",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx112151-1qlQwPB1RrJe.png",
+      "contentType": "image/png",
+      "source": "anilist",
+      "color": "#5dc9f1"
+    },
     "anime:anilist-128547": {
       "file": "anime-anilist-128547.jpg",
       "path": "./data/covers/anime-anilist-128547.jpg",
@@ -432,6 +464,14 @@
       "contentType": "image/jpeg",
       "source": "anilist",
       "color": "#28c9fe"
+    },
+    "anime:anilist-190840": {
+      "file": "anime-anilist-190840.png",
+      "path": "./data/covers/anime-anilist-190840.png",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx190840-CvKAz6aWHB21.png",
+      "contentType": "image/png",
+      "source": "anilist",
+      "color": "#50aee4"
     },
     "anime:anilist-166216": {
       "file": "anime-anilist-166216.jpg",
@@ -489,18 +529,26 @@
       "source": "anilist",
       "color": "#28bbe4"
     },
-    "anime:bangumi-44693": {
-      "file": "anime-bangumi-44693.jpg",
-      "path": "./data/covers/anime-bangumi-44693.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/31/1c/44693_YS9kU.jpg",
+    "anime:bangumi-4583": {
+      "file": "anime-bangumi-4583.jpg",
+      "path": "./data/covers/anime-bangumi-4583.jpg",
+      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/33/80/4583_RvVeE.jpg",
       "contentType": "image/jpeg",
       "source": "bangumi",
       "color": null
     },
-    "anime:bangumi-298": {
-      "file": "anime-bangumi-298.jpg",
-      "path": "./data/covers/anime-bangumi-298.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/26/e3/298_WFVhX.jpg",
+    "anime:bangumi-9622": {
+      "file": "anime-bangumi-9622.jpg",
+      "path": "./data/covers/anime-bangumi-9622.jpg",
+      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/97/c8/9622_2P229.jpg",
+      "contentType": "image/jpeg",
+      "source": "bangumi",
+      "color": null
+    },
+    "anime:bangumi-44693": {
+      "file": "anime-bangumi-44693.jpg",
+      "path": "./data/covers/anime-bangumi-44693.jpg",
+      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/31/1c/44693_YS9kU.jpg",
       "contentType": "image/jpeg",
       "source": "bangumi",
       "color": null
@@ -512,6 +560,46 @@
       "contentType": "image/jpeg",
       "source": "anilist",
       "color": "#f17843"
+    },
+    "anime:anilist-101215": {
+      "file": "anime-anilist-101215.png",
+      "path": "./data/covers/anime-anilist-101215.png",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101215-8TTRNAYJnPMW.png",
+      "contentType": "image/png",
+      "source": "anilist",
+      "color": "#e4436b"
+    },
+    "anime:anilist-153518": {
+      "file": "anime-anilist-153518.jpg",
+      "path": "./data/covers/anime-anilist-153518.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx153518-IVXPDY5ph3kO.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#e48650"
+    },
+    "anime:anilist-97983": {
+      "file": "anime-anilist-97983.jpg",
+      "path": "./data/covers/anime-anilist-97983.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx97983-Uqn04SR6hVW9.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#5daee4"
+    },
+    "anime:anilist-21262": {
+      "file": "anime-anilist-21262.jpg",
+      "path": "./data/covers/anime-anilist-21262.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21262-jfbv9hvjymMW.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#1aa16b"
+    },
+    "anime:anilist-181444": {
+      "file": "anime-anilist-181444.jpg",
+      "path": "./data/covers/anime-anilist-181444.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx181444-Ut9DDUZdfHwg.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#6baed6"
     },
     "anime:anilist-4565": {
       "file": "anime-anilist-4565.png",
@@ -681,14 +769,6 @@
       "source": "anilist",
       "color": "#e4bb50"
     },
-    "anime:bangumi-3553": {
-      "file": "anime-bangumi-3553.jpg",
-      "path": "./data/covers/anime-bangumi-3553.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/e2/50/3553_FIw4I.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
-    },
     "anime:anilist-21460": {
       "file": "anime-anilist-21460.png",
       "path": "./data/covers/anime-anilist-21460.png",
@@ -696,14 +776,6 @@
       "contentType": "image/png",
       "source": "anilist",
       "color": "#43a1f1"
-    },
-    "anime:bangumi-3302": {
-      "file": "anime-bangumi-3302.jpg",
-      "path": "./data/covers/anime-bangumi-3302.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/6f/ab/3302_rEfZV.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
     },
     "anime:anilist-114745": {
       "file": "anime-anilist-114745.jpg",
@@ -760,6 +832,118 @@
       "contentType": "image/png",
       "source": "anilist",
       "color": "#e4d66b"
+    },
+    "anime:anilist-100388": {
+      "file": "anime-anilist-100388.jpg",
+      "path": "./data/covers/anime-anilist-100388.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx100388-hjkg1AnlJR5z.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#ffd643"
+    },
+    "anime:anilist-175914": {
+      "file": "anime-anilist-175914.jpg",
+      "path": "./data/covers/anime-anilist-175914.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx175914-VsbL90WzuqoM.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#a1d6e4"
+    },
+    "anime:anilist-140842": {
+      "file": "anime-anilist-140842.jpg",
+      "path": "./data/covers/anime-anilist-140842.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140842-T0geOCa3zS0A.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#e4d6ae"
+    },
+    "anime:bangumi-51": {
+      "file": "anime-bangumi-51.jpg",
+      "path": "./data/covers/anime-bangumi-51.jpg",
+      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/28/38/51_z0Ly8.jpg",
+      "contentType": "image/jpeg",
+      "source": "bangumi",
+      "color": null
+    },
+    "anime:anilist-182309": {
+      "file": "anime-anilist-182309.jpg",
+      "path": "./data/covers/anime-anilist-182309.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx182309-IfrR8sgHIczv.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#0da1fe"
+    },
+    "anime:anilist-99750": {
+      "file": "anime-anilist-99750.jpg",
+      "path": "./data/covers/anime-anilist-99750.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99750-pNyly9d3MEgV.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#f1c9f1"
+    },
+    "anime:anilist-113415": {
+      "file": "anime-anilist-113415.jpg",
+      "path": "./data/covers/anime-anilist-113415.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113415-LHBAeoZDIsnF.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#e45d5d"
+    },
+    "anime:anilist-168872": {
+      "file": "anime-anilist-168872.jpg",
+      "path": "./data/covers/anime-anilist-168872.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx168872-ls6UwxFAw212.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#e4ae50"
+    },
+    "anime:anilist-21710": {
+      "file": "anime-anilist-21710.jpg",
+      "path": "./data/covers/anime-anilist-21710.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21710-Y20fKQviC3hL.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#d6f1c9"
+    },
+    "anime:anilist-166611": {
+      "file": "anime-anilist-166611.png",
+      "path": "./data/covers/anime-anilist-166611.png",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166611-MXGsOlPv2IKj.png",
+      "contentType": "image/png",
+      "source": "anilist",
+      "color": "#f1500d"
+    },
+    "anime:anilist-206914": {
+      "file": "anime-anilist-206914.jpg",
+      "path": "./data/covers/anime-anilist-206914.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx206914-SHKX08LarRzB.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#35c9e4"
+    },
+    "anime:anilist-166531": {
+      "file": "anime-anilist-166531.png",
+      "path": "./data/covers/anime-anilist-166531.png",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx150672-WqmmwZ4nMzAy.png",
+      "contentType": "image/png",
+      "source": "anilist",
+      "color": "#ff35c9"
+    },
+    "anime:anilist-104157": {
+      "file": "anime-anilist-104157.jpg",
+      "path": "./data/covers/anime-anilist-104157.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104157-rk99XI56PaIC.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#8643f1"
+    },
+    "anime:anilist-176496": {
+      "file": "anime-anilist-176496.png",
+      "path": "./data/covers/anime-anilist-176496.png",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176496-9BDMjAZGEbq4.png",
+      "contentType": "image/png",
+      "source": "anilist",
+      "color": "#e45093"
     },
     "anime:anilist-21718": {
       "file": "anime-anilist-21718.jpg",
@@ -1065,6 +1249,14 @@
       "source": "mal",
       "color": null
     },
+    "anime:anilist-177687": {
+      "file": "anime-anilist-177687.png",
+      "path": "./data/covers/anime-anilist-177687.png",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177687-T4SrtVjrmW01.png",
+      "contentType": "image/png",
+      "source": "anilist",
+      "color": "#e46b5d"
+    },
     "anime:anilist-21366": {
       "file": "anime-anilist-21366.jpg",
       "path": "./data/covers/anime-anilist-21366.jpg",
@@ -1072,6 +1264,14 @@
       "contentType": "image/jpeg",
       "source": "anilist",
       "color": "#e4865d"
+    },
+    "anime:bangumi-4163": {
+      "file": "anime-bangumi-4163.jpg",
+      "path": "./data/covers/anime-bangumi-4163.jpg",
+      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/60/49/4163_E22Se.jpg",
+      "contentType": "image/jpeg",
+      "source": "bangumi",
+      "color": null
     },
     "anime:anilist-12365": {
       "file": "anime-anilist-12365.png",
@@ -1097,22 +1297,6 @@
       "source": "anilist",
       "color": "#93e4a1"
     },
-    "anime:bangumi-842": {
-      "file": "anime-bangumi-842.jpg",
-      "path": "./data/covers/anime-bangumi-842.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/fc/3c/842_clVl2.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
-    },
-    "anime:bangumi-295": {
-      "file": "anime-bangumi-295.jpg",
-      "path": "./data/covers/anime-bangumi-295.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/49/18/295_W0vZv.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
-    },
     "anime:anilist-5081": {
       "file": "anime-anilist-5081.jpg",
       "path": "./data/covers/anime-anilist-5081.jpg",
@@ -1129,6 +1313,14 @@
       "source": "anilist",
       "color": "#e47850"
     },
+    "anime:bangumi-8986": {
+      "file": "anime-bangumi-8986.jpg",
+      "path": "./data/covers/anime-bangumi-8986.jpg",
+      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/0c/2b/8986_o00u5.jpg",
+      "contentType": "image/jpeg",
+      "source": "bangumi",
+      "color": null
+    },
     "anime:anilist-21127": {
       "file": "anime-anilist-21127.jpg",
       "path": "./data/covers/anime-anilist-21127.jpg",
@@ -1137,10 +1329,18 @@
       "source": "anilist",
       "color": "#f1d6bb"
     },
-    "anime:bangumi-1269": {
-      "file": "anime-bangumi-1269.jpg",
-      "path": "./data/covers/anime-bangumi-1269.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/e0/04/1269_8hpU3.jpg",
+    "anime:bangumi-605": {
+      "file": "anime-bangumi-605.jpg",
+      "path": "./data/covers/anime-bangumi-605.jpg",
+      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/c3/61/605_Jg0W8.jpg",
+      "contentType": "image/jpeg",
+      "source": "bangumi",
+      "color": null
+    },
+    "anime:bangumi-3128": {
+      "file": "anime-bangumi-3128.jpg",
+      "path": "./data/covers/anime-bangumi-3128.jpg",
+      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/df/f8/3128_4QNAH.jpg",
       "contentType": "image/jpeg",
       "source": "bangumi",
       "color": null
@@ -1153,21 +1353,165 @@
       "source": "bangumi",
       "color": null
     },
-    "anime:anilist-184951": {
-      "file": "anime-anilist-184951.jpg",
-      "path": "./data/covers/anime-anilist-184951.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184951-s8Lg2muPBhdX.jpg",
+    "anime:bangumi-14878": {
+      "file": "anime-bangumi-14878.jpg",
+      "path": "./data/covers/anime-bangumi-14878.jpg",
+      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/0e/e8/14878_1hWbu.jpg",
+      "contentType": "image/jpeg",
+      "source": "bangumi",
+      "color": null
+    },
+    "anime:bangumi-276": {
+      "file": "anime-bangumi-276.jpg",
+      "path": "./data/covers/anime-bangumi-276.jpg",
+      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/db/8e/276_1Cr5K.jpg",
+      "contentType": "image/jpeg",
+      "source": "bangumi",
+      "color": null
+    },
+    "anime:anilist-171099": {
+      "file": "anime-anilist-171099.jpg",
+      "path": "./data/covers/anime-anilist-171099.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx165253-nAwyrMZm4jBA.jpg",
       "contentType": "image/jpeg",
       "source": "anilist",
-      "color": "#e4a135"
+      "color": "#e4c9ae"
     },
-    "anime:anilist-392": {
-      "file": "anime-anilist-392.png",
-      "path": "./data/covers/anime-anilist-392.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx392-z90299zIvYmx.png",
+    "anime:anilist-127230": {
+      "file": "anime-anilist-127230.png",
+      "path": "./data/covers/anime-anilist-127230.png",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127230-DdP4vAdssLoz.png",
       "contentType": "image/png",
       "source": "anilist",
-      "color": "#e49343"
+      "color": "#6b1a1a"
+    },
+    "anime:anilist-171018": {
+      "file": "anime-anilist-171018.jpg",
+      "path": "./data/covers/anime-anilist-171018.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171018-60q1B6GK2Ghb.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#e47850"
+    },
+    "anime:anilist-185660": {
+      "file": "anime-anilist-185660.jpg",
+      "path": "./data/covers/anime-anilist-185660.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185660-uB8RUMBGovGr.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#f1ae28"
+    },
+    "anime:anilist-101922": {
+      "file": "anime-anilist-101922.jpg",
+      "path": "./data/covers/anime-anilist-101922.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101922-WBsBl0ClmgYL.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#f1c9ae"
+    },
+    "anime:anilist-166617": {
+      "file": "anime-anilist-166617.png",
+      "path": "./data/covers/anime-anilist-166617.png",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166617-34fpC9y47tTx.png",
+      "contentType": "image/png",
+      "source": "anilist",
+      "color": "#1a0df1"
+    },
+    "anime:anilist-7472": {
+      "file": "anime-anilist-7472.jpg",
+      "path": "./data/covers/anime-anilist-7472.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7472-RveDgQsIZUNG.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#e4ae50"
+    },
+    "anime:anilist-164212": {
+      "file": "anime-anilist-164212.jpg",
+      "path": "./data/covers/anime-anilist-164212.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx164212-eKh15LQxkTEx.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#fff143"
+    },
+    "anime:anilist-108430": {
+      "file": "anime-anilist-108430.jpg",
+      "path": "./data/covers/anime-anilist-108430.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108430-UdruJPro4vDK.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#e4a15d"
+    },
+    "anime:anilist-98707": {
+      "file": "anime-anilist-98707.png",
+      "path": "./data/covers/anime-anilist-98707.png",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx98707-25nUKb4XUFgY.png",
+      "contentType": "image/png",
+      "source": "anilist",
+      "color": "#f15d6b"
+    },
+    "anime:anilist-189275": {
+      "file": "anime-anilist-189275.jpg",
+      "path": "./data/covers/anime-anilist-189275.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx189275-eHsK0lNnFfXH.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#50a1e4"
+    },
+    "anime:anilist-186861": {
+      "file": "anime-anilist-186861.jpg",
+      "path": "./data/covers/anime-anilist-186861.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx186861-3zhIhilJvbJz.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#f1c9a1"
+    },
+    "anime:anilist-113717": {
+      "file": "anime-anilist-113717.jpg",
+      "path": "./data/covers/anime-anilist-113717.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113717-9sNnN8WRgK15.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#e4935d"
+    },
+    "anime:anilist-161474": {
+      "file": "anime-anilist-161474.jpg",
+      "path": "./data/covers/anime-anilist-161474.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx161474-ZDfmmlJQQngN.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#e4c9ae"
+    },
+    "anime:anilist-129201": {
+      "file": "anime-anilist-129201.png",
+      "path": "./data/covers/anime-anilist-129201.png",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx129201-HJBauga2be8I.png",
+      "contentType": "image/png",
+      "source": "anilist",
+      "color": "#2886e4"
+    },
+    "anime:anilist-138425": {
+      "file": "anime-anilist-138425.jpg",
+      "path": "./data/covers/anime-anilist-138425.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b138425-SVqDO2SH5pbh.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#50aee4"
+    },
+    "anime:anilist-21804": {
+      "file": "anime-anilist-21804.jpg",
+      "path": "./data/covers/anime-anilist-21804.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21804-As6tDLAvEvNY.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#f1bb1a"
+    },
+    "anime:anilist-101759": {
+      "file": "anime-anilist-101759.jpg",
+      "path": "./data/covers/anime-anilist-101759.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101759-8UR7r9MNVpz2.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#e4ae50"
     },
     "anime:anilist-110355": {
       "file": "anime-anilist-110355.png",
@@ -1217,50 +1561,10 @@
       "source": "bangumi",
       "color": null
     },
-    "anime:bangumi-11577": {
-      "file": "anime-bangumi-11577.jpg",
-      "path": "./data/covers/anime-bangumi-11577.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/a8/6a/11577_5U5G1.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
-    },
     "anime:bangumi-72266": {
       "file": "anime-bangumi-72266.jpg",
       "path": "./data/covers/anime-bangumi-72266.jpg",
       "remoteUrl": "https://lain.bgm.tv/pic/cover/l/76/f3/72266_p0Nxo.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
-    },
-    "anime:bangumi-124341": {
-      "file": "anime-bangumi-124341.jpg",
-      "path": "./data/covers/anime-bangumi-124341.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/10/a1/124341_5oSro.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
-    },
-    "anime:bangumi-37183": {
-      "file": "anime-bangumi-37183.jpg",
-      "path": "./data/covers/anime-bangumi-37183.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/d7/1b/37183_TT9yf.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
-    },
-    "anime:bangumi-8621": {
-      "file": "anime-bangumi-8621.jpg",
-      "path": "./data/covers/anime-bangumi-8621.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/64/51/8621_MPPls.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
-    },
-    "anime:bangumi-822": {
-      "file": "anime-bangumi-822.jpg",
-      "path": "./data/covers/anime-bangumi-822.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/af/da/822_9y55j.jpg",
       "contentType": "image/jpeg",
       "source": "bangumi",
       "color": null
@@ -1296,310 +1600,6 @@
       "contentType": "image/jpeg",
       "source": "anilist",
       "color": "#f1bb43"
-    },
-    "anime:anilist-201903": {
-      "file": "anime-anilist-201903.jpg",
-      "path": "./data/covers/anime-anilist-201903.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx201903-v43gxQKw8Tc8.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#e46b35"
-    },
-    "anime:anilist-20526": {
-      "file": "anime-anilist-20526.png",
-      "path": "./data/covers/anime-anilist-20526.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20526-PmuD69J3rkDF.png",
-      "contentType": "image/png",
-      "source": "anilist",
-      "color": null
-    },
-    "anime:anilist-14397": {
-      "file": "anime-anilist-14397.jpg",
-      "path": "./data/covers/anime-anilist-14397.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx14397-k2mzAGlUthAb.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#f1bb50"
-    },
-    "anime:anilist-33": {
-      "file": "anime-anilist-33.jpg",
-      "path": "./data/covers/anime-anilist-33.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx33-PSwfE5B0gejI.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#e49350"
-    },
-    "anime:anilist-16498": {
-      "file": "anime-anilist-16498.jpg",
-      "path": "./data/covers/anime-anilist-16498.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20811-IvXLdxZkYNcP.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": null
-    },
-    "anime:anilist-20464": {
-      "file": "anime-anilist-20464.png",
-      "path": "./data/covers/anime-anilist-20464.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20464-ooZUyBe4ptp9.png",
-      "contentType": "image/png",
-      "source": "anilist",
-      "color": "#e48635"
-    },
-    "anime:anilist-7791": {
-      "file": "anime-anilist-7791.png",
-      "path": "./data/covers/anime-anilist-7791.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7791-4tnomla2mMDp.png",
-      "contentType": "image/png",
-      "source": "anilist",
-      "color": "#c9e45d"
-    },
-    "anime:anilist-21399": {
-      "file": "anime-anilist-21399.png",
-      "path": "./data/covers/anime-anilist-21399.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21399-VTAdAqc8u5AE.png",
-      "contentType": "image/png",
-      "source": "anilist",
-      "color": "#28aee4"
-    },
-    "anime:anilist-10379": {
-      "file": "anime-anilist-10379.jpg",
-      "path": "./data/covers/anime-anilist-10379.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx10379-lS2Mk6lX4lZr.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#d6a178"
-    },
-    "anime:anilist-109403": {
-      "file": "anime-anilist-109403.jpg",
-      "path": "./data/covers/anime-anilist-109403.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx109403-g6QqMkqV1ayu.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#5d93d6"
-    },
-    "anime:anilist-11741": {
-      "file": "anime-anilist-11741.jpg",
-      "path": "./data/covers/anime-anilist-11741.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11741-oEy1fJHYm2zJ.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#e4781a"
-    },
-    "anime:anilist-102883": {
-      "file": "anime-anilist-102883.png",
-      "path": "./data/covers/anime-anilist-102883.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx102883-S9KzdMJhDswJ.png",
-      "contentType": "image/png",
-      "source": "anilist",
-      "color": "#fff1bb"
-    },
-    "anime:anilist-20799": {
-      "file": "anime-anilist-20799.jpg",
-      "path": "./data/covers/anime-anilist-20799.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20799-S1eyqBDlx51E.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#6b281a"
-    },
-    "anime:anilist-153658": {
-      "file": "anime-anilist-153658.jpg",
-      "path": "./data/covers/anime-anilist-153658.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx153658-KVnjW77cQw3y.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#e4a15d"
-    },
-    "anime:anilist-100784": {
-      "file": "anime-anilist-100784.jpg",
-      "path": "./data/covers/anime-anilist-100784.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx100784-7fWdiduBFr95.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#e4d650"
-    },
-    "anime:anilist-178788": {
-      "file": "anime-anilist-178788.jpg",
-      "path": "./data/covers/anime-anilist-178788.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178788-zm3gtpB9TpRt.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#35bbe4"
-    },
-    "anime:bangumi-995": {
-      "file": "anime-bangumi-995.jpg",
-      "path": "./data/covers/anime-bangumi-995.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/2b/ca/995_1FUkm.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
-    },
-    "anime:anilist-4282": {
-      "file": "anime-anilist-4282.jpg",
-      "path": "./data/covers/anime-anilist-4282.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4282-R19YmET0glSZ.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": null
-    },
-    "anime:anilist-100643": {
-      "file": "anime-anilist-100643.jpg",
-      "path": "./data/covers/anime-anilist-100643.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx100643-fPH9OgEKKvcI.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#e49343"
-    },
-    "anime:bangumi-485": {
-      "file": "anime-bangumi-485.jpg",
-      "path": "./data/covers/anime-bangumi-485.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/21/8a/485_Et062.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
-    },
-    "anime:bangumi-9565": {
-      "file": "anime-bangumi-9565.jpg",
-      "path": "./data/covers/anime-bangumi-9565.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/84/45/9565_s98m3.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
-    },
-    "anime:bangumi-9005": {
-      "file": "anime-bangumi-9005.jpg",
-      "path": "./data/covers/anime-bangumi-9005.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/68/72/9005_XZmlL.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
-    },
-    "anime:bangumi-1940": {
-      "file": "anime-bangumi-1940.jpg",
-      "path": "./data/covers/anime-bangumi-1940.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/95/e6/1940_o9Lto.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
-    },
-    "anime:bangumi-509986": {
-      "file": "anime-bangumi-509986.jpg",
-      "path": "./data/covers/anime-bangumi-509986.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/6e/1a/509986_99qsc.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
-    },
-    "anime:anilist-877": {
-      "file": "anime-anilist-877.png",
-      "path": "./data/covers/anime-anilist-877.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx877-6BUYEWp8By8j.png",
-      "contentType": "image/png",
-      "source": "anilist",
-      "color": "#f14386"
-    },
-    "anime:bangumi-1856": {
-      "file": "anime-bangumi-1856.jpg",
-      "path": "./data/covers/anime-bangumi-1856.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/3c/94/1856_7Q7i9.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
-    },
-    "anime:anilist-126403": {
-      "file": "anime-anilist-126403.png",
-      "path": "./data/covers/anime-anilist-126403.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx126403-BfVSRzWUtVFW.png",
-      "contentType": "image/png",
-      "source": "anilist",
-      "color": null
-    },
-    "anime:bangumi-531": {
-      "file": "anime-bangumi-531.jpg",
-      "path": "./data/covers/anime-bangumi-531.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/0f/cb/531_lhSVh.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
-    },
-    "anime:bangumi-2496": {
-      "file": "anime-bangumi-2496.jpg",
-      "path": "./data/covers/anime-bangumi-2496.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/12/ff/2496_XYtR8.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
-    },
-    "anime:bangumi-14879": {
-      "file": "anime-bangumi-14879.jpg",
-      "path": "./data/covers/anime-bangumi-14879.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/e9/85/14879_4kRqu.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
-    },
-    "anime:anilist-5": {
-      "file": "anime-anilist-5.jpg",
-      "path": "./data/covers/anime-anilist-5.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx5-NozHwXWdNLCz.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#f13500"
-    },
-    "anime:anilist-12431": {
-      "file": "anime-anilist-12431.png",
-      "path": "./data/covers/anime-anilist-12431.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx12431-vL6wmxLsTzzS.png",
-      "contentType": "image/png",
-      "source": "anilist",
-      "color": null
-    },
-    "anime:anilist-105749": {
-      "file": "anime-anilist-105749.jpg",
-      "path": "./data/covers/anime-anilist-105749.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105749-bbqFNGq0r6mS.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#d6a11a"
-    },
-    "anime:anilist-136192": {
-      "file": "anime-anilist-136192.jpg",
-      "path": "./data/covers/anime-anilist-136192.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx136192-hxeNRzBHizBZ.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#e45d6b"
-    },
-    "anime:anilist-178025": {
-      "file": "anime-anilist-178025.jpg",
-      "path": "./data/covers/anime-anilist-178025.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178025-cWJKEsZynkil.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#e4a150"
-    },
-    "anime:anilist-100922": {
-      "file": "anime-anilist-100922.png",
-      "path": "./data/covers/anime-anilist-100922.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx100922-uxEhaCsqMMp3.png",
-      "contentType": "image/png",
-      "source": "anilist",
-      "color": "#5daee4"
-    },
-    "anime:anilist-185": {
-      "file": "anime-anilist-185.jpg",
-      "path": "./data/covers/anime-anilist-185.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b185-GvXiR8AKTmdn.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#e45043"
-    },
-    "anime:anilist-102976": {
-      "file": "anime-anilist-102976.png",
-      "path": "./data/covers/anime-anilist-102976.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx102976-2Yi5icRbjukO.png",
-      "contentType": "image/png",
-      "source": "anilist",
-      "color": "#50bbe4"
     },
     "manga:bangumi-18462": {
       "file": "manga-bangumi-18462.jpg",
@@ -1865,6 +1865,38 @@
       "source": "anilist",
       "color": "#f1e435"
     },
+    "manga:bangumi-10924": {
+      "file": "manga-bangumi-10924.jpg",
+      "path": "./data/covers/manga-bangumi-10924.jpg",
+      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/bc/ee/10924_wEbMJ.jpg",
+      "contentType": "image/jpeg",
+      "source": "bangumi",
+      "color": null
+    },
+    "manga:anilist-140475": {
+      "file": "manga-anilist-140475.jpg",
+      "path": "./data/covers/manga-anilist-140475.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx140475-QEGtrmdvbpOv.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": null
+    },
+    "manga:anilist-117620": {
+      "file": "manga-anilist-117620.jpg",
+      "path": "./data/covers/manga-anilist-117620.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx117620-cyvy8nO9GLm8.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": null
+    },
+    "manga:anilist-98263": {
+      "file": "manga-anilist-98263.jpg",
+      "path": "./data/covers/manga-anilist-98263.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx98263-kIeaTXrAbGkj.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#f1c950"
+    },
     "manga:bangumi-105716": {
       "file": "manga-bangumi-105716.jpg",
       "path": "./data/covers/manga-bangumi-105716.jpg",
@@ -1960,6 +1992,30 @@
       "contentType": "image/jpeg",
       "source": "anilist",
       "color": "#f1d6c9"
+    },
+    "manga:anilist-31133": {
+      "file": "manga-anilist-31133.png",
+      "path": "./data/covers/manga-anilist-31133.png",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx31133-Jx6map3Oidz1.png",
+      "contentType": "image/png",
+      "source": "anilist",
+      "color": "#a15d28"
+    },
+    "manga:anilist-119257": {
+      "file": "manga-anilist-119257.jpg",
+      "path": "./data/covers/manga-anilist-119257.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx119257-Pi21aq3ey9GG.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": null
+    },
+    "manga:anilist-97553": {
+      "file": "manga-anilist-97553.jpg",
+      "path": "./data/covers/manga-anilist-97553.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx97553-vqJj5DFS8v2p.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#5dbbe4"
     },
     "manga:anilist-187944": {
       "file": "manga-anilist-187944.jpg",
@@ -2073,14 +2129,6 @@
       "source": "bangumi",
       "color": null
     },
-    "manga:bangumi-38855": {
-      "file": "manga-bangumi-38855.jpg",
-      "path": "./data/covers/manga-bangumi-38855.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/8a/ec/38855_zLaUU.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
-    },
     "manga:anilist-86551": {
       "file": "manga-anilist-86551.jpg",
       "path": "./data/covers/manga-anilist-86551.jpg",
@@ -2088,14 +2136,6 @@
       "contentType": "image/jpeg",
       "source": "anilist",
       "color": "#e4a15d"
-    },
-    "manga:bangumi-7699": {
-      "file": "manga-bangumi-7699.jpg",
-      "path": "./data/covers/manga-bangumi-7699.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/20/48/7699_AUo9O.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
     },
     "manga:anilist-44483": {
       "file": "manga-anilist-44483.jpg",
@@ -2113,13 +2153,21 @@
       "source": "anilist",
       "color": "#e4d6ae"
     },
-    "manga:anilist-30102": {
-      "file": "manga-anilist-30102.png",
-      "path": "./data/covers/manga-anilist-30102.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30102-MJuQ0e0k2CgU.png",
+    "manga:anilist-41054": {
+      "file": "manga-anilist-41054.png",
+      "path": "./data/covers/manga-anilist-41054.png",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx41054-zXqZzpwjJCCR.png",
       "contentType": "image/png",
       "source": "anilist",
-      "color": "#f15d43"
+      "color": "#d6281a"
+    },
+    "manga:anilist-98842": {
+      "file": "manga-anilist-98842.jpg",
+      "path": "./data/covers/manga-anilist-98842.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx98842-Ji0v423UZ4er.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#e4355d"
     },
     "manga:anilist-114998": {
       "file": "manga-anilist-114998.jpg",
@@ -2297,13 +2345,77 @@
       "source": "anilist",
       "color": "#e4bb28"
     },
-    "manga:anilist-33031": {
-      "file": "manga-anilist-33031.jpg",
-      "path": "./data/covers/manga-anilist-33031.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx33031-LzNWgqS69qAj.jpg",
+    "manga:bangumi-119650": {
+      "file": "manga-bangumi-119650.jpg",
+      "path": "./data/covers/manga-bangumi-119650.jpg",
+      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/a9/9b/119650_kz073.jpg",
+      "contentType": "image/jpeg",
+      "source": "bangumi",
+      "color": null
+    },
+    "manga:anilist-53390": {
+      "file": "manga-anilist-53390.jpg",
+      "path": "./data/covers/manga-anilist-53390.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx53390-1RsuABC34P9D.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#d6431a"
+    },
+    "manga:anilist-87347": {
+      "file": "manga-anilist-87347.png",
+      "path": "./data/covers/manga-anilist-87347.png",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx87347-GOCU76cl37dK.png",
+      "contentType": "image/png",
+      "source": "anilist",
+      "color": "#f19300"
+    },
+    "manga:bangumi-5525": {
+      "file": "manga-bangumi-5525.jpg",
+      "path": "./data/covers/manga-bangumi-5525.jpg",
+      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/4b/17/5525_4SPwY.jpg",
+      "contentType": "image/jpeg",
+      "source": "bangumi",
+      "color": null
+    },
+    "manga:anilist-38157": {
+      "file": "manga-anilist-38157.jpg",
+      "path": "./data/covers/manga-anilist-38157.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx38157-CCtYXzoNb2bc.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#fea128"
+    },
+    "manga:anilist-87208": {
+      "file": "manga-anilist-87208.jpg",
+      "path": "./data/covers/manga-anilist-87208.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx87208-Ur9f4VA4M5JB.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#5dc9f1"
+    },
+    "manga:anilist-98370": {
+      "file": "manga-anilist-98370.jpg",
+      "path": "./data/covers/manga-anilist-98370.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx98370-kbWNfSGsNYzH.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#e4a15d"
+    },
+    "manga:anilist-105398": {
+      "file": "manga-anilist-105398.jpg",
+      "path": "./data/covers/manga-anilist-105398.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx105398-b673Vt5ZSuz3.jpg",
       "contentType": "image/jpeg",
       "source": "anilist",
       "color": null
+    },
+    "manga:anilist-118408": {
+      "file": "manga-anilist-118408.jpg",
+      "path": "./data/covers/manga-anilist-118408.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx118408-zZuOINqjBZYn.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#e45d93"
     },
     "manga:anilist-103192": {
       "file": "manga-anilist-103192.jpg",
@@ -2537,22 +2649,6 @@
       "source": "anilist",
       "color": "#e46b35"
     },
-    "manga:anilist-146983": {
-      "file": "manga-anilist-146983.jpg",
-      "path": "./data/covers/manga-anilist-146983.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx146983-pLf4apCkFwKL.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#f1500d"
-    },
-    "manga:anilist-106331": {
-      "file": "manga-anilist-106331.jpg",
-      "path": "./data/covers/manga-anilist-106331.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx106331-C1F1hqpHnJ0U.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#fe9328"
-    },
     "manga:anilist-30904": {
       "file": "manga-anilist-30904.jpg",
       "path": "./data/covers/manga-anilist-30904.jpg",
@@ -2641,13 +2737,69 @@
       "source": "anilist",
       "color": "#e45043"
     },
-    "manga:anilist-48200": {
-      "file": "manga-anilist-48200.jpg",
-      "path": "./data/covers/manga-anilist-48200.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx48200-oQjohHAOGAr6.jpg",
+    "manga:anilist-85307": {
+      "file": "manga-anilist-85307.png",
+      "path": "./data/covers/manga-anilist-85307.png",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx85307-23PaGq5FakEV.png",
+      "contentType": "image/png",
+      "source": "anilist",
+      "color": null
+    },
+    "manga:anilist-146983": {
+      "file": "manga-anilist-146983.jpg",
+      "path": "./data/covers/manga-anilist-146983.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx146983-pLf4apCkFwKL.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#f1500d"
+    },
+    "manga:anilist-30936": {
+      "file": "manga-anilist-30936.jpg",
+      "path": "./data/covers/manga-anilist-30936.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30936-P55KMUW1sgLN.jpg",
       "contentType": "image/jpeg",
       "source": "anilist",
       "color": null
+    },
+    "manga:anilist-104241": {
+      "file": "manga-anilist-104241.png",
+      "path": "./data/covers/manga-anilist-104241.png",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx104241-221zPt7Gpr5K.png",
+      "contentType": "image/png",
+      "source": "anilist",
+      "color": "#e4a15d"
+    },
+    "manga:anilist-105747": {
+      "file": "manga-anilist-105747.jpg",
+      "path": "./data/covers/manga-anilist-105747.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx105747-lCVcrqITuq92.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#43a1e4"
+    },
+    "manga:anilist-104045": {
+      "file": "manga-anilist-104045.png",
+      "path": "./data/covers/manga-anilist-104045.png",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx104045-uUwe9V8nG56B.png",
+      "contentType": "image/png",
+      "source": "anilist",
+      "color": "#1aa1d6"
+    },
+    "manga:anilist-106331": {
+      "file": "manga-anilist-106331.jpg",
+      "path": "./data/covers/manga-anilist-106331.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx106331-C1F1hqpHnJ0U.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#fe9328"
+    },
+    "manga:anilist-101131": {
+      "file": "manga-anilist-101131.jpg",
+      "path": "./data/covers/manga-anilist-101131.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx101131-u4iK3v1VvfLq.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#e4d65d"
     },
     "manga:anilist-85189": {
       "file": "manga-anilist-85189.jpg",
@@ -2656,6 +2808,78 @@
       "contentType": "image/jpeg",
       "source": "anilist",
       "color": "#ff0d00"
+    },
+    "manga:anilist-98544": {
+      "file": "manga-anilist-98544.jpg",
+      "path": "./data/covers/manga-anilist-98544.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx98544-UzMzrwxRii6p.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#a1351a"
+    },
+    "manga:anilist-109921": {
+      "file": "manga-anilist-109921.jpg",
+      "path": "./data/covers/manga-anilist-109921.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx109921-ZWaFGbK85hFQ.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#bbf1ff"
+    },
+    "manga:anilist-30030": {
+      "file": "manga-anilist-30030.png",
+      "path": "./data/covers/manga-anilist-30030.png",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30030-zBHKa3yHdtnM.png",
+      "contentType": "image/png",
+      "source": "anilist",
+      "color": "#f1785d"
+    },
+    "manga:anilist-37482": {
+      "file": "manga-anilist-37482.png",
+      "path": "./data/covers/manga-anilist-37482.png",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx37482-Y8a2wjaRzQVH.png",
+      "contentType": "image/png",
+      "source": "anilist",
+      "color": "#f1bb50"
+    },
+    "manga:anilist-108556": {
+      "file": "manga-anilist-108556.jpg",
+      "path": "./data/covers/manga-anilist-108556.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx108556-NHjkz0BNJhLx.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#e4505d"
+    },
+    "manga:anilist-86568": {
+      "file": "manga-anilist-86568.jpg",
+      "path": "./data/covers/manga-anilist-86568.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx86568-IibEQI2zjYFl.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#e4c91a"
+    },
+    "manga:anilist-169272": {
+      "file": "manga-anilist-169272.jpg",
+      "path": "./data/covers/manga-anilist-169272.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx169272-1a2RZ43tqOdw.jpg",
+      "contentType": "image/jpeg",
+      "source": "anilist",
+      "color": "#c9e4f1"
+    },
+    "manga:anilist-107521": {
+      "file": "manga-anilist-107521.png",
+      "path": "./data/covers/manga-anilist-107521.png",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx107521-M4x3AUb7UGIM.png",
+      "contentType": "image/png",
+      "source": "anilist",
+      "color": "#e4ae5d"
+    },
+    "manga:anilist-86717": {
+      "file": "manga-anilist-86717.png",
+      "path": "./data/covers/manga-anilist-86717.png",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx86717-S7z7uizfTfEu.png",
+      "contentType": "image/png",
+      "source": "anilist",
+      "color": "#f1935d"
     },
     "manga:bangumi-39736": {
       "file": "manga-bangumi-39736.jpg",
@@ -2889,45 +3113,13 @@
       "source": "bangumi",
       "color": null
     },
-    "manga:bangumi-179872": {
-      "file": "manga-bangumi-179872.jpg",
-      "path": "./data/covers/manga-bangumi-179872.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/8f/37/179872_Nw6bB.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
-    },
-    "manga:anilist-40884": {
-      "file": "manga-anilist-40884.png",
-      "path": "./data/covers/manga-anilist-40884.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx40884-L9caSaZHxWFG.png",
-      "contentType": "image/png",
-      "source": "anilist",
-      "color": "#f18635"
-    },
-    "manga:anilist-30085": {
-      "file": "manga-anilist-30085.jpg",
-      "path": "./data/covers/manga-anilist-30085.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/n30085-EiFHtQfdeHjp.jpg",
+    "manga:anilist-63031": {
+      "file": "manga-anilist-63031.jpg",
+      "path": "./data/covers/manga-anilist-63031.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx63031-lE9pKD3cpmVK.jpg",
       "contentType": "image/jpeg",
       "source": "anilist",
-      "color": "#f1a128"
-    },
-    "manga:anilist-40443": {
-      "file": "manga-anilist-40443.jpg",
-      "path": "./data/covers/manga-anilist-40443.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx40443-sjFrtR4EETRD.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#933528"
-    },
-    "manga:anilist-31111": {
-      "file": "manga-anilist-31111.png",
-      "path": "./data/covers/manga-anilist-31111.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx31111-ldPYMNd3PvHa.png",
-      "contentType": "image/png",
-      "source": "anilist",
-      "color": "#fe6b28"
+      "color": "#e46b43"
     },
     "manga:anilist-105778": {
       "file": "manga-anilist-105778.png",
@@ -2937,38 +3129,6 @@
       "source": "anilist",
       "color": "#f1c90d"
     },
-    "manga:anilist-132029": {
-      "file": "manga-anilist-132029.jpg",
-      "path": "./data/covers/manga-anilist-132029.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx132029-prGF4gePdSKv.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#f1d60d"
-    },
-    "manga:anilist-30043": {
-      "file": "manga-anilist-30043.png",
-      "path": "./data/covers/manga-anilist-30043.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30043-b2SqUjwSzfIH.png",
-      "contentType": "image/png",
-      "source": "anilist",
-      "color": "#ffa143"
-    },
-    "manga:anilist-33285": {
-      "file": "manga-anilist-33285.jpg",
-      "path": "./data/covers/manga-anilist-33285.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx33285-yjuQDsJCNFjb.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#e4865d"
-    },
-    "manga:anilist-72451": {
-      "file": "manga-anilist-72451.png",
-      "path": "./data/covers/manga-anilist-72451.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx72451-vVXtRwyttjGG.png",
-      "contentType": "image/png",
-      "source": "anilist",
-      "color": "#e45d93"
-    },
     "manga:anilist-136807": {
       "file": "manga-anilist-136807.jpg",
       "path": "./data/covers/manga-anilist-136807.jpg",
@@ -2976,14 +3136,6 @@
       "contentType": "image/jpeg",
       "source": "anilist",
       "color": "#f1f1c9"
-    },
-    "manga:anilist-30443": {
-      "file": "manga-anilist-30443.png",
-      "path": "./data/covers/manga-anilist-30443.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30443-31PeQDDqPPva.png",
-      "contentType": "image/png",
-      "source": "anilist",
-      "color": "#f1a15d"
     },
     "manga:anilist-41327": {
       "file": "manga-anilist-41327.png",
@@ -3001,29 +3153,13 @@
       "source": "anilist",
       "color": "#d6ae78"
     },
-    "manga:anilist-30915": {
-      "file": "manga-anilist-30915.jpg",
-      "path": "./data/covers/manga-anilist-30915.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30915-bimfJSD4pzdl.jpg",
+    "manga:anilist-67755": {
+      "file": "manga-anilist-67755.jpg",
+      "path": "./data/covers/manga-anilist-67755.jpg",
+      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx67755-pP4eYGRHFzaM.jpg",
       "contentType": "image/jpeg",
       "source": "anilist",
-      "color": "#f15d43"
-    },
-    "manga:anilist-58393": {
-      "file": "manga-anilist-58393.png",
-      "path": "./data/covers/manga-anilist-58393.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx58393-szrdyUApsPNn.png",
-      "contentType": "image/png",
-      "source": "anilist",
-      "color": "#d6781a"
-    },
-    "manga:anilist-104063": {
-      "file": "manga-anilist-104063.png",
-      "path": "./data/covers/manga-anilist-104063.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx104063-Fdhg8NQ7IOG0.png",
-      "contentType": "image/png",
-      "source": "anilist",
-      "color": "#e4a15d"
+      "color": "#f1436b"
     },
     "manga:anilist-33299": {
       "file": "manga-anilist-33299.jpg",
@@ -3033,38 +3169,6 @@
       "source": "anilist",
       "color": "#e47843"
     },
-    "manga:anilist-86399": {
-      "file": "manga-anilist-86399.jpg",
-      "path": "./data/covers/manga-anilist-86399.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx86399-NwbRFVh5koqc.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#50bbf1"
-    },
-    "manga:anilist-153007": {
-      "file": "manga-anilist-153007.jpg",
-      "path": "./data/covers/manga-anilist-153007.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx153007-OvXOv4nRDmtL.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#e4d65d"
-    },
-    "manga:anilist-86770": {
-      "file": "manga-anilist-86770.jpg",
-      "path": "./data/covers/manga-anilist-86770.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx86770-vjBM79Z1GVbs.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": null
-    },
-    "manga:anilist-170400": {
-      "file": "manga-anilist-170400.jpg",
-      "path": "./data/covers/manga-anilist-170400.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx170400-yMIuOIboWuoO.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#5dc9f1"
-    },
     "manga:anilist-30704": {
       "file": "manga-anilist-30704.jpg",
       "path": "./data/covers/manga-anilist-30704.jpg",
@@ -3072,38 +3176,6 @@
       "contentType": "image/jpeg",
       "source": "anilist",
       "color": "#e48635"
-    },
-    "manga:anilist-173062": {
-      "file": "manga-anilist-173062.jpg",
-      "path": "./data/covers/manga-anilist-173062.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx173062-PH1Lix703MdU.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#f1e4c9"
-    },
-    "manga:anilist-78347": {
-      "file": "manga-anilist-78347.png",
-      "path": "./data/covers/manga-anilist-78347.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx78347-UZ11VpwH5e0s.png",
-      "contentType": "image/png",
-      "source": "anilist",
-      "color": "#e45d93"
-    },
-    "manga:anilist-67707": {
-      "file": "manga-anilist-67707.png",
-      "path": "./data/covers/manga-anilist-67707.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx67707-srHFl9GBmfig.png",
-      "contentType": "image/png",
-      "source": "anilist",
-      "color": "#f150a1"
-    },
-    "manga:anilist-30869": {
-      "file": "manga-anilist-30869.jpg",
-      "path": "./data/covers/manga-anilist-30869.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30869-cZHLgwIOv6Lm.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#f1ae28"
     },
     "manga:anilist-30743": {
       "file": "manga-anilist-30743.jpg",
@@ -3128,78 +3200,6 @@
       "contentType": "image/jpeg",
       "source": "anilist",
       "color": "#f1d628"
-    },
-    "manga:anilist-30022": {
-      "file": "manga-anilist-30022.jpg",
-      "path": "./data/covers/manga-anilist-30022.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30022-jxTlViun1o10.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#e4865d"
-    },
-    "manga:anilist-85734": {
-      "file": "manga-anilist-85734.jpg",
-      "path": "./data/covers/manga-anilist-85734.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx85734-yllpIVoPjADr.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#e4bb50"
-    },
-    "manga:anilist-30010": {
-      "file": "manga-anilist-30010.png",
-      "path": "./data/covers/manga-anilist-30010.png",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30010-NEPm8nwp7e0M.png",
-      "contentType": "image/png",
-      "source": "anilist",
-      "color": "#e47835"
-    },
-    "manga:bangumi-52968": {
-      "file": "manga-bangumi-52968.jpg",
-      "path": "./data/covers/manga-bangumi-52968.jpg",
-      "remoteUrl": "https://lain.bgm.tv/pic/cover/l/ff/12/52968_888w4.jpg",
-      "contentType": "image/jpeg",
-      "source": "bangumi",
-      "color": null
-    },
-    "manga:anilist-85364": {
-      "file": "manga-anilist-85364.jpg",
-      "path": "./data/covers/manga-anilist-85364.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx85364-O28PUKbABg8y.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#1a1ad6"
-    },
-    "manga:anilist-136109": {
-      "file": "manga-anilist-136109.jpg",
-      "path": "./data/covers/manga-anilist-136109.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx136109-h4mux2toQJkD.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#e46b5d"
-    },
-    "manga:anilist-47051": {
-      "file": "manga-anilist-47051.jpg",
-      "path": "./data/covers/manga-anilist-47051.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx47051-2Qdu2XyoAv1z.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#e45d28"
-    },
-    "manga:anilist-30660": {
-      "file": "manga-anilist-30660.jpg",
-      "path": "./data/covers/manga-anilist-30660.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30660-hBFkOt2Ab2Ti.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#f1e450"
-    },
-    "manga:anilist-110473": {
-      "file": "manga-anilist-110473.jpg",
-      "path": "./data/covers/manga-anilist-110473.jpg",
-      "remoteUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx110473-igM02JDDzQXM.jpg",
-      "contentType": "image/jpeg",
-      "source": "anilist",
-      "color": "#e45d50"
     }
   }
 }
