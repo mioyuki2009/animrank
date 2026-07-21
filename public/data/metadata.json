@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T06:28:05.450Z",
+  "generatedAt": "2026-07-21T06:08:22.741Z",
   "algorithmVersion": "1.1.0",
   "minimumSources": 1,
   "staleAfterDays": 14,
@@ -18,7 +18,7 @@
       "anime:mal": "partial",
       "anime:bangumi": "ok",
       "anime:wikidata": "ok",
-      "anime:anilist-resolver": "partial",
+      "anime:anilist-resolver": "error",
       "anime:bangumi-resolver": "ok",
       "manga:anilist": "ok",
       "manga:mal": "partial",
@@ -27,24 +27,24 @@
       "manga:anilist-resolver": "error",
       "manga:bangumi-resolver": "ok"
     },
-    "discoveryErrors": 5,
+    "discoveryErrors": 7,
     "mappingsAdded": {
-      "wikidata": 211,
-      "anilist": 5,
-      "bangumi": 102
+      "wikidata": 181,
+      "anilist": 0,
+      "bangumi": 112
     }
   },
   "commercial": {
     "sources": {
       "mangaCodexManga": {
         "status": "partial",
-        "received": 124,
+        "received": 123,
         "pages": 4,
         "message": "detail https://mangacodex.com/manga/excuse-me-dentist%20-its-touching-me?hist_tab=circulation: Unable to fetch https://mangacodex.com/manga/excuse-me-dentist%20-its-touching-me?hist_tab=circulation: 403 Forbidden"
       },
       "mangaCodexAnime": {
         "status": "ok",
-        "received": 84,
+        "received": 87,
         "pages": 62,
         "message": null
       },
@@ -55,7 +55,7 @@
       },
       "mangaWiki": {
         "status": "ok",
-        "received": 33,
+        "received": 35,
         "message": null
       },
       "animeWiki": {
@@ -65,19 +65,19 @@
       },
       "animeArchive": {
         "status": "ok",
-        "received": 58,
+        "received": 64,
         "message": null
       },
       "animeAnnual": {
         "status": "ok",
-        "received": 22,
+        "received": 13,
         "message": null
       }
     },
     "inheritedEditions": 0,
     "coverage": {
-      "anime": 100,
-      "manga": 132
+      "anime": 99,
+      "manga": 131
     }
   },
   "covers": {
@@ -92,25 +92,25 @@
     "bangumi": {
       "status": "ok",
       "via": "catalog discovery + Bangumi API v0",
-      "received": 349,
+      "received": 345,
       "errors": 0,
-      "lastSuccessAt": "2026-07-20T06:27:54.335Z",
+      "lastSuccessAt": "2026-07-21T06:08:00.859Z",
       "message": null
     },
     "mal": {
       "status": "partial",
       "via": "catalog discovery + Jikan (MAL mirror)",
-      "received": 114,
-      "errors": 238,
-      "lastSuccessAt": "2026-07-20T06:26:59.249Z",
+      "received": 117,
+      "errors": 228,
+      "lastSuccessAt": "2026-07-21T06:07:17.174Z",
       "message": "anime: page 5: 504 Gateway Time-out from https://api.jikan.moe/v4/top/anime?limit=25&page=5: {\"status\":504,\"type\":\"BadResponseException\",\"message\":\"Jikan failed to connect to MyAnimeList. MyAnimeList may be down\\/unavailable or refuses to connect\",\"error\":null}"
     },
     "anilist": {
       "status": "ok",
       "via": "catalog discovery + AniList GraphQL API",
-      "received": 350,
+      "received": 344,
       "errors": 0,
-      "lastSuccessAt": "2026-07-20T06:26:59.619Z",
+      "lastSuccessAt": "2026-07-21T06:07:13.852Z",
       "message": null
     }
   }
