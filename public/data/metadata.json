@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T06:06:41.989Z",
+  "generatedAt": "2026-07-23T01:03:45.591Z",
   "algorithmVersion": "1.1.0",
   "minimumSources": 1,
   "staleAfterDays": 14,
@@ -18,7 +18,7 @@
       "anime:mal": "partial",
       "anime:bangumi": "ok",
       "anime:wikidata": "ok",
-      "anime:anilist-resolver": "partial",
+      "anime:anilist-resolver": "error",
       "anime:bangumi-resolver": "ok",
       "manga:anilist": "ok",
       "manga:mal": "partial",
@@ -27,57 +27,57 @@
       "manga:anilist-resolver": "error",
       "manga:bangumi-resolver": "ok"
     },
-    "discoveryErrors": 5,
+    "discoveryErrors": 7,
     "mappingsAdded": {
-      "wikidata": 212,
-      "anilist": 5,
-      "bangumi": 101
+      "wikidata": 184,
+      "anilist": 0,
+      "bangumi": 112
     }
   },
   "commercial": {
     "sources": {
       "mangaCodexManga": {
         "status": "partial",
-        "received": 123,
+        "received": 122,
         "pages": 4,
         "message": "detail https://mangacodex.com/manga/excuse-me-dentist%20-its-touching-me?hist_tab=circulation: Unable to fetch https://mangacodex.com/manga/excuse-me-dentist%20-its-touching-me?hist_tab=circulation: 403 Forbidden"
       },
       "mangaCodexAnime": {
         "status": "ok",
-        "received": 84,
+        "received": 85,
         "pages": 62,
         "message": null
       },
       "manga": {
-        "status": "error",
-        "received": 0,
-        "message": "429 Too many requests (620f469) from https://en.wikipedia.org/w/api.php?action=parse&page=List+of+best-selling+manga&prop=text%7Crevid&format=json&formatversion=2: <!DOCTYPE html>\n<html lang=\"en\">\n<meta charset=\"utf-8\">\n<title>Wikimedia Error</title>\n<style>\n* { margin: 0; padding: 0; }\nbody { background: #fff; font: 15px/1.6 sans-serif; color: #333; }\n.content { margin: 7% auto 0; padding: 2em 1em 1em; max-width: 640px; display: flex; flex-direction: row; fle"
+        "status": "ok",
+        "received": 191,
+        "message": null
       },
       "mangaWiki": {
-        "status": "error",
-        "received": 0,
-        "message": "429 Too many requests (620f469) from https://ja.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=timestamp%7Ccontent&rvslots=main&redirects=1&titles=%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%9C%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%A9%E3%83%B3%7CSLAM+DUNK%7C%E9%8B%BC%E3%81%AE%E9%8C%AC%E9%87%91%E8%A1%93%E5%B8%AB%7CMONSTER+%28%E6%BC%AB%E7%94%BB%29%7C%E3%83%B4%E3%82%A3%E3%83%B3%E3%83%A9%E3%83%B3%E3%83%89%E3%83%BB%E3%82%B5%E3%82%AC%7C%E3%81%82%E3%81%97%E3%81%9F%E3%81%AE%E3%82%B8%E3%83%A7%E3%83%BC%7C%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF%E3%83%97%E3%83%B3%E3%83%97%E3%83%B3%7C%E9%A2%A8%E3%81%AE%E8%B0%B7%E3%81%AE%E3%83%8A%E3%82%A6%E3%82%B7%E3%82%AB%7C%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%21%21%7C%E5%AD%A4%E9%AB%98%E3%81%AE%E4%BA%BA%7C%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E9%A3%AF%7CARIA+%28%E6%BC%AB%E7%94%BB%29%7C%E5%90%9B%E3%81%A8%E7%B6%B4%E3%82%8B%E3%81%86%E3%81%9F%E3%81%8B%E3%81%9F%7C%E3%82%A6%E3%83%9E%E5%A8%98+%E3%82%B7%E3%83%B3%E3%83%87%E3%83%AC%E3%83%A9%E3%82%B0%E3%83%AC%E3%82%A4%7C20%E4%B8%96%E7%B4%80%E5%B0%91%E5%B9%B4%7C%E8%9F%B2%E5%B8%AB%7C%E3%83%A8%E3%82%B3%E3%83%8F%E3%83%9E%E8%B2%B7%E3%81%84%E5%87%BA%E3%81%97%E7%B4%80%E8%A1%8C%7C%E5%98%98%E5%96%B0%E3%81%84%7C%E5%B0%91%E5%A5%B3%E7%B5%82%E6%9C%AB%E6%97%85%E8%A1%8C%7C%E7%AB%B9%E5%85%89%E4%BE%8D%7C%E3%82%84%E3%81%8C%E3%81%A6%E5%90%9B%E3%81%AB%E3%81%AA%E3%82%8B%7C%E3%83%89%E3%83%AD%E3%83%98%E3%83%89%E3%83%AD%7C%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3%E3%82%AB%E3%83%A0%E3%82%A4%7C%E3%83%94%E3%83%B3%E3%83%9D%E3%83%B3+%28%E6%BC%AB%E7%94%BB%29%7C%E9%8A%80%E9%AD%82%7CGTO+%28%E6%BC%AB%E7%94%BB%29%7C%E5%AE%87%E5%AE%99%E5%85%84%E5%BC%9F%7CBILLY+BAT%7C%E3%82%B8%E3%83%A7%E3%82%B8%E3%83%A7%E3%83%AA%E3%82%AA%E3%83%B3%7CReLIFE%7C%E3%82%B7%E3%83%A1%E3%82%B8+%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%7CDEATH+NOTE%7C%E6%96%B0%E4%B8%96%E7%B4%80%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%B2%E3%83%AA%E3%82%AA%E3%83%B3+%28%E6%BC%AB%E7%94%BB%29%7C%E6%A9%9F%E5%8B%95%E6%88%A6%E5%A3%AB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0+THE+ORIGIN%7C%E5%A4%A9+%E5%A4%A9%E5%92%8C%E9%80%9A%E3%82%8A%E3%81%AE%E5%BF%AB%E7%94%B7%E5%85%90%7C%E7%84%A1%E9%99%90%E3%81%AE%E4%BD%8F%E4%BA%BA%7C%E9%80%B2%E6%92%83%E3%81%AE%E5%B7%A8%E4%BA%BA%7C%E3%82%AE%E3%83%B4%E3%83%B3%7C%E7%A5%9E%E6%A7%98%E3%81%AF%E3%81%98%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F%7C%E3%81%97%E3%81%BE%E3%81%AA%E3%81%BF%E8%AA%B0%E3%81%9D%E5%BD%BC&format=json&formatversion=2: <!DOCTYPE html>\n<html lang=\"en\">\n<meta charset=\"utf-8\">\n<title>Wikimedia Error</title>\n<style>\n* { margin: 0; padding: 0; }\nbody { background: #fff; font: 15px/1.6 sans-serif; color: #333; }\n.content { margin: 7% auto 0; padding: 2em 1em 1em; max-width: 640px; display: flex; flex-direction: row; fle"
+        "status": "ok",
+        "received": 35,
+        "message": null
       },
       "animeWiki": {
-        "status": "error",
+        "status": "ok",
         "received": 0,
-        "message": "429 Too many requests (620f469) from https://ja.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=timestamp%7Ccontent&rvslots=main&redirects=1&titles=CLANNAD+%E3%80%9CAFTER+STORY%E3%80%9C%7C%E9%8B%BC%E3%81%AE%E9%8C%AC%E9%87%91%E8%A1%93%E5%B8%AB+FULLMETAL+ALCHEMIST%7CSTEINS%3BGATE+%28%E3%82%A2%E3%83%8B%E3%83%A1%29%7C%E9%8A%80%E6%B2%B3%E8%8B%B1%E9%9B%84%E4%BC%9D%E8%AA%AC+%28%E3%82%A2%E3%83%8B%E3%83%A1%29%7C%E5%8A%87%E5%A0%B4%E7%89%88+%E3%83%81%E3%82%A7%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%9E%E3%83%B3+%E3%83%AC%E3%82%BC%E7%AF%87%7C%E3%82%AB%E3%82%A6%E3%83%9C%E3%83%BC%E3%82%A4%E3%83%93%E3%83%90%E3%83%83%E3%83%97%7CHUNTER%C3%97HUNTER+%282011%E5%B9%B4%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1%29%7C%E9%8A%80%E9%AD%82+%28%E3%82%A2%E3%83%8B%E3%83%A1%29%7C%E6%94%BB%E6%AE%BB%E6%A9%9F%E5%8B%95%E9%9A%8A+S.A.C.+2nd+GIG%7C%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93+%281979%E5%B9%B4%E3%81%AE%E3%83%86%E3%83%AC%E3%83%93%E3%82%A2%E3%83%8B%E3%83%A1%29%7C%E3%82%A4%E3%83%8E%E3%82%BB%E3%83%B3%E3%82%B9%7C%E5%8D%83%E3%81%A8%E5%8D%83%E5%B0%8B%E3%81%AE%E7%A5%9E%E9%9A%A0%E3%81%97%7C%E3%81%BE%E3%81%94%E3%81%93%E3%82%8D%E3%82%92%E3%80%81%E5%90%9B%E3%81%AB%7C%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9+%E5%8F%8D%E9%80%86%E3%81%AE%E3%83%AB%E3%83%AB%E3%83%BC%E3%82%B7%E3%83%A5%7C%E6%B6%BC%E5%AE%AE%E3%83%8F%E3%83%AB%E3%83%92%E3%81%AE%E6%B6%88%E5%A4%B1+%28%E6%98%A0%E7%94%BB%29%7C%E9%81%95%E5%9B%BD%E6%97%A5%E8%A8%98+%28%E3%82%A2%E3%83%8B%E3%83%A1%29%7C%E5%8A%87%E5%A0%B4%E7%89%88+%E5%B0%91%E5%A5%B3%E2%98%86%E6%AD%8C%E5%8A%87+%E3%83%AC%E3%83%B4%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%BF%E3%82%A1%E3%83%A9%E3%82%A4%E3%83%88%7C%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%96%E3%83%AB%E3%83%BC%7C%E8%9F%B2%E5%B8%AB+%E7%B6%9A%E7%AB%A0%7C%E3%80%88%E7%89%A9%E8%AA%9E%E3%80%89%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA+%E3%82%BB%E3%82%AB%E3%83%B3%E3%83%89%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B3%7CTO+BE+HERO+X%7CONE+PIECE+%28%E3%82%A2%E3%83%8B%E3%83%A1%29%7C%E6%94%BB%E6%AE%BB%E6%A9%9F%E5%8B%95%E9%9A%8A+STAND+ALONE+COMPLEX%7C%E5%A4%A9%E5%85%83%E7%AA%81%E7%A0%B4%E3%82%B0%E3%83%AC%E3%83%B3%E3%83%A9%E3%82%AC%E3%83%B3%7C%E9%AC%BC%E6%BB%85%E3%81%AE%E5%88%83+%E9%81%8A%E9%83%AD%E7%B7%A8%7C%E3%82%AA%E3%83%83%E3%83%89%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%7C%E3%82%82%E3%81%AE%E3%81%AE%E3%81%91%E5%A7%AB%7C%E5%90%9B%E3%81%AE%E5%90%8D%E3%81%AF%E3%80%82%7C%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9+%E5%8F%8D%E9%80%86%E3%81%AE%E3%83%AB%E3%83%AB%E3%83%BC%E3%82%B7%E3%83%A5%7C%E6%A9%9F%E5%8B%95%E6%88%A6%E5%A3%AB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0+%E9%80%86%E8%A5%B2%E3%81%AE%E3%82%B7%E3%83%A3%E3%82%A2%7C%E6%A9%9F%E5%8B%95%E6%88%A6%E5%A3%AB%CE%96%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%7C%E5%8A%87%E5%A0%B4%E7%89%88+%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E2%98%86%E3%83%9E%E3%82%AE%E3%82%AB+%E6%96%B0%E7%B7%A8+%E5%8F%9B%E9%80%86%E3%81%AE%E7%89%A9%E8%AA%9E%7C%E6%96%B0%E4%B8%96%E7%B4%80%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%B2%E3%83%AA%E3%82%AA%E3%83%B3%7C%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93+%282005%E5%B9%B4%E3%81%AE%E3%83%86%E3%83%AC%E3%83%93%E3%82%A2%E3%83%8B%E3%83%A1%29%7C%E5%8A%87%E5%A0%B4%E7%89%88+%E9%8A%80%E9%AD%82+%E5%AE%8C%E7%B5%90%E7%AF%87+%E4%B8%87%E4%BA%8B%E5%B1%8B%E3%82%88%E6%B0%B8%E9%81%A0%E3%81%AA%E3%82%8C%7C%E3%80%88%E7%89%A9%E8%AA%9E%E3%80%89%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA+%E3%82%AA%E3%83%95%26%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B3%7C%E3%82%B5%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%81%E3%83%A3%E3%83%B3%E3%83%97%E3%83%AB%E3%83%BC%7C%E3%83%AA%E3%82%BA%E3%81%A8%E9%9D%92%E3%81%84%E9%B3%A5%7C%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E2%98%86%E3%83%9E%E3%82%AE%E3%82%AB%7C%E3%82%B7%E3%83%B3%E3%83%BB%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%B2%E3%83%AA%E3%82%AA%E3%83%B3%E5%8A%87%E5%A0%B4%E7%89%88&format=json&formatversion=2: <!DOCTYPE html>\n<html lang=\"en\">\n<meta charset=\"utf-8\">\n<title>Wikimedia Error</title>\n<style>\n* { margin: 0; padding: 0; }\nbody { background: #fff; font: 15px/1.6 sans-serif; color: #333; }\n.content { margin: 7% auto 0; padding: 2em 1em 1em; max-width: 640px; display: flex; flex-direction: row; fle"
+        "message": null
       },
       "animeArchive": {
         "status": "ok",
-        "received": 58,
+        "received": 64,
         "message": null
       },
       "animeAnnual": {
         "status": "ok",
-        "received": 22,
+        "received": 13,
         "message": null
       }
     },
     "inheritedEditions": 0,
     "coverage": {
-      "anime": 100,
-      "manga": 131
+      "anime": 97,
+      "manga": 130
     }
   },
   "covers": {
@@ -92,25 +92,25 @@
     "bangumi": {
       "status": "ok",
       "via": "catalog discovery + Bangumi API v0",
-      "received": 349,
+      "received": 345,
       "errors": 0,
-      "lastSuccessAt": "2026-07-22T06:06:18.890Z",
+      "lastSuccessAt": "2026-07-23T01:03:29.831Z",
       "message": null
     },
     "mal": {
       "status": "partial",
       "via": "catalog discovery + Jikan (MAL mirror)",
-      "received": 114,
-      "errors": 237,
-      "lastSuccessAt": "2026-07-22T06:05:40.750Z",
+      "received": 118,
+      "errors": 227,
+      "lastSuccessAt": "2026-07-23T01:02:55.940Z",
       "message": "anime: page 5: 504 Gateway Time-out from https://api.jikan.moe/v4/top/anime?limit=25&page=5: {\"status\":504,\"type\":\"BadResponseException\",\"message\":\"Jikan failed to connect to MyAnimeList. MyAnimeList may be down\\/unavailable or refuses to connect\",\"error\":null}"
     },
     "anilist": {
       "status": "ok",
       "via": "catalog discovery + AniList GraphQL API",
-      "received": 350,
+      "received": 344,
       "errors": 0,
-      "lastSuccessAt": "2026-07-22T06:05:41.083Z",
+      "lastSuccessAt": "2026-07-23T01:02:55.014Z",
       "message": null
     }
   }
