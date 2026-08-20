@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T04:00:34.551Z",
+  "generatedAt": "2026-08-20T04:00:25.434Z",
   "algorithmVersion": "1.1.0",
   "minimumSources": 1,
   "staleAfterDays": 14,
@@ -27,11 +27,11 @@
       "manga:anilist-resolver": "error",
       "manga:bangumi-resolver": "ok"
     },
-    "discoveryErrors": 5,
+    "discoveryErrors": 6,
     "mappingsAdded": {
-      "wikidata": 209,
-      "anilist": 4,
-      "bangumi": 104
+      "wikidata": 194,
+      "anilist": 1,
+      "bangumi": 108
     }
   },
   "commercial": {
@@ -44,7 +44,7 @@
       },
       "mangaCodexAnime": {
         "status": "ok",
-        "received": 84,
+        "received": 89,
         "pages": 62,
         "message": null
       },
@@ -55,7 +55,7 @@
       },
       "mangaWiki": {
         "status": "ok",
-        "received": 33,
+        "received": 34,
         "message": null
       },
       "animeWiki": {
@@ -65,18 +65,18 @@
       },
       "animeArchive": {
         "status": "ok",
-        "received": 58,
+        "received": 66,
         "message": null
       },
       "animeAnnual": {
         "status": "ok",
-        "received": 22,
+        "received": 13,
         "message": null
       }
     },
     "inheritedEditions": 0,
     "coverage": {
-      "anime": 100,
+      "anime": 101,
       "manga": 130
     }
   },
@@ -92,25 +92,25 @@
     "bangumi": {
       "status": "ok",
       "via": "catalog discovery + Bangumi API v0",
-      "received": 349,
+      "received": 343,
       "errors": 0,
-      "lastSuccessAt": "2026-08-19T04:00:19.637Z",
+      "lastSuccessAt": "2026-08-20T04:00:02.366Z",
       "message": null
     },
     "mal": {
       "status": "partial",
       "via": "catalog discovery",
-      "received": 78,
-      "errors": 274,
-      "lastSuccessAt": "2026-08-19T03:58:46.679Z",
+      "received": 80,
+      "errors": 266,
+      "lastSuccessAt": "2026-08-20T03:58:57.225Z",
       "message": "anime: page 3: 504 Gateway Time-out from https://api.jikan.moe/v4/top/anime?limit=25&page=3: {\"status\":504,\"type\":\"BadResponseException\",\"message\":\"Jikan failed to connect to MyAnimeList. MyAnimeList may be down\\/unavailable or refuses to connect\",\"error\":null}"
     },
     "anilist": {
       "status": "ok",
       "via": "catalog discovery + AniList GraphQL API",
-      "received": 350,
+      "received": 345,
       "errors": 0,
-      "lastSuccessAt": "2026-08-19T03:59:24.728Z",
+      "lastSuccessAt": "2026-08-20T03:59:30.872Z",
       "message": null
     }
   }
