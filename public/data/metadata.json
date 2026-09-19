@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T08:16:15.613Z",
+  "generatedAt": "2026-09-19T08:03:25.047Z",
   "algorithmVersion": "1.1.0",
   "minimumSources": 1,
   "staleAfterDays": 14,
@@ -16,35 +16,35 @@
     "discoverySources": {
       "anime:anilist": "ok",
       "anime:mal": "partial",
-      "anime:bangumi": "ok",
+      "anime:bangumi": "error",
       "anime:wikidata": "ok",
-      "anime:anilist-resolver": "partial",
-      "anime:bangumi-resolver": "ok",
+      "anime:anilist-resolver": "error",
+      "anime:bangumi-resolver": "error",
       "manga:anilist": "ok",
       "manga:mal": "partial",
-      "manga:bangumi": "ok",
-      "manga:wikidata": "ok",
+      "manga:bangumi": "error",
+      "manga:wikidata": "error",
       "manga:anilist-resolver": "error",
-      "manga:bangumi-resolver": "ok"
+      "manga:bangumi-resolver": "error"
     },
-    "discoveryErrors": 5,
+    "discoveryErrors": 10,
     "mappingsAdded": {
-      "wikidata": 210,
-      "anilist": 4,
-      "bangumi": 103
+      "wikidata": 43,
+      "anilist": 0,
+      "bangumi": 0
     }
   },
   "commercial": {
     "sources": {
       "mangaCodexManga": {
         "status": "partial",
-        "received": 121,
+        "received": 119,
         "pages": 4,
         "message": "detail https://mangacodex.com/manga/excuse-me-dentist%20-its-touching-me?hist_tab=circulation: Unable to fetch https://mangacodex.com/manga/excuse-me-dentist%20-its-touching-me?hist_tab=circulation: 403 Forbidden"
       },
       "mangaCodexAnime": {
         "status": "ok",
-        "received": 83,
+        "received": 80,
         "pages": 62,
         "message": null
       },
@@ -55,7 +55,7 @@
       },
       "mangaWiki": {
         "status": "ok",
-        "received": 32,
+        "received": 28,
         "message": null
       },
       "animeWiki": {
@@ -65,52 +65,52 @@
       },
       "animeArchive": {
         "status": "ok",
-        "received": 57,
+        "received": 61,
         "message": null
       },
       "animeAnnual": {
-        "status": "error",
-        "received": 0,
-        "message": "No usable Wayback snapshot for annual anime disc sales"
+        "status": "ok",
+        "received": 18,
+        "message": null
       }
     },
     "inheritedEditions": 0,
     "coverage": {
-      "anime": 91,
-      "manga": 129
+      "anime": 95,
+      "manga": 127
     }
   },
   "covers": {
     "available": 400,
-    "downloaded": 89,
-    "reused": 311,
+    "downloaded": 101,
+    "reused": 299,
     "failed": 0,
     "missing": 0,
-    "removed": 89
+    "removed": 101
   },
   "sources": {
     "bangumi": {
-      "status": "ok",
-      "via": "catalog discovery + Bangumi API v0",
-      "received": 343,
-      "errors": 0,
-      "lastSuccessAt": "2026-09-18T08:15:55.508Z",
-      "message": null
+      "status": "partial",
+      "via": "Bangumi API v0",
+      "received": 11,
+      "errors": 263,
+      "lastSuccessAt": "2026-09-19T08:02:21.332Z",
+      "message": "anime: page 1: 502 Bad Gateway from https://api.bgm.tv/v0/subjects?type=2&sort=rank&limit=100&offset=0: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
     },
     "mal": {
       "status": "partial",
       "via": "catalog discovery",
-      "received": 78,
-      "errors": 275,
-      "lastSuccessAt": "2026-09-18T08:14:24.415Z",
+      "received": 81,
+      "errors": 276,
+      "lastSuccessAt": "2026-09-19T08:01:49.044Z",
       "message": "anime: page 3: 504 Gateway Time-out from https://api.jikan.moe/v4/top/anime?limit=25&page=3: {\"status\":504,\"type\":\"BadResponseException\",\"message\":\"Jikan failed to connect to MyAnimeList. MyAnimeList may be down\\/unavailable or refuses to connect\",\"error\":null}"
     },
     "anilist": {
       "status": "ok",
       "via": "catalog discovery + AniList GraphQL API",
-      "received": 350,
+      "received": 353,
       "errors": 0,
-      "lastSuccessAt": "2026-09-18T08:15:01.941Z",
+      "lastSuccessAt": "2026-09-19T08:02:16.937Z",
       "message": null
     }
   }
