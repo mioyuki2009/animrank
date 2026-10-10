@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T10:33:50.510Z",
+  "generatedAt": "2026-10-10T09:51:21.102Z",
   "algorithmVersion": "1.1.0",
   "minimumSources": 1,
   "staleAfterDays": 14,
@@ -27,24 +27,24 @@
       "manga:anilist-resolver": "error",
       "manga:bangumi-resolver": "ok"
     },
-    "discoveryErrors": 6,
+    "discoveryErrors": 7,
     "mappingsAdded": {
-      "wikidata": 210,
+      "wikidata": 193,
       "anilist": 0,
-      "bangumi": 103
+      "bangumi": 113
     }
   },
   "commercial": {
     "sources": {
       "mangaCodexManga": {
         "status": "partial",
-        "received": 122,
+        "received": 116,
         "pages": 4,
         "message": "detail https://mangacodex.com/manga/excuse-me-dentist%20-its-touching-me?hist_tab=circulation: Unable to fetch https://mangacodex.com/manga/excuse-me-dentist%20-its-touching-me?hist_tab=circulation: 403 Forbidden"
       },
       "mangaCodexAnime": {
         "status": "ok",
-        "received": 82,
+        "received": 86,
         "pages": 62,
         "message": null
       },
@@ -55,7 +55,7 @@
       },
       "mangaWiki": {
         "status": "ok",
-        "received": 35,
+        "received": 32,
         "message": null
       },
       "animeWiki": {
@@ -65,19 +65,19 @@
       },
       "animeArchive": {
         "status": "ok",
-        "received": 56,
+        "received": 62,
         "message": null
       },
       "animeAnnual": {
         "status": "ok",
-        "received": 20,
+        "received": 14,
         "message": null
       }
     },
     "inheritedEditions": 0,
     "coverage": {
-      "anime": 97,
-      "manga": 131
+      "anime": 98,
+      "manga": 125
     }
   },
   "covers": {
@@ -92,25 +92,25 @@
     "bangumi": {
       "status": "ok",
       "via": "catalog discovery + Bangumi API v0",
-      "received": 349,
+      "received": 339,
       "errors": 0,
-      "lastSuccessAt": "2026-10-09T10:33:36.800Z",
+      "lastSuccessAt": "2026-10-10T09:50:59.415Z",
       "message": null
     },
     "mal": {
       "status": "error",
       "via": "Jikan (MAL mirror)",
       "received": 0,
-      "errors": 352,
+      "errors": 344,
       "lastSuccessAt": "2026-10-03T09:08:33.849Z",
       "message": "anime: page 1: Network error while fetching https://api.jikan.moe/v4/top/anime?limit=25&page=1"
     },
     "anilist": {
       "status": "ok",
       "via": "catalog discovery + AniList GraphQL API",
-      "received": 348,
+      "received": 343,
       "errors": 0,
-      "lastSuccessAt": "2026-10-09T10:32:53.169Z",
+      "lastSuccessAt": "2026-10-10T09:50:15.335Z",
       "message": null
     }
   }
