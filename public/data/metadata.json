@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T09:41:58.927Z",
+  "generatedAt": "2026-10-29T09:58:32.944Z",
   "algorithmVersion": "1.1.0",
   "minimumSources": 1,
   "staleAfterDays": 14,
@@ -18,7 +18,7 @@
       "anime:mal": "error",
       "anime:bangumi": "ok",
       "anime:wikidata": "ok",
-      "anime:anilist-resolver": "error",
+      "anime:anilist-resolver": "partial",
       "anime:bangumi-resolver": "ok",
       "manga:anilist": "ok",
       "manga:mal": "error",
@@ -27,24 +27,24 @@
       "manga:anilist-resolver": "error",
       "manga:bangumi-resolver": "ok"
     },
-    "discoveryErrors": 6,
+    "discoveryErrors": 5,
     "mappingsAdded": {
-      "wikidata": 182,
-      "anilist": 0,
-      "bangumi": 112
+      "wikidata": 200,
+      "anilist": 4,
+      "bangumi": 99
     }
   },
   "commercial": {
     "sources": {
       "mangaCodexManga": {
         "status": "partial",
-        "received": 116,
+        "received": 115,
         "pages": 4,
         "message": "detail https://mangacodex.com/manga/excuse-me-dentist%20-its-touching-me?hist_tab=circulation: Unable to fetch https://mangacodex.com/manga/excuse-me-dentist%20-its-touching-me?hist_tab=circulation: 403 Forbidden"
       },
       "mangaCodexAnime": {
         "status": "ok",
-        "received": 85,
+        "received": 82,
         "pages": 62,
         "message": null
       },
@@ -65,52 +65,52 @@
       },
       "animeArchive": {
         "status": "ok",
-        "received": 63,
+        "received": 57,
         "message": null
       },
       "animeAnnual": {
         "status": "ok",
-        "received": 13,
+        "received": 20,
         "message": null
       }
     },
     "inheritedEditions": 0,
     "coverage": {
-      "anime": 99,
-      "manga": 124
+      "anime": 98,
+      "manga": 123
     }
   },
   "covers": {
     "available": 400,
-    "downloaded": 81,
-    "reused": 319,
+    "downloaded": 85,
+    "reused": 315,
     "failed": 0,
     "missing": 0,
-    "removed": 81
+    "removed": 85
   },
   "sources": {
     "bangumi": {
       "status": "ok",
       "via": "catalog discovery + Bangumi API v0",
-      "received": 342,
+      "received": 339,
       "errors": 0,
-      "lastSuccessAt": "2026-10-28T09:41:39.958Z",
+      "lastSuccessAt": "2026-10-29T09:58:19.851Z",
       "message": null
     },
     "mal": {
       "status": "error",
       "via": "Jikan (MAL mirror)",
       "received": 0,
-      "errors": 344,
+      "errors": 349,
       "lastSuccessAt": "2026-10-03T09:08:33.849Z",
       "message": "anime: page 1: Network error while fetching https://api.jikan.moe/v4/top/anime?limit=25&page=1"
     },
     "anilist": {
       "status": "ok",
       "via": "catalog discovery + AniList GraphQL API",
-      "received": 343,
+      "received": 347,
       "errors": 0,
-      "lastSuccessAt": "2026-10-28T09:40:48.352Z",
+      "lastSuccessAt": "2026-10-29T09:57:42.757Z",
       "message": null
     }
   }
